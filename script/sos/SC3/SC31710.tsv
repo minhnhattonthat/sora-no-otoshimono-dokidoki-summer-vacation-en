@@ -1,20 +1,20 @@
 id	kind	speaker	max	jp	en	notes
-SC31710.m1	msg	イカロス		人を思いやる心……\nどうすれば身につくんだろう……		
-SC31710.m2	msg	智樹		なんか言ったか、イカロス？		
-SC31710.m3	msg	イカロス		いえ……マスター、\n何をしてらっしゃるのですか……？		
-SC31710.m4	msg	智樹		そりゃもちろん……\nそはらの部屋をノゾいてるんだよ！		
-SC31710.m5	msg	智樹		くそ、カーテンが邪魔だ……\nもうちょっとで見えるのに……		
-SC31710.m6	msg	イカロス		そはらさんの部屋の様子を……\n見たいのですね……？		
-SC31710.m7	msg	智樹		おう！		
-SC31710.m8	msg	イカロス		思いやりは……\n相手を気づかうこと……		
-SC31710.m9	msg	イカロス		…………		
-SC31710.m10	msg	智樹		……イカロス？\nなんだ、そのカードは？		
-SC31710.m11	msg	イカロス		部屋をノゾきたいマスターに……\n気づかい……		
-SC31710.m12	msg	イカロス		転移、開始……！		
-SC31710.m13	msg	智樹		ヌ、ヌオオオオオオッ！？		
-SC31710.m14	msg	智樹		こ……ここは……\nそはらの部屋！？		
-SC31710.m15	msg	そはら		キャアアアアアッ！		
-SC31710.m16	msg	智樹		ドワアアアアッ！？		
-SC31710.m17	msg	そはら		トモちゃんの……エッチー！！		
-SC31710.m18	msg	智樹		イカロスの……バカー！！		
-SC31710.m19	msg	智樹		ブハッ！！		
+SC31710.m1	msg	イカロス		人を思いやる心……\nどうすれば身につくんだろう……	A heart that cares for others... how does one learn it...	
+SC31710.m2	msg	智樹		なんか言ったか、イカロス？	You say something, Ikaros?	
+SC31710.m3	msg	イカロス		いえ……マスター、\n何をしてらっしゃるのですか……？	No... Master, what are you doing...?	
+SC31710.m4	msg	智樹		そりゃもちろん……\nそはらの部屋をノゾいてるんだよ！	Isn't it obvious? I'm peeping into Sohara's room!	
+SC31710.m5	msg	智樹		くそ、カーテンが邪魔だ……\nもうちょっとで見えるのに……	Dammit, the curtain's in the way... I can almost see...	
+SC31710.m6	msg	イカロス		そはらさんの部屋の様子を……\n見たいのですね……？	You want to see... what is going on in Sohara-san's room...?	
+SC31710.m7	msg	智樹		おう！	Yeah!	
+SC31710.m8	msg	イカロス		思いやりは……\n相手を気づかうこと……	Caring is... being considerate of the other person...	
+SC31710.m9	msg	イカロス		…………	......	
+SC31710.m10	msg	智樹		……イカロス？\nなんだ、そのカードは？	...Ikaros? What's that card?	
+SC31710.m11	msg	イカロス		部屋をノゾきたいマスターに……\n気づかい……	For Master, who wishes to peep into the room... consideration...	
+SC31710.m12	msg	イカロス		転移、開始……！	Commencing transfer...!	
+SC31710.m13	msg	智樹		ヌ、ヌオオオオオオッ！？	Nwh-nwoooooagh?!	
+SC31710.m14	msg	智樹		こ……ここは……\nそはらの部屋！？	Th-this is... Sohara's room?!	
+SC31710.m15	msg	そはら		キャアアアアアッ！	Kyaaaaaah!	
+SC31710.m16	msg	智樹		ドワアアアアッ！？	Dwaaaagh?!	
+SC31710.m17	msg	そはら		トモちゃんの……エッチー！！	Tomo-chan... you PERVERT!!	
+SC31710.m18	msg	智樹		イカロスの……バカー！！	Ikaros... you IDIOT!!	
+SC31710.m19	msg	智樹		ブハッ！！	Bwahh!!	

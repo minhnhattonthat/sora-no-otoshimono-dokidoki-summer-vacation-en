@@ -1,13 +1,13 @@
 id	kind	speaker	max	jp	en	notes
-SC34700.m1	msg	智樹		隠すっていうのは、人目につかないところに\nものを移動させておくことだ。		
-SC34700.m2	msg	イカロス		どうしてそんなことをするのですか……？		
-SC34700.m3	msg	智樹		人は誰しも見られたくない、\n恥ずかしいものがあるんだよ……		
-SC34700.m4	msg	智樹		もう、見つかったら\n穴掘って埋まりたくなるようなやつがな！		
-SC34700.m5	msg	イカロス		それはたとえば……思いのままに描いてみた\n女性のハダカのラクガキなどでしょうか？		
-SC34700.m6	msg	智樹		ああ、それは恥ずかしいな！		
-SC34700.m7	msg	イカロス		または……ひそかに集めていた\n特殊な趣味の本などでしょうか？		
-SC34700.m8	msg	智樹		ああ、それも恥ずかしいな！\nていうか、なんで知ってるんだイカロス！		
-SC34700.m9	msg	智樹		あれは誰にも見られないように\n庭に埋めといたはずだぞ！		
-SC34700.m10	msg	イカロス		庭にスイカ畑を作るときに発掘しまして……		
-SC34700.m11	msg	智樹		はっはっは……イカロス！\nスコップ持ってきてくれ！		
-SC34700.m12	msg	智樹		穴掘って埋まってやるー！		
+SC34700.m1	msg	智樹		隠すっていうのは、人目につかないところに\nものを移動させておくことだ。	Hiding means moving things somewhere people won't see them.	
+SC34700.m2	msg	イカロス		どうしてそんなことをするのですか……？	Why would one do that...?	
+SC34700.m3	msg	智樹		人は誰しも見られたくない、\n恥ずかしいものがあるんだよ……	Everybody has embarrassing stuff they don't want anyone to see...	
+SC34700.m4	msg	智樹		もう、見つかったら\n穴掘って埋まりたくなるようなやつがな！	The kind of stuff where, if it's found, you want to dig a hole and bury yourself!	
+SC34700.m5	msg	イカロス		それはたとえば……思いのままに描いてみた\n女性のハダカのラクガキなどでしょうか？	For example... doodles of naked women drawn however one pleases?	
+SC34700.m6	msg	智樹		ああ、それは恥ずかしいな！	Yeah, that's embarrassing!	
+SC34700.m7	msg	イカロス		または……ひそかに集めていた\n特殊な趣味の本などでしょうか？	Or... books of special interests that one secretly collected?	
+SC34700.m8	msg	智樹		ああ、それも恥ずかしいな！\nていうか、なんで知ってるんだイカロス！	Yeah, that's embarrassing too! Wait, how do you know about that, Ikaros?!	
+SC34700.m9	msg	智樹		あれは誰にも見られないように\n庭に埋めといたはずだぞ！	I buried those in the yard so nobody would ever see them!	
+SC34700.m10	msg	イカロス		庭にスイカ畑を作るときに発掘しまして……	I dug them up when I was making the watermelon patch in the yard...	
+SC34700.m11	msg	智樹		はっはっは……イカロス！\nスコップ持ってきてくれ！	Hahaha... Ikaros! Bring me a shovel!	
+SC34700.m12	msg	智樹		穴掘って埋まってやるー！	I'm gonna dig a hole and bury myself!	

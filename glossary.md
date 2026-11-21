@@ -83,6 +83,16 @@ Name + honorific forms are linted by regex (tools/batches.py HONORIFICS; stretch
 | 必殺技 | special move | | Hexcite | |
 | トモキ・タイム | Tomoki Time | | Hexcite special | |
 | 海の家 | beach shack | | | |
+| モテ男ジャミング | Heartthrob Jamming | | Nymph's hack | |
+| 量子変換器 | quantum converter | | | |
+| 鯉のぼり | carp streamer | | | |
+| 三角木馬 | wooden horse | | "triangular wooden horse"; 全自動三角木馬 = "fully automatic wooden torture horse" | |
+| トランスポート | Transport | | 転送（トランスポート） | |
+| 英美郎 | Eimiro | | Mikako's blend of 英四郎 + 美香子 | |
+| ブルマー | bloomers | | | |
+| はっさく | hassaku | | "hassaku oranges" on first use | |
+| 王様ゲーム | King Game | | | |
+| 五月田根家杯 | Satsukitane Family Cup | | | |
 | テキ屋 | vendor | | festival vendors (stall-running toughs) | |
 | 秋祭り | autumn festival | | | |
 | サバイバルゲーム | survival game | | | |

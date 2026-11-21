@@ -1,11 +1,11 @@
 id	kind	speaker	max	jp	en	notes
-SC33610.m1	msg	智樹		いいかイカロス。困ってる人は\n助けてあげるのが善良な市民のマナーだ。		
-SC33610.m2	msg	イカロス		はい、マスター。		
-SC33610.m3	msg	智樹		お、ちょうどいいところに\n荷物を持ったおばあさんが歩いてるぞ。		
-SC33610.m4	msg	智樹		イカロス。荷物を持ってあげるんだ！		
-SC33610.m5	msg	イカロス		了解しました。		
-SC33610.m6	msg	ニンフ		……で、そのまま\n隣町まで行っちゃったのね。		
-SC33610.m7	msg	智樹		ああ……しかもそこで\nまた別のおじいさんの荷物持ちを……		
-SC33610.m8	msg	ニンフ		夕食、どうすんのよ。その調子だと\n今日はもう帰ってこないわよ。		
-SC33610.m9	msg	智樹		オナカすいた……\nイカロスにサイフ持たせたのが間違いだったか。		
-SC33610.m10	msg	智樹		イカロス……見知らぬ市民より前に\n俺たちを助けてくれ……		
+SC33610.m1	msg	智樹		いいかイカロス。困ってる人は\n助けてあげるのが善良な市民のマナーだ。	Listen, Ikaros. Helping people in trouble is good manners for a decent citizen.	
+SC33610.m2	msg	イカロス		はい、マスター。	Yes, Master.	
+SC33610.m3	msg	智樹		お、ちょうどいいところに\n荷物を持ったおばあさんが歩いてるぞ。	Oh, perfect timing. There's an old lady walking with heavy bags.	
+SC33610.m4	msg	智樹		イカロス。荷物を持ってあげるんだ！	Ikaros. Carry her bags for her!	
+SC33610.m5	msg	イカロス		了解しました。	Understood.	
+SC33610.m6	msg	ニンフ		……で、そのまま\n隣町まで行っちゃったのね。	...And she went all the way to the next town with her.	
+SC33610.m7	msg	智樹		ああ……しかもそこで\nまた別のおじいさんの荷物持ちを……	Yeah... and then over there she started carrying some old man's bags too...	
+SC33610.m8	msg	ニンフ		夕食、どうすんのよ。その調子だと\n今日はもう帰ってこないわよ。	What're we gonna do for dinner? At this rate, she won't be back today.	
+SC33610.m9	msg	智樹		オナカすいた……\nイカロスにサイフ持たせたのが間違いだったか。	I'm hungry... Guess giving Ikaros the wallet was a mistake.	
+SC33610.m10	msg	智樹		イカロス……見知らぬ市民より前に\n俺たちを助けてくれ……	Ikaros... help us before you help random citizens...	

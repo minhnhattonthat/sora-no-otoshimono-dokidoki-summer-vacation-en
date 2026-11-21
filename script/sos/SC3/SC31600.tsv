@@ -1,17 +1,17 @@
 id	kind	speaker	max	jp	en	notes
-SC31600.m1	msg	智樹		お悩み相談室のお姉さんへ。\n桜井智樹１４才、悩み多き年頃です……と。		
-SC31600.m2	msg	イカロス		ハガキ……出してきましょうか……？		
-SC31600.m3	msg	智樹		うわっ！　見るなー！		
-SC31600.m4	msg	イカロス		はい……ご命令であれば……		
-SC31600.m5	msg	智樹		油断もスキもありゃしねーな、まったく。		
-SC31600.m6	msg	イカロス		あの……マスター。		
-SC31600.m7	msg	智樹		なんだよ。		
-SC31600.m8	msg	イカロス		マスターの悩みとは……なんでしょうか？		
-SC31600.m9	msg	智樹		しっかり見てるじゃねーか！		
-SC31600.m10	msg	智樹		まあ、俺の悩みは……\nズバリ、モテないことだな。		
-SC31600.m11	msg	智樹		ああ、女の子たちに囲まれて\n毎日過ごしたい……		
-SC31600.m12	msg	イカロス		では……連れてきましょうか？		
-SC31600.m13	msg	智樹		いや、いい。お前今、手当たり次第に\nさらってくるつもりだっただろ……		
-SC31600.m14	msg	智樹		俺のことを好きな女の子たちに\n囲まれて過ごしたいの！　わかった！？		
-SC31600.m15	msg	イカロス		それは……難しいですね……		
-SC31600.m16	msg	智樹		だから悩んでるんだよ！\nウガーッ！		
+SC31600.m1	msg	智樹		お悩み相談室のお姉さんへ。\n桜井智樹１４才、悩み多き年頃です……と。	"Dear Advice Corner Lady. I'm Tomoki Sakurai, 14 years old, at an age full of worries..." Okay.	
+SC31600.m2	msg	イカロス		ハガキ……出してきましょうか……？	Shall I... go mail the postcard...?	
+SC31600.m3	msg	智樹		うわっ！　見るなー！	Whoa! Don't look!	
+SC31600.m4	msg	イカロス		はい……ご命令であれば……	Yes... if that is your order...	
+SC31600.m5	msg	智樹		油断もスキもありゃしねーな、まったく。	Geez, I can't let my guard down for a second.	
+SC31600.m6	msg	イカロス		あの……マスター。	Um... Master.	
+SC31600.m7	msg	智樹		なんだよ。	What?	
+SC31600.m8	msg	イカロス		マスターの悩みとは……なんでしょうか？	What is... your worry, Master?	
+SC31600.m9	msg	智樹		しっかり見てるじゃねーか！	So you DID read it!	
+SC31600.m10	msg	智樹		まあ、俺の悩みは……\nズバリ、モテないことだな。	Well, my worry is... to put it bluntly, girls don't like me.	
+SC31600.m11	msg	智樹		ああ、女の子たちに囲まれて\n毎日過ごしたい……	Ahh, I wanna spend every day surrounded by girls...	
+SC31600.m12	msg	イカロス		では……連れてきましょうか？	Then... shall I bring some here?	
+SC31600.m13	msg	智樹		いや、いい。お前今、手当たり次第に\nさらってくるつもりだっただろ……	No, it's fine. You were about to go kidnap whoever you could find, weren't you...	
+SC31600.m14	msg	智樹		俺のことを好きな女の子たちに\n囲まれて過ごしたいの！　わかった！？	I want to be surrounded by girls who like me! Got it?!	
+SC31600.m15	msg	イカロス		それは……難しいですね……	That is... difficult...	
+SC31600.m16	msg	智樹		だから悩んでるんだよ！\nウガーッ！	That's why I'm worried! Graaagh!	

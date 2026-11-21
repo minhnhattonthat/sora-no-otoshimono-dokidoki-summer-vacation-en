@@ -1,18 +1,18 @@
 id	kind	speaker	max	jp	en	notes
-SC31410.m1	msg	智樹		イカロス、部屋にいるから\n晩メシ出来たら呼んでくれ。		
-SC31410.m2	msg	イカロス		はい、マスター。		
-SC31410.m3	msg	イカロス		秘密……隠しごと……		
-SC31410.m4	msg	ニンフ		何をブツブツ言ってるの？		
-SC31410.m5	msg	イカロス		秘密について学ぶために……\n何かを秘密にしようと思うのですが……		
-SC31410.m6	msg	イカロス		秘密にするようなものが……\n見つからなくて……		
-SC31410.m7	msg	ニンフ		んー。別になんでもいいんじゃない？		
-SC31410.m8	msg	ニンフ		アンタ記憶喪失なんだから、\nそもそも隠すようなことも忘れてるでしょ。		
-SC31410.m9	msg	ニンフ		どうせ大したこと知らないんだから、\nなんでも大丈夫だと思うわ。		
-SC31410.m10	msg	イカロス		そう……ですね……		
-SC31410.m11	msg	智樹		うん、今日の魚はうまい！\nやっぱイカロスは料理上手だなー！		
-SC31410.m12	msg	イカロス		どうも……		
-SC31410.m13	msg	智樹		この魚、なんて名前なんだ？		
-SC31410.m14	msg	イカロス		言えません。		
-SC31410.m15	msg	智樹		え……？		
-SC31410.m16	msg	イカロス		秘密です。		
-SC31410.m17	msg	智樹		お、おい。この魚、大丈夫なのか……？		
+SC31410.m1	msg	智樹		イカロス、部屋にいるから\n晩メシ出来たら呼んでくれ。	Ikaros, I'll be in my room, so call me when dinner's ready.	
+SC31410.m2	msg	イカロス		はい、マスター。	Yes, Master.	
+SC31410.m3	msg	イカロス		秘密……隠しごと……	A secret... something hidden...	
+SC31410.m4	msg	ニンフ		何をブツブツ言ってるの？	What are you mumbling about?	
+SC31410.m5	msg	イカロス		秘密について学ぶために……\n何かを秘密にしようと思うのですが……	To learn about secrets... I thought I would keep something secret, but...	
+SC31410.m6	msg	イカロス		秘密にするようなものが……\n見つからなくて……	I cannot find anything... to keep secret...	
+SC31410.m7	msg	ニンフ		んー。別になんでもいいんじゃない？	Hmm. Isn't anything fine?	
+SC31410.m8	msg	ニンフ		アンタ記憶喪失なんだから、\nそもそも隠すようなことも忘れてるでしょ。	You've got amnesia, so you've forgotten anything you'd hide in the first place.	
+SC31410.m9	msg	ニンフ		どうせ大したこと知らないんだから、\nなんでも大丈夫だと思うわ。	You don't know anything important anyway, so I think anything works.	
+SC31410.m10	msg	イカロス		そう……ですね……	Yes... I suppose...	
+SC31410.m11	msg	智樹		うん、今日の魚はうまい！\nやっぱイカロスは料理上手だなー！	Mm, the fish today is great! Ikaros, you really are a good cook!	
+SC31410.m12	msg	イカロス		どうも……	Thank you...	
+SC31410.m13	msg	智樹		この魚、なんて名前なんだ？	What kind of fish is this?	
+SC31410.m14	msg	イカロス		言えません。	I cannot say.	
+SC31410.m15	msg	智樹		え……？	Huh...?	
+SC31410.m16	msg	イカロス		秘密です。	It is a secret.	
+SC31410.m17	msg	智樹		お、おい。この魚、大丈夫なのか……？	H-hey. Is this fish okay to eat...?	

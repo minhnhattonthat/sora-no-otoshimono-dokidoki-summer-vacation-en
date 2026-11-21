@@ -1,14 +1,14 @@
 id	kind	speaker	max	jp	en	notes
-SC20000.m1	msg	智樹		イカロス……\nこのマンガなんかどうだ？		
-SC20000.m2	msg	イカロス		……ユニークです……		
-SC20000.m3	msg	智樹		イカロス……\nこっちのＤＶＤなんかどうだ？		
-SC20000.m4	msg	イカロス		……ユーモアにあふれています……		
-SC20000.m5	msg	智樹		なら、どうして笑わないんだ？		
-SC20000.m6	msg	イカロス		はあ……		
-SC20000.m7	msg	智樹		作り笑いでいいから笑ってみろよ。\nほら、口の端をニッと上げて。		
-SC20000.m8	msg	イカロス		……ニヤリ。		
-SC20000.m9	msg	智樹		やっぱりそうなるかー……		
-SC20000.m10	msg	智樹		どうすりゃこいつは笑うんだ？\nここは助っ人を呼ぶとするか。		
-SC20000.m11	choice			ニンフ		
-SC20000.m12	choice			そはら		
-SC20000.m13	choice			美香子		
+SC20000.m1	msg	智樹		イカロス……\nこのマンガなんかどうだ？	Ikaros... How about this manga?	
+SC20000.m2	msg	イカロス		……ユニークです……	...It is unique...	
+SC20000.m3	msg	智樹		イカロス……\nこっちのＤＶＤなんかどうだ？	Ikaros... How about this DVD?	
+SC20000.m4	msg	イカロス		……ユーモアにあふれています……	...It is full of humor...	
+SC20000.m5	msg	智樹		なら、どうして笑わないんだ？	Then why aren't you laughing?	
+SC20000.m6	msg	イカロス		はあ……	Um...	
+SC20000.m7	msg	智樹		作り笑いでいいから笑ってみろよ。\nほら、口の端をニッと上げて。	Even a fake smile is fine, just try smiling. Come on, pull up the corners of your mouth.	
+SC20000.m8	msg	イカロス		……ニヤリ。	...Smirk.	
+SC20000.m9	msg	智樹		やっぱりそうなるかー……	Figured it'd turn out like that...	
+SC20000.m10	msg	智樹		どうすりゃこいつは笑うんだ？\nここは助っ人を呼ぶとするか。	How do I get her to laugh? Guess I'll call in some help.	
+SC20000.m11	choice			ニンフ	Nymph	
+SC20000.m12	choice			そはら	Sohara	
+SC20000.m13	choice			美香子	Mikako	

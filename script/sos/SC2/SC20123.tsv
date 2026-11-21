@@ -1,13 +1,13 @@
 id	kind	speaker	max	jp	en	notes
-SC20123.m1	msg	智樹		マスター交代だ！\nなんでも命令していいぞ！		
-SC20123.m2	msg	イカロス		え？　しかし、マスター……		
-SC20123.m3	msg	智樹		いやいや、お前がマスターなんだからさ。\n俺のことは呼び捨てにしろ！		
-SC20123.m4	msg	イカロス		はい。では……トモキ。		
-SC20123.m5	msg	智樹		なんだ、マスター！\nお前が楽しめることをなんなりと！		
-SC20123.m6	msg	智樹		おつかいでもお料理でもノゾキでも、\nなんでも好きなことをしてやるぜ！		
-SC20123.m7	msg	イカロス		あの……本当に命令してもいいのですか？		
-SC20123.m8	msg	智樹		おう！　たまには\nこういうのもいいだろ！		
-SC20123.m9	msg	イカロス		本当に、いいのですね？		
-SC20123.m10	msg	智樹		……ちょい待て。\n何を命令するつもりだ？		
-SC20123.m11	msg	イカロス		では、トモキに……命令します！		
-SC20123.m12	msg	智樹		う、うおおおお！		
+SC20123.m1	msg	智樹		マスター交代だ！\nなんでも命令していいぞ！	Let's switch roles: you're the Master now! You can order me to do anything!	
+SC20123.m2	msg	イカロス		え？　しかし、マスター……	Huh? But, Master...	
+SC20123.m3	msg	智樹		いやいや、お前がマスターなんだからさ。\n俺のことは呼び捨てにしろ！	Nah, nah, you're the Master now. Just call me by my name, no titles!	
+SC20123.m4	msg	イカロス		はい。では……トモキ。	Yes. Then... Tomoki.	
+SC20123.m5	msg	智樹		なんだ、マスター！\nお前が楽しめることをなんなりと！	Yes, Master! Whatever you would enjoy, I'll do it!	
+SC20123.m6	msg	智樹		おつかいでもお料理でもノゾキでも、\nなんでも好きなことをしてやるぜ！	Errands, cooking, peeping, anything you like, I'll do it for you!	
+SC20123.m7	msg	イカロス		あの……本当に命令してもいいのですか？	Um... may I really give you an order?	
+SC20123.m8	msg	智樹		おう！　たまには\nこういうのもいいだろ！	Yeah! A change like this is nice once in a while!	
+SC20123.m9	msg	イカロス		本当に、いいのですね？	You are sure, then?	
+SC20123.m10	msg	智樹		……ちょい待て。\n何を命令するつもりだ？	...Hold on a sec. What are you planning to order?	
+SC20123.m11	msg	イカロス		では、トモキに……命令します！	Then, Tomoki... I order you!	
+SC20123.m12	msg	智樹		う、うおおおお！	U-Uoooooh!	

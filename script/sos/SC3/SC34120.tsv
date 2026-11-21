@@ -1,17 +1,17 @@
 id	kind	speaker	max	jp	en	notes
-SC34120.m1	msg	イカロス		清楚な女の人は……好きですか？		
-SC34120.m2	msg	智樹		大好きです！		
-SC34120.m3	msg	イカロス		清楚な女の人は……どんな人のことですか？		
-SC34120.m4	msg	智樹		それがわかってから最初の質問をしろよ！		
-SC34120.m5	msg	智樹		そうだなあ……清楚っていうだけあって、\n清らかな人のことかな。		
-SC34120.m6	msg	智樹		清らかでキラキラとした爽やかさがあれば、\n俺も未確認生物にムラムラしないはず……		
-SC34120.m7	msg	イカロス		清らか……キラキラ……ですね。\nでは、行って参ります。		
-SC34120.m8	msg	智樹		おい！　いきなりどこに行くんだよ！		
-SC34120.m9	msg	イカロス		ただいま戻りました……		
-SC34120.m10	msg	智樹		イカロス、いったい今までどこに……\nおい！　なんで水着なんだ！		
-SC34120.m11	msg	イカロス		滝に打たれて身を清めてきました……		
-SC34120.m12	msg	智樹		なるほど、だからズブ濡れなわけか。		
-SC34120.m13	msg	智樹		したたり落ちる水滴が太陽光に反射して\nキラキラと……って、バカ野郎！		
-SC34120.m14	msg	智樹		体のラインが強調されて\nますます色っぽくなってるじゃねーか！		
-SC34120.m15	msg	イカロス		申し訳ありません。マスターの\n好みに合わなかったのですね……		
-SC34120.m16	msg	智樹		合ってるから困ってるんだよ！		
+SC34120.m1	msg	イカロス		清楚な女の人は……好きですか？	Do you like... pure and proper women?	
+SC34120.m2	msg	智樹		大好きです！	I love them!	
+SC34120.m3	msg	イカロス		清楚な女の人は……どんな人のことですか？	What sort of person... is a pure and proper woman?	
+SC34120.m4	msg	智樹		それがわかってから最初の質問をしろよ！	Figure that out before you ask the first question!	
+SC34120.m5	msg	智樹		そうだなあ……清楚っていうだけあって、\n清らかな人のことかな。	Let's see... Like the words say, someone pure, I guess.	
+SC34120.m6	msg	智樹		清らかでキラキラとした爽やかさがあれば、\n俺も未確認生物にムラムラしないはず……	If she had a pure, sparkly freshness, I wouldn't get all horny over an unidentified life-form...	
+SC34120.m7	msg	イカロス		清らか……キラキラ……ですね。\nでは、行って参ります。	Pure... sparkly... I see. Then I will be going.	
+SC34120.m8	msg	智樹		おい！　いきなりどこに行くんだよ！	Hey! Where are you going all of a sudden?!	
+SC34120.m9	msg	イカロス		ただいま戻りました……	I have returned...	
+SC34120.m10	msg	智樹		イカロス、いったい今までどこに……\nおい！　なんで水着なんだ！	Ikaros, where on earth have you been... Hey! Why are you in a swimsuit?!	
+SC34120.m11	msg	イカロス		滝に打たれて身を清めてきました……	I stood under a waterfall to purify myself...	
+SC34120.m12	msg	智樹		なるほど、だからズブ濡れなわけか。	I see, so that's why you're soaking wet.	
+SC34120.m13	msg	智樹		したたり落ちる水滴が太陽光に反射して\nキラキラと……って、バカ野郎！	The dripping water drops reflect the sunlight and sparkle... wait, you idiot!	
+SC34120.m14	msg	智樹		体のラインが強調されて\nますます色っぽくなってるじゃねーか！	It shows off your body's curves and makes you even sexier!	
+SC34120.m15	msg	イカロス		申し訳ありません。マスターの\n好みに合わなかったのですね……	I am very sorry. It was not to your taste, Master...	
+SC34120.m16	msg	智樹		合ってるから困ってるんだよ！	It IS to my taste, that's the problem!	

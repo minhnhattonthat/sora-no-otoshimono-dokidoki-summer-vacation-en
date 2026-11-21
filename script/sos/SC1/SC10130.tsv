@@ -1,17 +1,17 @@
 id	kind	speaker	max	jp	en	notes
-SC10130.m1	msg	イカロス		マスター、バーベキュー器具の片付け、\n完了しました……		
-SC10130.m2	msg	ニンフ		食器も片付けたわよ。\nあとは守形が向こうで洗ってる分だけ。		
-SC10130.m3	msg	智樹		ありがとな！　いやー、それにしても……\n今日も思いっきり遊んだなー！		
-SC10130.m4	msg	そはら		トモちゃんは今日だけじゃなくて\n１年中遊びっぱなしじゃない。		
-SC10130.m5	msg	智樹		遊んだのは俺だけじゃないだろー。\nそはらだってすっかり日に焼けてるじゃないか。		
-SC10130.m6	msg	そはら		あ……本当だ。		
-SC10130.m7	msg	美香子		よく焼けてるわね～。言ってくれたら\n私の日焼け止めを分けてあげたのに～。		
-SC10130.m8	msg	智樹		遊ぶのに夢中で忘れてたんだろ。\n子どもだなー、そはらは。		
-SC10130.m9	msg	美香子		フフ、よく見ているわねぇ、桜井君。\n好きな女の子の肌だから気になるのかしら。		
-SC10130.m10	msg	そはら		え……？		
-SC10130.m11	msg	智樹		だっ、誰もそんなこと言ってないぞ！！		
-SC10130.m12	msg	美香子		じゃあ、誰の肌が気になるのかしら？		
-SC10130.m13	msg	智樹		誰って……		
-SC10130.m14	choice			ニンフかな		
-SC10130.m15	choice			そはらかな		
-SC10130.m16	choice			イカロスかな		
+SC10130.m1	msg	イカロス		マスター、バーベキュー器具の片付け、\n完了しました……	Master, I have finished putting away the barbecue equipment...	
+SC10130.m2	msg	ニンフ		食器も片付けたわよ。\nあとは守形が向こうで洗ってる分だけ。	I put the dishes away too. All that's left is what Sugata's washing over there.	
+SC10130.m3	msg	智樹		ありがとな！　いやー、それにしても……\n今日も思いっきり遊んだなー！	Thanks! Man, though... we sure played our hearts out today too!	
+SC10130.m4	msg	そはら		トモちゃんは今日だけじゃなくて\n１年中遊びっぱなしじゃない。	It's not just today, Tomo-chan. You play around all year long.	
+SC10130.m5	msg	智樹		遊んだのは俺だけじゃないだろー。\nそはらだってすっかり日に焼けてるじゃないか。	I'm not the only one who played. You got a total tan yourself, Sohara.	
+SC10130.m6	msg	そはら		あ……本当だ。	Oh... You're right.	
+SC10130.m7	msg	美香子		よく焼けてるわね～。言ってくれたら\n私の日焼け止めを分けてあげたのに～。	You're nicely tanned, aren't you~? If you'd said something, I'd have shared my sunscreen with you~.	
+SC10130.m8	msg	智樹		遊ぶのに夢中で忘れてたんだろ。\n子どもだなー、そはらは。	Bet she was having too much fun to remember. You're such a kid, Sohara.	
+SC10130.m9	msg	美香子		フフ、よく見ているわねぇ、桜井君。\n好きな女の子の肌だから気になるのかしら。	Fufu, you sure pay close attention, Sakurai-kun. I suppose it's because it's the skin of the girl you like?	
+SC10130.m10	msg	そはら		え……？	Huh...?	
+SC10130.m11	msg	智樹		だっ、誰もそんなこと言ってないぞ！！	N-n-nobody said anything like that!!	
+SC10130.m12	msg	美香子		じゃあ、誰の肌が気になるのかしら？	Then whose skin is it you're interested in?	
+SC10130.m13	msg	智樹		誰って……	Whose...	
+SC10130.m14	choice			ニンフかな	Nymph, I guess	
+SC10130.m15	choice			そはらかな	Sohara, I guess	
+SC10130.m16	choice			イカロスかな	Ikaros, I guess	

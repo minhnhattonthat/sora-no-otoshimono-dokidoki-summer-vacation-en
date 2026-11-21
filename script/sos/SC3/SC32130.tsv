@@ -1,17 +1,17 @@
 id	kind	speaker	max	jp	en	notes
-SC32130.m1	msg	智樹		イカロスー。そういやお前、この前から\nトラウマについて調べてたけど、どうなった？		
-SC32130.m2	msg	イカロス		……もう、調べるのはやめようと思います。		
-SC32130.m3	msg	智樹		へ？　なんでだ？		
-SC32130.m4	msg	イカロス		ニンフがトラウマを調べるのを\n手伝ってくれたのですが……		
-SC32130.m5	msg	ニンフ		…………		
-SC32130.m6	msg	智樹		（……なるほど。シナプスのつらい過去を\n　思い出してしまったってわけか）		
-SC32130.m7	msg	智樹		……よし！　明日は海に行くか！		
-SC32130.m8	msg	イカロス		え……？		
-SC32130.m9	msg	ニンフ		えっ？		
-SC32130.m10	msg	智樹		楽しい１日にしようぜ。昔の思い出なんか\nどこかに行っちまうくらいにな。		
-SC32130.m11	msg	ニンフ		トモキ……		
-SC32130.m12	msg	イカロス		マスターの言いたいこと……\nなんとなくわかりました。		
-SC32130.m13	msg	イカロス		トラウマは……克服できる。\nそういうことですね……？		
-SC32130.m14	msg	智樹		そんな大層なもんじゃないって！\n俺は水着のおねーさんに会いたいだけ！		
-SC32130.m15	msg	智樹		グヒョヒョヒョヒョ……		
-SC32130.m16	msg	ニンフ		フフッ……本当、エッチなんだから……		
+SC32130.m1	msg	智樹		イカロスー。そういやお前、この前から\nトラウマについて調べてたけど、どうなった？	Ikaros. Come to think of it, you've been researching trauma lately. How'd it go?	
+SC32130.m2	msg	イカロス		……もう、調べるのはやめようと思います。	...I think I will stop researching it.	
+SC32130.m3	msg	智樹		へ？　なんでだ？	Huh? Why?	
+SC32130.m4	msg	イカロス		ニンフがトラウマを調べるのを\n手伝ってくれたのですが……	Nymph helped me research trauma, but...	
+SC32130.m5	msg	ニンフ		…………	......	
+SC32130.m6	msg	智樹		（……なるほど。シナプスのつらい過去を\n　思い出してしまったってわけか）	(...I see. So she ended up remembering her painful past in Synapse.)	
+SC32130.m7	msg	智樹		……よし！　明日は海に行くか！	...Okay! Let's go to the beach tomorrow!	
+SC32130.m8	msg	イカロス		え……？	Huh...?	
+SC32130.m9	msg	ニンフ		えっ？	Huh?	
+SC32130.m10	msg	智樹		楽しい１日にしようぜ。昔の思い出なんか\nどこかに行っちまうくらいにな。	Let's make it a fun day. So fun your old memories just fly off somewhere.	
+SC32130.m11	msg	ニンフ		トモキ……	Tomoki...	
+SC32130.m12	msg	イカロス		マスターの言いたいこと……\nなんとなくわかりました。	I think I somewhat understand... what Master is trying to say.	
+SC32130.m13	msg	イカロス		トラウマは……克服できる。\nそういうことですね……？	Trauma... can be overcome. That is what you mean...?	
+SC32130.m14	msg	智樹		そんな大層なもんじゃないって！\n俺は水着のおねーさんに会いたいだけ！	It's nothing that deep! I just wanna meet some ladies in swimsuits!	
+SC32130.m15	msg	智樹		グヒョヒョヒョヒョ……	Guhyohyohyohyo...	
+SC32130.m16	msg	ニンフ		フフッ……本当、エッチなんだから……	Hehe... He's such a pervert, really...	

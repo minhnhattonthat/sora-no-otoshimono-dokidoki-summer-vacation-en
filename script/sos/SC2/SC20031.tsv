@@ -1,12 +1,12 @@
 id	kind	speaker	max	jp	en	notes
-SC20031.m1	msg	ニンフ		さっきからなんの話してんの？		
-SC20031.m2	msg	智樹		ああ、ニンフ。グッドタイミング！		
-SC20031.m3	msg	ニンフ		グッドタイミング……？		
-SC20031.m4	msg	智樹		うーん。だけどニンフの胸には\n揉めるほどのふくらみはないもんなあ。		
-SC20031.m5	msg	ニンフ		なっ……		
-SC20031.m6	msg	智樹		ま、それはそれでひとつの魅力だよな。\nドンマイ！		
-SC20031.m7	msg	ニンフ		言いたいことは……それだけかしら？		
-SC20031.m8	msg	智樹		あれ？		
-SC20031.m9	msg	ニンフ		トモキ……死ねーっ！！		
-SC20031.m10	msg	智樹		逝ってきまーす……！		
-SC20031.m11	msg	イカロス		マスターが……星になった……？		
+SC20031.m1	msg	ニンフ		さっきからなんの話してんの？	What are you two going on about?	
+SC20031.m2	msg	智樹		ああ、ニンフ。グッドタイミング！	Oh, Nymph. Perfect timing!	
+SC20031.m3	msg	ニンフ		グッドタイミング……？	Perfect timing...?	
+SC20031.m4	msg	智樹		うーん。だけどニンフの胸には\n揉めるほどのふくらみはないもんなあ。	Hmm. But Nymph's chest doesn't have enough of a bulge to squeeze, does it?	
+SC20031.m5	msg	ニンフ		なっ……	Wha...	
+SC20031.m6	msg	智樹		ま、それはそれでひとつの魅力だよな。\nドンマイ！	Well, that's its own kind of charm. Don't sweat it!	
+SC20031.m7	msg	ニンフ		言いたいことは……それだけかしら？	Is that... all you have to say?	
+SC20031.m8	msg	智樹		あれ？	Huh?	
+SC20031.m9	msg	ニンフ		トモキ……死ねーっ！！	Tomoki... DIE!!	
+SC20031.m10	msg	智樹		逝ってきまーす……！	I'm off to the great beyond...!	
+SC20031.m11	msg	イカロス		マスターが……星になった……？	Master... became a star...?	

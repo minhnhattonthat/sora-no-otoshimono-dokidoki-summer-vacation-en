@@ -1,11 +1,11 @@
 id	kind	speaker	max	jp	en	notes
-SC10112.m1	msg	智樹		お前が自分でメシを作れ！		
-SC10112.m2	msg	ニンフ		わ……私が！？		
-SC10112.m3	msg	ニンフ		作れるわけないでしょ！\n作り方も何も知らないのに！		
-SC10112.m4	msg	智樹		ほほう。作り方がわかれば作るんだな？		
-SC10112.m5	msg	ニンフ		あ……		
-SC10112.m6	msg	そはら		この本でいいの？		
-SC10112.m7	msg	智樹		おう、サンキュー。\n家にはこういうレシピ本なくてさー。		
-SC10112.m8	msg	ニンフ		意地でも私に料理をさせる気ね……		
-SC10112.m9	msg	智樹		ふっふっふ。\nこれでもう言い訳はさせねーからな。		
-SC10112.m10	msg	そはら		がんばってね、ニンフさん！		
+SC10112.m1	msg	智樹		お前が自分でメシを作れ！	You make dinner yourself!	
+SC10112.m2	msg	ニンフ		わ……私が！？	M... me?!	
+SC10112.m3	msg	ニンフ		作れるわけないでしょ！\n作り方も何も知らないのに！	There's no way I can! I don't know how to cook or anything!	
+SC10112.m4	msg	智樹		ほほう。作り方がわかれば作るんだな？	Oho. So if you knew how, you'd make it?	
+SC10112.m5	msg	ニンフ		あ……	Ah...	
+SC10112.m6	msg	そはら		この本でいいの？	Is this book okay?	
+SC10112.m7	msg	智樹		おう、サンキュー。\n家にはこういうレシピ本なくてさー。	Yep, thanks. We don't have any recipe books like this at home.	
+SC10112.m8	msg	ニンフ		意地でも私に料理をさせる気ね……	You're dead set on making me cook, aren't you...	
+SC10112.m9	msg	智樹		ふっふっふ。\nこれでもう言い訳はさせねーからな。	Heh heh heh. Now you've got no more excuses.	
+SC10112.m10	msg	そはら		がんばってね、ニンフさん！	Good luck, Nymph-san!	

@@ -1,11 +1,11 @@
 id	kind	speaker	max	jp	en	notes
-SC20121.m1	msg	智樹		俺の手料理を食べさせてやろう！\nさあ、食べたいものを言ってみろ！		
-SC20121.m2	msg	イカロス		そうですね……		
-SC20121.m3	msg	ニンフ		手料理がご褒美だなんて……\nアンタ、バカ？		
-SC20121.m4	msg	智樹		な、なんだとー！？		
-SC20121.m5	msg	ニンフ		アンタの料理のレパートリーを\n言ってみなさいよ。		
-SC20121.m6	msg	智樹		カレーにラーメン、焼きそば、\nあとはギョーザとか……		
-SC20121.m7	msg	ニンフ		どこが手料理なのよ。\n全部レトルトじゃない。		
-SC20121.m8	msg	智樹		ぐうっ！　しまった！		
-SC20121.m9	msg	イカロス		あの……ご褒美を\nいただけるのであれば……		
-SC20121.m10	msg	智樹		お？　希望があるのか？\nならそっちにしよう。		
+SC20121.m1	msg	智樹		俺の手料理を食べさせてやろう！\nさあ、食べたいものを言ってみろ！	I'll let you eat my home cooking! Go on, tell me what you want to eat!	
+SC20121.m2	msg	イカロス		そうですね……	Let me see...	
+SC20121.m3	msg	ニンフ		手料理がご褒美だなんて……\nアンタ、バカ？	Home cooking as a reward...? Are you an idiot?	
+SC20121.m4	msg	智樹		な、なんだとー！？	Wh-What did you say?!	
+SC20121.m5	msg	ニンフ		アンタの料理のレパートリーを\n言ってみなさいよ。	Go on, list your cooking repertoire.	
+SC20121.m6	msg	智樹		カレーにラーメン、焼きそば、\nあとはギョーザとか……	Curry, ramen, yakisoba, and gyoza, and...	
+SC20121.m7	msg	ニンフ		どこが手料理なのよ。\n全部レトルトじゃない。	How is that home cooking? It's all instant!	
+SC20121.m8	msg	智樹		ぐうっ！　しまった！	Gwah! Busted!	
+SC20121.m9	msg	イカロス		あの……ご褒美を\nいただけるのであれば……	Um... if I may receive a reward...	
+SC20121.m10	msg	智樹		お？　希望があるのか？\nならそっちにしよう。	Oh? There's something you want? Then let's go with that.	

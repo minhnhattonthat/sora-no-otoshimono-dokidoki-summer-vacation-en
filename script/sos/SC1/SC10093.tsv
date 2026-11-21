@@ -1,13 +1,13 @@
 id	kind	speaker	max	jp	en	notes
-SC10093.m1	msg	智樹		ゆっくり歩いていくか。\nのんびりおしゃべりでもしながらさ。		
-SC10093.m2	msg	イカロス		はい……		
-SC10093.m3	msg	智樹		しかし、お前も変なヤツだよな。\n防水加工してるから雨が平気だなんて。		
-SC10093.m4	msg	イカロス		そうでしょうか……？\nマスターも傘で雨を防いでいるのでは？		
-SC10093.m5	msg	智樹		そりゃ、体が濡れないようにしてるんだよ。\n防水加工していても体は濡れるだろ？		
-SC10093.m6	msg	イカロス		体が濡れたら、何か支障があるのですか？		
-SC10093.m7	msg	智樹		……ぷっ。ははははは！\nそういやそうだな。		
-SC10093.m8	msg	智樹		お前としゃべってると、なんだか\n傘なんかいらないような気がしてくるな。		
-SC10093.m9	msg	イカロス		でも……傘も、いいものですね……		
-SC10093.m10	msg	智樹		そうか？		
-SC10093.m11	msg	イカロス		はい……マスターと、\nこんなに近くで、並んで歩けるので……		
-SC10093.m12	msg	智樹		（……こいつ、たまにドキッとさせる\n　ことを言うよな……）		
+SC10093.m1	msg	智樹		ゆっくり歩いていくか。\nのんびりおしゃべりでもしながらさ。	Let's just walk slowly. Take our time and chat along the way.	
+SC10093.m2	msg	イカロス		はい……	Yes...	
+SC10093.m3	msg	智樹		しかし、お前も変なヤツだよな。\n防水加工してるから雨が平気だなんて。	Still, you're a weird one. Rain doesn't bother you because you're waterproofed?	
+SC10093.m4	msg	イカロス		そうでしょうか……？\nマスターも傘で雨を防いでいるのでは？	Is that so...? Are you not also keeping the rain off with your umbrella, Master?	
+SC10093.m5	msg	智樹		そりゃ、体が濡れないようにしてるんだよ。\n防水加工していても体は濡れるだろ？	Well, yeah, that's so I don't get wet. Even waterproofed, your body still gets wet, right?	
+SC10093.m6	msg	イカロス		体が濡れたら、何か支障があるのですか？	Is there some problem if my body gets wet?	
+SC10093.m7	msg	智樹		……ぷっ。ははははは！\nそういやそうだな。	...Pfft. Hahahaha! Now that you mention it, I guess not.	
+SC10093.m8	msg	智樹		お前としゃべってると、なんだか\n傘なんかいらないような気がしてくるな。	Talking with you, I start to feel like I don't even need an umbrella.	
+SC10093.m9	msg	イカロス		でも……傘も、いいものですね……	But... umbrellas are nice too...	
+SC10093.m10	msg	智樹		そうか？	You think so?	
+SC10093.m11	msg	イカロス		はい……マスターと、\nこんなに近くで、並んで歩けるので……	Yes... because I can walk side by side with you, Master... this close...	
+SC10093.m12	msg	智樹		（……こいつ、たまにドキッとさせる\n　ことを言うよな……）	(...Sometimes she says things that really make my heart skip...)	

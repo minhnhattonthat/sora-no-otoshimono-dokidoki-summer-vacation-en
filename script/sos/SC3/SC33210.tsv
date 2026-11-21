@@ -1,14 +1,14 @@
 id	kind	speaker	max	jp	en	notes
-SC33210.m1	msg	イカロス		あの……物事を疑ったあとは、\nどのように行動すべきなのでしょうか……？		
-SC33210.m2	msg	智樹		疑ったあとは確かめるんだ。\nそれが本当なのかウソなのか。		
-SC33210.m3	msg	イカロス		確かめるんですね……		
-SC33210.m4	msg	そはら		あっ。おはよう、トモちゃん。\nイカロスさんも！		
-SC33210.m5	msg	イカロス		おはようございます……\nあの……少しよろしいですか？		
-SC33210.m6	msg	そはら		いいよ。なあに？		
-SC33210.m7	msg	イカロス		失礼します……		
-SC33210.m8	msg	そはら		キャッ……！？		
-SC33210.m9	msg	智樹		し、神速のスカートめくり……！		
-SC33210.m10	msg	そはら		ま、またトモちゃんが\n変なこと教えたのねー！		
-SC33210.m11	msg	智樹		プギャッ！！		
-SC33210.m12	msg	イカロス		そのチョップの破壊力……\n本物のそはらさんですね。		
-SC33210.m13	msg	智樹		疑う内容は置いておくとして、だ。\nせめて俺を巻き込まないでくれ……		
+SC33210.m1	msg	イカロス		あの……物事を疑ったあとは、\nどのように行動すべきなのでしょうか……？	Um... after one has doubted something, what should one do next...?	
+SC33210.m2	msg	智樹		疑ったあとは確かめるんだ。\nそれが本当なのかウソなのか。	After you doubt it, you check it. Whether it's true or a lie.	
+SC33210.m3	msg	イカロス		確かめるんですね……	I check it...	
+SC33210.m4	msg	そはら		あっ。おはよう、トモちゃん。\nイカロスさんも！	Oh! Morning, Tomo-chan. You too, Ikaros-san!	
+SC33210.m5	msg	イカロス		おはようございます……\nあの……少しよろしいですか？	Good morning... Um... may I have a moment?	
+SC33210.m6	msg	そはら		いいよ。なあに？	Sure. What is it?	
+SC33210.m7	msg	イカロス		失礼します……	Excuse me...	
+SC33210.m8	msg	そはら		キャッ……！？	Kyaa...?!	
+SC33210.m9	msg	智樹		し、神速のスカートめくり……！	A g-godspeed skirt flip...!	
+SC33210.m10	msg	そはら		ま、またトモちゃんが\n変なこと教えたのねー！	Y-You taught her something weird again, didn't you, Tomo-chan!	
+SC33210.m11	msg	智樹		プギャッ！！	Pugyah!!	
+SC33210.m12	msg	イカロス		そのチョップの破壊力……\n本物のそはらさんですね。	That chop's destructive power... You are the real Sohara-san.	
+SC33210.m13	msg	智樹		疑う内容は置いておくとして、だ。\nせめて俺を巻き込まないでくれ……	Let's put aside what you chose to doubt. Just leave me out of it, at least...	

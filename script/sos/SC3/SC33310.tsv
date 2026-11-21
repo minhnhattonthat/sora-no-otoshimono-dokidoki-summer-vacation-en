@@ -1,19 +1,19 @@
 id	kind	speaker	max	jp	en	notes
-SC33310.m1	msg	イカロス		人は……どんなときに\n照れるものなのですか？		
-SC33310.m2	msg	智樹		そうだな……俺の場合だと、\nすごくほめられたりしたときかな。		
-SC33310.m3	msg	智樹		よし。誰かほめまくって\n照れさせてやる……見てろよイカロス！		
-SC33310.m4	msg	イカロス		はい……		
-SC33310.m5	msg	美香子		あら。こんにちは～、桜井君。		
-SC33310.m6	msg	智樹		（会長か。ハードルは高そうだけど……\nこの人が照れるところを見てみたい！）		
-SC33310.m7	msg	智樹		お世話になっております、会長！\nいや～、今日はいつにも増してお美しい！		
-SC33310.m8	msg	美香子		あら……桜井君、揉み手なんかして\n会長に何か頼みごとかしら～？		
-SC33310.m9	msg	智樹		いえ、つい素直な気持ちが口をつきました！\nあまりの美貌に目がつぶれそうです！		
-SC33310.m10	msg	美香子		ありがとう～、桜井君。\n……でも、ほめるのは外見だけなのね～？		
-SC33310.m11	msg	智樹		いえいえ！　もちろん、そのカリスマ性、\n器の大きさにはもうビックリですよ！		
-SC33310.m12	msg	美香子		ありがとう～、桜井君。\n……でも、やっぱり女は賢くないと～。		
-SC33310.m13	msg	智樹		そりゃもちろん、会長の頭の良さには\n俺が１００人いたって敵いませんよ！		
-SC33310.m14	msg	イカロス		…………		
-SC33310.m15	msg	美香子		ありがとう～、桜井君。\n……でも、ペットだってかわいくないと～。		
-SC33310.m16	msg	智樹		ゼエ……ゼエ……い、いや、もちろん\n会長の飼ってる犬は最高……ゼエ……		
-SC33310.m17	msg	イカロス		……顔色が変わっているのは\nマスターだけ……		
-SC33310.m18	msg	イカロス		人を照れさせるのは……\n難しいことなのですね……		
+SC33310.m1	msg	イカロス		人は……どんなときに\n照れるものなのですか？	When is it... that people become bashful?	
+SC33310.m2	msg	智樹		そうだな……俺の場合だと、\nすごくほめられたりしたときかな。	Let's see... for me, I guess it's when somebody praises me a lot.	
+SC33310.m3	msg	智樹		よし。誰かほめまくって\n照れさせてやる……見てろよイカロス！	All right. I'll heap praise on somebody till they get bashful... Watch and learn, Ikaros!	
+SC33310.m4	msg	イカロス		はい……	Yes...	
+SC33310.m5	msg	美香子		あら。こんにちは～、桜井君。	Oh my. Hello there, Sakurai-kun~.	
+SC33310.m6	msg	智樹		（会長か。ハードルは高そうだけど……\nこの人が照れるところを見てみたい！）	(The President, huh. It's a high bar... but I wanna see this woman get bashful!)	
+SC33310.m7	msg	智樹		お世話になっております、会長！\nいや～、今日はいつにも増してお美しい！	Thank you for all your kindness, President! Wow, you're more beautiful than ever today!	
+SC33310.m8	msg	美香子		あら……桜井君、揉み手なんかして\n会長に何か頼みごとかしら～？	Oh my... rubbing your hands together like that, Sakurai-kun... do you want something from your President~?	
+SC33310.m9	msg	智樹		いえ、つい素直な気持ちが口をつきました！\nあまりの美貌に目がつぶれそうです！	No, my honest feelings just slipped out! Your beauty's so dazzling I might go blind!	
+SC33310.m10	msg	美香子		ありがとう～、桜井君。\n……でも、ほめるのは外見だけなのね～？	Thank you~, Sakurai-kun. ...But you only praise my looks, hmm~?	
+SC33310.m11	msg	智樹		いえいえ！　もちろん、そのカリスマ性、\n器の大きさにはもうビックリですよ！	No, no! Of course, your charisma and your big heart just blow me away!	
+SC33310.m12	msg	美香子		ありがとう～、桜井君。\n……でも、やっぱり女は賢くないと～。	Thank you~, Sakurai-kun. ...But still, a woman really ought to be smart~.	
+SC33310.m13	msg	智樹		そりゃもちろん、会長の頭の良さには\n俺が１００人いたって敵いませんよ！	Well, obviously! A hundred of me couldn't match your brains, President!	
+SC33310.m14	msg	イカロス		…………	......	
+SC33310.m15	msg	美香子		ありがとう～、桜井君。\n……でも、ペットだってかわいくないと～。	Thank you~, Sakurai-kun. ...But still, even one's pets ought to be cute~.	
+SC33310.m16	msg	智樹		ゼエ……ゼエ……い、いや、もちろん\n会長の飼ってる犬は最高……ゼエ……	Hah... hah... N-No, of course, the dog you keep, President, is the best... hah...	
+SC33310.m17	msg	イカロス		……顔色が変わっているのは\nマスターだけ……	...The only one whose face has changed color... is Master...	
+SC33310.m18	msg	イカロス		人を照れさせるのは……\n難しいことなのですね……	So making people bashful... is a difficult thing...	

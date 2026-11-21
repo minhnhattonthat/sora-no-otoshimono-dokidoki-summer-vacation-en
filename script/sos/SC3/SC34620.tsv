@@ -1,15 +1,15 @@
 id	kind	speaker	max	jp	en	notes
-SC34620.m1	msg	智樹		……そはらー。\n庭の木に実がなるのっていつだっけ？		
-SC34620.m2	msg	そはら		もう、この前食べたばっかりでしょ？		
-SC34620.m3	msg	智樹		そっかー……早く実がなりゃいいのになー。		
-SC34620.m4	msg	イカロス		あの……なんの話でしょうか……？		
-SC34620.m5	msg	そはら		トモちゃんと約束したの。\n来年のはっさくをいっしょに食べようって。		
-SC34620.m6	msg	智樹		あの木のはっさくは大きくてうまいからな！		
-SC34620.m7	msg	イカロス		はっさくは……いつ実るのですか？		
-SC34620.m8	msg	そはら		今年のはもう食べちゃったから、\nまだまだ先。来年のことだよ。		
-SC34620.m9	msg	イカロス		約束を履行するのに１年もかかるのに……\n楽しそうですね……		
-SC34620.m10	msg	そはら		こういう約束は、待つのが楽しいんだよ！		
-SC34620.m11	msg	智樹		まあ……そうだな。		
-SC34620.m12	msg	そはら		そうだ、イカロスさんとも約束！\n来年のはっさく、いっしょに食べようね？		
-SC34620.m13	msg	イカロス		……わかりました……約束です……		
-SC34620.m14	msg	そはら		ふふっ。楽しみだなあ。		
+SC34620.m1	msg	智樹		……そはらー。\n庭の木に実がなるのっていつだっけ？	...Sohara. When does the tree in the yard bear fruit again?	
+SC34620.m2	msg	そはら		もう、この前食べたばっかりでしょ？	Geez, we just ate them the other day, didn't we?	
+SC34620.m3	msg	智樹		そっかー……早く実がなりゃいいのになー。	Right... I wish the fruit would hurry up and grow.	
+SC34620.m4	msg	イカロス		あの……なんの話でしょうか……？	Um... what are you talking about...?	
+SC34620.m5	msg	そはら		トモちゃんと約束したの。\n来年のはっさくをいっしょに食べようって。	I made a promise with Tomo-chan. That we'd eat next year's hassaku oranges together.	
+SC34620.m6	msg	智樹		あの木のはっさくは大きくてうまいからな！	The hassaku from that tree are big and tasty!	
+SC34620.m7	msg	イカロス		はっさくは……いつ実るのですか？	When do the hassaku... ripen?	
+SC34620.m8	msg	そはら		今年のはもう食べちゃったから、\nまだまだ先。来年のことだよ。	We already ate this year's, so it's a long way off. Next year.	
+SC34620.m9	msg	イカロス		約束を履行するのに１年もかかるのに……\n楽しそうですね……	It will take a whole year to fulfill the promise... yet you look happy...	
+SC34620.m10	msg	そはら		こういう約束は、待つのが楽しいんだよ！	With promises like this, the waiting is the fun part!	
+SC34620.m11	msg	智樹		まあ……そうだな。	Well... yeah.	
+SC34620.m12	msg	そはら		そうだ、イカロスさんとも約束！\n来年のはっさく、いっしょに食べようね？	Oh, I know, a promise with you too, Ikaros-san! Let's eat next year's hassaku together, okay?	
+SC34620.m13	msg	イカロス		……わかりました……約束です……	...Understood... It is a promise...	
+SC34620.m14	msg	そはら		ふふっ。楽しみだなあ。	Hehe. I can't wait.	

@@ -1,19 +1,19 @@
 id	kind	speaker	max	jp	en	notes
-SC32830.m1	msg	イカロス		どうして人は\nウソをつくのでしょうか……？		
-SC32830.m2	msg	イカロス		ウソで人が幸せになることなど……\nあるのでしょうか……？		
-SC32830.m3	msg	智樹		俺には荷が重過ぎるんスよ、\nこういう質問は。		
-SC32830.m4	msg	守形		……だからといって\n俺のところに来られてもな……		
-SC32830.m5	msg	守形		悪いが、今は忙しい。\n相談ならまた今度にしてくれないか。		
-SC32830.m6	msg	イカロス		すみません……		
-SC32830.m7	msg	智樹		新型ハンググライダーの設計中みたいだな。		
-SC32830.m8	msg	守形		……イカロス。一度聞きたかったことがある。		
-SC32830.m9	msg	イカロス		なんでしょうか？		
-SC32830.m10	msg	守形		現段階の人類の科学力で……\n新大陸に到達できるのか？		
-SC32830.m11	msg	イカロス		可能性は……		
-SC32830.m12	msg	智樹		……前俺が聞いたときは\n行けるって言ってましたよ、こいつ。		
-SC32830.m13	msg	守形		ほう。ならば、挑戦する価値はある……！		
-SC32830.m14	msg	イカロス		……マスター。\nなぜ守形さんにウソを……		
-SC32830.m15	msg	智樹		先輩は不可能を可能にする人だからな。\nその気になりゃどうとでもするさ。		
-SC32830.m16	msg	イカロス		やる気を後押しするために……\nウソをついたのですか……？		
-SC32830.m17	msg	智樹		ウソに乗せられて本当に新大陸に行けるなら\nそれでいいんじゃない？		
-SC32830.m18	msg	イカロス		……そういう考え方も……\nあるのですね……		
+SC32830.m1	msg	イカロス		どうして人は\nウソをつくのでしょうか……？	Why is it... that people tell lies...?	
+SC32830.m2	msg	イカロス		ウソで人が幸せになることなど……\nあるのでしょうか……？	Can a lie... ever make a person happy...?	
+SC32830.m3	msg	智樹		俺には荷が重過ぎるんスよ、\nこういう質問は。	Questions like that are way too heavy for me, y'know.	
+SC32830.m4	msg	守形		……だからといって\n俺のところに来られてもな……	...Even so, coming to me with it...	
+SC32830.m5	msg	守形		悪いが、今は忙しい。\n相談ならまた今度にしてくれないか。	Sorry, but I'm busy right now. If you need advice, could it wait until another time?	
+SC32830.m6	msg	イカロス		すみません……	I am sorry...	
+SC32830.m7	msg	智樹		新型ハンググライダーの設計中みたいだな。	Looks like he's designing a new hang glider.	
+SC32830.m8	msg	守形		……イカロス。一度聞きたかったことがある。	...Ikaros. There's something I've wanted to ask you.	
+SC32830.m9	msg	イカロス		なんでしょうか？	What is it?	
+SC32830.m10	msg	守形		現段階の人類の科学力で……\n新大陸に到達できるのか？	With humanity's current level of science... can we reach the New World?	
+SC32830.m11	msg	イカロス		可能性は……	The probability is...	
+SC32830.m12	msg	智樹		……前俺が聞いたときは\n行けるって言ってましたよ、こいつ。	...When I asked her before, she said we could make it.	
+SC32830.m13	msg	守形		ほう。ならば、挑戦する価値はある……！	Oh? Then it's worth the attempt...!	
+SC32830.m14	msg	イカロス		……マスター。\nなぜ守形さんにウソを……	...Master. Why did you lie to Sugata-san...	
+SC32830.m15	msg	智樹		先輩は不可能を可能にする人だからな。\nその気になりゃどうとでもするさ。	Senpai's the kind of guy who makes the impossible possible. Once he sets his mind to it, he'll find a way.	
+SC32830.m16	msg	イカロス		やる気を後押しするために……\nウソをついたのですか……？	To push him to try... you lied...?	
+SC32830.m17	msg	智樹		ウソに乗せられて本当に新大陸に行けるなら\nそれでいいんじゃない？	If a lie fires him up and he really reaches the New World, isn't that fine?	
+SC32830.m18	msg	イカロス		……そういう考え方も……\nあるのですね……	...So there is... that way of thinking, too...	

@@ -1,16 +1,16 @@
 id	kind	speaker	max	jp	en	notes
-SC32610.m1	msg	イカロス		私は……優しいですか？		
-SC32610.m2	msg	そはら		な、なななな……\nど、どうなのかな？		
-SC32610.m3	msg	イカロス		マスターにそう言われて……\nでも、その意味がよくわからなくて……		
-SC32610.m4	msg	智樹		いやあ、悪い。\n俺にもうまく説明できなくてさー。		
-SC32610.m5	msg	そはら		うーん……たしかに、あらためて考えると\n優しさを説明するのは難しいよね。		
-SC32610.m6	msg	そはら		私もイカロスさんは\n優しいと思うけどなあ。		
-SC32610.m7	msg	イカロス		私の……どこが\n優しいのですか……？		
-SC32610.m8	msg	そはら		えっと……落ち着いていて……\n物静かで……友達思いなところ……		
-SC32610.m9	msg	そはら		うん……友達思いが一番近いかな。		
-SC32610.m10	msg	そはら		誰かのために本気で行動できることが、\n優しさなんじゃないかな？		
-SC32610.m11	msg	イカロス		私は……誰かのために\n本気になれていますか？		
-SC32610.m12	msg	そはら		トモちゃんやニンフさんを\n助けるためにがんばってたじゃない。		
-SC32610.m13	msg	そはら		イカロスさんは優しい人だよ！		
-SC32610.m14	msg	イカロス		優しさのことを知らない私が……\n優しい……		
-SC32610.m15	msg	イカロス		不思議なものなのですね……\n優しさとは……		
+SC32610.m1	msg	イカロス		私は……優しいですか？	Am I... kind?	
+SC32610.m2	msg	そはら		な、なななな……\nど、どうなのかな？	Wh-wh-wh-what... I-I wonder?	
+SC32610.m3	msg	イカロス		マスターにそう言われて……\nでも、その意味がよくわからなくて……	Master told me so... but I do not really understand what it means...	
+SC32610.m4	msg	智樹		いやあ、悪い。\n俺にもうまく説明できなくてさー。	Yeah, sorry. I couldn't explain it very well myself.	
+SC32610.m5	msg	そはら		うーん……たしかに、あらためて考えると\n優しさを説明するのは難しいよね。	Hmm... You're right, when you really think about it, kindness is hard to explain.	
+SC32610.m6	msg	そはら		私もイカロスさんは\n優しいと思うけどなあ。	I think you're kind too, Ikaros-san.	
+SC32610.m7	msg	イカロス		私の……どこが\n優しいのですか……？	What part of me... is kind...?	
+SC32610.m8	msg	そはら		えっと……落ち着いていて……\n物静かで……友達思いなところ……	Um... You're calm... quiet... and you care about your friends...	
+SC32610.m9	msg	そはら		うん……友達思いが一番近いかな。	Yeah... Caring about your friends is the closest, I think.	
+SC32610.m10	msg	そはら		誰かのために本気で行動できることが、\n優しさなんじゃないかな？	Being able to act with all your heart for someone else... isn't that what kindness is?	
+SC32610.m11	msg	イカロス		私は……誰かのために\n本気になれていますか？	Am I... giving my all for someone else?	
+SC32610.m12	msg	そはら		トモちゃんやニンフさんを\n助けるためにがんばってたじゃない。	You worked so hard to help Tomo-chan and Nymph-san, didn't you?	
+SC32610.m13	msg	そはら		イカロスさんは優しい人だよ！	You're a kind person, Ikaros-san!	
+SC32610.m14	msg	イカロス		優しさのことを知らない私が……\n優しい……	I, who do not know what kindness is... am kind...	
+SC32610.m15	msg	イカロス		不思議なものなのですね……\n優しさとは……	It is a strange thing... kindness...	

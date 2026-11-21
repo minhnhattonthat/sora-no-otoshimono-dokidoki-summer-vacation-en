@@ -1,11 +1,11 @@
 id	kind	speaker	max	jp	en	notes
-SC20081.m1	msg	智樹		とりあえず作り笑いでいいから、\n形から入ってみようぜ。		
-SC20081.m2	msg	イカロス		ニヤリ……		
-SC20081.m3	msg	ニンフ		で、ここから眉毛をもっと上げてみて？		
-SC20081.m4	msg	智樹		口のはじっこを持ち上げてみろ。クイッと。		
-SC20081.m5	msg	ニンフ		それから目元を下げて……		
-SC20081.m6	msg	イカロス		こうですか……？		
-SC20081.m7	msg	ニンフ		そうそう！　いい感じ！		
-SC20081.m8	msg	智樹		あとはこう……ニコッと！		
-SC20081.m9	msg	イカロス		ニコッ……		
-SC20081.m10	msg	智樹		なんでそうなるー！		
+SC20081.m1	msg	智樹		とりあえず作り笑いでいいから、\n形から入ってみようぜ。	For now, a fake smile is fine. Let's start with the shape of it.	
+SC20081.m2	msg	イカロス		ニヤリ……	Grin...	
+SC20081.m3	msg	ニンフ		で、ここから眉毛をもっと上げてみて？	Okay, now try raising your eyebrows more?	
+SC20081.m4	msg	智樹		口のはじっこを持ち上げてみろ。クイッと。	Lift the corners of your mouth. Like, hup.	
+SC20081.m5	msg	ニンフ		それから目元を下げて……	Then lower the corners of your eyes...	
+SC20081.m6	msg	イカロス		こうですか……？	Like this...?	
+SC20081.m7	msg	ニンフ		そうそう！　いい感じ！	Yeah, yeah! Looking good!	
+SC20081.m8	msg	智樹		あとはこう……ニコッと！	And then like this... Smile!	
+SC20081.m9	msg	イカロス		ニコッ……	Smile...	
+SC20081.m10	msg	智樹		なんでそうなるー！	How'd it turn into THAT?!	

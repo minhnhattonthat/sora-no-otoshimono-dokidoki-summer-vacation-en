@@ -1,15 +1,15 @@
 id	kind	speaker	max	jp	en	notes
-SC34500.m1	msg	智樹		では、ケンカとは\n何かを教える……けど……		
-SC34500.m2	msg	イカロス		……？		
-SC34500.m3	msg	智樹		こいつとまともにケンカしたら\nただじゃ済まないだろうな……		
-SC34500.m4	msg	智樹		ケンカの前に口げんかを教える！		
-SC34500.m5	msg	ニンフ		……意気地なしね。\nがんばってケンカしなさいよ。		
-SC34500.m6	msg	智樹		無茶言うな！　お前だって\nイカロス相手に殴り合いはできんだろ！		
-SC34500.m7	msg	ニンフ		トモキは男でしょ？\n根性見せたら？		
-SC34500.m8	msg	智樹		男である前に生身の人間じゃー！\nニンフこそ、エンジェロイドだろ！		
-SC34500.m9	msg	ニンフ		私は電子戦用だもん。戦略用の\nアルファーと戦うなんて御免よ。		
-SC34500.m10	msg	智樹		俺なんて、戦略用でも電子戦用でもない\n汎用ノーマルヒューマンだぞ！		
-SC34500.m11	msg	ニンフ		アンタは下世話用でしょ？		
-SC34500.m12	msg	智樹		なんだとー！		
-SC34500.m13	msg	ニンフ		何よ！		
-SC34500.m14	msg	イカロス		これが……口げんかですか……		
+SC34500.m1	msg	智樹		では、ケンカとは\n何かを教える……けど……	Now then, I'll teach you what a fight is... but...	
+SC34500.m2	msg	イカロス		……？	...?	
+SC34500.m3	msg	智樹		こいつとまともにケンカしたら\nただじゃ済まないだろうな……	If I got into a real fight with her, I wouldn't get out in one piece...	
+SC34500.m4	msg	智樹		ケンカの前に口げんかを教える！	Before fighting, I'll teach you arguing!	
+SC34500.m5	msg	ニンフ		……意気地なしね。\nがんばってケンカしなさいよ。	...Coward. Put some effort in and fight her.	
+SC34500.m6	msg	智樹		無茶言うな！　お前だって\nイカロス相手に殴り合いはできんだろ！	Don't be ridiculous! Even you couldn't trade punches with Ikaros!	
+SC34500.m7	msg	ニンフ		トモキは男でしょ？\n根性見せたら？	You're a man, aren't you, Tomoki? Why not show some guts?	
+SC34500.m8	msg	智樹		男である前に生身の人間じゃー！\nニンフこそ、エンジェロイドだろ！	Before I'm a man, I'm flesh and blood! Nymph, you're the Angeloid here!	
+SC34500.m9	msg	ニンフ		私は電子戦用だもん。戦略用の\nアルファーと戦うなんて御免よ。	I'm an electronic-warfare type. No way am I fighting Alpha, she's a strategic type.	
+SC34500.m10	msg	智樹		俺なんて、戦略用でも電子戦用でもない\n汎用ノーマルヒューマンだぞ！	Well, I'm neither strategic nor electronic-warfare! I'm a general-purpose normal human!	
+SC34500.m11	msg	ニンフ		アンタは下世話用でしょ？	Aren't you a pervert type?	
+SC34500.m12	msg	智樹		なんだとー！	What was that?!	
+SC34500.m13	msg	ニンフ		何よ！	What?!	
+SC34500.m14	msg	イカロス		これが……口げんかですか……	So this... is an argument...	

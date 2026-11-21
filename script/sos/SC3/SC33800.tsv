@@ -1,18 +1,18 @@
 id	kind	speaker	max	jp	en	notes
-SC33800.m1	msg	智樹		いいか、イカロス。\n人を信じる心は大事なんだぞー。		
-SC33800.m2	msg	イカロス		なぜでしょうか？		
-SC33800.m3	msg	智樹		なぜって言われても……なんでだろうな？\n深く考えたことがなかった……		
-SC33800.m4	msg	イカロス		……あの……？		
-SC33800.m5	msg	智樹		えーと……必要以上に人を疑ってると\nひねくれた人間になってしまうからな。		
-SC33800.m6	msg	智樹		素直な気持ちで人の言うことを\n聞けってことだ！		
-SC33800.m7	msg	イカロス		はい……わかりました……		
-SC33800.m8	msg	智樹		……ってことがあったんだ。		
-SC33800.m9	msg	そはら		その説明で合ってたのかな？\n難しいよね。		
-SC33800.m10	msg	智樹		うーん……ものを教えるのって、\n教える側にも能力がいるんだな。		
-SC33800.m11	msg	イカロス		マスター……		
-SC33800.m12	msg	智樹		イカロス？\nお前、なんでここに？		
-SC33800.m13	msg	イカロス		ハンコの場所がわからないので……\n教えていただこうと……		
-SC33800.m14	msg	智樹		ハンコ！？\nなんのために必要なんだ！？		
-SC33800.m15	msg	イカロス		新聞と……消火器と……サプリメントと……\nゴムひものセールスマンが待ってます……		
-SC33800.m16	msg	そはら		あ～……さっそく信じちゃいけないものを\n信じちゃってるみたいだね。		
-SC33800.m17	msg	智樹		えっとな、イカロス……\n信じる相手は選ばないといけないんだぞ！		
+SC33800.m1	msg	智樹		いいか、イカロス。\n人を信じる心は大事なんだぞー。	Listen, Ikaros. Trusting people is important.	
+SC33800.m2	msg	イカロス		なぜでしょうか？	Why is that?	
+SC33800.m3	msg	智樹		なぜって言われても……なんでだろうな？\n深く考えたことがなかった……	Why, you ask... Huh, why is it? I never really thought about it...	
+SC33800.m4	msg	イカロス		……あの……？	...Um...?	
+SC33800.m5	msg	智樹		えーと……必要以上に人を疑ってると\nひねくれた人間になってしまうからな。	Uhh... if you doubt people more than you need to, you'll turn into a twisted person.	
+SC33800.m6	msg	智樹		素直な気持ちで人の言うことを\n聞けってことだ！	So the point is, listen to what people say with an open heart!	
+SC33800.m7	msg	イカロス		はい……わかりました……	Yes... I understand...	
+SC33800.m8	msg	智樹		……ってことがあったんだ。	...So that's what happened.	
+SC33800.m9	msg	そはら		その説明で合ってたのかな？\n難しいよね。	I wonder if that explanation was right? It's tough, huh.	
+SC33800.m10	msg	智樹		うーん……ものを教えるのって、\n教える側にも能力がいるんだな。	Hmm... Teaching stuff takes skill on the teacher's side too, huh.	
+SC33800.m11	msg	イカロス		マスター……	Master...	
+SC33800.m12	msg	智樹		イカロス？\nお前、なんでここに？	Ikaros? What are you doing here?	
+SC33800.m13	msg	イカロス		ハンコの場所がわからないので……\n教えていただこうと……	I do not know where the name stamp is... so I came to ask you...	
+SC33800.m14	msg	智樹		ハンコ！？\nなんのために必要なんだ！？	The name stamp?! What do you need that for?!	
+SC33800.m15	msg	イカロス		新聞と……消火器と……サプリメントと……\nゴムひものセールスマンが待ってます……	Salesmen for newspapers... fire extinguishers... supplements... and elastic cord are waiting...	
+SC33800.m16	msg	そはら		あ～……さっそく信じちゃいけないものを\n信じちゃってるみたいだね。	Ahh... Looks like she's already trusting stuff she shouldn't.	
+SC33800.m17	msg	智樹		えっとな、イカロス……\n信じる相手は選ばないといけないんだぞ！	Uh, listen, Ikaros... You've gotta be picky about who you trust!	

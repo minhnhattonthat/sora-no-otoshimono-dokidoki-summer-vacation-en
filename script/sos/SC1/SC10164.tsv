@@ -1,13 +1,13 @@
 id	kind	speaker	max	jp	en	notes
-SC10164.m1	msg	智樹		人格が入れ替わった……？		
-SC10164.m2	msg	ニンフ		はい……		
-SC10164.m3	msg	イカロス		カードの効果が暴発して、\nこんなことになっちゃったの。		
-SC10164.m4	msg	智樹		で……元に戻す方法は？		
-SC10164.m5	msg	ニンフ		明日になればカードの効果が\n切れるかと……		
-SC10164.m6	msg	イカロス		今日１日はこのままね。		
-SC10164.m7	msg	智樹		……じゃあ、そうするしかないか。\nとりあえずメシにしようぜ、イカロス。		
-SC10164.m8	msg	ニンフ		了解しました。		
-SC10164.m9	msg	智樹		あ、そっちがイカロスだったな。\nなんか新鮮だな……		
-SC10164.m10	msg	イカロス		トモキ、どうだった、私のアルファーは？\nドキドキした？		
-SC10164.m11	msg	智樹		お前はお前で適応しすぎだろ……\n心臓に悪いことすんなよ。		
-SC10164.m12	msg	智樹		（しかし、おしゃべりなイカロスって\n　ものすごい違和感だな……）		
+SC10164.m1	msg	智樹		人格が入れ替わった……？	You swapped personalities...?	
+SC10164.m2	msg	ニンフ		はい……	Yes...	
+SC10164.m3	msg	イカロス		カードの効果が暴発して、\nこんなことになっちゃったの。	The card's effect went haywire, and this is what happened.	
+SC10164.m4	msg	智樹		で……元に戻す方法は？	So... how do we change you back?	
+SC10164.m5	msg	ニンフ		明日になればカードの効果が\n切れるかと……	I believe the card's effect should wear off by tomorrow...	
+SC10164.m6	msg	イカロス		今日１日はこのままね。	So we're stuck like this for today.	
+SC10164.m7	msg	智樹		……じゃあ、そうするしかないか。\nとりあえずメシにしようぜ、イカロス。	...Guess there's nothing else we can do, then. Let's have dinner for now, Ikaros.	
+SC10164.m8	msg	ニンフ		了解しました。	Understood.	
+SC10164.m9	msg	智樹		あ、そっちがイカロスだったな。\nなんか新鮮だな……	Oh, right, that one's Ikaros. This is kinda new...	
+SC10164.m10	msg	イカロス		トモキ、どうだった、私のアルファーは？\nドキドキした？	Tomoki, how was my Alpha impression? Did it make your heart pound?	
+SC10164.m11	msg	智樹		お前はお前で適応しすぎだろ……\n心臓に悪いことすんなよ。	And you're adapting way too well... Quit doing stuff that's bad for my heart.	
+SC10164.m12	msg	智樹		（しかし、おしゃべりなイカロスって\n　ものすごい違和感だな……）	(Still, a chatty Ikaros feels seriously wrong...)	

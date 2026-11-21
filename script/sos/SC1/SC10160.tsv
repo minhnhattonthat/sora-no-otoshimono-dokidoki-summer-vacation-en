@@ -1,24 +1,24 @@
 id	kind	speaker	max	jp	en	notes
-SC10160.m1	msg	ニンフ		ない。ない……		
-SC10160.m2	msg	イカロス		どうしたの……？		
-SC10160.m3	msg	ニンフ		お菓子がない……\nアルファー、お菓子のストックは？		
-SC10160.m4	msg	イカロス		あ……もう買ってないの……		
-SC10160.m5	msg	ニンフ		仕方ないわね。\nじゃあスーパーで買ってくるわ。		
-SC10160.m6	msg	イカロス		それが……今日はお休みで……		
-SC10160.m7	msg	ニンフ		え……ってことは、\n今日はもうお菓子抜き！？		
-SC10160.m8	msg	ニンフ		もー！　アルファー、ちょっと\nカード１枚貸して！		
-SC10160.m9	msg	イカロス		え……？		
-SC10160.m10	msg	ニンフ		量子変換器でお菓子を作るの！		
-SC10160.m11	msg	イカロス		待ってニンフ、\nそのカードは違う……！		
-SC10160.m12	msg	ニンフ		へ？　あっ……\nきゃあああああああっ！		
-SC10160.m13	msg	イカロス		あ……！		
-SC10160.m14	msg	智樹		ただいまーっ……と。		
-SC10160.m15	msg	イカロス		おかえりなさい、トモキ。		
-SC10160.m16	msg	智樹		おう、ただいま、イカロス。\n……今、俺のことトモキって呼んだか？		
-SC10160.m17	msg	イカロス		気のせいよ、気のせい。マスター……\nお風呂にする？　お食事？　それとも……私？		
-SC10160.m18	msg	智樹		おま……お前は何を言ってるんだ。		
-SC10160.m19	msg	イカロス		もう、そんなに固くなっちゃって。\n素直になっていいのよ……？		
-SC10160.m20	msg	智樹		（グ……グググ……やけに色っぽいぞ。\n　いつもと様子が違う……！？）		
-SC10160.m21	choice			やめろイカロス！		
-SC10160.m22	choice			助けてそはら！		
-SC10160.m23	choice			助けてニンフ！		
+SC10160.m1	msg	ニンフ		ない。ない……	It's gone. It's gone...	
+SC10160.m2	msg	イカロス		どうしたの……？	What's wrong...?	
+SC10160.m3	msg	ニンフ		お菓子がない……\nアルファー、お菓子のストックは？	The snacks are gone... Alpha, where's the snack stock?	
+SC10160.m4	msg	イカロス		あ……もう買ってないの……	Ah... I didn't buy any more...	
+SC10160.m5	msg	ニンフ		仕方ないわね。\nじゃあスーパーで買ってくるわ。	Can't be helped. I'll go buy some at the supermarket, then.	
+SC10160.m6	msg	イカロス		それが……今日はお休みで……	About that... it is closed today...	
+SC10160.m7	msg	ニンフ		え……ってことは、\n今日はもうお菓子抜き！？	Huh... So that means no more snacks today?!	
+SC10160.m8	msg	ニンフ		もー！　アルファー、ちょっと\nカード１枚貸して！	Ugh! Alpha, lend me one of your cards!	
+SC10160.m9	msg	イカロス		え……？	Huh...?	
+SC10160.m10	msg	ニンフ		量子変換器でお菓子を作るの！	I'll make snacks with the quantum converter!	
+SC10160.m11	msg	イカロス		待ってニンフ、\nそのカードは違う……！	Wait, Nymph, that is the wrong card...!	
+SC10160.m12	msg	ニンフ		へ？　あっ……\nきゃあああああああっ！	Huh? Oh... Kyaaaaaaaah!	
+SC10160.m13	msg	イカロス		あ……！	Ah...!	
+SC10160.m14	msg	智樹		ただいまーっ……と。	I'm hooome...	
+SC10160.m15	msg	イカロス		おかえりなさい、トモキ。	Welcome home, Tomoki.	
+SC10160.m16	msg	智樹		おう、ただいま、イカロス。\n……今、俺のことトモキって呼んだか？	Yo, I'm home, Ikaros. ...Wait, did you just call me Tomoki?	
+SC10160.m17	msg	イカロス		気のせいよ、気のせい。マスター……\nお風呂にする？　お食事？　それとも……私？	You're imagining it, imagining it. Master... Do you want a bath? Dinner? Or maybe... me?	
+SC10160.m18	msg	智樹		おま……お前は何を言ってるんだ。	Wh... what are you saying?	
+SC10160.m19	msg	イカロス		もう、そんなに固くなっちゃって。\n素直になっていいのよ……？	Geez, you're so stiff. You can be honest with me, you know...?	
+SC10160.m20	msg	智樹		（グ……グググ……やけに色っぽいぞ。\n　いつもと様子が違う……！？）	(Ngh... ngggh... She's awfully sexy. She's not acting like herself...?!)	
+SC10160.m21	choice			やめろイカロス！	Stop it, Ikaros!	
+SC10160.m22	choice			助けてそはら！	Help me, Sohara!	
+SC10160.m23	choice			助けてニンフ！	Help me, Nymph!	

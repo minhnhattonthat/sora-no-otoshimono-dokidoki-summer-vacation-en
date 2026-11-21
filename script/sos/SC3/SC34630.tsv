@@ -1,14 +1,14 @@
 id	kind	speaker	max	jp	en	notes
-SC34630.m1	msg	イカロス		マスター、約束とは……\n決して破らない契約のことですよね？		
-SC34630.m2	msg	智樹		うん?　ああ……だいたいそんなところだな。\nそれがどうかしたのか？		
-SC34630.m3	msg	イカロス		私……約束します。皆さんの努力に応え、\n必ず記憶を取り戻すと……		
-SC34630.m4	msg	智樹		あ……		
-SC34630.m5	msg	智樹		（こいつもこいつなりに気にしてたんだな。\n　みんなに迷惑かけてるって思ってるんだ……）		
-SC34630.m6	msg	智樹		……じゃあ俺も約束してやる。\nイカロスの記憶を必ず取り戻してみせる。		
-SC34630.m7	msg	イカロス		……マスター？		
-SC34630.m8	msg	智樹		お前ひとりで責任感じるなよ。\n元はと言えば俺の命令が原因なんだし。		
-SC34630.m9	msg	智樹		がんばろうな、イカロス！		
-SC34630.m10	msg	イカロス		はい……\nそれでは最後に約束の言葉を……		
-SC34630.m11	msg	智樹		ん？　約束の言葉？		
-SC34630.m12	msg	イカロス		ウソついたら……\n針千本……飲ませます……！		
-SC34630.m13	msg	智樹		（本気だ……！）		
+SC34630.m1	msg	イカロス		マスター、約束とは……\n決して破らない契約のことですよね？	Master, a promise is... a contract one must never break, correct?	
+SC34630.m2	msg	智樹		うん?　ああ……だいたいそんなところだな。\nそれがどうかしたのか？	Hm? Yeah... that's about right. What about it?	
+SC34630.m3	msg	イカロス		私……約束します。皆さんの努力に応え、\n必ず記憶を取り戻すと……	I... promise. To repay everyone's efforts, I will get my memories back, without fail...	
+SC34630.m4	msg	智樹		あ……	Ah...	
+SC34630.m5	msg	智樹		（こいつもこいつなりに気にしてたんだな。\n　みんなに迷惑かけてるって思ってるんだ……）	(She's been worrying about it in her own way. She thinks she's causing everyone trouble...)	
+SC34630.m6	msg	智樹		……じゃあ俺も約束してやる。\nイカロスの記憶を必ず取り戻してみせる。	...Then I'll make you a promise too. I'll get Ikaros's memories back, no matter what.	
+SC34630.m7	msg	イカロス		……マスター？	...Master?	
+SC34630.m8	msg	智樹		お前ひとりで責任感じるなよ。\n元はと言えば俺の命令が原因なんだし。	Don't go feeling responsible all by yourself. My order caused this in the first place.	
+SC34630.m9	msg	智樹		がんばろうな、イカロス！	Let's do our best, Ikaros!	
+SC34630.m10	msg	イカロス		はい……\nそれでは最後に約束の言葉を……	Yes... Then finally, the words of the promise...	
+SC34630.m11	msg	智樹		ん？　約束の言葉？	Hm? Words of the promise?	
+SC34630.m12	msg	イカロス		ウソついたら……\n針千本……飲ませます……！	If you lie... I will make you swallow... a thousand needles...!	
+SC34630.m13	msg	智樹		（本気だ……！）	(She means it...!)	

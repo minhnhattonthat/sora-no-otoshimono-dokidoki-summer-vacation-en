@@ -1,17 +1,17 @@
 id	kind	speaker	max	jp	en	notes
-SC32920.m1	msg	智樹		それでは会長。仁義についての講釈、\nよろしくお願いします！		
-SC32920.m2	msg	美香子		イカロスちゃん。仁義には\n一宿一飯の恩というものがあって……		
-SC32920.m3	msg	美香子		食事と宿を提供してもらった恩は\nなんらかのかたちで必ず返すしきたりがあるの。		
-SC32920.m4	msg	イカロス		なるほど……\n恩返し、ですね……		
-SC32920.m5	msg	美香子		イカロスちゃんも、\nうちでご飯を食べたわよねえ？		
-SC32920.m6	msg	智樹		あ……嫌な予感……		
-SC32920.m7	msg	美香子		ちょっと、うちと敵対している\n組があるんだけど……		
-SC32920.m8	msg	智樹		ストーップ！　会長！\nあんたイカロスに何させる気ですか！		
-SC32920.m9	msg	美香子		あら～。どういう意味？		
-SC32920.m10	msg	智樹		イカロスを突撃させようと\n思っていたでしょ！		
-SC32920.m11	msg	美香子		早とちりね～。イカロスちゃんに\nそんなことさせないわよ～。		
-SC32920.m12	msg	智樹		あ、そうなんですか？		
-SC32920.m13	msg	美香子		突撃してもらうのは桜井君よ～。\nあなたもご飯、食べたでしょ……？		
-SC32920.m14	msg	智樹		え……俺、ですか……？		
-SC32920.m15	msg	イカロス		マスター……ご武運を……		
-SC32920.m16	msg	智樹		俺は仁義なんて教わりたくない～！		
+SC32920.m1	msg	智樹		それでは会長。仁義についての講釈、\nよろしくお願いします！	Well then, President. Please enlighten us on the code of honor!	
+SC32920.m2	msg	美香子		イカロスちゃん。仁義には\n一宿一飯の恩というものがあって……	Ikaros-chan. The code has a rule about the debt of one night's lodging and one meal...	
+SC32920.m3	msg	美香子		食事と宿を提供してもらった恩は\nなんらかのかたちで必ず返すしきたりがあるの。	When someone gives you food and shelter, tradition says you must repay that debt, one way or another.	
+SC32920.m4	msg	イカロス		なるほど……\n恩返し、ですね……	I see... Repaying a kindness...	
+SC32920.m5	msg	美香子		イカロスちゃんも、\nうちでご飯を食べたわよねえ？	You've eaten at my house too, haven't you, Ikaros-chan?	
+SC32920.m6	msg	智樹		あ……嫌な予感……	Uh-oh... I've got a bad feeling about this...	
+SC32920.m7	msg	美香子		ちょっと、うちと敵対している\n組があるんだけど……	You see, there's a certain gang that's feuding with our family...	
+SC32920.m8	msg	智樹		ストーップ！　会長！\nあんたイカロスに何させる気ですか！	Stooop! President! What are you trying to make Ikaros do?!	
+SC32920.m9	msg	美香子		あら～。どういう意味？	Oh my... Whatever do you mean?	
+SC32920.m10	msg	智樹		イカロスを突撃させようと\n思っていたでしょ！	You were planning to send Ikaros in on a raid, weren't you!	
+SC32920.m11	msg	美香子		早とちりね～。イカロスちゃんに\nそんなことさせないわよ～。	Jumping to conclusions~. I'd never make Ikaros-chan do that~.	
+SC32920.m12	msg	智樹		あ、そうなんですか？	Oh, you wouldn't?	
+SC32920.m13	msg	美香子		突撃してもらうのは桜井君よ～。\nあなたもご飯、食べたでしょ……？	The one going in on the raid is you, Sakurai-kun~. You ate at my house too, didn't you...?	
+SC32920.m14	msg	智樹		え……俺、ですか……？	Wh... Me...?	
+SC32920.m15	msg	イカロス		マスター……ご武運を……	Master... good fortune in battle...	
+SC32920.m16	msg	智樹		俺は仁義なんて教わりたくない～！	I don't wanna learn about any code of honooor!	

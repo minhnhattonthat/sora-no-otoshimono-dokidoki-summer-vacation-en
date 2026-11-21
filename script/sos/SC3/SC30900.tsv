@@ -1,25 +1,25 @@
 id	kind	speaker	max	jp	en	notes
-SC30900.m1	msg	そはら		トモちゃーん！\n今度こそ許さないんだからー！		
-SC30900.m2	msg	智樹		どわーっ！　見えちゃったんだから\n仕方ないだろー！		
-SC30900.m3	msg	そはら		はあ、はあ……\n逃げ足が速いんだから……		
-SC30900.m4	msg	イカロス		あの……なぜ、そんなに\n怒ってらっしゃるのですか？		
-SC30900.m5	msg	そはら		その……トモちゃんに着替えを\nのぞかれちゃったの。		
-SC30900.m6	msg	そはら		まあ、油断してドアを\n閉め忘れた私も悪いんだけど……		
-SC30900.m7	msg	イカロス		それは……そんなに\n怒ることなのでしょうか……		
-SC30900.m8	msg	そはら		だって、恥ずかしいじゃない。		
-SC30900.m9	msg	イカロス		恥ずかしい……？		
-SC30900.m10	msg	そはら		女の子は、着替えを見られたら\n恥ずかしがるものなの！		
-SC30900.m11	msg	そはら		イカロスさんも、トモちゃんに\n恥ずかしいことされたらちゃんと怒るんだよ！		
-SC30900.m12	msg	イカロス		わかりました……		
-SC30900.m13	msg	智樹		おーい、イカロース。		
-SC30900.m14	msg	イカロス		お呼びでしょうか、マスター。		
-SC30900.m15	msg	智樹		銭湯のおばちゃんからお前にって\nお古のカーディガンもらったんだけどさ。		
-SC30900.m16	msg	智樹		サイズが合ってるかどうか、\nちょっと羽織ってみろよ。		
-SC30900.m17	msg	イカロス		……ここで、ですか？		
-SC30900.m18	msg	智樹		ん？　そうだな。\n似合うかどうか俺が見てやるよ。		
-SC30900.m19	msg	イカロス		着替えを見られるのは……\n恥ずかしいことです。		
-SC30900.m20	msg	智樹		は？		
-SC30900.m21	msg	イカロス		Ａｒｔｅｍｉｓ（永久追尾空対空弾）、\nロックオン……		
-SC30900.m22	msg	智樹		ま、待て！　なんで怒ってるんだ！？\n俺が何をした！！		
-SC30900.m23	msg	イカロス		発射。		
-SC30900.m24	msg	智樹		ギャーッ！！		
+SC30900.m1	msg	そはら		トモちゃーん！\n今度こそ許さないんだからー！	Tomo-chaaan! This time I'm not forgiving you!	
+SC30900.m2	msg	智樹		どわーっ！　見えちゃったんだから\n仕方ないだろー！	Gwaaah! I couldn't help it if I saw!	
+SC30900.m3	msg	そはら		はあ、はあ……\n逃げ足が速いんだから……	Haah, haah... He's so fast at running away...	
+SC30900.m4	msg	イカロス		あの……なぜ、そんなに\n怒ってらっしゃるのですか？	Um... why are you so angry?	
+SC30900.m5	msg	そはら		その……トモちゃんに着替えを\nのぞかれちゃったの。	Well... Tomo-chan peeked at me while I was changing.	
+SC30900.m6	msg	そはら		まあ、油断してドアを\n閉め忘れた私も悪いんだけど……	I mean, it's partly my fault for getting careless and forgetting to shut the door...	
+SC30900.m7	msg	イカロス		それは……そんなに\n怒ることなのでしょうか……	Is that... something to be so angry about...?	
+SC30900.m8	msg	そはら		だって、恥ずかしいじゃない。	Well, it's embarrassing, isn't it?	
+SC30900.m9	msg	イカロス		恥ずかしい……？	Embarrassing...?	
+SC30900.m10	msg	そはら		女の子は、着替えを見られたら\n恥ずかしがるものなの！	When a girl gets seen changing, she's supposed to be embarrassed!	
+SC30900.m11	msg	そはら		イカロスさんも、トモちゃんに\n恥ずかしいことされたらちゃんと怒るんだよ！	Ikaros-san, if Tomo-chan does anything embarrassing to you, you get properly angry too, okay?!	
+SC30900.m12	msg	イカロス		わかりました……	Understood...	
+SC30900.m13	msg	智樹		おーい、イカロース。	Heeey, Ikarooos.	
+SC30900.m14	msg	イカロス		お呼びでしょうか、マスター。	You called, Master?	
+SC30900.m15	msg	智樹		銭湯のおばちゃんからお前にって\nお古のカーディガンもらったんだけどさ。	The old lady at the bathhouse gave me a hand-me-down cardigan for you.	
+SC30900.m16	msg	智樹		サイズが合ってるかどうか、\nちょっと羽織ってみろよ。	Throw it on real quick and see if it fits.	
+SC30900.m17	msg	イカロス		……ここで、ですか？	...Here?	
+SC30900.m18	msg	智樹		ん？　そうだな。\n似合うかどうか俺が見てやるよ。	Hm? Yeah. I'll tell you if it looks good on you.	
+SC30900.m19	msg	イカロス		着替えを見られるのは……\n恥ずかしいことです。	Being seen changing... is embarrassing.	
+SC30900.m20	msg	智樹		は？	Huh?	
+SC30900.m21	msg	イカロス		Ａｒｔｅｍｉｓ（永久追尾空対空弾）、\nロックオン……	Artemis, locking on...	
+SC30900.m22	msg	智樹		ま、待て！　なんで怒ってるんだ！？\n俺が何をした！！	W-wait! Why are you mad?! What did I do?!	
+SC30900.m23	msg	イカロス		発射。	Fire.	
+SC30900.m24	msg	智樹		ギャーッ！！	Gyaaah!!	

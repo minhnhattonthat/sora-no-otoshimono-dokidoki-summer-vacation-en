@@ -1,25 +1,25 @@
 id	kind	speaker	max	jp	en	notes
-SC32620.m1	msg	智樹		あれ、イカロスどこに行ったんだろう？		
-SC32620.m2	msg	美香子		イカロスちゃん、\n優しさを知る方法を教えてあげるわね……		
-SC32620.m3	msg	美香子		ベッドに入って、桜井君に手招き……\nそれから「優しくしてね」と言うのよ～。		
-SC32620.m4	msg	イカロス		……ウソですね。		
-SC32620.m5	msg	美香子		あら……？		
-SC32620.m6	msg	イカロス		マスターからあらかじめ\n言い聞かされました。		
-SC32620.m7	msg	イカロス		会長さんの話で「優しくしてね」という\n言葉が出てきたときは、ウソだと……		
-SC32620.m8	msg	美香子		あら……桜井君もなかなかやるわね～。		
-SC32620.m9	msg	美香子		じゃあ……\nこんな優しさはどうかしら～……？		
-SC32620.m10	msg	ニンフ		あったあった……		
-SC32620.m11	msg	智樹		あ……おい！\nニンフ、それ俺のゼリー！		
-SC32620.m12	msg	ニンフ		ちょっと、離してよ！\n残り１個しかないんだから！		
-SC32620.m13	msg	智樹		だからだろ！\nこれは渡さん！		
-SC32620.m14	msg	ニンフ		キャーッ！\nどこ触ってんのよ！		
-SC32620.m15	msg	智樹		グエッ！		
-SC32620.m16	msg	ニンフ		バカッ！		
-SC32620.m17	msg	智樹		いてて……ニンフのやつ\n思いきり突き飛ばしやがって……		
-SC32620.m18	msg	イカロス		…………		
-SC32620.m19	msg	智樹		ん……？　イカロス……？		
-SC32620.m20	msg	智樹		グ……グハッ……！		
-SC32620.m21	msg	イカロス		……いかがですか？		
-SC32620.m22	msg	智樹		え……何が……？		
-SC32620.m23	msg	イカロス		会長さんから……\nとどめを刺すのが優しさと……		
-SC32620.m24	msg	智樹		そ……そんな言葉も\nありましたね……ガクッ。		
+SC32620.m1	msg	智樹		あれ、イカロスどこに行ったんだろう？	Huh, where'd Ikaros go?	
+SC32620.m2	msg	美香子		イカロスちゃん、\n優しさを知る方法を教えてあげるわね……	Ikaros-chan, I'll teach you a way to learn about kindness...	
+SC32620.m3	msg	美香子		ベッドに入って、桜井君に手招き……\nそれから「優しくしてね」と言うのよ～。	Get into bed, beckon Sakurai-kun over... and then say "Be gentle with me"~.	
+SC32620.m4	msg	イカロス		……ウソですね。	...That is a lie.	
+SC32620.m5	msg	美香子		あら……？	Oh my...?	
+SC32620.m6	msg	イカロス		マスターからあらかじめ\n言い聞かされました。	Master warned me in advance.	
+SC32620.m7	msg	イカロス		会長さんの話で「優しくしてね」という\n言葉が出てきたときは、ウソだと……	He said that if the words "be gentle with me" came up when the President talked, it was a lie...	
+SC32620.m8	msg	美香子		あら……桜井君もなかなかやるわね～。	Oh my... Sakurai-kun's quite sharp, isn't he~.	
+SC32620.m9	msg	美香子		じゃあ……\nこんな優しさはどうかしら～……？	Well then... how about this kind of kindness~...?	
+SC32620.m10	msg	ニンフ		あったあった……	Found it, found it...	
+SC32620.m11	msg	智樹		あ……おい！\nニンフ、それ俺のゼリー！	Ah... hey! Nymph, that's my jelly!	
+SC32620.m12	msg	ニンフ		ちょっと、離してよ！\n残り１個しかないんだから！	Hey, let go! There's only one left!	
+SC32620.m13	msg	智樹		だからだろ！\nこれは渡さん！	That's exactly why! I'm not handing it over!	
+SC32620.m14	msg	ニンフ		キャーッ！\nどこ触ってんのよ！	Kyaaah! Where do you think you're touching?!	
+SC32620.m15	msg	智樹		グエッ！	Gweh!	
+SC32620.m16	msg	ニンフ		バカッ！	Idiot!	
+SC32620.m17	msg	智樹		いてて……ニンフのやつ\n思いきり突き飛ばしやがって……	Ow ow... Nymph shoved me with everything she had...	
+SC32620.m18	msg	イカロス		…………	......	
+SC32620.m19	msg	智樹		ん……？　イカロス……？	Hm...? Ikaros...?	
+SC32620.m20	msg	智樹		グ……グハッ……！	Gu... Gwahh...!	
+SC32620.m21	msg	イカロス		……いかがですか？	...How was that?	
+SC32620.m22	msg	智樹		え……何が……？	Huh... How was what...?	
+SC32620.m23	msg	イカロス		会長さんから……\nとどめを刺すのが優しさと……	The President said... that the kind thing is to put you out of your misery...	
+SC32620.m24	msg	智樹		そ……そんな言葉も\nありましたね……ガクッ。	Th... there is a saying like that... *thud*.	

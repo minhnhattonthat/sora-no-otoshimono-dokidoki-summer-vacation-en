@@ -1,15 +1,15 @@
 id	kind	speaker	max	jp	en	notes
-SC33700.m1	msg	イカロス		…………		
-SC33700.m2	msg	智樹		お前、こけしの首を\n抜いたり戻したりして楽しいか？		
-SC33700.m3	msg	イカロス		キュポンと抜ける音が……好きです……		
-SC33700.m4	msg	智樹		変わった趣味だよな、しかし……\nもっといろんなものに好奇心を持ってみろよ。		
-SC33700.m5	msg	イカロス		好奇心ですか……？		
-SC33700.m6	msg	智樹		そうだ。ちょっと色々飛び回って、\n好奇心が刺激されたものを集めてこいよ。		
-SC33700.m7	msg	智樹		広い視野で、色んなものを探すんだぞ。		
-SC33700.m8	msg	イカロス		了解しました。\nタイプアルファー、発進します……！		
-SC33700.m9	msg	智樹		はりきって飛んでいったな……		
-SC33700.m10	msg	イカロス		戻りました、マスター。		
-SC33700.m11	msg	智樹		おかえり……ウワーッ！？		
-SC33700.m12	msg	イカロス		日本全国の色んなこけしを\n集めてきました……		
-SC33700.m13	msg	智樹		色んなものっていうのは\nそういう意味じゃない！		
-SC33700.m14	msg	智樹		すぐ返してこい！　部屋中に\nこけしが立っているのは、なんか不気味だ！		
+SC33700.m1	msg	イカロス		…………	......	
+SC33700.m2	msg	智樹		お前、こけしの首を\n抜いたり戻したりして楽しいか？	Is it fun, popping that kokeshi's head off and on?	
+SC33700.m3	msg	イカロス		キュポンと抜ける音が……好きです……	I like... the "kyupon" sound it makes when it comes off...	
+SC33700.m4	msg	智樹		変わった趣味だよな、しかし……\nもっといろんなものに好奇心を持ってみろよ。	That's a weird hobby, though... Try getting curious about more stuff.	
+SC33700.m5	msg	イカロス		好奇心ですか……？	Curious...?	
+SC33700.m6	msg	智樹		そうだ。ちょっと色々飛び回って、\n好奇心が刺激されたものを集めてこいよ。	Yeah. Fly around a bit and collect things that spark your curiosity.	
+SC33700.m7	msg	智樹		広い視野で、色んなものを探すんだぞ。	Keep an open mind and look for all kinds of things, okay?	
+SC33700.m8	msg	イカロス		了解しました。\nタイプアルファー、発進します……！	Understood. Type Alpha, launching...!	
+SC33700.m9	msg	智樹		はりきって飛んでいったな……	Wow, she flew off all fired up...	
+SC33700.m10	msg	イカロス		戻りました、マスター。	I have returned, Master.	
+SC33700.m11	msg	智樹		おかえり……ウワーッ！？	Welcome back... Waaagh?!	
+SC33700.m12	msg	イカロス		日本全国の色んなこけしを\n集めてきました……	I collected all kinds of kokeshi from all over Japan...	
+SC33700.m13	msg	智樹		色んなものっていうのは\nそういう意味じゃない！	That's not what I meant by "all kinds of things"!	
+SC33700.m14	msg	智樹		すぐ返してこい！　部屋中に\nこけしが立っているのは、なんか不気味だ！	Take 'em back right now! Having kokeshi standing all over the room is kinda creepy!	

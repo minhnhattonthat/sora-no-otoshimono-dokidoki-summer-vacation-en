@@ -1,14 +1,14 @@
 id	kind	speaker	max	jp	en	notes
-SC33230.m1	msg	智樹		このハンググライダーで本当に\n新大陸まで行けるんスか？		
-SC33230.m2	msg	守形		行けるとも。行ってみせよう。		
-SC33230.m3	msg	イカロス		あの……よろしいでしょうか……		
-SC33230.m4	msg	守形		……なんだ？　何か質問か？		
-SC33230.m5	msg	イカロス		本当に行けるのかどうか……\n疑ってみたほうがいいのでは……		
-SC33230.m6	msg	守形		……ほう。		
-SC33230.m7	msg	智樹		ゲッ……！　イカロス、先輩を怒らせるな！		
-SC33230.m8	msg	イカロス		しかし、マスター……\n以前、まずは疑ってみることが大切と……		
-SC33230.m9	msg	守形		なるほどな……\n訂正しよう、イカロス。		
-SC33230.m10	msg	守形		このハンググライダーでは行けないかもしれん。\nしかし実験を繰り返し、いつかは行ってみせる。		
-SC33230.m11	msg	イカロス		仮に、絶対に行けないとしてもですか……？		
-SC33230.m12	msg	守形		そのときは、その「絶対」を疑おう。		
-SC33230.m13	msg	イカロス		なるほど……\n何を疑うかも人それぞれですね……		
+SC33230.m1	msg	智樹		このハンググライダーで本当に\n新大陸まで行けるんスか？	Can you really make it to the New World on this hang glider?	
+SC33230.m2	msg	守形		行けるとも。行ってみせよう。	I can. And I will.	
+SC33230.m3	msg	イカロス		あの……よろしいでしょうか……	Um... may I say something...	
+SC33230.m4	msg	守形		……なんだ？　何か質問か？	...What is it? A question?	
+SC33230.m5	msg	イカロス		本当に行けるのかどうか……\n疑ってみたほうがいいのでは……	Perhaps you should doubt... whether you can really make it...	
+SC33230.m6	msg	守形		……ほう。	...Oh?	
+SC33230.m7	msg	智樹		ゲッ……！　イカロス、先輩を怒らせるな！	Geh...! Ikaros, don't make Senpai mad!	
+SC33230.m8	msg	イカロス		しかし、マスター……\n以前、まずは疑ってみることが大切と……	But, Master... you said before that doubting first is what matters...	
+SC33230.m9	msg	守形		なるほどな……\n訂正しよう、イカロス。	I see... Let me correct myself, Ikaros.	
+SC33230.m10	msg	守形		このハンググライダーでは行けないかもしれん。\nしかし実験を繰り返し、いつかは行ってみせる。	I may not make it on this hang glider. But through repeated experiments, I will make it someday.	
+SC33230.m11	msg	イカロス		仮に、絶対に行けないとしてもですか……？	Even if, hypothetically, it were absolutely impossible...?	
+SC33230.m12	msg	守形		そのときは、その「絶対」を疑おう。	Then I would doubt that "absolutely."	
+SC33230.m13	msg	イカロス		なるほど……\n何を疑うかも人それぞれですね……	I see... What one doubts also differs from person to person...	

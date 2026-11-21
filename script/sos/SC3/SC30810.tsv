@@ -1,22 +1,22 @@
 id	kind	speaker	max	jp	en	notes
-SC30810.m1	msg	智樹		うーん、なんか肩重いな……		
-SC30810.m2	msg	守形		フム。このところトラブル続きだ、\nストレスが溜まっているのかもしれんな。		
-SC30810.m3	msg	智樹		先輩はストレスなんかとは無縁そうっスね。		
-SC30810.m4	msg	守形		そんなこともない。\n俺とてストレスを感じることはある。		
-SC30810.m5	msg	イカロス		あの……ストレスとはなんでしょう……		
-SC30810.m6	msg	守形		本来の意味とは少し違うが、\n簡単に説明すると、精神的負担のことだ。		
-SC30810.m7	msg	イカロス		精神的負担が……肉体にも\n悪影響を与えるのですね……		
-SC30810.m8	msg	守形		そのとおり。人の心と体は\n密接につながり、影響しあっている。		
-SC30810.m9	msg	守形		ゆえに、体を動かしてリフレッシュすれば\n心もまたリフレッシュするのだ。		
-SC30810.m10	msg	守形		智樹。ストレス解消にヨガでも\nやってみてはどうだ？		
-SC30810.m11	msg	智樹		ヨガねえ……\n俺、体かたいんで別にいいっス。		
-SC30810.m12	msg	守形		だからこそ\nやるものだと思うんだがな……		
-SC30810.m13	msg	イカロス		あの……その、ヨガというものを\n私に教えていただけないでしょうか……？		
-SC30810.m14	msg	守形		興味があるのか。ならば……いいだろう。		
-SC30810.m15	msg	守形		俺を信じてついてこい、イカロス！		
-SC30810.m16	msg	イカロス		はい……！		
-SC30810.m17	msg	智樹		で……その成果がそれか。		
-SC30810.m18	msg	イカロス		はい。関節部分を変則的に動作させることで\n通常の１．５倍の長さまで腕を伸ばせます。		
-SC30810.m19	msg	智樹		ヨガってそんなことできたっけ？		
-SC30810.m20	msg	イカロス		家事をするのに……便利です……		
-SC30810.m21	msg	智樹		腕を伸ばすな、心臓に悪い！　うう……\nますますストレスが溜まったような……		
+SC30810.m1	msg	智樹		うーん、なんか肩重いな……	Hmm, my shoulders feel kinda heavy...	
+SC30810.m2	msg	守形		フム。このところトラブル続きだ、\nストレスが溜まっているのかもしれんな。	Hmm. There's been one trouble after another lately. Stress may be building up in you.	
+SC30810.m3	msg	智樹		先輩はストレスなんかとは無縁そうっスね。	You don't seem like the type to ever get stressed, Senpai.	
+SC30810.m4	msg	守形		そんなこともない。\n俺とてストレスを感じることはある。	Not so. Even I feel stress at times.	
+SC30810.m5	msg	イカロス		あの……ストレスとはなんでしょう……	Um... what is stress...?	
+SC30810.m6	msg	守形		本来の意味とは少し違うが、\n簡単に説明すると、精神的負担のことだ。	It differs a little from the original meaning, but put simply, it's a mental burden.	
+SC30810.m7	msg	イカロス		精神的負担が……肉体にも\n悪影響を与えるのですね……	So a mental burden... has a bad effect on the body as well...	
+SC30810.m8	msg	守形		そのとおり。人の心と体は\n密接につながり、影響しあっている。	Exactly. The human mind and body are closely linked, and affect one another.	
+SC30810.m9	msg	守形		ゆえに、体を動かしてリフレッシュすれば\n心もまたリフレッシュするのだ。	Therefore, if you refresh the body by moving it, the mind is refreshed as well.	
+SC30810.m10	msg	守形		智樹。ストレス解消にヨガでも\nやってみてはどうだ？	Tomoki. Why not try yoga to relieve your stress?	
+SC30810.m11	msg	智樹		ヨガねえ……\n俺、体かたいんで別にいいっス。	Yoga, huh... I'm pretty stiff, so I'll pass.	
+SC30810.m12	msg	守形		だからこそ\nやるものだと思うんだがな……	That's precisely why you should do it, I'd think...	
+SC30810.m13	msg	イカロス		あの……その、ヨガというものを\n私に教えていただけないでしょうか……？	Um... would you... teach me this thing called yoga...?	
+SC30810.m14	msg	守形		興味があるのか。ならば……いいだろう。	You're interested? Then... very well.	
+SC30810.m15	msg	守形		俺を信じてついてこい、イカロス！	Trust me and follow, Ikaros!	
+SC30810.m16	msg	イカロス		はい……！	Yes...!	
+SC30810.m17	msg	智樹		で……その成果がそれか。	So... that's the result, huh.	
+SC30810.m18	msg	イカロス		はい。関節部分を変則的に動作させることで\n通常の１．５倍の長さまで腕を伸ばせます。	Yes. By moving my joints irregularly, I can extend my arms to 1.5 times their normal length.	
+SC30810.m19	msg	智樹		ヨガってそんなことできたっけ？	Since when can yoga do that?	
+SC30810.m20	msg	イカロス		家事をするのに……便利です……	It is... useful... for housework...	
+SC30810.m21	msg	智樹		腕を伸ばすな、心臓に悪い！　うう……\nますますストレスが溜まったような……	Stop stretching your arms, it's bad for my heart! Ugh... I feel even more stressed now...	

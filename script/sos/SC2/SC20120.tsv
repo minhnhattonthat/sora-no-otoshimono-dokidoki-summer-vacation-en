@@ -1,16 +1,16 @@
 id	kind	speaker	max	jp	en	notes
-SC20120.m1	msg	智樹		……あれ。トイレの電球が切れてるな。		
-SC20120.m2	msg	イカロス		失礼いたしました。そこだけ電球の\nメンテナンスを忘れていました……		
-SC20120.m3	msg	智樹		そっか。じゃあ後で頼むな。		
-SC20120.m4	msg	イカロス		はい、マスター。		
-SC20120.m5	msg	智樹		………ていうかあいつ、いつの間に\n電球のメンテナンスなんかしてたんだ。		
-SC20120.m6	msg	智樹		（よく考えたら俺、家のことを\n　イカロスに任せすぎじゃねーか？）		
-SC20120.m7	msg	智樹		（俺は毎日こんな感じだし、ニンフは\n　昼ドラ見てお菓子食ってるだけだもんな……）		
-SC20120.m8	msg	智樹		（炊事、洗濯、掃除、庭の手入れ……\n　全部あいつ１人にやらせてる……）		
-SC20120.m9	msg	智樹		イカロスくん、ちょっと来たまえ。		
-SC20120.m10	msg	イカロス		なんでしょうか？		
-SC20120.m11	msg	智樹		あー、その……いつも家事を\nがんばってくれてありがとな。		
-SC20120.m12	msg	智樹		お前にご褒美として……		
-SC20120.m13	choice			俺の手料理		
-SC20120.m14	choice			モノマネ		
-SC20120.m15	choice			マスター交代		
+SC20120.m1	msg	智樹		……あれ。トイレの電球が切れてるな。	...Huh. The bulb in the bathroom's burned out.	
+SC20120.m2	msg	イカロス		失礼いたしました。そこだけ電球の\nメンテナンスを忘れていました……	My apologies. That was the only bulb I forgot to maintain...	
+SC20120.m3	msg	智樹		そっか。じゃあ後で頼むな。	Oh. Then take care of it later, okay?	
+SC20120.m4	msg	イカロス		はい、マスター。	Yes, Master.	
+SC20120.m5	msg	智樹		………ていうかあいつ、いつの間に\n電球のメンテナンスなんかしてたんだ。	...Wait, since when has she been maintaining the light bulbs?	
+SC20120.m6	msg	智樹		（よく考えたら俺、家のことを\n　イカロスに任せすぎじゃねーか？）	(Come to think of it, am I leaving way too much of the housework to Ikaros?)	
+SC20120.m7	msg	智樹		（俺は毎日こんな感じだし、ニンフは\n　昼ドラ見てお菓子食ってるだけだもんな……）	(I'm like this every day, and all Nymph does is watch soaps and eat snacks...)	
+SC20120.m8	msg	智樹		（炊事、洗濯、掃除、庭の手入れ……\n　全部あいつ１人にやらせてる……）	(Cooking, laundry, cleaning, gardening... I'm making her do it all by herself...)	
+SC20120.m9	msg	智樹		イカロスくん、ちょっと来たまえ。	Ikaros-kun, come here a moment, if you would.	
+SC20120.m10	msg	イカロス		なんでしょうか？	What is it?	
+SC20120.m11	msg	智樹		あー、その……いつも家事を\nがんばってくれてありがとな。	Ah, well... Thanks for always working so hard on the housework.	
+SC20120.m12	msg	智樹		お前にご褒美として……	As a reward for you...	
+SC20120.m13	choice			俺の手料理	My home cooking	
+SC20120.m14	choice			モノマネ	Impressions	
+SC20120.m15	choice			マスター交代	Switch Master roles	

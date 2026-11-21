@@ -1,26 +1,26 @@
 id	kind	speaker	max	jp	en	notes
-SC34810.m1	msg	イカロス		マスター……私を見てください。		
-SC34810.m2	msg	智樹		なんだ？		
-SC34810.m3	msg	イカロス		ウフン。		
-SC34810.m4	msg	智樹		……故障か？　イカロス。		
-SC34810.m5	msg	イカロス		違ったみたい……\n誘惑は難しい……		
-SC34810.m6	msg	智樹		またおかしなものを見て勉強したみたいだな。\nじゃあ故障じゃないか……		
-SC34810.m7	msg	智樹		俺は疲れてるの。\n昼寝するから放っといてくれよ。		
-SC34810.m8	msg	イカロス		マスター……そちらに行ってもいいですか？		
-SC34810.m9	msg	智樹		そちらってどちらだよ。		
-SC34810.m10	msg	イカロス		ベッドをともにしてもよろしいでしょうか？		
-SC34810.m11	msg	智樹		ブフォッ！		
-SC34810.m12	msg	イカロス		マスターがお嫌でなければ……		
-SC34810.m13	msg	智樹		お前……俺が隠してる本を読んだな？		
-SC34810.m14	msg	イカロス		はい……マスターのお好きな状況を\n勉強したいと思いましたので……		
-SC34810.m15	msg	智樹		あのなあ。軽々しく\nいっしょに寝るなんて言うもんじゃないぞ！		
-SC34810.m16	msg	智樹		男と女がいっしょに寝るっていうのは、\n大変なことなんだぞ！		
-SC34810.m17	msg	イカロス		どう大変なのですか？		
-SC34810.m18	msg	智樹		そ、それはだな……えっと……その……\nええい、そんなことは知らんで良し！		
-SC34810.m19	msg	智樹		もういい、知らん！　俺は寝る！		
-SC34810.m20	msg	イカロス		はい、マスター。		
-SC34810.m21	msg	イカロス		…………		
-SC34810.m22	msg	智樹		……何してんだ？		
-SC34810.m23	msg	イカロス		私たちエンジェロイドは……\n眠るようには造られておりませんので……		
-SC34810.m24	msg	イカロス		ここで一晩中マスターを見守ることが、\n私にとっての就寝です。		
-SC34810.m25	msg	智樹		……結局何がしたいんだよ……		
+SC34810.m1	msg	イカロス		マスター……私を見てください。	Master... please look at me.	
+SC34810.m2	msg	智樹		なんだ？	What?	
+SC34810.m3	msg	イカロス		ウフン。	Ooh-hoon.	
+SC34810.m4	msg	智樹		……故障か？　イカロス。	...Are you malfunctioning, Ikaros?	
+SC34810.m5	msg	イカロス		違ったみたい……\n誘惑は難しい……	It seems that was wrong... Seduction is difficult...	
+SC34810.m6	msg	智樹		またおかしなものを見て勉強したみたいだな。\nじゃあ故障じゃないか……	Looks like you studied from something weird again. Guess you're not broken, then...	
+SC34810.m7	msg	智樹		俺は疲れてるの。\n昼寝するから放っといてくれよ。	I'm tired. I'm taking a nap, so leave me alone.	
+SC34810.m8	msg	イカロス		マスター……そちらに行ってもいいですか？	Master... may I come over there?	
+SC34810.m9	msg	智樹		そちらってどちらだよ。	Over where?	
+SC34810.m10	msg	イカロス		ベッドをともにしてもよろしいでしょうか？	May I share your bed?	
+SC34810.m11	msg	智樹		ブフォッ！	Bfffft!	
+SC34810.m12	msg	イカロス		マスターがお嫌でなければ……	If you do not mind, Master...	
+SC34810.m13	msg	智樹		お前……俺が隠してる本を読んだな？	You... read the books I've been hiding, didn't you?	
+SC34810.m14	msg	イカロス		はい……マスターのお好きな状況を\n勉強したいと思いましたので……	Yes... I wished to study the situations you like, Master...	
+SC34810.m15	msg	智樹		あのなあ。軽々しく\nいっしょに寝るなんて言うもんじゃないぞ！	Listen. You shouldn't go around casually saying you'll sleep with someone!	
+SC34810.m16	msg	智樹		男と女がいっしょに寝るっていうのは、\n大変なことなんだぞ！	A guy and a girl sleeping together is a big deal!	
+SC34810.m17	msg	イカロス		どう大変なのですか？	How is it a big deal?	
+SC34810.m18	msg	智樹		そ、それはだな……えっと……その……\nええい、そんなことは知らんで良し！	W-well, that's... uh... um... Argh, you don't need to know that!	
+SC34810.m19	msg	智樹		もういい、知らん！　俺は寝る！	Forget it, I don't know! I'm going to sleep!	
+SC34810.m20	msg	イカロス		はい、マスター。	Yes, Master.	
+SC34810.m21	msg	イカロス		…………	......	
+SC34810.m22	msg	智樹		……何してんだ？	...What're you doing?	
+SC34810.m23	msg	イカロス		私たちエンジェロイドは……\n眠るようには造られておりませんので……	We Angeloids... were not built to sleep...	
+SC34810.m24	msg	イカロス		ここで一晩中マスターを見守ることが、\n私にとっての就寝です。	Watching over you here all night, Master, is my way of going to bed.	
+SC34810.m25	msg	智樹		……結局何がしたいんだよ……	...So what did you even want...	

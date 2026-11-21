@@ -1,20 +1,20 @@
 id	kind	speaker	max	jp	en	notes
-SC31200.m1	msg	智樹		イカロスって何があっても\nほとんど顔色変えないよな……		
-SC31200.m2	msg	智樹		あいつもとっさの出来事だったら\nいつもと違う表情をするのかねえ。		
-SC31200.m3	msg	智樹		よし、いっちょ\nイカロスを驚かせてみるか！		
-SC31200.m4	msg	ニンフ		なにはりきってんの、トモキ？		
-SC31200.m5	msg	智樹		いいところに来たな。\nちょっと手伝え、ニンフ！		
-SC31200.m6	msg	ニンフ		あったわよ、金ダライ。これでいいの？		
-SC31200.m7	msg	智樹		よーし！　あとはそこに糸をひっかけて……		
-SC31200.m8	msg	智樹		よし、準備完了！		
-SC31200.m9	msg	智樹		これでイカロスが入ってきたら\n頭上に金ダライが落ちてくるぞー。		
-SC31200.m10	msg	ニンフ		そういう仕掛けなの？\n……大丈夫なのかしら。		
-SC31200.m11	msg	イカロス		ただいま……戻りました……		
-SC31200.m12	msg	智樹		おっ、いいタイミング！\nそこの糸を引け、ニンフ！		
-SC31200.m13	msg	ニンフ		これ？　えいっ。		
-SC31200.m14	msg	イカロス		……！		
-SC31200.m15	msg	智樹		……げほっ。		
-SC31200.m16	msg	イカロス		マスター！\n頭を上げないでください……！		
-SC31200.m17	msg	イカロス		何者かに襲撃されました。\n私の後ろに隠れていてください……！		
-SC31200.m18	msg	智樹		ち、違う……\nそうじゃなくて……		
-SC31200.m19	msg	ニンフ		ま、こうなるわよね。		
+SC31200.m1	msg	智樹		イカロスって何があっても\nほとんど顔色変えないよな……	Ikaros hardly ever changes her expression, no matter what happens...	
+SC31200.m2	msg	智樹		あいつもとっさの出来事だったら\nいつもと違う表情をするのかねえ。	I wonder if she'd make a different face if something caught her off guard.	
+SC31200.m3	msg	智樹		よし、いっちょ\nイカロスを驚かせてみるか！	All right, let's try giving Ikaros a scare!	
+SC31200.m4	msg	ニンフ		なにはりきってんの、トモキ？	What are you all fired up about, Tomoki?	
+SC31200.m5	msg	智樹		いいところに来たな。\nちょっと手伝え、ニンフ！	Good timing. Give me a hand, Nymph!	
+SC31200.m6	msg	ニンフ		あったわよ、金ダライ。これでいいの？	Found it, the metal washtub. This one okay?	
+SC31200.m7	msg	智樹		よーし！　あとはそこに糸をひっかけて……	All riiight! Now just hook the string there...	
+SC31200.m8	msg	智樹		よし、準備完了！	Okay, all set!	
+SC31200.m9	msg	智樹		これでイカロスが入ってきたら\n頭上に金ダライが落ちてくるぞー。	Now when Ikaros comes in, the washtub'll drop right on her head.	
+SC31200.m10	msg	ニンフ		そういう仕掛けなの？\n……大丈夫なのかしら。	That's the trick? ...Is this gonna be okay?	
+SC31200.m11	msg	イカロス		ただいま……戻りました……	I have... returned...	
+SC31200.m12	msg	智樹		おっ、いいタイミング！\nそこの糸を引け、ニンフ！	Ooh, perfect timing! Pull that string, Nymph!	
+SC31200.m13	msg	ニンフ		これ？　えいっ。	This one? Hup.	
+SC31200.m14	msg	イカロス		……！	...!	
+SC31200.m15	msg	智樹		……げほっ。	...Gehh.	
+SC31200.m16	msg	イカロス		マスター！\n頭を上げないでください……！	Master! Please keep your head down...!	
+SC31200.m17	msg	イカロス		何者かに襲撃されました。\n私の後ろに隠れていてください……！	We have been attacked by an unknown party. Please hide behind me...!	
+SC31200.m18	msg	智樹		ち、違う……\nそうじゃなくて……	N-no... that's not it...	
+SC31200.m19	msg	ニンフ		ま、こうなるわよね。	Well, figured it'd end up like this.	

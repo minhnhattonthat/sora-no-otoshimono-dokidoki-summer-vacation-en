@@ -1,17 +1,17 @@
 id	kind	speaker	max	jp	en	notes
-SC34030.m1	msg	智樹		新大陸部の畑、\nもうすぐ収穫っスね。		
-SC34030.m2	msg	守形		ああ……楽しみだな。		
-SC34030.m3	msg	イカロス		守形さん……楽しみとはなんでしょうか？		
-SC34030.m4	msg	守形		フム……？　今のイカロスにとっては\nそう難しい言葉ではないと思うがな。		
-SC34030.m5	msg	イカロス		そうでしょうか……		
-SC34030.m6	msg	守形		イカロスは智樹の家の庭に\nスイカ畑を作っていたな。		
-SC34030.m7	msg	イカロス		はい……		
-SC34030.m8	msg	守形		畑で育てるより、店で買ったほうが\n何倍も早くスイカを手に入れることができる。		
-SC34030.m9	msg	守形		しかし、イカロスはそうしなかった。\nなぜだ？		
-SC34030.m10	msg	イカロス		それは……\nなんといいますか……		
-SC34030.m11	msg	イカロス		……そちらのほうが、\n手に入ったときの喜びが大きいですから……		
-SC34030.m12	msg	守形		そこまでわかれば答えは近い。\n人は結果だけでなく過程を楽しむ生き物なのだ。		
-SC34030.m13	msg	守形		カボチャの種を渡そう。\nイカロスの手でここにまいてみないか。		
-SC34030.m14	msg	イカロス		……よろしいのですか？		
-SC34030.m15	msg	守形		ああ。ときどき水をやりに来るといい。		
-SC34030.m16	msg	イカロス		……はい。		
+SC34030.m1	msg	智樹		新大陸部の畑、\nもうすぐ収穫っスね。	The New World Discovery Club's field is almost ready to harvest, huh?	
+SC34030.m2	msg	守形		ああ……楽しみだな。	Yes... I'm looking forward to it.	
+SC34030.m3	msg	イカロス		守形さん……楽しみとはなんでしょうか？	Sugata-san... what does it mean to look forward to something?	
+SC34030.m4	msg	守形		フム……？　今のイカロスにとっては\nそう難しい言葉ではないと思うがな。	Hmm...? For Ikaros as she is now, I don't think that's such a difficult word.	
+SC34030.m5	msg	イカロス		そうでしょうか……	Is that so...	
+SC34030.m6	msg	守形		イカロスは智樹の家の庭に\nスイカ畑を作っていたな。	Ikaros, you made a watermelon patch in the yard of Tomoki's house.	
+SC34030.m7	msg	イカロス		はい……	Yes...	
+SC34030.m8	msg	守形		畑で育てるより、店で買ったほうが\n何倍も早くスイカを手に入れることができる。	Buying from a store would get you a watermelon many times faster than growing it in a field.	
+SC34030.m9	msg	守形		しかし、イカロスはそうしなかった。\nなぜだ？	But Ikaros, you didn't do that. Why?	
+SC34030.m10	msg	イカロス		それは……\nなんといいますか……	That is... how should I put it...	
+SC34030.m11	msg	イカロス		……そちらのほうが、\n手に入ったときの喜びが大きいですから……	...Because that way, the joy is greater when I finally have it...	
+SC34030.m12	msg	守形		そこまでわかれば答えは近い。\n人は結果だけでなく過程を楽しむ生き物なのだ。	If you understand that much, the answer is close. Humans are creatures who enjoy the process, not just the result.	
+SC34030.m13	msg	守形		カボチャの種を渡そう。\nイカロスの手でここにまいてみないか。	I'll give you some pumpkin seeds. Ikaros, why don't you try sowing them here with your own hands?	
+SC34030.m14	msg	イカロス		……よろしいのですか？	...Are you sure?	
+SC34030.m15	msg	守形		ああ。ときどき水をやりに来るといい。	Yes. Come by and water them now and then.	
+SC34030.m16	msg	イカロス		……はい。	...Yes.	

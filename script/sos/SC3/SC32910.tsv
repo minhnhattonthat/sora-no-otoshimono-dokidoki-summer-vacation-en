@@ -1,17 +1,17 @@
 id	kind	speaker	max	jp	en	notes
-SC32910.m1	msg	智樹		あれ、イカロスどこに行ったんだろう？		
-SC32910.m2	msg	美香子		仁義の心は\nどんなことにも当てはまるのよ～。		
-SC32910.m3	msg	イカロス		ふだんの生活にも……ですか？		
-SC32910.m4	msg	美香子		もちろんよ～。\nたとえば、礼節の心……		
-SC32910.m5	msg	美香子		受けた恩は必ず返す……\nそれが仁義というものよ～。		
-SC32910.m6	msg	イカロス		恩……？		
-SC32910.m7	msg	美香子		自分のためにしてもらったこと、\nと言えばいいかしら？		
-SC32910.m8	msg	イカロス		……恩を返す……		
-SC32910.m9	msg	智樹		……で、これがその、\n礼節の心ってやつか。		
-SC32910.m10	msg	イカロス		はい……今までいただいた\nラブレターなるものの返信を……		
-SC32910.m11	msg	智樹		あの、ゲタ箱にどっさり入ってたやつか。		
-SC32910.m12	msg	智樹		しかし……イカロスの手紙も\nラブレターに見えるんだけど？		
-SC32910.m13	msg	イカロス		ラブレターをいただいたのですから……\nラブレターを出し返します……		
-SC32910.m14	msg	智樹		そんなことしたら、お前に\n告白するやつがいっぱい出てくるぞ！		
-SC32910.m15	msg	イカロス		心配ありません。お断りしますので。		
-SC32910.m16	msg	智樹		俺が心配してるのは、２回失恋を\n味わうことになる男たちのほうだよ……		
+SC32910.m1	msg	智樹		あれ、イカロスどこに行ったんだろう？	Huh, where'd Ikaros go?	
+SC32910.m2	msg	美香子		仁義の心は\nどんなことにも当てはまるのよ～。	The spirit of the code applies to everything~.	
+SC32910.m3	msg	イカロス		ふだんの生活にも……ですか？	Even to... everyday life?	
+SC32910.m4	msg	美香子		もちろんよ～。\nたとえば、礼節の心……	Of course~. Courtesy, for example...	
+SC32910.m5	msg	美香子		受けた恩は必ず返す……\nそれが仁義というものよ～。	Always repay a debt of kindness... That's what the code of honor is all about~.	
+SC32910.m6	msg	イカロス		恩……？	A debt...?	
+SC32910.m7	msg	美香子		自分のためにしてもらったこと、\nと言えばいいかしら？	Something someone did for your sake, shall we say?	
+SC32910.m8	msg	イカロス		……恩を返す……	...Repaying a debt...	
+SC32910.m9	msg	智樹		……で、これがその、\n礼節の心ってやつか。	...So this is that, uh... courtesy thing.	
+SC32910.m10	msg	イカロス		はい……今までいただいた\nラブレターなるものの返信を……	Yes... replies to all the things called "love letters" I have received so far...	
+SC32910.m11	msg	智樹		あの、ゲタ箱にどっさり入ってたやつか。	Oh, the ones crammed into your shoe locker.	
+SC32910.m12	msg	智樹		しかし……イカロスの手紙も\nラブレターに見えるんだけど？	But... your letters look like love letters too, Ikaros.	
+SC32910.m13	msg	イカロス		ラブレターをいただいたのですから……\nラブレターを出し返します……	I received love letters... so I am sending love letters back...	
+SC32910.m14	msg	智樹		そんなことしたら、お前に\n告白するやつがいっぱい出てくるぞ！	If you do that, tons of guys are gonna confess to you!	
+SC32910.m15	msg	イカロス		心配ありません。お断りしますので。	No need to worry. I will turn them down.	
+SC32910.m16	msg	智樹		俺が心配してるのは、２回失恋を\n味わうことになる男たちのほうだよ……	The ones I'm worried about are the guys who'll get their hearts broken twice...	

@@ -1,8 +1,8 @@
 id	kind	speaker	max	jp	en	notes
-SC20002.m1	msg	そはら		イカロスさんが笑うくらい、面白いギャグを\n言える人がいればねえ……		
-SC20002.m2	msg	智樹		まったく心当たりがないな……\n仕方ない、ここは自分でなんとかするか。		
-SC20002.m3	msg	智樹		そはら、俺がボケたらツッコミを入れろよ。		
-SC20002.m4	msg	そはら		え……ええええっ！？\n私もやるの！？		
-SC20002.m5	msg	智樹		なんだ？　お前がボケたいのか？\n天然ボケだもんな、そはらは。		
-SC20002.m6	msg	そはら		誰が天然ボケよ！		
-SC20002.m7	msg	智樹		グフッ……！　どつき漫才にしちゃ\n破壊力がありすぎねーか……？		
+SC20002.m1	msg	そはら		イカロスさんが笑うくらい、面白いギャグを\n言える人がいればねえ……	If only there was someone who could tell a gag funny enough to make Ikaros-san laugh...	
+SC20002.m2	msg	智樹		まったく心当たりがないな……\n仕方ない、ここは自分でなんとかするか。	Can't think of anyone at all... Oh well, guess I'll handle it myself.	
+SC20002.m3	msg	智樹		そはら、俺がボケたらツッコミを入れろよ。	Sohara, when I do the funny bit, you play the straight man.	
+SC20002.m4	msg	そはら		え……ええええっ！？\n私もやるの！？	Wh... whaaaat?! I have to do it too?!	
+SC20002.m5	msg	智樹		なんだ？　お前がボケたいのか？\n天然ボケだもんな、そはらは。	What? You wanna be the funny one? I mean, you are a natural airhead, Sohara.	
+SC20002.m6	msg	そはら		誰が天然ボケよ！	Who are you calling an airhead?!	
+SC20002.m7	msg	智樹		グフッ……！　どつき漫才にしちゃ\n破壊力がありすぎねーか……？	Gwuh...! Isn't that a little too much firepower for slapstick comedy...?	

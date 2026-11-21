@@ -1,16 +1,16 @@
 id	kind	speaker	max	jp	en	notes
-SC10152.m1	msg	守形		……ということで、\n何かわかるか、見月？		
-SC10152.m2	msg	そはら		そんなこと言われても……\n心当たりなんてないですよ。		
-SC10152.m3	msg	そはら		それにしてもかわいい子ですね～。\n名前とか、わからないんですか？		
-SC10152.m4	msg	美香子		そうね～……\n英美郎なんてどうかしら～？		
-SC10152.m5	msg	守形		……美香子。なぜ俺の名前と\nお前の名前を混ぜて命名するんだ。		
-SC10152.m6	msg	美香子		あら、だって……ねえ？		
-SC10152.m7	msg	そはら		えっ……そうなんですか？		
-SC10152.m8	msg	美香子		ご想像にお任せするわ～。		
-SC10152.m9	msg	守形		任せるな。違うだろう。		
-SC10152.m10	msg	美香子		冗談よ～。パパはすぐムキになるんだから。\nねえ、はじめ君？		
-SC10152.m11	msg	守形		誰がパパだ……いや、ちょっと待て。\nはじめ君とは？		
-SC10152.m12	msg	美香子		ほら、服に名札が付いているわ。\nはじめ君って書いているでしょう？		
-SC10152.m13	msg	守形		フム……となると、この赤ん坊は\n地上の人間である可能性が高いな。		
-SC10152.m14	msg	守形		河原に戻るぞ、美香子。		
-SC10152.m15	msg	美香子		ふふっ。名探偵が何か\nひらめいたみたいね。		
+SC10152.m1	msg	守形		……ということで、\n何かわかるか、見月？	...And so, any ideas, Mitsuki?	
+SC10152.m2	msg	そはら		そんなこと言われても……\n心当たりなんてないですよ。	Even if you ask me... I don't have a clue.	
+SC10152.m3	msg	そはら		それにしてもかわいい子ですね～。\n名前とか、わからないんですか？	But what a cute baby~. Don't you know its name or anything?	
+SC10152.m4	msg	美香子		そうね～……\n英美郎なんてどうかしら～？	Let's see~... How about Eimiro~?	
+SC10152.m5	msg	守形		……美香子。なぜ俺の名前と\nお前の名前を混ぜて命名するんだ。	...Mikako. Why are you naming it by mixing my name with yours?	
+SC10152.m6	msg	美香子		あら、だって……ねえ？	Oh my, well... you know?	
+SC10152.m7	msg	そはら		えっ……そうなんですか？	Huh... Is that so?	
+SC10152.m8	msg	美香子		ご想像にお任せするわ～。	I'll leave that to your imagination~.	
+SC10152.m9	msg	守形		任せるな。違うだろう。	Don't leave it to her. That is not so.	
+SC10152.m10	msg	美香子		冗談よ～。パパはすぐムキになるんだから。\nねえ、はじめ君？	Just kidding~. Daddy gets so worked up. Right, Hajime-kun?	
+SC10152.m11	msg	守形		誰がパパだ……いや、ちょっと待て。\nはじめ君とは？	Who's Daddy... No, wait a moment. Hajime-kun?	
+SC10152.m12	msg	美香子		ほら、服に名札が付いているわ。\nはじめ君って書いているでしょう？	Look, there's a name tag on his clothes. It says Hajime-kun, see?	
+SC10152.m13	msg	守形		フム……となると、この赤ん坊は\n地上の人間である可能性が高いな。	Hmm... In that case, it's highly likely this baby is a human from the surface.	
+SC10152.m14	msg	守形		河原に戻るぞ、美香子。	We're going back to the riverbank, Mikako.	
+SC10152.m15	msg	美香子		ふふっ。名探偵が何か\nひらめいたみたいね。	Fufu. Looks like the great detective's had a flash of inspiration.	

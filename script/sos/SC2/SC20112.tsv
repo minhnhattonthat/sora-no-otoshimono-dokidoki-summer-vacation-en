@@ -1,5 +1,5 @@
 id	kind	speaker	max	jp	en	notes
-SC20112.m1	msg	智樹		もしかしてそはらに何か言われたのか？		
-SC20112.m2	msg	智樹		チョップを食らって故障したとか！		
-SC20112.m3	msg	イカロス		いえ、そはらさんは、私に……\nマスターの優しさを気づかせてくれて……		
-SC20112.m4	msg	智樹		え、なんだって？		
+SC20112.m1	msg	智樹		もしかしてそはらに何か言われたのか？	Don't tell me Sohara said something to you?	
+SC20112.m2	msg	智樹		チョップを食らって故障したとか！	Or you took one of her chops and broke down!	
+SC20112.m3	msg	イカロス		いえ、そはらさんは、私に……\nマスターの優しさを気づかせてくれて……	No, Sohara-san made me... realize how kind you are, Master...	
+SC20112.m4	msg	智樹		え、なんだって？	Huh, what was that?	

@@ -1,29 +1,29 @@
 id	kind	speaker	max	jp	en	notes
-SC10150.m1	msg	守形		……美香子。		
-SC10150.m2	msg	美香子		なあに～？　英くん。		
-SC10150.m3	msg	守形		今日は何をしに来たんだ？\n別に智樹もイカロスも来ていないが。		
-SC10150.m4	msg	美香子		英くんと遊ぼうと思ってきたのよ～。\n迷惑だった？		
-SC10150.m5	msg	守形		俺は別にヒマなわけじゃないんだが……		
-SC10150.m6	msg	美香子		私はヒマなのよ～。		
-SC10150.m7	msg	守形		……そうか。		
-SC10150.m8	msg	美香子		英くん、何か面白いことしてくれない？		
-SC10150.m9	msg	守形		なかなかハードルの高い注文だな……\nならば、こういう趣向はどうだ？		
-SC10150.m10	msg	美香子		あら……？\nそれ、イカロスちゃんのカードじゃない。		
-SC10150.m11	msg	守形		以前イカロスから個人的にもらったものだ。\nこれを使わせてもらうとしよう。		
-SC10150.m12	msg	守形		……何か面白いことを頼む……！		
-SC10150.m13	msg	美香子		きゃっ……！？		
-SC10150.m14	msg	守形		これは……！		
-SC10150.m15	msg	美香子		隕石が……空から落ちてきた？		
-SC10150.m16	msg	守形		ウム……これは間違いないな。		
-SC10150.m17	msg	守形		俺の求めに応えて落ちてきたのだ。\n新大陸のカケラが！		
-SC10150.m18	msg	美香子		何かが動いている……\n新大陸の住人かしら～？		
-SC10150.m19	msg	美香子		見て……赤ちゃんよ。\n眠っているのかしら？		
-SC10150.m20	msg	守形		どういうことだ……？\n隕石に乗っていたのか……？		
-SC10150.m21	msg	守形		まさか新大陸の住人……？\nしかし……		
-SC10150.m22	msg	美香子		抱いてやって、英くん……\nあなたの子よ……		
-SC10150.m23	msg	守形		……子どもを作った覚えはないが。		
-SC10150.m24	msg	美香子		わかってるわ～。\n言ってみたかっただけよ～。		
-SC10150.m25	msg	守形		フー……とりあえず、\nこの子をどうするかだな。		
-SC10150.m26	choice			ニンフに相談		
-SC10150.m27	choice			見月に相談		
-SC10150.m28	choice			イカロスに相談		
+SC10150.m1	msg	守形		……美香子。	...Mikako.	
+SC10150.m2	msg	美香子		なあに～？　英くん。	Whaaat~? Ei-kun.	
+SC10150.m3	msg	守形		今日は何をしに来たんだ？\n別に智樹もイカロスも来ていないが。	What did you come here for today? Neither Tomoki nor Ikaros is here.	
+SC10150.m4	msg	美香子		英くんと遊ぼうと思ってきたのよ～。\n迷惑だった？	I came to play with you, Ei-kun~. Am I bothering you?	
+SC10150.m5	msg	守形		俺は別にヒマなわけじゃないんだが……	It's not as if I have free time, you know...	
+SC10150.m6	msg	美香子		私はヒマなのよ～。	But I have free time~.	
+SC10150.m7	msg	守形		……そうか。	...I see.	
+SC10150.m8	msg	美香子		英くん、何か面白いことしてくれない？	Ei-kun, won't you do something fun for me?	
+SC10150.m9	msg	守形		なかなかハードルの高い注文だな……\nならば、こういう趣向はどうだ？	That's quite a tall order... Then how about this idea?	
+SC10150.m10	msg	美香子		あら……？\nそれ、イカロスちゃんのカードじゃない。	Oh my...? Isn't that one of Ikaros-chan's cards?	
+SC10150.m11	msg	守形		以前イカロスから個人的にもらったものだ。\nこれを使わせてもらうとしよう。	Ikaros gave it to me personally some time ago. I'll put it to use.	
+SC10150.m12	msg	守形		……何か面白いことを頼む……！	...Something fun, please...!	
+SC10150.m13	msg	美香子		きゃっ……！？	Kyah...?!	
+SC10150.m14	msg	守形		これは……！	This is...!	
+SC10150.m15	msg	美香子		隕石が……空から落ちてきた？	A meteorite... fell from the sky?	
+SC10150.m16	msg	守形		ウム……これは間違いないな。	Hmm... There's no doubt about it.	
+SC10150.m17	msg	守形		俺の求めに応えて落ちてきたのだ。\n新大陸のカケラが！	It fell in answer to my call. A fragment of the New World!	
+SC10150.m18	msg	美香子		何かが動いている……\n新大陸の住人かしら～？	Something's moving... I wonder if it's a resident of the New World~?	
+SC10150.m19	msg	美香子		見て……赤ちゃんよ。\n眠っているのかしら？	Look... it's a baby. I wonder if it's asleep?	
+SC10150.m20	msg	守形		どういうことだ……？\n隕石に乗っていたのか……？	What does this mean...? Was it riding the meteorite...?	
+SC10150.m21	msg	守形		まさか新大陸の住人……？\nしかし……	Could it be a resident of the New World...? But...	
+SC10150.m22	msg	美香子		抱いてやって、英くん……\nあなたの子よ……	Hold it, Ei-kun... It's your child...	
+SC10150.m23	msg	守形		……子どもを作った覚えはないが。	...I have no memory of making a child.	
+SC10150.m24	msg	美香子		わかってるわ～。\n言ってみたかっただけよ～。	I know~. I just wanted to say it~.	
+SC10150.m25	msg	守形		フー……とりあえず、\nこの子をどうするかだな。	Phew... First, we must decide what to do with this child.	
+SC10150.m26	choice			ニンフに相談	Ask Nymph	
+SC10150.m27	choice			見月に相談	Ask Mitsuki	
+SC10150.m28	choice			イカロスに相談	Ask Ikaros	

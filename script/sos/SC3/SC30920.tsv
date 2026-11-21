@@ -1,18 +1,18 @@
 id	kind	speaker	max	jp	en	notes
-SC30920.m1	msg	智樹		あれ、イカロスどこに行ったんだろう？		
-SC30920.m2	msg	そはら		う～ん。この水着はどうかな？\n子どもっぽすぎて恥ずかしいかな。		
-SC30920.m3	msg	イカロス		私にカタログを見せられましても……\nデザインの良し悪しの判断は……		
-SC30920.m4	msg	そはら		そんなこと言わずに\nイカロスさんも選んでよ！		
-SC30920.m5	msg	そはら		ね。ね。\nこっちに載ってるのはどうかな？		
-SC30920.m6	msg	イカロス		……ほかの水着に比べて……\n表面積が小さいですね……		
-SC30920.m7	msg	そはら		そうだね……たしかに、かわいいけど\n自分で着るのは恥ずかしいかも……		
-SC30920.m8	msg	イカロス		先ほどの水着も恥ずかしくて……\nこの水着も恥ずかしいのですか……？		
-SC30920.m9	msg	智樹		そはら、イカロス見なかったかー？\n……って、ここにいたのか。		
-SC30920.m10	msg	智樹		なんの話をしてたんだ？		
-SC30920.m11	msg	イカロス		マスター。この水着は……\n恥ずかしいですか？		
-SC30920.m12	msg	智樹		いきなりなんだ！？　そ、そうだな……\nそ、そんなことないんじゃないか？		
-SC30920.m13	msg	イカロス		本当ですか……？\nそはらさんが着ても恥ずかしくないですか？		
-SC30920.m14	msg	智樹		え……うーん、そうだなあ……		
-SC30920.m15	msg	そはら		ちょっと！　想像しないでよ、トモちゃん！\nイカロスさんもやめてよ、恥ずかしいでしょ！		
-SC30920.m16	msg	イカロス		水着を着なくても……\n想像されるだけで恥ずかしい……？		
-SC30920.m17	msg	イカロス		複雑な感情なのですね……		
+SC30920.m1	msg	智樹		あれ、イカロスどこに行ったんだろう？	Huh, where'd Ikaros go?	
+SC30920.m2	msg	そはら		う～ん。この水着はどうかな？\n子どもっぽすぎて恥ずかしいかな。	Hmmm. How about this swimsuit? Is it too childish? Would that be embarrassing?	
+SC30920.m3	msg	イカロス		私にカタログを見せられましても……\nデザインの良し悪しの判断は……	Even if you show me the catalog... judging whether a design is good or bad...	
+SC30920.m4	msg	そはら		そんなこと言わずに\nイカロスさんも選んでよ！	Don't say that! Help me pick, Ikaros-san!	
+SC30920.m5	msg	そはら		ね。ね。\nこっちに載ってるのはどうかな？	C'mon, c'mon. What about the one on this page?	
+SC30920.m6	msg	イカロス		……ほかの水着に比べて……\n表面積が小さいですね……	...Compared to the other swimsuits... its surface area is small...	
+SC30920.m7	msg	そはら		そうだね……たしかに、かわいいけど\n自分で着るのは恥ずかしいかも……	Yeah... It's cute, for sure, but wearing it myself might be embarrassing...	
+SC30920.m8	msg	イカロス		先ほどの水着も恥ずかしくて……\nこの水着も恥ずかしいのですか……？	The previous swimsuit was embarrassing... and this swimsuit is embarrassing too...?	
+SC30920.m9	msg	智樹		そはら、イカロス見なかったかー？\n……って、ここにいたのか。	Sohara, have you seen Ikaros? ...Oh, there you are.	
+SC30920.m10	msg	智樹		なんの話をしてたんだ？	What were you two talking about?	
+SC30920.m11	msg	イカロス		マスター。この水着は……\n恥ずかしいですか？	Master. Is this swimsuit... embarrassing?	
+SC30920.m12	msg	智樹		いきなりなんだ！？　そ、そうだな……\nそ、そんなことないんじゃないか？	Where'd that come from?! W-well... I-I don't think it is, do you?	
+SC30920.m13	msg	イカロス		本当ですか……？\nそはらさんが着ても恥ずかしくないですか？	Really...? Even if Sohara-san wore it, it would not be embarrassing?	
+SC30920.m14	msg	智樹		え……うーん、そうだなあ……	Huh... Hmm, let me see...	
+SC30920.m15	msg	そはら		ちょっと！　想像しないでよ、トモちゃん！\nイカロスさんもやめてよ、恥ずかしいでしょ！	Hey! Don't imagine it, Tomo-chan! You stop too, Ikaros-san, that's embarrassing!	
+SC30920.m16	msg	イカロス		水着を着なくても……\n想像されるだけで恥ずかしい……？	Even without wearing the swimsuit... just being imagined in it is embarrassing...?	
+SC30920.m17	msg	イカロス		複雑な感情なのですね……	It is a complicated emotion...	

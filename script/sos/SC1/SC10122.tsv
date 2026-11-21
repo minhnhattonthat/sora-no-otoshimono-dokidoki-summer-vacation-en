@@ -1,8 +1,8 @@
 id	kind	speaker	max	jp	en	notes
-SC10122.m1	msg	そはら		それって……\nトモちゃんが悪いんじゃない。		
-SC10122.m2	msg	智樹		ははは……反省してるって、そのことは。		
-SC10122.m3	msg	智樹		ニンフのやつ、怒ると大変なんだよ。\n機嫌を直してもらう方法があれば……		
-SC10122.m4	msg	そはら		え？　簡単じゃない。		
-SC10122.m5	msg	智樹		そうか？		
-SC10122.m6	msg	そはら		自分が悪いことをちゃんと認めて、\n怒った理由をつぐなえばいいんじゃないかな。		
-SC10122.m7	msg	智樹		つぐなうって言っても……あ、そうか。		
+SC10122.m1	msg	そはら		それって……\nトモちゃんが悪いんじゃない。	Well... that's your fault, Tomo-chan.	
+SC10122.m2	msg	智樹		ははは……反省してるって、そのことは。	Hahaha... I know, I'm sorry about that part.	
+SC10122.m3	msg	智樹		ニンフのやつ、怒ると大変なんだよ。\n機嫌を直してもらう方法があれば……	Nymph's a real handful when she's mad. If there was just some way to cheer her up...	
+SC10122.m4	msg	そはら		え？　簡単じゃない。	Huh? That's easy.	
+SC10122.m5	msg	智樹		そうか？	It is?	
+SC10122.m6	msg	そはら		自分が悪いことをちゃんと認めて、\n怒った理由をつぐなえばいいんじゃないかな。	Just admit you were wrong, and make up for what made her angry, don't you think?	
+SC10122.m7	msg	智樹		つぐなうって言っても……あ、そうか。	Make up for it... Oh, I get it.	

@@ -1,15 +1,15 @@
 id	kind	speaker	max	jp	en	notes
-SC32500.m1	msg	智樹		校舎が改築されてる……		
-SC32500.m2	msg	智樹		うう……とうとう最後の\nノゾキスポットがなくなってしまったか……		
-SC32500.m3	msg	智樹		階段の下から見上げるスカートの中……\nあのアングルが最高だったのに……！		
-SC32500.m4	msg	智樹		クソッ！		
-SC32500.m5	msg	イカロス		あの、マスター……\n今、なぜ地面を蹴ったのですか？		
-SC32500.m6	msg	智樹		なんでもねーよ。\n単なる八つ当たりだよ。		
-SC32500.m7	msg	イカロス		八つ当たり……\nこうですか……？		
-SC32500.m8	msg	智樹		お、お前は……\nグラウンドに穴を開けるなー！		
-SC32500.m9	msg	美香子		そうよー、桜井君……八つ当たりで\nグラウンドに穴を開けるなんて……		
-SC32500.m10	msg	智樹		か、会長！		
-SC32500.m11	msg	美香子		散歩の途中だったけど、見つけた以上は\nお仕置きしなくちゃいけないわよね～。		
-SC32500.m12	msg	智樹		神様……因果応報と呼ぶには\n報復がキツすぎるんじゃないですか……？		
-SC32500.m13	msg	美香子		ノゾキの件も話を聞かせてほしいわ～。\nさあ、こっちへいらっしゃい……		
-SC32500.m14	msg	智樹		フギャーッ！！		
+SC32500.m1	msg	智樹		校舎が改築されてる……	They're renovating the school building...	
+SC32500.m2	msg	智樹		うう……とうとう最後の\nノゾキスポットがなくなってしまったか……	Ugh... So my last peeping spot is finally gone...	
+SC32500.m3	msg	智樹		階段の下から見上げるスカートの中……\nあのアングルが最高だったのに……！	Looking up skirts from the bottom of the stairs... That angle was the best...!	
+SC32500.m4	msg	智樹		クソッ！	Dammit!	
+SC32500.m5	msg	イカロス		あの、マスター……\n今、なぜ地面を蹴ったのですか？	Um, Master... Why did you just kick the ground?	
+SC32500.m6	msg	智樹		なんでもねーよ。\n単なる八つ当たりだよ。	It's nothing. I'm just taking it out on something.	
+SC32500.m7	msg	イカロス		八つ当たり……\nこうですか……？	Taking it out on something... Like this...?	
+SC32500.m8	msg	智樹		お、お前は……\nグラウンドに穴を開けるなー！	Y-you... Don't blow a hole in the schoolyard!	
+SC32500.m9	msg	美香子		そうよー、桜井君……八つ当たりで\nグラウンドに穴を開けるなんて……	That's right, Sakurai-kun... Blowing a hole in the schoolyard just to take it out on something...	
+SC32500.m10	msg	智樹		か、会長！	P-President!	
+SC32500.m11	msg	美香子		散歩の途中だったけど、見つけた以上は\nお仕置きしなくちゃいけないわよね～。	I was just out for a walk, but now that I've found you, I simply must punish you~.	
+SC32500.m12	msg	智樹		神様……因果応報と呼ぶには\n報復がキツすぎるんじゃないですか……？	God... isn't this payback way too harsh to call it karma...?	
+SC32500.m13	msg	美香子		ノゾキの件も話を聞かせてほしいわ～。\nさあ、こっちへいらっしゃい……	I'd also love to hear all about this peeping business~. Now, come right this way...	
+SC32500.m14	msg	智樹		フギャーッ！！	Fugyaaah!!	

@@ -1,34 +1,34 @@
 id	kind	speaker	max	jp	en	notes
-SC20010.m1	msg	イカロス		あなたが楽しめることを何なりと……\nマイマスター。		
-SC20010.m2	msg	智樹		それはもう何度も聞いたって。		
-SC20010.m3	msg	イカロス		マスターは……\n私に何も命令してくれないのですね……		
-SC20010.m4	msg	イカロス		私ではマスターのお役に立てませんか？		
-SC20010.m5	msg	智樹		そういうわけじゃねーの。\nいいから自分が好きなようにしてろよ。		
-SC20010.m6	msg	イカロス		……私は、マスターのおそばにいます。\nいつ命令をいただいても対処できるように……		
-SC20010.m7	msg	智樹		やれやれ。何か命令しないと\nずっとこのままっぽいな……		
-SC20010.m8	msg	智樹		わかった。じゃあ、そうだな……\n部屋の片付けをしてくんねーか？		
-SC20010.m9	msg	イカロス		了解いたしました。		
-SC20010.m10	msg	智樹		お、おい。目の色が変わってないか？		
-SC20010.m11	msg	イカロス		マスターからいただいた任務……\n立派に務め上げてみせます……！		
-SC20010.m12	msg	智樹		軽くでいいからな、軽くで！		
-SC20010.m13	msg	イカロス		全自動清掃機を\n転送（トランスポート）……！		
-SC20010.m14	msg	智樹		やばい……ここは避難だ！		
-SC20010.m15	msg	イカロス		完了いたしました。		
-SC20010.m16	msg	智樹		終わったのか？\nえらくさっぱりしたな……んん！？		
-SC20010.m17	msg	智樹		イ、イカロス……\nここにあった本はどうなった？		
-SC20010.m18	msg	イカロス		はい。散らかっていたものは\nすべて消去いたしました。		
-SC20010.m19	msg	智樹		消去！？　整理じゃなくて！？		
-SC20010.m20	msg	イカロス		はい。この次元にはもう\n存在しません……		
-SC20010.m21	msg	智樹		うおおおあああー！\n俺のエロ本コレクションがああっ！		
-SC20010.m22	msg	イカロス		あの……？		
-SC20010.m23	msg	智樹		妹ＣＬＵＢの創刊号……\nニップル通信ＤＶＤ特集号まで……！		
-SC20010.m24	msg	智樹		もう二度と手に入らない……\n俺のかけがえのない青春がっ！		
-SC20010.m25	msg	イカロス		マスター……私は……\n取り返しのつかないことを……？		
-SC20010.m26	msg	智樹		い、いや。仕方ないよな。\n散らかしてた俺が悪いんだし……		
-SC20010.m27	msg	智樹		それに……そんな顔されちゃ\n怒れないしな。		
-SC20010.m28	msg	イカロス		そんな顔……ですか……？		
-SC20010.m29	msg	智樹		気づいてないのか？\n自分が悲しそうな顔してることに。		
-SC20010.m30	msg	イカロス		悲しそうな顔……私が……		
-SC20010.m31	msg	智樹		そんなに気にすんなよ。お前が\n傷つくほどのことじゃないからさ。		
-SC20010.m32	msg	イカロス		傷ついているはずのマスターが……\n私に気を遣っている……？		
-SC20010.m33	msg	イカロス		こんなこと……\nもう二度とないようにしなくちゃ……		
+SC20010.m1	msg	イカロス		あなたが楽しめることを何なりと……\nマイマスター。	Whatever you would enjoy, I will do... my Master.	
+SC20010.m2	msg	智樹		それはもう何度も聞いたって。	I've heard that a hundred times already.	
+SC20010.m3	msg	イカロス		マスターは……\n私に何も命令してくれないのですね……	Master... you do not give me any orders...	
+SC20010.m4	msg	イカロス		私ではマスターのお役に立てませんか？	Am I of no use to you, Master?	
+SC20010.m5	msg	智樹		そういうわけじゃねーの。\nいいから自分が好きなようにしてろよ。	That's not what I mean. Just do whatever you want, okay?	
+SC20010.m6	msg	イカロス		……私は、マスターのおそばにいます。\nいつ命令をいただいても対処できるように……	...I will stay by your side, Master. So that I can respond whenever you give an order...	
+SC20010.m7	msg	智樹		やれやれ。何か命令しないと\nずっとこのままっぽいな……	Geez. Looks like she'll stay like this forever unless I give her an order...	
+SC20010.m8	msg	智樹		わかった。じゃあ、そうだな……\n部屋の片付けをしてくんねーか？	Fine. Then, let's see... Could you tidy up my room?	
+SC20010.m9	msg	イカロス		了解いたしました。	Understood.	
+SC20010.m10	msg	智樹		お、おい。目の色が変わってないか？	H-Hey. Is it me, or did your eyes just change?	
+SC20010.m11	msg	イカロス		マスターからいただいた任務……\n立派に務め上げてみせます……！	A mission given to me by my Master... I will carry it out flawlessly...!	
+SC20010.m12	msg	智樹		軽くでいいからな、軽くで！	Just a light tidy, okay? Light!	
+SC20010.m13	msg	イカロス		全自動清掃機を\n転送（トランスポート）……！	Fully automatic cleaning unit... Transport...!	
+SC20010.m14	msg	智樹		やばい……ここは避難だ！	Uh-oh... Time to evacuate!	
+SC20010.m15	msg	イカロス		完了いたしました。	The task is complete.	
+SC20010.m16	msg	智樹		終わったのか？\nえらくさっぱりしたな……んん！？	All done? Wow, it's really spotless... Hm?!	
+SC20010.m17	msg	智樹		イ、イカロス……\nここにあった本はどうなった？	I-Ikaros... What happened to the books that were here?	
+SC20010.m18	msg	イカロス		はい。散らかっていたものは\nすべて消去いたしました。	Yes. Everything that was scattered about has been erased.	
+SC20010.m19	msg	智樹		消去！？　整理じゃなくて！？	Erased?! Not put away?!	
+SC20010.m20	msg	イカロス		はい。この次元にはもう\n存在しません……	Yes. They no longer exist in this dimension...	
+SC20010.m21	msg	智樹		うおおおあああー！\n俺のエロ本コレクションがああっ！	Uwoooaaaaah! My porn collection!	
+SC20010.m22	msg	イカロス		あの……？	Um...?	
+SC20010.m23	msg	智樹		妹ＣＬＵＢの創刊号……\nニップル通信ＤＶＤ特集号まで……！	The first issue of Little Sister CLUB... Even the Nipple Bulletin DVD special edition...!	
+SC20010.m24	msg	智樹		もう二度と手に入らない……\n俺のかけがえのない青春がっ！	I'll never get them back... My irreplaceable youth!	
+SC20010.m25	msg	イカロス		マスター……私は……\n取り返しのつかないことを……？	Master... Have I... done something that cannot be undone...?	
+SC20010.m26	msg	智樹		い、いや。仕方ないよな。\n散らかしてた俺が悪いんだし……	N-No. It can't be helped. It's my fault for leaving them lying around...	
+SC20010.m27	msg	智樹		それに……そんな顔されちゃ\n怒れないしな。	Besides... I can't get mad when you make a face like that.	
+SC20010.m28	msg	イカロス		そんな顔……ですか……？	A face... like that...?	
+SC20010.m29	msg	智樹		気づいてないのか？\n自分が悲しそうな顔してることに。	You don't notice? You're making a sad face.	
+SC20010.m30	msg	イカロス		悲しそうな顔……私が……	A sad face... I am...	
+SC20010.m31	msg	智樹		そんなに気にすんなよ。お前が\n傷つくほどのことじゃないからさ。	Don't worry about it so much. It's not something you need to get hurt over.	
+SC20010.m32	msg	イカロス		傷ついているはずのマスターが……\n私に気を遣っている……？	Master should be the one who is hurt... yet he is worrying about me...?	
+SC20010.m33	msg	イカロス		こんなこと……\nもう二度とないようにしなくちゃ……	I must make sure... this never happens again...	

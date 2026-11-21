@@ -1,14 +1,14 @@
 id	kind	speaker	max	jp	en	notes
-SC31400.m1	msg	智樹		あれ、イカロスどこに行ったんだろう？		
-SC31400.m2	msg	美香子		イカロスちゃん、\nあなた……秘密は持っているかしら？		
-SC31400.m3	msg	イカロス		いえ……ありませんが……		
-SC31400.m4	msg	美香子		いけないわね～。いい女は\n秘め事の１個や１００個あるものなのよ？		
-SC31400.m5	msg	美香子		あなたも何か秘密を作ってみては\nどうかしら～？		
-SC31400.m6	msg	イカロス		秘密を作る……ですか……		
-SC31400.m7	msg	智樹		イカロスー。こんなところまで連れてきて\n何するんだー？		
-SC31400.m8	msg	イカロス		はい……見ていただきたいものが\nありまして……		
-SC31400.m9	msg	智樹		ん……？　なんだこりゃ？		
-SC31400.m10	msg	イカロス		はい……近くのゴミ捨て場から\n材料を集めてきました……		
-SC31400.m11	msg	智樹		もしかして、これ秘密基地か？		
-SC31400.m12	msg	イカロス		はい。いかがでしょうか……？		
-SC31400.m13	msg	智樹		いや、よく出来てるけど……\nお前、どこでこんなもん覚えてくるんだ？		
+SC31400.m1	msg	智樹		あれ、イカロスどこに行ったんだろう？	Huh, where'd Ikaros go?	
+SC31400.m2	msg	美香子		イカロスちゃん、\nあなた……秘密は持っているかしら？	Ikaros-chan, do you... have any secrets?	
+SC31400.m3	msg	イカロス		いえ……ありませんが……	No... I do not...	
+SC31400.m4	msg	美香子		いけないわね～。いい女は\n秘め事の１個や１００個あるものなのよ？	That won't do~. A good woman has one or a hundred little secrets, you know?	
+SC31400.m5	msg	美香子		あなたも何か秘密を作ってみては\nどうかしら～？	Why don't you try making a secret of your own~?	
+SC31400.m6	msg	イカロス		秘密を作る……ですか……	Making a secret... is it...	
+SC31400.m7	msg	智樹		イカロスー。こんなところまで連れてきて\n何するんだー？	Ikarooos. What are we doing all the way out here?	
+SC31400.m8	msg	イカロス		はい……見ていただきたいものが\nありまして……	Yes... there is something I would like you to see...	
+SC31400.m9	msg	智樹		ん……？　なんだこりゃ？	Hm...? What the heck is this?	
+SC31400.m10	msg	イカロス		はい……近くのゴミ捨て場から\n材料を集めてきました……	Yes... I gathered the materials from a nearby garbage dump...	
+SC31400.m11	msg	智樹		もしかして、これ秘密基地か？	Wait, is this a secret base?	
+SC31400.m12	msg	イカロス		はい。いかがでしょうか……？	Yes. What do you think...?	
+SC31400.m13	msg	智樹		いや、よく出来てるけど……\nお前、どこでこんなもん覚えてくるんだ？	I mean, it's well made, but... where do you even learn stuff like this?	

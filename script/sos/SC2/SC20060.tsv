@@ -1,36 +1,36 @@
 id	kind	speaker	max	jp	en	notes
-SC20060.m1	msg	智樹		今日くらい\n俺の好きな番組を見させろー！		
-SC20060.m2	msg	ニンフ		勝手なこと言わないでよ！\n今日の放送がクライマックスなんだから！		
-SC20060.m3	msg	智樹		どっちが勝手だー！\nそれは俺のテレビだぞー！		
-SC20060.m4	msg	ニンフ		ああイヤね、テレビくらいで\nちっぽけな所有権をふりかざすなんて！		
-SC20060.m5	msg	智樹		お前こそテレビのチャンネルひとつで\n必死すぎだろ！		
-SC20060.m6	msg	イカロス		あの……		
-SC20060.m7	msg	ニンフ		何よ！		
-SC20060.m8	msg	智樹		なんだ！		
-SC20060.m9	msg	イカロス		２人が争っている原因は……\nテレビのチャンネルですか？		
-SC20060.m10	msg	智樹		そうだ。今日は「日米対決！？　スクール水着で\nビーチバレー大会！」があるんだよ！		
-SC20060.m11	msg	ニンフ		私はずーっと\nドラマの続きを追ってたんだから！		
-SC20060.m12	msg	ニンフ		この時間帯にかけている\n思いの深さが違うわよ！		
-SC20060.m13	msg	智樹		それだけ見たら満足だろ！\n今日くらいチャンネルをゆずれ！		
-SC20060.m14	msg	ニンフ		１回でも見逃したら意味わかんなくなるのよ！		
-SC20060.m15	msg	イカロス		２人とも……争いはやめて……		
-SC20060.m16	msg	ニンフ		トモキのバカーッ！		
-SC20060.m17	msg	智樹		バカはニンフだろー！\nバーカ！　バーカ！		
-SC20060.m18	msg	イカロス		…………		
-SC20060.m19	msg	イカロス		こんなものが……\nあるから……！		
-SC20060.m20	msg	ニンフ		え、ええええええっ！？		
-SC20060.m21	msg	智樹		イカロスーッ！？\nなんでテレビをぶっ壊すんだー！？		
-SC20060.m22	msg	イカロス		これで……\nもう争わないですよね……？		
-SC20060.m23	msg	ニンフ		ああ……\nそういうこと……		
-SC20060.m24	msg	智樹		お前……俺たちが争うのを\n悲しんで、そんなことを……		
-SC20060.m25	msg	ニンフ		まったくもう……		
-SC20060.m26	msg	智樹		ああ……まったく……		
-SC20060.m27	msg	智樹		なんてことすんだ、お前はーっ！！		
-SC20060.m28	msg	ニンフ		ドラマの続きが\n見れなくなっちゃったじゃないのー！		
-SC20060.m29	msg	智樹		俺が見てあげないと、日本のギャルがアメリカの\n巨乳軍団に負けちまうだろーが！		
-SC20060.m30	msg	ニンフ		私が見守ってあげないとドラマも\nハッピーエンドにならないのよ！		
-SC20060.m31	msg	イカロス		そういうものなんですか……？		
-SC20060.m32	msg	ニンフ		そういうものなの！		
-SC20060.m33	msg	智樹		そーゆーもんなんだよ！		
-SC20060.m34	msg	イカロス		おかしい……争いのもとの\nテレビは破壊したのに……		
-SC20060.m35	msg	イカロス		２人ともまだ怒ってる……\nいったいどうして……？		
+SC20060.m1	msg	智樹		今日くらい\n俺の好きな番組を見させろー！	Just for today, let me watch my show!	
+SC20060.m2	msg	ニンフ		勝手なこと言わないでよ！\n今日の放送がクライマックスなんだから！	Don't be so selfish! Today's episode is the climax!	
+SC20060.m3	msg	智樹		どっちが勝手だー！\nそれは俺のテレビだぞー！	Who's the selfish one?! That's my TV!	
+SC20060.m4	msg	ニンフ		ああイヤね、テレビくらいで\nちっぽけな所有権をふりかざすなんて！	Ugh, how lame, waving your petty ownership around over a TV!	
+SC20060.m5	msg	智樹		お前こそテレビのチャンネルひとつで\n必死すぎだろ！	You're the one getting way too desperate over one TV channel!	
+SC20060.m6	msg	イカロス		あの……	Um...	
+SC20060.m7	msg	ニンフ		何よ！	What?!	
+SC20060.m8	msg	智樹		なんだ！	What?!	
+SC20060.m9	msg	イカロス		２人が争っている原因は……\nテレビのチャンネルですか？	The cause of your quarrel... is the TV channel?	
+SC20060.m10	msg	智樹		そうだ。今日は「日米対決！？　スクール水着で\nビーチバレー大会！」があるんだよ！	Right. Today's the "Japan vs. USA?! School Swimsuit Beach Volleyball Tournament!"	
+SC20060.m11	msg	ニンフ		私はずーっと\nドラマの続きを追ってたんだから！	I've been following this drama the whole way through!	
+SC20060.m12	msg	ニンフ		この時間帯にかけている\n思いの深さが違うわよ！	My feelings for this time slot run way deeper than yours!	
+SC20060.m13	msg	智樹		それだけ見たら満足だろ！\n今日くらいチャンネルをゆずれ！	You've watched all that, so you should be satisfied! Give me the channel just for today!	
+SC20060.m14	msg	ニンフ		１回でも見逃したら意味わかんなくなるのよ！	If I miss even one episode, I won't know what's going on!	
+SC20060.m15	msg	イカロス		２人とも……争いはやめて……	Both of you... please stop fighting...	
+SC20060.m16	msg	ニンフ		トモキのバカーッ！	Tomoki, you idiot!	
+SC20060.m17	msg	智樹		バカはニンフだろー！\nバーカ！　バーカ！	You're the idiot, Nymph! Idiot! Idiot!	
+SC20060.m18	msg	イカロス		…………	......	
+SC20060.m19	msg	イカロス		こんなものが……\nあるから……！	It is because... this thing exists...!	
+SC20060.m20	msg	ニンフ		え、ええええええっ！？	Wh-Whaaaaaat?!	
+SC20060.m21	msg	智樹		イカロスーッ！？\nなんでテレビをぶっ壊すんだー！？	Ikaros?! Why'd you smash the TV?!	
+SC20060.m22	msg	イカロス		これで……\nもう争わないですよね……？	Now... you will not fight anymore... right...?	
+SC20060.m23	msg	ニンフ		ああ……\nそういうこと……	Oh... so that's why...	
+SC20060.m24	msg	智樹		お前……俺たちが争うのを\n悲しんで、そんなことを……	You... were so sad seeing us fight that you did that...	
+SC20060.m25	msg	ニンフ		まったくもう……	Honestly...	
+SC20060.m26	msg	智樹		ああ……まったく……	Yeah... honestly...	
+SC20060.m27	msg	智樹		なんてことすんだ、お前はーっ！！	What the hell did you do that for?!	
+SC20060.m28	msg	ニンフ		ドラマの続きが\n見れなくなっちゃったじゃないのー！	Now I can't watch the rest of my drama!	
+SC20060.m29	msg	智樹		俺が見てあげないと、日本のギャルがアメリカの\n巨乳軍団に負けちまうだろーが！	If I'm not watching, the Japanese gals will lose to the American big-boob brigade!	
+SC20060.m30	msg	ニンフ		私が見守ってあげないとドラマも\nハッピーエンドにならないのよ！	If I'm not watching over it, the drama won't get a happy ending!	
+SC20060.m31	msg	イカロス		そういうものなんですか……？	Is that how it works...?	
+SC20060.m32	msg	ニンフ		そういうものなの！	That's how it works!	
+SC20060.m33	msg	智樹		そーゆーもんなんだよ！	That's how it works!	
+SC20060.m34	msg	イカロス		おかしい……争いのもとの\nテレビは破壊したのに……	Strange... I destroyed the TV that caused the fight...	
+SC20060.m35	msg	イカロス		２人ともまだ怒ってる……\nいったいどうして……？	Yet they are both still angry... Why could that be...?	

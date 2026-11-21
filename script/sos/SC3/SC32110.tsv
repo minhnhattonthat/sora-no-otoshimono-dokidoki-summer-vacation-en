@@ -1,17 +1,17 @@
 id	kind	speaker	max	jp	en	notes
-SC32110.m1	msg	智樹		イカロス、ちょっと出かけてくるから\n留守番頼むぞ。		
-SC32110.m2	msg	イカロス		はい、マスター。		
-SC32110.m3	msg	ニンフ		なんの本を探してるの、アルファー？		
-SC32110.m4	msg	イカロス		はい……トラウマについて\n調べようと思いまして……		
-SC32110.m5	msg	ニンフ		トラウマ？\n私、知ってるわよ。		
-SC32110.m6	msg	イカロス		……本当ですか……？		
-SC32110.m7	msg	ニンフ		アンタは覚えてないでしょうけど、\n前、一緒に見に行ったのよ！　トラウマ！		
-SC32110.m8	msg	イカロス		教えてください……！\nトラウマがある場所……！		
-SC32110.m9	msg	智樹		今日は何も起きなかったか。\nたまにはこんな１日があってもいいよな。		
-SC32110.m10	msg	智樹		ただいま……って、\nええええええええっ！？		
-SC32110.m11	msg	イカロス		見つけました、マスター。\nトラウマを……		
-SC32110.m12	msg	ニンフ		動物園から\n持って帰ってきちゃった！		
-SC32110.m13	msg	智樹		ウマはまだいいよ、ウマは。\n……トラが舌なめずりしてるんだよ！		
-SC32110.m14	msg	ニンフ		トモキ、狙われてるね？		
-SC32110.m15	msg	智樹		ウワワワワーッ！\nこっちに来るーっ！		
-SC32110.m16	msg	智樹		（今まさに、\n　俺の新しいトラウマが生まれたぞ……！）		
+SC32110.m1	msg	智樹		イカロス、ちょっと出かけてくるから\n留守番頼むぞ。	Ikaros, I'm heading out for a bit, so watch the house.	
+SC32110.m2	msg	イカロス		はい、マスター。	Yes, Master.	
+SC32110.m3	msg	ニンフ		なんの本を探してるの、アルファー？	What book are you looking for, Alpha?	
+SC32110.m4	msg	イカロス		はい……トラウマについて\n調べようと思いまして……	Yes... I thought I would research trauma...	
+SC32110.m5	msg	ニンフ		トラウマ？\n私、知ってるわよ。	Trauma? I know what that is.	
+SC32110.m6	msg	イカロス		……本当ですか……？	...Really...?	
+SC32110.m7	msg	ニンフ		アンタは覚えてないでしょうけど、\n前、一緒に見に行ったのよ！　トラウマ！	You probably don't remember, but we went to see one together before! A trauma!	
+SC32110.m8	msg	イカロス		教えてください……！\nトラウマがある場所……！	Please tell me...! Where there is a trauma...!	
+SC32110.m9	msg	智樹		今日は何も起きなかったか。\nたまにはこんな１日があってもいいよな。	Nothing happened today, huh. It's nice to have a day like this once in a while.	
+SC32110.m10	msg	智樹		ただいま……って、\nええええええええっ！？	I'm home... Wait, WHAAAAAAAT?!	
+SC32110.m11	msg	イカロス		見つけました、マスター。\nトラウマを……	I found it, Master. A trauma...	
+SC32110.m12	msg	ニンフ		動物園から\n持って帰ってきちゃった！	We brought them home from the zoo! A tiger is "tora," a horse is "uma"... tora-uma!	
+SC32110.m13	msg	智樹		ウマはまだいいよ、ウマは。\n……トラが舌なめずりしてるんだよ！	The horse is fine, okay, the horse. ...But the tiger's licking its lips!	
+SC32110.m14	msg	ニンフ		トモキ、狙われてるね？	Tomoki, looks like you're its target, huh?	
+SC32110.m15	msg	智樹		ウワワワワーッ！\nこっちに来るーっ！	Waaaaaaah! It's coming this waaay!	
+SC32110.m16	msg	智樹		（今まさに、\n　俺の新しいトラウマが生まれたぞ……！）	(A brand-new trauma of mine is being born right this second...!)	

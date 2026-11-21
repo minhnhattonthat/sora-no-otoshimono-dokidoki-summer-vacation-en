@@ -1,18 +1,18 @@
 id	kind	speaker	max	jp	en	notes
-SC33220.m1	msg	智樹		イカロス、ちょっと出かけてくるから\n留守番頼むぞ。		
-SC33220.m2	msg	イカロス		はい、マスター。		
-SC33220.m3	msg	ニンフ		疑うっていうのはね。\nたとえ話を作ってみるようなものよ。		
-SC33220.m4	msg	イカロス		たとえ話……？		
-SC33220.m5	msg	ニンフ		そうねえ、たとえば……		
-SC33220.m6	msg	ニンフ		トモキがアルファーのこと\n嫌いだったらどうする？		
-SC33220.m7	msg	イカロス		……そんな……私……		
-SC33220.m8	msg	ニンフ		え……待って。\nどこ行くの、アルファー？		
-SC33220.m9	msg	ニンフ		たとえ話だからねー？\nわかってるー！？		
-SC33220.m10	msg	智樹		ニンフー！　助けてくれ！		
-SC33220.m11	msg	ニンフ		どうかした？		
-SC33220.m12	msg	智樹		さっきからイカロスがずっと\n後ろをつけ回してくるんだよ！		
-SC33220.m13	msg	智樹		恨めしげに見つめてくるし……\n近づいたら逃げるし……		
-SC33220.m14	msg	ニンフ		……平気よ。本当のことを\nたしかめるのが怖くてオロオロしてるだけ。		
-SC33220.m15	msg	智樹		え？		
-SC33220.m16	msg	ニンフ		そのうち質問してくるだろうから、\nちゃんと答えてやんなさいよ。		
-SC33220.m17	msg	ニンフ		一度悩み出すと長くなるタイプね、\nアルファーは……		
+SC33220.m1	msg	智樹		イカロス、ちょっと出かけてくるから\n留守番頼むぞ。	Ikaros, I'm heading out for a bit, so watch the house.	
+SC33220.m2	msg	イカロス		はい、マスター。	Yes, Master.	
+SC33220.m3	msg	ニンフ		疑うっていうのはね。\nたとえ話を作ってみるようなものよ。	See, doubting is kind of like making up a "what if."	
+SC33220.m4	msg	イカロス		たとえ話……？	A "what if"...?	
+SC33220.m5	msg	ニンフ		そうねえ、たとえば……	Let's see, for example...	
+SC33220.m6	msg	ニンフ		トモキがアルファーのこと\n嫌いだったらどうする？	What would you do if Tomoki hated you, Alpha?	
+SC33220.m7	msg	イカロス		……そんな……私……	...But... I...	
+SC33220.m8	msg	ニンフ		え……待って。\nどこ行くの、アルファー？	Huh... wait. Where are you going, Alpha?	
+SC33220.m9	msg	ニンフ		たとえ話だからねー？\nわかってるー！？	It's just a "what if," okay? You get that?!	
+SC33220.m10	msg	智樹		ニンフー！　助けてくれ！	Nymph! Help me out!	
+SC33220.m11	msg	ニンフ		どうかした？	What's up?	
+SC33220.m12	msg	智樹		さっきからイカロスがずっと\n後ろをつけ回してくるんだよ！	Ikaros has been following me around this whole time!	
+SC33220.m13	msg	智樹		恨めしげに見つめてくるし……\n近づいたら逃げるし……	She keeps staring at me all resentful... and when I get close, she runs away...	
+SC33220.m14	msg	ニンフ		……平気よ。本当のことを\nたしかめるのが怖くてオロオロしてるだけ。	...It's fine. She's just flustered because she's scared to find out the truth.	
+SC33220.m15	msg	智樹		え？	Huh?	
+SC33220.m16	msg	ニンフ		そのうち質問してくるだろうから、\nちゃんと答えてやんなさいよ。	She'll ask you about it eventually, so answer her properly, okay?	
+SC33220.m17	msg	ニンフ		一度悩み出すと長くなるタイプね、\nアルファーは……	Once she starts worrying, she's the type who worries for a long time, that Alpha...	

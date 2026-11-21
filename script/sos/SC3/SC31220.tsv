@@ -1,20 +1,20 @@
 id	kind	speaker	max	jp	en	notes
-SC31220.m1	msg	イカロス		マスター、私は……驚くという意味を、\nどうすれば理解できるでしょうか……？		
-SC31220.m2	msg	智樹		そうだなあ。誰かが驚くところを\n観察するってのはどうだ？		
-SC31220.m3	msg	イカロス		……誰かが……驚くところ……		
-SC31220.m4	msg	智樹		驚きやすいって言ったら、\nあいつかな……		
-SC31220.m5	msg	そはら		こんにちは、イカロスさん。\n今日もいい天気だね。		
-SC31220.m6	msg	イカロス		そはらさんが来た……\nマスターから教わった言葉を……		
-SC31220.m7	msg	そはら		ん？　どうかした？		
-SC31220.m8	msg	イカロス		そはらさん。あんなところに\nオオサンショウウオが空を……		
-SC31220.m9	msg	そはら		ええっ！？　どこどこ！？		
-SC31220.m10	msg	イカロス		……すみません。\n飛んでませんでした。		
-SC31220.m11	msg	そはら		……だ、だよね。\n飛ぶわけないよね……		
-SC31220.m12	msg	イカロス		わっ！！		
-SC31220.m13	msg	そはら		きゃーっ！！		
-SC31220.m14	msg	そはら		……な、なに？		
-SC31220.m15	msg	イカロス		すみません。\n声帯機能のテストです。		
-SC31220.m16	msg	そはら		……そ、そう。		
-SC31220.m17	msg	そはら		でも、イカロスさんの大声\n初めて聞いたかも！		
-SC31220.m18	msg	そはら		なんだかうれしいな。		
-SC31220.m19	msg	イカロス		そはらさん、喜んでいる……\n驚くことは……喜ぶこと……？		
+SC31220.m1	msg	イカロス		マスター、私は……驚くという意味を、\nどうすれば理解できるでしょうか……？	Master, how can I... understand what it means to be surprised...?	
+SC31220.m2	msg	智樹		そうだなあ。誰かが驚くところを\n観察するってのはどうだ？	Let's see. How about watching someone get surprised?	
+SC31220.m3	msg	イカロス		……誰かが……驚くところ……	...Someone... getting surprised...	
+SC31220.m4	msg	智樹		驚きやすいって言ったら、\nあいつかな……	If we're talking easy to surprise, it's gotta be her...	
+SC31220.m5	msg	そはら		こんにちは、イカロスさん。\n今日もいい天気だね。	Hello, Ikaros-san. Nice weather again today.	
+SC31220.m6	msg	イカロス		そはらさんが来た……\nマスターから教わった言葉を……	Sohara-san is here... The words Master taught me...	
+SC31220.m7	msg	そはら		ん？　どうかした？	Hm? What's up?	
+SC31220.m8	msg	イカロス		そはらさん。あんなところに\nオオサンショウウオが空を……	Sohara-san. Over there, a giant salamander is flying through the sky...	
+SC31220.m9	msg	そはら		ええっ！？　どこどこ！？	Whaaat?! Where, where?!	
+SC31220.m10	msg	イカロス		……すみません。\n飛んでませんでした。	...I am sorry. It was not flying.	
+SC31220.m11	msg	そはら		……だ、だよね。\n飛ぶわけないよね……	...R-right. Of course it couldn't fly...	
+SC31220.m12	msg	イカロス		わっ！！	Wah!!	
+SC31220.m13	msg	そはら		きゃーっ！！	Kyaaah!!	
+SC31220.m14	msg	そはら		……な、なに？	...Wh-what?	
+SC31220.m15	msg	イカロス		すみません。\n声帯機能のテストです。	I am sorry. That was a test of my vocal cord function.	
+SC31220.m16	msg	そはら		……そ、そう。	...O-okay.	
+SC31220.m17	msg	そはら		でも、イカロスさんの大声\n初めて聞いたかも！	But I think that's the first time I've ever heard you shout, Ikaros-san!	
+SC31220.m18	msg	そはら		なんだかうれしいな。	It kinda makes me happy.	
+SC31220.m19	msg	イカロス		そはらさん、喜んでいる……\n驚くことは……喜ぶこと……？	Sohara-san is happy... Being surprised... is being happy...?	

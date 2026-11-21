@@ -1,17 +1,17 @@
 id	kind	speaker	max	jp	en	notes
-SC33030.m1	msg	智樹		イカロス。そのスイカを渡しなさい。		
-SC33030.m2	msg	イカロス		あの……それは……		
-SC33030.m3	msg	智樹		それ買ったのいつだと思ってるんだ。\nもう腐ってるから、捨てるしかないだろ。		
-SC33030.m4	msg	イカロス		……はい。どうぞ、マスター。		
-SC33030.m5	msg	智樹		よしよし、それでいいんだ。		
-SC33030.m6	msg	イカロス		……この気持ち……\nこれが喪失感というものなのですね……		
-SC33030.m7	msg	智樹		…………		
-SC33030.m8	msg	智樹		イカロス、ちょっと来いよ。		
-SC33030.m9	msg	イカロス		…………		
-SC33030.m10	msg	智樹		イカロス！\nこれ、いらないなら俺が食っちまうぞ！		
-SC33030.m11	msg	イカロス		あ……		
-SC33030.m12	msg	智樹		新しいスイカ。前のよりでかいだろ？		
-SC33030.m13	msg	イカロス		はい……！		
-SC33030.m14	msg	智樹		落ち込むのは仕方ないけど、\nうつむいてるばかりじゃいいことないぞ。		
-SC33030.m15	msg	智樹		お前が立ち直るのを待ってるやつだって\nいるんだからな。		
-SC33030.m16	msg	イカロス		そうですね……\n感謝します、マスター。		
+SC33030.m1	msg	智樹		イカロス。そのスイカを渡しなさい。	Ikaros. Hand over that watermelon.	
+SC33030.m2	msg	イカロス		あの……それは……	Um... that is...	
+SC33030.m3	msg	智樹		それ買ったのいつだと思ってるんだ。\nもう腐ってるから、捨てるしかないだろ。	When do you think we bought that? It's already rotten, so it's gotta go in the trash.	
+SC33030.m4	msg	イカロス		……はい。どうぞ、マスター。	...Yes. Here, Master.	
+SC33030.m5	msg	智樹		よしよし、それでいいんだ。	Good, good. That's the way.	
+SC33030.m6	msg	イカロス		……この気持ち……\nこれが喪失感というものなのですね……	...This feeling... So this is what they call a sense of loss...	
+SC33030.m7	msg	智樹		…………	......	
+SC33030.m8	msg	智樹		イカロス、ちょっと来いよ。	Ikaros, c'mere a sec.	
+SC33030.m9	msg	イカロス		…………	......	
+SC33030.m10	msg	智樹		イカロス！\nこれ、いらないなら俺が食っちまうぞ！	Ikaros! If you don't want this, I'm gonna eat it myself!	
+SC33030.m11	msg	イカロス		あ……	Ah...	
+SC33030.m12	msg	智樹		新しいスイカ。前のよりでかいだろ？	A new watermelon. Bigger than the last one, right?	
+SC33030.m13	msg	イカロス		はい……！	Yes...!	
+SC33030.m14	msg	智樹		落ち込むのは仕方ないけど、\nうつむいてるばかりじゃいいことないぞ。	Feeling down can't be helped, but nothing good comes from just hanging your head.	
+SC33030.m15	msg	智樹		お前が立ち直るのを待ってるやつだって\nいるんだからな。	There are people waiting for you to bounce back, you know.	
+SC33030.m16	msg	イカロス		そうですね……\n感謝します、マスター。	That is true... Thank you, Master.	

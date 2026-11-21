@@ -1,17 +1,17 @@
 id	kind	speaker	max	jp	en	notes
-SC31510.m1	msg	智樹		（あいつら、何をコソコソしゃべってるんだ？）		
-SC31510.m2	msg	ニンフ		「かわいい」について教えてほしい？		
-SC31510.m3	msg	イカロス		はい。私にはよくわからなくて……		
-SC31510.m4	msg	ニンフ		えーっとね。かわいいものを見ると\n目の保養になるってトモキが言ってたわよ？		
-SC31510.m5	msg	イカロス		目の保養、ですか……		
-SC31510.m6	msg	イカロス		マスター、次にこの服を見てください。		
-SC31510.m7	msg	智樹		……見たぞ。		
-SC31510.m8	msg	イカロス		では、この記号は\nどの向きに穴が開いていますか？		
-SC31510.m9	msg	智樹		……左。		
-SC31510.m10	msg	イカロス		視力、変化なし……\nこの服はかわいくないのですね……		
-SC31510.m11	msg	イカロス		では、次の服にいきます。		
-SC31510.m12	msg	智樹		おい！　いつまでやるんだよ、これ！		
-SC31510.m13	msg	イカロス		マスターの視力にもっとも効果がある服を\n選びたいので……		
-SC31510.m14	msg	智樹		だから目の保養の意味が違うんだって！		
-SC31510.m15	msg	イカロス		お待ちください。あと１７着ほどですので。		
-SC31510.m16	msg	智樹		俺の視力よりも俺の話していることに\n気を回してくれ……		
+SC31510.m1	msg	智樹		（あいつら、何をコソコソしゃべってるんだ？）	(What are those two whispering about?)	
+SC31510.m2	msg	ニンフ		「かわいい」について教えてほしい？	You want me to teach you about "cute"?	
+SC31510.m3	msg	イカロス		はい。私にはよくわからなくて……	Yes. I do not really understand it...	
+SC31510.m4	msg	ニンフ		えーっとね。かわいいものを見ると\n目の保養になるってトモキが言ってたわよ？	Ummm, let's see. Tomoki said looking at cute things is good for your eyes, you know?	
+SC31510.m5	msg	イカロス		目の保養、ですか……	Good for the eyes... is it...	
+SC31510.m6	msg	イカロス		マスター、次にこの服を見てください。	Master, please look at this outfit next.	
+SC31510.m7	msg	智樹		……見たぞ。	...Looked at it.	
+SC31510.m8	msg	イカロス		では、この記号は\nどの向きに穴が開いていますか？	Then, which way is the gap in this symbol facing?	
+SC31510.m9	msg	智樹		……左。	...Left.	
+SC31510.m10	msg	イカロス		視力、変化なし……\nこの服はかわいくないのですね……	No change in visual acuity... So this outfit is not cute...	
+SC31510.m11	msg	イカロス		では、次の服にいきます。	Then, on to the next outfit.	
+SC31510.m12	msg	智樹		おい！　いつまでやるんだよ、これ！	Hey! How long are we doing this?!	
+SC31510.m13	msg	イカロス		マスターの視力にもっとも効果がある服を\n選びたいので……	I wish to choose the outfit with the greatest effect on your eyesight, Master...	
+SC31510.m14	msg	智樹		だから目の保養の意味が違うんだって！	I'm telling you, that's not what "good for the eyes" means!	
+SC31510.m15	msg	イカロス		お待ちください。あと１７着ほどですので。	Please wait. There are only about 17 more outfits.	
+SC31510.m16	msg	智樹		俺の視力よりも俺の話していることに\n気を回してくれ……	Pay attention to what I'm saying instead of my eyesight...	

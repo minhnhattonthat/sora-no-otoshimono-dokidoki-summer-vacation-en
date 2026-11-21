@@ -1,18 +1,18 @@
 id	kind	speaker	max	jp	en	notes
-SC10103.m1	msg	智樹		今夜はキレイな星空だな。		
-SC10103.m2	msg	ニンフ		本当ね。地上のホタルに見とれて\n今夜は気づかなかったけど……		
-SC10103.m3	msg	智樹		夜に散歩してるのは、この星空を\n見るためじゃないのか？		
-SC10103.m4	msg	ニンフ		……そうよ。\nどうしても思い出してしまうの。		
-SC10103.m5	msg	ニンフ		空の向こうの……\n私のいた場所のこと……		
-SC10103.m6	msg	智樹		バカだな。そうやって上ばっか見てるから\nホタルにも気づかねーんだよ。		
-SC10103.m7	msg	ニンフ		な……！		
-SC10103.m8	msg	智樹		そんなお前を心配してるヤツがいるって\n気づかねーのか？		
-SC10103.m9	msg	イカロス		マスター……こちらでしたか。		
-SC10103.m10	msg	智樹		ああ。ニンフがいたの、こっちだったわ。		
-SC10103.m11	msg	ニンフ		あ……		
-SC10103.m12	msg	智樹		いつもお前が夜出て行くこと、\nイカロスから聞いたんだよ。		
-SC10103.m13	msg	ニンフ		アルファー、私を許してくれるの？\nあなたを連れ帰ろうとしていた私を……		
-SC10103.m14	msg	イカロス		気にして……ないわ……		
-SC10103.m15	msg	智樹		小せえこと気にすんなよ。\nいいから帰るぞ、ニンフ。		
-SC10103.m16	msg	智樹		昔のことを思い出してさびしくなるより、\n明日何をして遊ぶか考えよーぜ。		
-SC10103.m17	msg	ニンフ		うん。２人とも……ありがとう。		
+SC10103.m1	msg	智樹		今夜はキレイな星空だな。	The starry sky's beautiful tonight.	
+SC10103.m2	msg	ニンフ		本当ね。地上のホタルに見とれて\n今夜は気づかなかったけど……	It really is. I was so taken with the fireflies down here that I didn't notice tonight, but...	
+SC10103.m3	msg	智樹		夜に散歩してるのは、この星空を\n見るためじゃないのか？	Isn't the reason you go walking at night to look at this starry sky?	
+SC10103.m4	msg	ニンフ		……そうよ。\nどうしても思い出してしまうの。	...Yes. I just can't help remembering.	
+SC10103.m5	msg	ニンフ		空の向こうの……\n私のいた場所のこと……	About what's beyond the sky... The place I used to be...	
+SC10103.m6	msg	智樹		バカだな。そうやって上ばっか見てるから\nホタルにも気づかねーんだよ。	Idiot. You're always looking up like that, so you don't even notice the fireflies.	
+SC10103.m7	msg	ニンフ		な……！	Wha...!	
+SC10103.m8	msg	智樹		そんなお前を心配してるヤツがいるって\n気づかねーのか？	Don't you notice there are people worried about you?	
+SC10103.m9	msg	イカロス		マスター……こちらでしたか。	Master... So this is where you were.	
+SC10103.m10	msg	智樹		ああ。ニンフがいたの、こっちだったわ。	Yeah. Nymph was over this way after all.	
+SC10103.m11	msg	ニンフ		あ……	Ah...	
+SC10103.m12	msg	智樹		いつもお前が夜出て行くこと、\nイカロスから聞いたんだよ。	Ikaros told me you always go out at night.	
+SC10103.m13	msg	ニンフ		アルファー、私を許してくれるの？\nあなたを連れ帰ろうとしていた私を……	Alpha, you forgive me? Me, who was trying to take you back...?	
+SC10103.m14	msg	イカロス		気にして……ないわ……	I don't... mind...	
+SC10103.m15	msg	智樹		小せえこと気にすんなよ。\nいいから帰るぞ、ニンフ。	Don't sweat the small stuff. Just come home, Nymph.	
+SC10103.m16	msg	智樹		昔のことを思い出してさびしくなるより、\n明日何をして遊ぶか考えよーぜ。	Instead of getting lonely remembering the past, let's think about what we'll play tomorrow.	
+SC10103.m17	msg	ニンフ		うん。２人とも……ありがとう。	Okay. Both of you... thank you.	

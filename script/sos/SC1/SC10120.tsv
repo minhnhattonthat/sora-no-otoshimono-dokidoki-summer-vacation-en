@@ -1,46 +1,46 @@
 id	kind	speaker	max	jp	en	notes
-SC10120.m1	msg	ニンフ		ない、ない、ない！		
-SC10120.m2	msg	智樹		……ん？　どうした、ニンフ？		
-SC10120.m3	msg	ニンフ		あたしのカスタードプリンがない！\n楽しみにとっておいたのに！		
-SC10120.m4	msg	智樹		そうかー。それはかわいそうに。\nきっとプリンさんはね……旅に出たんだよ。		
-SC10120.m5	msg	ニンフ		トモキ、さては……食べたわね。		
-SC10120.m6	msg	智樹		なな、何言ってんだ！　俺を疑うのかよ！		
-SC10120.m7	msg	ニンフ		口の周りについてる、そのカスタードはなに？		
-SC10120.m8	msg	智樹		……これは、おヒゲですよ。\n最近苦労続きで老化が激しくて……		
-SC10120.m9	msg	ニンフ		ウソばっかり！　もう怒ったわよ！		
-SC10120.m10	msg	智樹		おいおい、プリンのひとつくらいで……\n謝るから許してくれよ。		
-SC10120.m11	msg	ニンフ		絶対に許さない、絶対によ！\nプリンの恨みは恐ろしいんだから！		
-SC10120.m12	msg	智樹		行っちまった……\nありゃ絶対なんか仕掛けてくるな。		
-SC10120.m13	msg	智樹		おーい、イカロス。\n腹へった～。晩メシにしようぜ～。		
-SC10120.m14	msg	イカロス		マスター……どうぞ。		
-SC10120.m15	msg	智樹		……なに、これ？		
-SC10120.m16	msg	イカロス		泥です。		
-SC10120.m17	msg	智樹		うん……見ればわかる。\nどうして泥が、食卓に並んでいるのかな？		
-SC10120.m18	msg	イカロス		ニンフから聞きました。\nマスターは泥が大好物だと……		
-SC10120.m19	msg	智樹		な、なにっ！？		
-SC10120.m20	msg	イカロス		ですから、近くの山で取って来たのですが……\nお口に合いませんか？		
-SC10120.m21	msg	智樹		……ニンフのやつ！		
-SC10120.m22	msg	智樹		ない！　ない！\n俺の秘蔵のエロ本コレクションがない！		
-SC10120.m23	msg	イカロス		どうしました、マスター？		
-SC10120.m24	msg	智樹		イカロス！　事件だ！\n俺のエロ本コレクションがない！		
-SC10120.m25	msg	イカロス		そこにあった本のことでしょうか？\nそれなら……今、洗濯しております。		
-SC10120.m26	msg	智樹		……はい？　洗濯？		
-SC10120.m27	msg	イカロス		はい。ついさっき、洗濯機に入れました。		
-SC10120.m28	msg	イカロス		ニンフから、マスターの大切な本なので、\nきれいに洗濯したほうがいいと……		
-SC10120.m29	msg	智樹		ク、クク……なかなかいい線ついてきやがる。\nそれならこっちにも考えがあるぞ……！		
-SC10120.m30	msg	ニンフ		ふふ。トモキのやつ、\n今ごろベソでもかいてるかしら？		
-SC10120.m31	msg	智樹		おや、そこにいるのはニンフかい？\nもぐもぐ……		
-SC10120.m32	msg	ニンフ		どうして？　何食べてるの？		
-SC10120.m33	msg	智樹		ふふ、知らないのかな？　人類には\n出前という、とても便利なものがあることを！		
-SC10120.m34	msg	ニンフ		クッ……だったら、アンタのエロ本を\nまた洗濯機に放り込んでやる！		
-SC10120.m35	msg	智樹		ククク……\nはたして、そう上手く見つかるかな？		
-SC10120.m36	msg	ニンフ		ふん！　知ってるのよ。あんたがエロ本を、\nここの引き出しに隠していることくらい！		
-SC10120.m37	msg	智樹		クックック……ニンフくん。\nそこにエロ本があるかね？		
-SC10120.m38	msg	ニンフ		……な、ない。どうして？		
-SC10120.m39	msg	智樹		同じミスを繰り返すほど、俺はバカじゃない。\nエロ本はすべて、銀行の貸し金庫に預けてある。		
-SC10120.m40	msg	ニンフ		な……貸し金庫まで借りるなんて。\n覚えてなさい！		
-SC10120.m41	msg	智樹		ワーハッハッハ！　ワーッハッハッハッハ！\n……ハア。しかしけっこうな出費だったな。		
-SC10120.m42	msg	智樹		そろそろこの戦いに決着をつけねーとな……\n元は俺が悪いんだし。		
-SC10120.m43	choice			ニンフに謝る		
-SC10120.m44	choice			そはらに相談する		
-SC10120.m45	choice			イカロスに仲介してもらう		
+SC10120.m1	msg	ニンフ		ない、ない、ない！	It's gone, it's gone, it's gone!	
+SC10120.m2	msg	智樹		……ん？　どうした、ニンフ？	...Hm? What's wrong, Nymph?	
+SC10120.m3	msg	ニンフ		あたしのカスタードプリンがない！\n楽しみにとっておいたのに！	My custard pudding is gone! I was saving it for later!	
+SC10120.m4	msg	智樹		そうかー。それはかわいそうに。\nきっとプリンさんはね……旅に出たんだよ。	Aww, I see. You poor thing. I bet Mr. Pudding... went off on a journey.	
+SC10120.m5	msg	ニンフ		トモキ、さては……食べたわね。	Tomoki, don't tell me... you ate it.	
+SC10120.m6	msg	智樹		なな、何言ってんだ！　俺を疑うのかよ！	Wh-wh-what are you talking about?! You're suspecting me?!	
+SC10120.m7	msg	ニンフ		口の周りについてる、そのカスタードはなに？	Then what's that custard all around your mouth?	
+SC10120.m8	msg	智樹		……これは、おヒゲですよ。\n最近苦労続きで老化が激しくて……	...This is a mustache. I've had such a hard time lately, I'm aging fast...	
+SC10120.m9	msg	ニンフ		ウソばっかり！　もう怒ったわよ！	Liar! That's it, now I'm mad!	
+SC10120.m10	msg	智樹		おいおい、プリンのひとつくらいで……\n謝るから許してくれよ。	Hey, hey, it's just one pudding... I'll apologize, so forgive me.	
+SC10120.m11	msg	ニンフ		絶対に許さない、絶対によ！\nプリンの恨みは恐ろしいんだから！	I'll never forgive you, never ever! Hell hath no fury like a pudding scorned!	
+SC10120.m12	msg	智樹		行っちまった……\nありゃ絶対なんか仕掛けてくるな。	She left... She's definitely gonna pull something.	
+SC10120.m13	msg	智樹		おーい、イカロス。\n腹へった～。晩メシにしようぜ～。	Heeey, Ikaros. I'm staaarving. Let's have dinneeer.	
+SC10120.m14	msg	イカロス		マスター……どうぞ。	Master... here you are.	
+SC10120.m15	msg	智樹		……なに、これ？	...What's this?	
+SC10120.m16	msg	イカロス		泥です。	Mud.	
+SC10120.m17	msg	智樹		うん……見ればわかる。\nどうして泥が、食卓に並んでいるのかな？	Yeah... I can see that. Why is there mud on the dinner table?	
+SC10120.m18	msg	イカロス		ニンフから聞きました。\nマスターは泥が大好物だと……	Nymph told me. That mud is your favorite food, Master...	
+SC10120.m19	msg	智樹		な、なにっ！？	Wh-whaaat?!	
+SC10120.m20	msg	イカロス		ですから、近くの山で取って来たのですが……\nお口に合いませんか？	So I fetched some from the mountain nearby... Is it not to your taste?	
+SC10120.m21	msg	智樹		……ニンフのやつ！	...That Nymph!	
+SC10120.m22	msg	智樹		ない！　ない！\n俺の秘蔵のエロ本コレクションがない！	It's gone! It's gone! My secret porn mag collection is gone!	
+SC10120.m23	msg	イカロス		どうしました、マスター？	What is the matter, Master?	
+SC10120.m24	msg	智樹		イカロス！　事件だ！\n俺のエロ本コレクションがない！	Ikaros! This is an emergency! My porn mag collection is gone!	
+SC10120.m25	msg	イカロス		そこにあった本のことでしょうか？\nそれなら……今、洗濯しております。	Do you mean the books that were there? Those are... in the wash right now.	
+SC10120.m26	msg	智樹		……はい？　洗濯？	...Come again? The wash?	
+SC10120.m27	msg	イカロス		はい。ついさっき、洗濯機に入れました。	Yes. I put them in the washing machine just a moment ago.	
+SC10120.m28	msg	イカロス		ニンフから、マスターの大切な本なので、\nきれいに洗濯したほうがいいと……	Nymph said they were important books to you, Master, so they should be washed nice and clean...	
+SC10120.m29	msg	智樹		ク、クク……なかなかいい線ついてきやがる。\nそれならこっちにも考えがあるぞ……！	Heh, heh heh... Not bad, not bad at all. Well then, I've got a plan of my own...!	
+SC10120.m30	msg	ニンフ		ふふ。トモキのやつ、\n今ごろベソでもかいてるかしら？	Hehe. I wonder if Tomoki's off crying his eyes out by now?	
+SC10120.m31	msg	智樹		おや、そこにいるのはニンフかい？\nもぐもぐ……	Well, well, is that Nymph I see? Munch munch...	
+SC10120.m32	msg	ニンフ		どうして？　何食べてるの？	How come? What are you eating?	
+SC10120.m33	msg	智樹		ふふ、知らないのかな？　人類には\n出前という、とても便利なものがあることを！	Heh, don't you know? Mankind has a wonderfully convenient thing called "delivery"!	
+SC10120.m34	msg	ニンフ		クッ……だったら、アンタのエロ本を\nまた洗濯機に放り込んでやる！	Ngh... Then I'll throw your porn mags in the washing machine again!	
+SC10120.m35	msg	智樹		ククク……\nはたして、そう上手く見つかるかな？	Heh heh heh... But will you find them so easily?	
+SC10120.m36	msg	ニンフ		ふん！　知ってるのよ。あんたがエロ本を、\nここの引き出しに隠していることくらい！	Hmph! I know you hide your porn mags in this drawer right here!	
+SC10120.m37	msg	智樹		クックック……ニンフくん。\nそこにエロ本があるかね？	Heh heh heh... Nymph, my dear. Are there any porn mags in there?	
+SC10120.m38	msg	ニンフ		……な、ない。どうして？	...Th-there aren't. Why?	
+SC10120.m39	msg	智樹		同じミスを繰り返すほど、俺はバカじゃない。\nエロ本はすべて、銀行の貸し金庫に預けてある。	I'm not dumb enough to make the same mistake twice. My porn mags are all in a safe-deposit box at the bank.	
+SC10120.m40	msg	ニンフ		な……貸し金庫まで借りるなんて。\n覚えてなさい！	Wha... You rented a safe-deposit box?! You'll pay for this!	
+SC10120.m41	msg	智樹		ワーハッハッハ！　ワーッハッハッハッハ！\n……ハア。しかしけっこうな出費だったな。	Bwahahaha! Bwahahahahaha! ...Sigh. Still, that cost me a pretty penny.	
+SC10120.m42	msg	智樹		そろそろこの戦いに決着をつけねーとな……\n元は俺が悪いんだし。	Time I put an end to this war... It was my fault to begin with.	
+SC10120.m43	choice			ニンフに謝る	Apologize to Nymph	
+SC10120.m44	choice			そはらに相談する	Ask Sohara for advice	
+SC10120.m45	choice			イカロスに仲介してもらう	Have Ikaros mediate	

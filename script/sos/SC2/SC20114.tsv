@@ -1,9 +1,9 @@
 id	kind	speaker	max	jp	en	notes
-SC20114.m1	msg	イカロス		私……本当にわからなくて……\nこの感情は……この気持ちは……		
-SC20114.m2	msg	イカロス		もしかして、これが……愛しさ……？		
-SC20114.m3	msg	智樹		え？		
-SC20114.m4	msg	イカロス		わからないんです。お願いします、マスター。\n今だけは……私に近づかないでください……！		
-SC20114.m5	msg	智樹		イカロス！？		
-SC20114.m6	msg	智樹		……飛んで行っちまった。\nあいつ、どうかしちまったのか？		
-SC20114.m7	msg	智樹		今だけはってことは……\n明日は大丈夫なのか？　わかんねえな。		
-SC20114.m8	msg	智樹		……庭のスイカに水でもやりながら\n帰りを待つとするか。		
+SC20114.m1	msg	イカロス		私……本当にわからなくて……\nこの感情は……この気持ちは……	I... truly do not understand... This emotion... this feeling...	
+SC20114.m2	msg	イカロス		もしかして、これが……愛しさ……？	Could this be... affection...?	
+SC20114.m3	msg	智樹		え？	Huh?	
+SC20114.m4	msg	イカロス		わからないんです。お願いします、マスター。\n今だけは……私に近づかないでください……！	I do not understand. Please, Master. Just for now... do not come near me...!	
+SC20114.m5	msg	智樹		イカロス！？	Ikaros?!	
+SC20114.m6	msg	智樹		……飛んで行っちまった。\nあいつ、どうかしちまったのか？	...She flew off. What's gotten into her?	
+SC20114.m7	msg	智樹		今だけはってことは……\n明日は大丈夫なのか？　わかんねえな。	"Just for now" means... she'll be okay tomorrow? I don't get it.	
+SC20114.m8	msg	智樹		……庭のスイカに水でもやりながら\n帰りを待つとするか。	...Guess I'll water the watermelons in the yard while I wait for her to come back.	

@@ -1,17 +1,17 @@
 id	kind	speaker	max	jp	en	notes
-SC10124.m1	msg	智樹		悪かった、ニンフ！\nお前のプリン食っちまって！		
-SC10124.m2	msg	ニンフ		フンッ。		
-SC10124.m3	msg	智樹		（やっぱ言葉だけじゃ足りないか。\n　用意しておいて良かった……）		
-SC10124.m4	msg	智樹		これは、仲直りのプレゼントだ。		
-SC10124.m5	msg	ニンフ		あ……カスタードプリン！		
-SC10124.m6	msg	智樹		しかも、俺が食べたプリンの\n２倍の大きさだぞー。		
-SC10124.m7	msg	ニンフ		あ……そ、その手には\n乗らないんだからね！		
-SC10124.m8	msg	智樹		いらないのか？\nだったら俺が食っちゃうぞ。		
-SC10124.m9	msg	ニンフ		ううう……食べる！　食べる！		
-SC10124.m10	msg	智樹		（子供みたいにほうばって。\n　口にカスタードがついてるぞ）		
-SC10124.m11	msg	ニンフ		おいしーい！		
-SC10124.m12	msg	智樹		その……これで許してくれるか？		
-SC10124.m13	msg	ニンフ		仕方ないわね……\nプレゼントを受け取っちゃったもの。		
-SC10124.m14	msg	ニンフ		特別に許してあげる！		
-SC10124.m15	msg	智樹		ありがとな、ニンフ。		
-SC10124.m16	msg	智樹		（しかし食い物の恨みはおそろしいな……\n　つまみ食いはひかえるとするか）		
+SC10124.m1	msg	智樹		悪かった、ニンフ！\nお前のプリン食っちまって！	I'm sorry, Nymph! For eating your pudding!	
+SC10124.m2	msg	ニンフ		フンッ。	Hmph.	
+SC10124.m3	msg	智樹		（やっぱ言葉だけじゃ足りないか。\n　用意しておいて良かった……）	(Guess words alone won't cut it. Good thing I came prepared...)	
+SC10124.m4	msg	智樹		これは、仲直りのプレゼントだ。	This is a peace-offering present.	
+SC10124.m5	msg	ニンフ		あ……カスタードプリン！	Ah... Custard pudding!	
+SC10124.m6	msg	智樹		しかも、俺が食べたプリンの\n２倍の大きさだぞー。	And it's twice as big as the one I ate!	
+SC10124.m7	msg	ニンフ		あ……そ、その手には\n乗らないんだからね！	Ah... I-I'm not falling for that, you know!	
+SC10124.m8	msg	智樹		いらないのか？\nだったら俺が食っちゃうぞ。	You don't want it? Then I'll eat it.	
+SC10124.m9	msg	ニンフ		ううう……食べる！　食べる！	Nnngh... I'll eat it! I'll eat it!	
+SC10124.m10	msg	智樹		（子供みたいにほうばって。\n　口にカスタードがついてるぞ）	(Stuffing her face like a little kid. She's got custard on her mouth.)	
+SC10124.m11	msg	ニンフ		おいしーい！	Yummyyy!	
+SC10124.m12	msg	智樹		その……これで許してくれるか？	So... will you forgive me now?	
+SC10124.m13	msg	ニンフ		仕方ないわね……\nプレゼントを受け取っちゃったもの。	Guess I have no choice... I did accept the present, after all.	
+SC10124.m14	msg	ニンフ		特別に許してあげる！	I'll forgive you, just this once!	
+SC10124.m15	msg	智樹		ありがとな、ニンフ。	Thanks, Nymph.	
+SC10124.m16	msg	智樹		（しかし食い物の恨みはおそろしいな……\n　つまみ食いはひかえるとするか）	(Man, food grudges are scary... Maybe I'll cut back on sneaking bites.)	

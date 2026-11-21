@@ -1,15 +1,15 @@
 id	kind	speaker	max	jp	en	notes
-SC31900.m1	msg	智樹		イカロスには、つらいとか苦しいとか\n感じることってないのか？		
-SC31900.m2	msg	イカロス		はい。		
-SC31900.m3	msg	智樹		どっちの「はい」なんだ？		
-SC31900.m4	msg	イカロス		はい。		
-SC31900.m5	msg	智樹		（わかってないほうの「はい」だな……）		
-SC31900.m6	msg	智樹		よし。お前ちょっと泳いでみろ。\n泳げないことでつらいと感じるかもしれないし。		
-SC31900.m7	msg	イカロス		はい。		
-SC31900.m8	msg	智樹		……沈んだまま出て来ないぞ。\nまさか沖に流されたのか？		
-SC31900.m9	msg	智樹		イカロスー？\nどこに行ったんだー？		
-SC31900.m10	msg	イカロス		はい。		
-SC31900.m11	msg	智樹		ガボッ！？\nおい！　手を離せ！		
-SC31900.m12	msg	智樹		ガボッ！　ガボボッ！\nおぼれる……！		
-SC31900.m13	msg	イカロス		ずっと潜っていたんですが……\nどうでしょう。私はつらそうですか？		
-SC31900.m14	msg	智樹		（俺がつらそうなのに気づけ……！）		
+SC31900.m1	msg	智樹		イカロスには、つらいとか苦しいとか\n感じることってないのか？	Ikaros, don't you ever feel stuff like pain or suffering?	
+SC31900.m2	msg	イカロス		はい。	Yes.	
+SC31900.m3	msg	智樹		どっちの「はい」なんだ？	Which "yes" is that?	
+SC31900.m4	msg	イカロス		はい。	Yes.	
+SC31900.m5	msg	智樹		（わかってないほうの「はい」だな……）	(That's the "yes" where she doesn't get it...)	
+SC31900.m6	msg	智樹		よし。お前ちょっと泳いでみろ。\n泳げないことでつらいと感じるかもしれないし。	Okay. Try swimming for a bit. Maybe not being able to swim will make you feel some suffering.	
+SC31900.m7	msg	イカロス		はい。	Yes.	
+SC31900.m8	msg	智樹		……沈んだまま出て来ないぞ。\nまさか沖に流されたのか？	...She sank and isn't coming back up. Don't tell me she got swept out to sea?	
+SC31900.m9	msg	智樹		イカロスー？\nどこに行ったんだー？	Ikaros? Where'd you go?	
+SC31900.m10	msg	イカロス		はい。	Yes.	
+SC31900.m11	msg	智樹		ガボッ！？\nおい！　手を離せ！	Gblub?! Hey! Let go of me!	
+SC31900.m12	msg	智樹		ガボッ！　ガボボッ！\nおぼれる……！	Gblub! Gblublub! I'm drowning...!	
+SC31900.m13	msg	イカロス		ずっと潜っていたんですが……\nどうでしょう。私はつらそうですか？	I stayed underwater the whole time... How about it? Do I look like I am suffering?	
+SC31900.m14	msg	智樹		（俺がつらそうなのに気づけ……！）	(Notice that I'M the one suffering...!)	

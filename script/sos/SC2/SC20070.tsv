@@ -1,11 +1,11 @@
 id	kind	speaker	max	jp	en	notes
-SC20070.m1	msg	智樹		ウフ……ウフフフ……		
-SC20070.m2	msg	イカロス		マスター……何の本を\n読んでいるのですか？		
-SC20070.m3	msg	智樹		あ、ああ。まあ、これは\n個人的な趣味だ。		
-SC20070.m4	msg	イカロス		先ほど、マスターは大変\n楽しそうでしたが……		
-SC20070.m5	msg	イカロス		その本のどういった点が\n面白いのでしょう……？		
-SC20070.m6	msg	智樹		別になんでもない！\nいいから出てけ！　本に集中できん！		
-SC20070.m7	msg	イカロス		しかし……		
-SC20070.m8	msg	智樹		ああもう、なんでもかんでも俺に質問するな！\n相談する相手なら他にもいるだろ！		
-SC20070.m9	choice			ニンフに聞け！		
-SC20070.m10	choice			そはらに聞け！		
+SC20070.m1	msg	智樹		ウフ……ウフフフ……	Ufu... Ufufufu...	
+SC20070.m2	msg	イカロス		マスター……何の本を\n読んでいるのですか？	Master... What book are you reading?	
+SC20070.m3	msg	智樹		あ、ああ。まあ、これは\n個人的な趣味だ。	Oh, uh, yeah. Well, this is a personal hobby.	
+SC20070.m4	msg	イカロス		先ほど、マスターは大変\n楽しそうでしたが……	Just now, Master, you looked very much amused...	
+SC20070.m5	msg	イカロス		その本のどういった点が\n面白いのでしょう……？	What about that book is so interesting...?	
+SC20070.m6	msg	智樹		別になんでもない！\nいいから出てけ！　本に集中できん！	Nothing! Just get out! I can't focus on my book!	
+SC20070.m7	msg	イカロス		しかし……	But...	
+SC20070.m8	msg	智樹		ああもう、なんでもかんでも俺に質問するな！\n相談する相手なら他にもいるだろ！	Argh, quit asking me every little thing! There are other people you can ask!	
+SC20070.m9	choice			ニンフに聞け！	Go ask Nymph!	
+SC20070.m10	choice			そはらに聞け！	Go ask Sohara!	

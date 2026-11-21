@@ -1,30 +1,30 @@
 id	kind	speaker	max	jp	en	notes
-SC20050.m1	msg	智樹		うおお、暑すぎるんじゃー！\n今年の夏はちょっとやり過ぎだー！		
-SC20050.m2	msg	イカロス		汗びっしょりですね、マスター……		
-SC20050.m3	msg	智樹		そこの服って昨日干したやつだよな？\nイカロス、シャツ取ってくれー。		
-SC20050.m4	msg	イカロス		はい。		
-SC20050.m5	msg	智樹		はぁ～。やっぱ洗いたての服を着ると\nさっぱりするな～。		
-SC20050.m6	msg	イカロス		洗いたての服がお好きなのですか……？		
-SC20050.m7	msg	智樹		嫌いなヤツはいないだろ。\n気持ちいいなー。		
-SC20050.m8	msg	イカロス		…………		
-SC20050.m9	msg	智樹		ふぁあ……\nうん、いい朝だ。		
-SC20050.m10	msg	智樹		さてと、今日はどうしようか……\nあれ。んん？　あらら？		
-SC20050.m11	msg	イカロス		おはようございます、マスター。		
-SC20050.m12	msg	智樹		待て、イカロス！\n今はこっちに来るな！		
-SC20050.m13	msg	イカロス		どうしましたか？		
-SC20050.m14	msg	智樹		なんでか知らんが素っ裸なんだよ！\n寝る前はちゃんとパジャマだったのに……		
-SC20050.m15	msg	イカロス		それなら私が脱がしましたが……		
-SC20050.m16	msg	智樹		な、なにぃっ！？\nだってお前……パンツも！？		
-SC20050.m17	msg	イカロス		はい。		
-SC20050.m18	msg	智樹		はい、じゃねーよ！\nなんだこの新手のイジメは！		
-SC20050.m19	msg	イカロス		マスターは洗いたてがお好きと、\n昨日おっしゃっていたので……		
-SC20050.m20	msg	イカロス		現在、家の中のすべての服を洗濯中です。		
-SC20050.m21	msg	智樹		バ……バカヤロー！\n俺が今日着る服はどうすんだよ！		
-SC20050.m22	msg	智樹		全部濡れてんのか！？\n俺は今日ずっと素っ裸か！？		
-SC20050.m23	msg	イカロス		はい。		
-SC20050.m24	msg	智樹		はい、じゃねーよ！！		
-SC20050.m25	msg	イカロス		あの……私、何かいけないことを……		
-SC20050.m26	msg	智樹		ああ、したな！　思春期の男の子に\n一番やっちゃいけねーことをしたぞ！		
-SC20050.m27	msg	智樹		うおおお……傷つきやすい青少年の\n心にヒビが、ピキピキと……！		
-SC20050.m28	choice			怒る		
-SC20050.m29	choice			許す		
+SC20050.m1	msg	智樹		うおお、暑すぎるんじゃー！\n今年の夏はちょっとやり過ぎだー！	Uoooh, it's way too hot! This summer's going overboard!	
+SC20050.m2	msg	イカロス		汗びっしょりですね、マスター……	You are drenched in sweat, Master...	
+SC20050.m3	msg	智樹		そこの服って昨日干したやつだよな？\nイカロス、シャツ取ってくれー。	Those clothes are the ones we hung out yesterday, right? Ikaros, hand me a shirt.	
+SC20050.m4	msg	イカロス		はい。	Yes.	
+SC20050.m5	msg	智樹		はぁ～。やっぱ洗いたての服を着ると\nさっぱりするな～。	Haaah. Nothing like putting on freshly washed clothes to feel refreshed.	
+SC20050.m6	msg	イカロス		洗いたての服がお好きなのですか……？	You like freshly washed clothes...?	
+SC20050.m7	msg	智樹		嫌いなヤツはいないだろ。\n気持ちいいなー。	Who doesn't? Feels great.	
+SC20050.m8	msg	イカロス		…………	......	
+SC20050.m9	msg	智樹		ふぁあ……\nうん、いい朝だ。	Fwaaah... Yep, nice morning.	
+SC20050.m10	msg	智樹		さてと、今日はどうしようか……\nあれ。んん？　あらら？	Okay, what should I do today... Huh. Hmm? Whoa whoa?	
+SC20050.m11	msg	イカロス		おはようございます、マスター。	Good morning, Master.	
+SC20050.m12	msg	智樹		待て、イカロス！\n今はこっちに来るな！	Wait, Ikaros! Don't come over here right now!	
+SC20050.m13	msg	イカロス		どうしましたか？	What is the matter?	
+SC20050.m14	msg	智樹		なんでか知らんが素っ裸なんだよ！\n寝る前はちゃんとパジャマだったのに……	I don't know why, but I'm stark naked! I was definitely in pajamas when I went to bed...	
+SC20050.m15	msg	イカロス		それなら私が脱がしましたが……	In that case, I undressed you...	
+SC20050.m16	msg	智樹		な、なにぃっ！？\nだってお前……パンツも！？	Wh-WHAAAT?! But you... even my underwear?!	
+SC20050.m17	msg	イカロス		はい。	Yes.	
+SC20050.m18	msg	智樹		はい、じゃねーよ！\nなんだこの新手のイジメは！	Don't "yes" me! What kind of new bullying is this?!	
+SC20050.m19	msg	イカロス		マスターは洗いたてがお好きと、\n昨日おっしゃっていたので……	Yesterday, Master, you said you like freshly washed clothes...	
+SC20050.m20	msg	イカロス		現在、家の中のすべての服を洗濯中です。	At present, every piece of clothing in the house is being washed.	
+SC20050.m21	msg	智樹		バ……バカヤロー！\n俺が今日着る服はどうすんだよ！	Y... You idiot! What am I supposed to wear today?!	
+SC20050.m22	msg	智樹		全部濡れてんのか！？\n俺は今日ずっと素っ裸か！？	They're all wet?! I'm stuck stark naked all day?!	
+SC20050.m23	msg	イカロス		はい。	Yes.	
+SC20050.m24	msg	智樹		はい、じゃねーよ！！	Don't "yes" me!!	
+SC20050.m25	msg	イカロス		あの……私、何かいけないことを……	Um... Did I do something wrong...?	
+SC20050.m26	msg	智樹		ああ、したな！　思春期の男の子に\n一番やっちゃいけねーことをしたぞ！	Yeah, you did! The one thing you must never do to an adolescent boy!	
+SC20050.m27	msg	智樹		うおおお……傷つきやすい青少年の\n心にヒビが、ピキピキと……！	Uoooh... My delicate young heart is cracking, crick, crack...!	
+SC20050.m28	choice			怒る	Get angry	
+SC20050.m29	choice			許す	Forgive her	

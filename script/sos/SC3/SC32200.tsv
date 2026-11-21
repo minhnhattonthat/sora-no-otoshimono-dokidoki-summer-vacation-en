@@ -1,21 +1,21 @@
 id	kind	speaker	max	jp	en	notes
-SC32200.m1	msg	智樹		なあイカロス、俺のことで何か\n我慢していることとかあるか？		
-SC32200.m2	msg	イカロス		我慢ですか？\nいえ……特には。		
-SC32200.m3	msg	智樹		そうか……ううむ……		
-SC32200.m4	msg	イカロス		なぜでしょうか？		
-SC32200.m5	msg	智樹		怒るってことを\nどうやって教えたもんかと思ってな。		
-SC32200.m6	msg	智樹		お前が怒ることを我慢しているなら\n話が早いと思ったんだが……		
-SC32200.m7	msg	イカロス		……すみません。		
-SC32200.m8	msg	智樹		いや、ないならないでいいんだ。		
-SC32200.m9	msg	智樹		お前、怒ったら怒ったで怖そうだしな……		
-SC32200.m10	msg	イカロス		はあ……		
-SC32200.m11	msg	智樹		そうだな……まずは、\n誰かが怒ってるところを見せるか。		
-SC32200.m12	msg	智樹		よし、イカロス！　付いて来い！		
-SC32200.m13	msg	イカロス		はい。		
-SC32200.m14	msg	智樹		頼もう！		
-SC32200.m15	msg	そはら		え？　なになに！？		
-SC32200.m16	msg	智樹		見てろイカロス、\nこれが男の生き様だーっ！		
-SC32200.m17	msg	智樹		おっぱいモミモミ、\nダブルハンド！！		
-SC32200.m18	msg	そはら		きっ……きゃあああああっ！！		
-SC32200.m19	msg	智樹		グフッ……見たか、イカロス……\n今のが怒った人の反応だ……		
-SC32200.m20	msg	イカロス		はい。たしかに見ました。\n……男の生き様を。		
+SC32200.m1	msg	智樹		なあイカロス、俺のことで何か\n我慢していることとかあるか？	Hey, Ikaros, is there anything about me that you're putting up with?	
+SC32200.m2	msg	イカロス		我慢ですか？\nいえ……特には。	Putting up with? No... not especially.	
+SC32200.m3	msg	智樹		そうか……ううむ……	I see... Hmmm...	
+SC32200.m4	msg	イカロス		なぜでしょうか？	Why do you ask?	
+SC32200.m5	msg	智樹		怒るってことを\nどうやって教えたもんかと思ってな。	I was trying to figure out how to teach you about getting angry.	
+SC32200.m6	msg	智樹		お前が怒ることを我慢しているなら\n話が早いと思ったんだが……	If you were holding back your anger, I figured that'd make things quicker...	
+SC32200.m7	msg	イカロス		……すみません。	...I am sorry.	
+SC32200.m8	msg	智樹		いや、ないならないでいいんだ。	Nah, if there's nothing, then there's nothing.	
+SC32200.m9	msg	智樹		お前、怒ったら怒ったで怖そうだしな……	Besides, you'd probably be scary if you did get angry...	
+SC32200.m10	msg	イカロス		はあ……	I see...	
+SC32200.m11	msg	智樹		そうだな……まずは、\n誰かが怒ってるところを見せるか。	Let's see... First, I'll show you someone who's angry.	
+SC32200.m12	msg	智樹		よし、イカロス！　付いて来い！	All right, Ikaros! Follow me!	
+SC32200.m13	msg	イカロス		はい。	Yes.	
+SC32200.m14	msg	智樹		頼もう！	A challenger has arrived!	
+SC32200.m15	msg	そはら		え？　なになに！？	Huh? What, what?!	
+SC32200.m16	msg	智樹		見てろイカロス、\nこれが男の生き様だーっ！	Watch closely, Ikaros, this is how a real man lives!	
+SC32200.m17	msg	智樹		おっぱいモミモミ、\nダブルハンド！！	Boob squeeze... double-handed!!	
+SC32200.m18	msg	そはら		きっ……きゃあああああっ！！	Kyaaaaaaah!!	
+SC32200.m19	msg	智樹		グフッ……見たか、イカロス……\n今のが怒った人の反応だ……	Guhh... See that, Ikaros...? That's how an angry person reacts...	
+SC32200.m20	msg	イカロス		はい。たしかに見ました。\n……男の生き様を。	Yes. I certainly saw it. ...How a real man lives.	

@@ -1,14 +1,14 @@
 id	kind	speaker	max	jp	en	notes
-SC33630.m1	msg	イカロス		どうしよう……		
-SC33630.m2	msg	智樹		イカロス、どうした？\nさっきから様子が変だぞ。		
-SC33630.m3	msg	イカロス		スイカに、虫がついて……\n葉がぼろぼろに……		
-SC33630.m4	msg	智樹		どれどれ……こりゃひでえな。\nどうすりゃいいんだ、こういうとき。		
-SC33630.m5	msg	イカロス		困りました……		
-SC33630.m6	msg	智樹		……ここはあの人に相談するか。		
-SC33630.m7	msg	守形		ウリノメイガだな。\nこの時期はわりと発生するんだ。		
-SC33630.m8	msg	守形		待っていろ。たしか薬があったはずだ。		
-SC33630.m9	msg	智樹		さすが守形先輩だな。\nあっさり解決方法が出てきたぞ。		
-SC33630.m10	msg	イカロス		安心しました……		
-SC33630.m11	msg	智樹		いいかイカロス。困ったときは\n人に頼るって方法もあるんだぞ。		
-SC33630.m12	msg	智樹		自分ひとりじゃ無理なことも、\n力を合わせれば大抵なんとかなるもんだ。		
-SC33630.m13	msg	イカロス		はい……覚えておきます。		
+SC33630.m1	msg	イカロス		どうしよう……	What do I do...	
+SC33630.m2	msg	智樹		イカロス、どうした？\nさっきから様子が変だぞ。	Ikaros, what's wrong? You've been acting weird for a while.	
+SC33630.m3	msg	イカロス		スイカに、虫がついて……\n葉がぼろぼろに……	Bugs got on the watermelon... and the leaves are in tatters...	
+SC33630.m4	msg	智樹		どれどれ……こりゃひでえな。\nどうすりゃいいんだ、こういうとき。	Lemme see... Yikes, that's bad. What are you supposed to do in a case like this?	
+SC33630.m5	msg	イカロス		困りました……	I am in trouble...	
+SC33630.m6	msg	智樹		……ここはあの人に相談するか。	...Guess I'll ask that guy for advice.	
+SC33630.m7	msg	守形		ウリノメイガだな。\nこの時期はわりと発生するんだ。	Melonworms. They tend to show up around this time of year.	
+SC33630.m8	msg	守形		待っていろ。たしか薬があったはずだ。	Wait here. I believe I had some pesticide.	
+SC33630.m9	msg	智樹		さすが守形先輩だな。\nあっさり解決方法が出てきたぞ。	That's Sugata-senpai for you. He came up with a fix just like that.	
+SC33630.m10	msg	イカロス		安心しました……	I am relieved...	
+SC33630.m11	msg	智樹		いいかイカロス。困ったときは\n人に頼るって方法もあるんだぞ。	Listen, Ikaros. When you're in trouble, you can always lean on other people.	
+SC33630.m12	msg	智樹		自分ひとりじゃ無理なことも、\n力を合わせれば大抵なんとかなるもんだ。	Even stuff you can't manage alone usually works out if you all pitch in.	
+SC33630.m13	msg	イカロス		はい……覚えておきます。	Yes... I will remember that.	

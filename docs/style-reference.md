@@ -12,12 +12,12 @@ phrasing. Jokes, perverted gags and tsukkomi keep their punch.
 | Nymph | 私, アンタ, トモキ, アルファー, ～わよ, ～じゃない, ～じゃん, バカ | Tsundere, bratty, teasing: "Hmph.", "Idiot Tomoki!", "It's not like I...!", "you know?"; calls Ikaros "Alpha". Munches snacks. |
 | Sohara | 私, トモちゃん, ～だよ, ～なんだから, もう！, チョップ | Warm, girl-next-door, scolding: "Geez!", "Tomo-chan, you pervert!"; the chop is a sound beat ("Sohara Chop!"). |
 | Sugata | 俺, ～だ, ～のだ, フム, ウム, 智樹, 見月 | Deadpan lecturer, encyclopedic, dead serious about absurd things: "Hmm.", "Indeed.", "In ancient Greece...". Calls Sohara "Mitsuki". |
-| Mikako | 私, ～かしら, あら～, ふふっ, 桜井君, 英くん | Sweet, drawling sadist: "Oh my~" is fine as "Oh my...", "Sakurai-kuun", purring threats with a smile ("Fufu..."). Calls Sugata "Ei-kun". |
+| Mikako | 私, ～かしら, あら～, ふふっ, 桜井君, 英くん | Sweet, drawling sadist: her sing-song tail may stay a literal `~` ("Sakurai-kun~?", "Oh my~"; hers alone, D8), "Sakurai-kuun", purring threats with a smile ("Fufu..."). Calls Sugata "Ei-kun". |
 
 ## Conventions
 - Nameplate speaker keys stay Japanese in the data (they select a graphic); never translate the speaker column.
 - 「...」 inside a line -> "..."; 『title』 -> "title" or 'title'.
-- …… / ・・・ -> "..." (a line that is only …… -> "......"). ！？ -> "?!". ～ stretches a word ("Sakurai-kuuun") or goes.
+- …… / ・・・ -> "..." (a line that is only …… -> "......"). ！？ -> "?!". ～ stretches a word ("Sakurai-kuuun") or goes; a literal `~` only in Mikako's voice (D8, linted).
 - Inner thoughts: JP （...） -> (...). Narration in full-width-space-indented lines is one paragraph in English.
 - Readings in parentheses after names (見月（みつき）そはら) are furigana for the player: drop them.
 - Onomatopoeia: English/romanised ("Gwah!", "Kyaa!", "Ugh...", "Heh heh heh..."); never kana.

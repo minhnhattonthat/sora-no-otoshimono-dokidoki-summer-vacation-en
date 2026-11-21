@@ -131,7 +131,7 @@ id	kind	speaker	max	jp	en	notes
 088FBA04	utf-8		139	セーブデータが破損しています。正常に読み込めませんでした。セーブデータを読み込み直しますか。	The save data is corrupted and could not be loaded. Try loading the save data again?	
 088FBBA0	utf-8		131	セーブデータが破損しているか、正常に読み込めません。新規セーブデータで上書きしますか。	The save data is corrupted or cannot be loaded. Overwrite it with new save data?	
 088FBC24	utf-8		87	セーブデータがありません。新規セーブデータを作成しますか。	No save data found. Create new save data?	
-088FBC7C	utf-8		87	セーブデータの保存に失敗しました。保存をやり直しますか。	Failed to save the save data. Try saving again?	
+088FBC7C	utf-8		87	セーブデータの保存に失敗しました。保存をやり直しますか。	Could not save. Try again?	
 088FBE38	utf-8		87	セーブデータがありません。このままゲームを開始しますか。	No save data found. Start the game anyway?	
 088FCC88	utf-8		1023	詳細情報	Details	
 088FD088	utf-8		127	セーブデータ	Save Data	

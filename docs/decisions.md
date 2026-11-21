@@ -15,3 +15,4 @@ All D1-D7 came from the owner's standing answers injected into the one-shot run 
 | D5 | 2026-11-22 | Graphics text left in Japanese | none (default), list | Translate all (titles, menus, banners, cards); keep the Japanese logo only if no official English version exists. |
 | D6 | 2026-11-22 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through checkpoints, report at the end. |
 | D7 | 2026-11-22 | Existing saves / states | none provided | None; build the debug tool as usual. |
+| D8 | 2026-11-22 | Literal `~` for ～ (phase 6 review: 181 lines had it against the rule) | ban everywhere; allow for Mikako only; allow freely | Agent default under the pre-approved run (D6): Mikako only (her lines, ??? lines that are her, imitations of her). Her drawl is a character trait and 134 of her 305 lines use it; others' 43 lines were rewritten (fix008: stretched words or dropped). Linted in tools/batches.py. |

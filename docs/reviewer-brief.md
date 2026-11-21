@@ -3,7 +3,7 @@
 You review one or more batches of a JP->English fan translation. Read-only: no edits, no git, no subagents.
 Mechanical validity (ids, control codes, ASCII, width, glossary spellings, honorific forms) is already enforced by
 `tools/batches.py check` - judge translation quality. Return the report as your final message: the controller saves
-it. Files over ~4 KB come back as a stub from a whole-file Read: read with offset/limit (~80 lines a time).
+it as `work/tl/review/<batch>.report.md` and logs its verdict line in docs/polish.md. Files over ~4 KB come back as a stub from a whole-file Read: read with offset/limit (~80 lines a time).
 
 ## Inputs (paths in your dispatch)
 - Pairs file `work/tl/review/<batch>.txt`: every entry as `>> id | speaker | JP` / `EN` in story order (context

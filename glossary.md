@@ -15,7 +15,8 @@ must appear in the English; Avoid spellings fail.
 
 ## Style rules
 - Punctuation map: 「」 -> "...", 『』 -> '...' (titles) or "...", ・・・ / …… -> ..., ！？ -> ?!, ～ (stretched vowel) ->
-  stretch the word ("Sakurai-kuuun") or drop it, （inner thought） -> keep the parentheses: (thought).
+  stretch the word ("Sakurai-kuuun") or drop it; a literal `~` only as Mikako's sing-song tail (her lines, or
+  someone imitating her; D8, linted by tools/batches.py), （inner thought） -> keep the parentheses: (thought).
 - ASCII only. No `/` (it starts an engine control code), no `\` except `\n`, no `%name`. Keep `/K` at the very end
   of the Hexcite reaction lines that have it.
 - Write each box as one paragraph; the build word-wraps it to the box (tools/fit.py). `\n` only for a forced break.
@@ -76,7 +77,7 @@ Name + honorific forms are linted by regex (tools/batches.py HONORIFICS; stretch
 | 愛玩用 | pet-class | | 愛玩用エンジェロイド = pet-class Angeloid | |
 | 戦略エンジェロイド | strategic Angeloid | | | |
 | 電子戦用 | electronic-warfare | | Nymph's type | |
-| 初期化 | reset / initializ | | Ikaros's reset (initialize / initialization) | |
+| 初期化 | reset / initialize / initializing / initialization | | Ikaros's reset (initialize / initialization) | |
 | バックアップ回路 | backup circuit | | | |
 | 動力炉 | power reactor | | Ikaros's core | |
 | おっぱい・オブ・ザ・ワールド | Oppai of the World | | Tomoki's DVD series | |

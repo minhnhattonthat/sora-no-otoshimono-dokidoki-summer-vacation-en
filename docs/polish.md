@@ -5,7 +5,7 @@ Minor reviewer findings, deferred to one polish pass (references/translation.md 
 
 ## b046-b050 (endings)
 - [ ] SC90010.m38 - 海だな: "...It's the sea." flat -> "...The sea, huh."
-- [ ] SC90010.m7 - Mikako かしら～ lost, "simply" added -> "Maybe she just doesn't want to remember, I wonder~?" (no ~: "I wonder...?")
+- [ ] SC90010.m7 - Mikako かしら～ lost, "simply" added -> "Maybe she just doesn't want to remember, I wonder~?" (Mikako: `~` allowed, D8)
 - [ ] SC90010.m25 - literal tilde in "Ooh~... Bravo." -> "Oohh... Bravo."
 - [ ] SC90010.m63 - 手……ですか？ "Hold... hands?" -> "Hands...?"
 - [ ] SC90010.m65 - いえ……お願いします "No... Please..." ambiguous -> "No... please do..."
@@ -31,7 +31,7 @@ Minor reviewer findings, deferred to one polish pass (references/translation.md 
 - [ ] SC40210.m2 SC40211.m2 - "I'm strong!" -> "Hmph, don't count me out. I'm a beast at games!"
 - [ ] SC40320.m2 SC40321.m2 - stiff -> "Not bad, Alpha. Let's call it a day for now."
 - [ ] SC34920.m6 - "Your chest, Sohara-san..." -> "It is Sohara-san's chest..."
-- [ ] 088FBC7C - "Failed to save the save data." -> "Saving the data failed. Try saving again?"
+- [x] 088FBC7C - "Failed to save the save data." -> "Saving the data failed. Try saving again?" (fix008: "Could not save. Try again?")
 - [ ] 088C10B4 - -> "I'll go save your progress so far."
 - [ ] 088DE59C - Nymph "I win!" -> "I win, naturally!" (if bytes allow)
 
@@ -60,12 +60,12 @@ Minor reviewer findings, deferred to one polish pass (references/translation.md 
 - [ ] SC10034.m8 - -> "...at this point, what's one more?"
 - [ ] SC10044.m8 - clap sets up m11 gag -> "...I'll clap for you! Clap, clap!"
 - [ ] SC10050.m28 m30 - "Koff" -> "Gblub! Cough!" / "...Cough, cough."
-- [ ] SC10080.m1 - うい～ "Wheee~" -> "Ooi... *hic*"
+- [x] SC10080.m1 - うい～ "Wheee~" -> "Ooi... *hic*" (fix008: "Ooiii... *hic*.")
 - [ ] SC10080.m5 - -> "These two are conveniently cheap drunks... they get wasted on cola alone."
-- [ ] SC10080.m6 - invented threat -> "Heyyy, Prezh... Think you can get away with all the shtuff you've done to me?"
-- [ ] SC10081.m4 - -> "You'd better call the King 'Big Brother', you hear!"
-- [ ] SC10082.m7 - stammer -> "Gh... jusht your shocksh?!"
-- [ ] SC10084.m7 - dog image -> "Ish that the howlin' of a losht dog?!"
+- [x] SC10080.m6 - invented threat -> "Heyyy, Prezh... Think you can get away with all the shtuff you've done to me?" (fix008, "President" kept for the glossary)
+- [x] SC10081.m4 - -> "You'd better call the King 'Big Brother', you hear!" (fix008, slurred per phase 6 review: "shtart calling")
+- [x] SC10082.m7 - stammer -> "Gh... jusht your shocksh?!" (fix008)
+- [x] SC10084.m7 - dog image -> "Ish that the howlin' of a losht dog?!" (fix008)
 
 ## b014-b018 (SC2)
 - [ ] SC20140.m4 m6 m7 - shoujo/shonen spelling -> "shojo" / "shonen"

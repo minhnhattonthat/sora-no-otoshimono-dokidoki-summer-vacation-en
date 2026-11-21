@@ -42,7 +42,7 @@ if it truly can't, keep the meaning and report `LONG: id`.
 - Names and terms exactly as in the glossary; honorifics kept, hyphenated (Ikaros-san, Sakurai-kun, Tomo-chan,
   Sugata-senpai, Ei-kun); Western name order. マスター = "Master" (capitalised), アルファー = "Alpha".
 - Never abbreviate to fit.
-- Punctuation: 「」 -> "...", …… -> "...", ！？ -> "?!", ～ stretches a word or goes, （thought） -> (thought).
+- Punctuation: 「」 -> "...", …… -> "...", ！？ -> "?!", ～ stretches a word or goes (a literal `~` only in Mikako's voice, D8), （thought） -> (thought).
   Drop furigana readings in parentheses after names.
 - Onomatopoeia and interjections in English or romanised ("Gwah!", "Kyaa!", "Ngh...", "Heh heh heh"), never kana.
 - A box that is only a pause (…… / ！？) stays a pause ("......", "?!").

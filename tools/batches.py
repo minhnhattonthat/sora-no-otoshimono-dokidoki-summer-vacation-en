@@ -34,6 +34,9 @@ SPEAKERS = {"智樹": "Tomoki", "智樹Ａ": "Tomoki", "智樹Ｂ": "Tomoki", "�
 HONORIFICS = {"イカロスさん": "Ikaros-san", "イカロスちゃん": "Ikaros-chan", "そはらさん": "Sohara-san",
               "ニンフさん": "Nymph-san", "ニンフちゃん": "Nymph-chan", "桜井[君く]": "Sakurai-ku+n",
               "見月さん": "Mitsuki-san", "トモちゃん": "Tomo-cha+n", "英[く君]": "Ei-ku+n", "守形先輩": "Sugata-senpai", "守形さん": "Sugata-san"}
+# '~' is Mikako's sing-song tail only (decision D8, glossary.md §Style rules): her lines, plus these where she speaks
+# off-screen as ??? or someone imitates her.
+MIKAKO_VOICE = {"SC20043.m5", "SC30800.m12", "SC34110.m9", "SC90040.m55"}
 FORMS = {"dialogue": "dlg", "choice": "choice", "helpbar": "menu", "system": "menu", "xmb": "menu"}
 
 
@@ -141,6 +144,8 @@ def problems(entry, en, terms):
         out.append(f"control codes differ: JP {dict(want)} EN {dict(have)} (/K stays at the very end)")
     if re.search(VARIABLE, en):
         out.append("%name/%family is a renderer token; write the name")
+    if "~" in en and entry.get("speaker") != "美香子" and entry["id"] not in MIKAKO_VOICE:
+        out.append("'~' is Mikako's tail only (D8): stretch the word (\"sooo\") or drop it")
     jp_plain = TOKEN.sub("", jp).replace("\\n", "")
     en_terms = " ".join(TOKEN.sub(" ", en).replace("\\n", " ").split()).lower()
     for jps, ens, avoid in terms:
@@ -278,6 +283,7 @@ def _selftest():
     e = {"id": "x", "kind": "msg", "jp": "テスト", "_source": "sos", "_box": "dialogue", "max": ""}
     assert problems(e, "A fine line.", []) == []
     assert problems(e, "a/b", [])[0].startswith("unencodable")
+    assert "D8" in problems(e, "Yaaay~!", [])[0] and problems(dict(e, speaker="美香子"), "Sakurai-kun~?", []) == []
     assert any("lines" in p for p in problems(e, " ".join(["word"] * 120), []))
     k = {"id": "088DCAD0", "kind": "cp932", "jp": "作戦成功。/K", "_source": "eboot", "_box": "dialogue", "max": "127"}
     assert problems(k, "Mission complete./K", []) == []

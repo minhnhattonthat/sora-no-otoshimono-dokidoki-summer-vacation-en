@@ -1,0 +1,688 @@
+id	kind	speaker	max	jp	en	notes
+088F1734	cp932		51	、。　（）〔〕［］｛｝〈〉《》「」『』【】‘’“”		kinsoku (line-break) tables (pointers at 0x088FD198/0x088FD1A8); engine data
+088F17E8	cp932		63	、。！？）」』ッっぁぃぅぇぉァィゥェォゃゅょャュョ―…～ー　		kinsoku (line-break) tables (pointers at 0x088FD198/0x088FD1A8); engine data
+088F1834	cp932		15	主人公の名前		name-substitution tokens the text renderer strncmp()s (0x08817740); no script uses them
+088F1844	cp932		15	主人公の苗字		name-substitution tokens the text renderer strncmp()s (0x08817740); no script uses them
+088F1854	cp932		15	主人公の名字		name-substitution tokens the text renderer strncmp()s (0x08817740); no script uses them
+088F1874	cp932		23	）〕］｝〉》」』】’”		kinsoku (line-break) tables; engine data
+088F188C	cp932		23	（〔［｛〈《「『【‘“		kinsoku (line-break) tables; engine data
+088F18A4	cp932		7	『「（		kinsoku (line-break) tables; engine data
+088F1B2C	cp932		7	背景		layout object names (title screen FSB)
+088F1B34	cp932		7	カード		layout object names (title screen FSB)
+088F1B3C	cp932		11	カード_白		layout object names (title screen FSB)
+088F1B48	cp932		7	ロゴ		layout object names (title screen FSB)
+088F1B50	cp932		23	コミュモード（非選択）		layout object names (title screen FSB)
+088F1B68	cp932		23	フリーモード（非選択）		layout object names (title screen FSB)
+088F1B80	cp932		23	オプション（非選択）		layout object names (title screen FSB)
+088F1B98	cp932		23	コミュモード（選択）		layout object names (title screen FSB)
+088F1BB0	cp932		23	フリーモード（選択）		layout object names (title screen FSB)
+088F1BC8	cp932		19	オプション（選択）		layout object names (title screen FSB)
+088F1BDC	cp932		23	はじめから（非選択）		layout object names (title screen FSB)
+088F1BF4	cp932		23	つづきから（非選択）		layout object names (title screen FSB)
+088F1C0C	cp932		19	はじめから（選択）		layout object names (title screen FSB)
+088F1C20	cp932		19	つづきから（選択）		layout object names (title screen FSB)
+088F2030	cp932		7	黒30％		layout object names
+088F2038	cp932		15	背景(半透明黒)		layout object names
+088F2048	cp932		23	ダイアログウィンドウ		layout object names
+088F2060	cp932		23	ダイアログウィンドウ左		layout object names
+088F2078	cp932		15	はい（非選択）		layout object names
+088F2088	cp932		19	いいえ（非選択）		layout object names
+088F209C	cp932		19	はい（アクティブ）		layout object names
+088F20B0	cp932		23	いいえ（アクティブ）		layout object names
+088F20C8	cp932		11	“はい”OFF		layout object names
+088F20D4	cp932		11	“はい”ON		layout object names
+088F20E0	cp932		15	“いいえ”OFF		layout object names
+088F20F0	cp932		15	“いいえ”ON		layout object names
+088F218C	cp932		23	メッセージウィンドウ		layout object names
+088F21A4	cp932		19	ネームウィンドウ		layout object names
+088F21B8	cp932		15	送りアイコン		layout object names
+088F21C8	cp932		11	名前_智樹		layout object names
+088F21D4	cp932		11	名前_智樹Ａ		layout object names
+088F21E0	cp932		11	名前_智樹Ｂ		layout object names
+088F21EC	cp932		11	名前_智樹？		layout object names
+088F21F8	cp932		15	名前_イカロス		layout object names
+088F2208	cp932		11	名前_ニンフ		layout object names
+088F2214	cp932		11	名前_そはら		layout object names
+088F2220	cp932		15	名前_そはらＡ		layout object names
+088F2230	cp932		15	名前_そはらＢ		layout object names
+088F2240	cp932		11	名前_美香子		layout object names
+088F224C	cp932		11	名前_守形		layout object names
+088F2258	cp932		11	名前_？？？		layout object names
+088F2264	cp932		19	名前_智樹＆ニンフ		layout object names
+088F2278	cp932		19	名前_智樹＆そはら		layout object names
+088F228C	cp932		7	オート		layout object names
+088F2294	cp932		11	スキップ		layout object names
+088F22A0	cp932		27	選択カード表示ウィンドウ		layout object names
+088F22BC	cp932		15	ダウン1（左）		layout object names
+088F22CC	cp932		15	ダウン2（左）		layout object names
+088F22DC	cp932		15	ダウン3（左）		layout object names
+088F22EC	cp932		15	アップ1（左）		layout object names
+088F22FC	cp932		15	アップ2（左）		layout object names
+088F230C	cp932		15	アップ3（左）		layout object names
+088F231C	cp932		15	うれしい(左）		layout object names
+088F232C	cp932		11	悲しい(左）		layout object names
+088F2338	cp932		11	怒り(左）		layout object names
+088F2344	cp932		15	恥ずかしい(左）		layout object names
+088F2354	cp932		15	ダウン1（右）		layout object names
+088F2364	cp932		15	ダウン2（右）		layout object names
+088F2374	cp932		15	ダウン3（右）		layout object names
+088F2384	cp932		15	アップ1（右）		layout object names
+088F2394	cp932		15	アップ2（右）		layout object names
+088F23A4	cp932		15	アップ3（右）		layout object names
+088F23B4	cp932		15	うれしい（右）		layout object names
+088F23C4	cp932		15	悲しい（右）		layout object names
+088F23D4	cp932		11	怒り（右）		layout object names
+088F23E0	cp932		19	恥ずかしい（右）		layout object names
+088F23F4	cp932		15	カード名の位置		layout object names
+088F2404	cp932		23	使用カードウィンドウ		layout object names
+088F241C	cp932		23	矢印上（ストップ時）		layout object names
+088F2434	cp932		19	矢印上（選択時）		layout object names
+088F2448	cp932		31	捨て時：選択カードウィンドウ		layout object names
+088F2468	cp932		23	矢印下（ストップ時）		layout object names
+088F2480	cp932		19	矢印下（選択時）		layout object names
+088F2494	cp932		31	捨て時：候補カードウィンドウ		layout object names
+088F24B4	cp932		23	捨てるボタン（通常）		layout object names
+088F24CC	cp932		27	捨てるボタン（押された）		layout object names
+088F24E8	cp932		19	カード選択フレーム		layout object names
+088F24FC	cp932		31	カード選択フレーム（捨て時）		layout object names
+088F251C	cp932		27	選択：カード選択フレーム大		layout object names
+088F2538	cp932		27	候補：カード選択フレーム大		layout object names
+088F2554	cp932		23	捨てカード選択フレーム		layout object names
+088F256C	cp932		23	ミニカード(うれしい)		layout object names
+088F2584	cp932		19	ミニカード(悲しい)		layout object names
+088F2598	cp932		19	ミニカード(怒り)		layout object names
+088F25AC	cp932		23	ミニカード(恥ずかしい)		layout object names
+088F25C4	cp932		27	ミニカード(グレーカード)		layout object names
+088F25E0	cp932		11	カード配置1		layout object names
+088F25EC	cp932		11	カード配置2		layout object names
+088F25F8	cp932		11	カード配置3		layout object names
+088F2604	cp932		11	カード配置4		layout object names
+088F2610	cp932		11	カード配置5		layout object names
+088F261C	cp932		11	カード配置6		layout object names
+088F2628	cp932		11	カード配置7		layout object names
+088F2634	cp932		11	カード配置8		layout object names
+088F2640	cp932		11	カード配置9		layout object names
+088F264C	cp932		19	カード配置(右上大）		layout object names
+088F2660	cp932		19	捨て時：カード配置1		layout object names
+088F2674	cp932		19	捨て時：カード配置2		layout object names
+088F2688	cp932		19	捨て時：カード配置3		layout object names
+088F269C	cp932		19	捨て時：カード配置4		layout object names
+088F26B0	cp932		19	捨て時：カード配置5		layout object names
+088F26C4	cp932		11	現在の手札		layout object names
+088F26D0	cp932		11	ウィンドウ		layout object names
+088F26DC	cp932		15	カードゲット		layout object names
+088F26EC	cp932		11	ゲット枚数		layout object names
+088F26F8	cp932		11	枚数（1）		layout object names
+088F2704	cp932		11	枚数（2）		layout object names
+088F2710	cp932		11	枚数（3）		layout object names
+088F271C	cp932		11	枚数（4）		layout object names
+088F2728	cp932		11	枚数（5）		layout object names
+088F2734	cp932		23	羽アニメーション（左）		layout object names
+088F274C	cp932		23	羽アニメーション（右）		layout object names
+088F2764	cp932		23	カード座布団（4枚用）1		layout object names
+088F277C	cp932		23	カード座布団（4枚用）2		layout object names
+088F2794	cp932		23	カード座布団（4枚用）3		layout object names
+088F27AC	cp932		23	カード座布団（4枚用）4		layout object names
+088F27C4	cp932		19	カード（4枚用）1		layout object names
+088F27D8	cp932		19	カード（4枚用）2		layout object names
+088F27EC	cp932		19	カード（4枚用）3		layout object names
+088F2800	cp932		19	カード（4枚用）4		layout object names
+088F2814	cp932		23	カード座布団（5枚用）1		layout object names
+088F282C	cp932		23	カード座布団（5枚用）2		layout object names
+088F2844	cp932		23	カード座布団（5枚用）3		layout object names
+088F285C	cp932		23	カード座布団（5枚用）4		layout object names
+088F2874	cp932		23	カード座布団（5枚用）5		layout object names
+088F288C	cp932		19	カード（5枚用）1		layout object names
+088F28A0	cp932		19	カード（5枚用）2		layout object names
+088F28B4	cp932		19	カード（5枚用）3		layout object names
+088F28C8	cp932		19	カード（5枚用）4		layout object names
+088F28DC	cp932		19	カード（5枚用）5		layout object names
+088F28F0	cp932		15	カード用座布団		layout object names
+088F2900	cp932		15	カードL表示範囲		layout object names
+088F2910	cp932		11	カード名		layout object names
+088F291C	cp932		15	追加メッセージ		layout object names
+088F292C	cp932		19	“ボーナス”座布団		layout object names
+088F2940	cp932		19	“勝利数ボーナス”		layout object names
+088F2954	cp932		19	“連勝数ボーナス”		layout object names
+088F2968	cp932		19	“戦闘数ボーナス”		layout object names
+088F297C	cp932		19	“逆転数ボーナス”		layout object names
+088F2990	cp932		19	“点差ボーナス”		layout object names
+088F29A4	cp932		7	ベース		layout object names
+088F29AC	cp932		7	レベル		layout object names
+088F29B4	cp932		11	（レベル）1		layout object names
+088F29C0	cp932		11	（レベル）2		layout object names
+088F29CC	cp932		11	（レベル）3		layout object names
+088F29D8	cp932		11	（レベル）4		layout object names
+088F29E4	cp932		19	カード枚数座布団		layout object names
+088F29F8	cp932		23	カード枚数（十の位）		layout object names
+088F2A10	cp932		23	カード枚数（一の位）		layout object names
+088F2A28	cp932		19	カードゲットエリア		layout object names
+088F2A3C	cp932		15	クリアエリア		layout object names
+088F2A4C	cp932		7	光彩_嬉		layout object names
+088F2A54	cp932		7	光彩_悲		layout object names
+088F2A5C	cp932		7	光彩_怒		layout object names
+088F2A64	cp932		7	光彩_恥		layout object names
+088F2A6C	cp932		7	十字		layout object names
+088F2A74	cp932		7	ライン		layout object names
+088F2A7C	cp932		11	ライン_UP		layout object names
+088F2A88	cp932		11	ライン_DOWN		layout object names
+088F2A94	cp932		7	感情名		layout object names
+088F2A9C	cp932		15	羽_嬉1_クリア側		layout object names
+088F2AAC	cp932		19	羽_嬉2_クリア値達成		layout object names
+088F2AC0	cp932		15	羽_嬉1_カード側		layout object names
+088F2AD0	cp932		19	羽_嬉2_カード値達成		layout object names
+088F2AE4	cp932		15	羽_怒1_クリア側		layout object names
+088F2AF4	cp932		19	羽_怒2_クリア値達成		layout object names
+088F2B08	cp932		15	羽_怒1_カード側		layout object names
+088F2B18	cp932		19	羽_怒2_カード値達成		layout object names
+088F2B2C	cp932		15	羽_恥1_クリア側		layout object names
+088F2B3C	cp932		19	羽_恥2_クリア値達成		layout object names
+088F2B50	cp932		15	羽_恥1_カード側		layout object names
+088F2B60	cp932		19	羽_恥2_カード値達成		layout object names
+088F2B74	cp932		15	羽_悲1_クリア側		layout object names
+088F2B84	cp932		19	羽_悲2_クリア値達成		layout object names
+088F2B98	cp932		15	羽_悲1_カード側		layout object names
+088F2BA8	cp932		19	羽_悲2_カード値達成		layout object names
+088F2BBC	cp932		27	ウィンドウ（パラUP演出）		layout object names
+088F2BD8	cp932		23	ダウン（パラUP演出）		layout object names
+088F2BF0	cp932		23	アップ（パラUP演出）		layout object names
+088F2C08	cp932		23	嬉しい（パラUP演出）		layout object names
+088F2C20	cp932		23	悲しい（パラUP演出）		layout object names
+088F2C38	cp932		19	怒り（パラUP演出）		layout object names
+088F2C4C	cp932		23	恥しい（パラUP演出）		layout object names
+088F2C64	cp932		7	背景		layout object names
+088F3310	cp932		7	そはら		layout object name (そはら, next to タイトル)
+088F3318	cp932		11	タイトル		layout object names
+088F3324	cp932		27	ボタン_設定＆チュートリアル		layout object names
+088F3340	cp932		15	NAME_ヘキサイト		layout object names
+088F3350	cp932		19	NAME_ヘキサイトES		layout object names
+088F3364	cp932		19	IMG_ヘキサイト_off		layout object names
+088F3378	cp932		19	IMG_ヘキサイト_on		layout object names
+088F338C	cp932		23	IMG_ヘキサイトES_off		layout object names
+088F33A4	cp932		19	IMG_ヘキサイトES_on		layout object names
+088F33B8	cp932		11	BG_コメント		layout object names
+088F33C4	cp932		11	コメント		layout object names
+088F33FC	cp932		15	キャラクター		layout object names
+088F3588	cp932		11	ウィンドウ		layout object names
+088F3594	cp932		15	非選択（再戦）		layout object names
+088F35A4	cp932		31	非選択（キャラクターをかえる）		layout object names
+088F35C4	cp932		31	非選択（ヘキサイトをやめる）		layout object names
+088F35E4	cp932		15	選択（再戦）		layout object names
+088F35F4	cp932		31	選択（キャラクターをかえる）		layout object names
+088F3614	cp932		27	選択（ヘキサイトをやめる）		layout object names
+088F3EF0	cp932		7	背景		layout object names
+088F3EF8	cp932		15	スイカアニメ		layout object names
+088F3F98	cp932		15	ペンキアニメ		layout object names
+088F3FA8	cp932		11	表示画像16		layout object names
+088F3FB4	cp932		11	表示画像15		layout object names
+088F3FC0	cp932		11	表示画像14		layout object names
+088F3FCC	cp932		11	表示画像13		layout object names
+088F3FD8	cp932		11	表示画像12		layout object names
+088F3FE4	cp932		11	表示画像11		layout object names
+088F3FF0	cp932		11	表示画像10		layout object names
+088F3FFC	cp932		11	表示画像9		layout object names
+088F4008	cp932		11	表示画像8		layout object names
+088F4014	cp932		11	表示画像7		layout object names
+088F4020	cp932		11	表示画像6		layout object names
+088F402C	cp932		11	表示画像5		layout object names
+088F4038	cp932		11	表示画像4		layout object names
+088F4044	cp932		11	表示画像3		layout object names
+088F4050	cp932		11	表示画像2		layout object names
+088F405C	cp932		11	表示画像1		layout object names
+088F4168	cp932		15	カード詳細画面		layout object names
+088F4178	cp932		15	持っていかない		layout object names
+088F4188	cp932		15	カード名のバー		layout object names
+088F4198	cp932		23	“持っていかない”OFF		layout object names
+088F41B0	cp932		23	“持っていかない”ON		layout object names
+088F41C8	cp932		15	カードM_位置		layout object names
+088F41D8	cp932		15	カードS_01_位置		layout object names
+088F41E8	cp932		15	カードS_02_位置		layout object names
+088F41F8	cp932		15	カードS_03_位置		layout object names
+088F4208	cp932		15	カードS_04_位置		layout object names
+088F4218	cp932		15	カードS_05_位置		layout object names
+088F4228	cp932		23	カード選択枠（1番目）		layout object names
+088F4240	cp932		23	カード選択枠（2番目）		layout object names
+088F4258	cp932		23	カード選択枠（3番目）		layout object names
+088F4270	cp932		23	カード選択枠（4番目）		layout object names
+088F4288	cp932		23	カード選択枠（5番目）		layout object names
+088F42A0	cp932		11	タイトル		layout object names
+088F42AC	cp932		11	注意書き		layout object names
+088F42B8	cp932		19	アイコン説明の帯		layout object names
+088F42CC	cp932		19	効果説明（智樹）		layout object names
+088F42E0	cp932		23	効果説明（イカロス）		layout object names
+088F42F8	cp932		19	効果説明（ニンフ）		layout object names
+088F430C	cp932		19	効果説明（そはら）		layout object names
+088F4320	cp932		19	効果説明（美香子）		layout object names
+088F4334	cp932		19	効果説明（守形）		layout object names
+088F4348	cp932		15	カード名の位置		layout object names
+088F4358	cp932		19	カードS_01_使用不可		layout object names
+088F436C	cp932		19	カードS_02_使用不可		layout object names
+088F4380	cp932		19	カードS_03_使用不可		layout object names
+088F4394	cp932		19	カードS_04_使用不可		layout object names
+088F43A8	cp932		19	カードS_05_使用不可		layout object names
+088F43BC	cp932		11	ウィンドウ		layout object names
+088F43C8	cp932		23	白ライン（全部共通）		layout object names
+088F4430	cp932		19	TXT_00_レベルアップ		layout object names
+088F4444	cp932		15	選択肢01_off		layout object names
+088F4454	cp932		11	選択肢01_on		layout object names
+088F4460	cp932		15	選択肢02_off		layout object names
+088F4470	cp932		11	選択肢02_on		layout object names
+088F447C	cp932		15	選択肢03_off		layout object names
+088F448C	cp932		11	選択肢03_on		layout object names
+088F4498	cp932		19	選択肢01_選択不可		layout object names
+088F44AC	cp932		19	選択肢02_選択不可		layout object names
+088F44C0	cp932		15	選択肢04_off		layout object names
+088F44D0	cp932		11	選択肢04_on		layout object names
+088F44E0	cp932		7	ニンフ		layout object name (ニンフ, between layout names)
+088F44E8	cp932		7	一覧表		layout object names
+088F7AF8	cp932		15	テーブル_情報		layout object names
+088F7B08	cp932		15	テーブル_名前		layout object names
+088F7B18	cp932		11	タイトル		layout object names
+088F7B24	cp932		11	必殺技：		layout object names
+088F7B30	cp932		19	必殺技名（智樹）		layout object names
+088F7B44	cp932		23	必殺技名（イカロス）		layout object names
+088F7B5C	cp932		19	必殺技名（ニンフ）		layout object names
+088F7B70	cp932		19	必殺技名（そはら）		layout object names
+088F7B84	cp932		19	必殺技名（美香子）		layout object names
+088F7B98	cp932		19	必殺技名（守形）		layout object names
+088F7BAC	cp932		19	技の内容（智樹）		layout object names
+088F7BC0	cp932		23	技の内容（イカロス）		layout object names
+088F7BD8	cp932		19	技の内容（ニンフ）		layout object names
+088F7BEC	cp932		19	技の内容（そはら）		layout object names
+088F7C00	cp932		19	技の内容（美香子）		layout object names
+088F7C14	cp932		19	技の内容（守形）		layout object names
+088F7C28	cp932		15	バストアップS		layout object names
+088F7C38	cp932		11	キャラ名		layout object names
+088F7C44	cp932		7	BG_下部		layout object names
+088F7C58	cp932		11	TXT_三角		layout object names
+088F7C64	cp932		19	ICON_イカロス_off		layout object names
+088F7C78	cp932		19	ICON_イカロス_on		layout object names
+088F7C8C	cp932		15	ICON_智樹_off		layout object names
+088F7C9C	cp932		15	ICON_智樹_on		layout object names
+088F7CAC	cp932		15	ICON_ニンフ_off		layout object names
+088F7CBC	cp932		15	ICON_ニンフ_on		layout object names
+088F7CCC	cp932		15	ICON_そはら_off		layout object names
+088F7CDC	cp932		15	ICON_そはら_on		layout object names
+088F7CEC	cp932		15	ICON_美香子_off		layout object names
+088F7CFC	cp932		15	ICON_美香子_on		layout object names
+088F7D0C	cp932		15	ICON_守形_off		layout object names
+088F7D1C	cp932		15	ICON_守形_on		layout object names
+088F7D2C	cp932		19	BG_下部イカロス用		layout object names
+088F7D40	cp932		19	BUTTON_戦闘服_off		layout object names
+088F7D54	cp932		19	BUTTON_戦闘服_on		layout object names
+088F7D68	cp932		23	BUTTON_???_（戦闘服）		layout object names
+088F7D80	cp932		15	BUTTON_私服_off		layout object names
+088F7D90	cp932		15	BUTTON_私服_on		layout object names
+088F7DA0	cp932		19	BUTTON_???_（私服）		layout object names
+088F7DB4	cp932		15	BUTTON_制服_off		layout object names
+088F7DC4	cp932		15	BUTTON_制服_on		layout object names
+088F7DD4	cp932		19	BUTTON_???_（制服）		layout object names
+088F7DE8	cp932		15	BUTTON_水着_off		layout object names
+088F7DF8	cp932		15	BUTTON_水着_on		layout object names
+088F7E08	cp932		19	BUTTON_???_（水着）		layout object names
+088F7E1C	cp932		19	BUTTON_体操服_off		layout object names
+088F7E30	cp932		19	BUTTON_体操服_on		layout object names
+088F7E44	cp932		23	BUTTON_???_（体操着）		layout object names
+088F7E5C	cp932		23	プロフカード_noget01		layout object names
+088F7E74	cp932		19	プロフカード_get01		layout object names
+088F7E88	cp932		23	プロフカード_noget02		layout object names
+088F7EA0	cp932		19	プロフカード_get02		layout object names
+088F7EB4	cp932		23	プロフカード_noget03		layout object names
+088F7ECC	cp932		19	プロフカード_get03		layout object names
+088F7EE0	cp932		23	プロフカード_noget04		layout object names
+088F7EF8	cp932		19	プロフカード_get04		layout object names
+088F7F0C	cp932		23	イベントカード_noget		layout object names
+088F7F24	cp932		19	イベントカード_get		layout object names
+088F7F38	cp932		7	勝敗数		layout object names
+088F7F40	cp932		23	プレイヤー_イカロスの時		layout object names
+088F7F58	cp932		23	プレイヤー_ともきの時		layout object names
+088F7F70	cp932		23	プレイヤー_ニンフの時		layout object names
+088F7F88	cp932		23	プレイヤー_そはらの時		layout object names
+088F7FA0	cp932		23	プレイヤー_美香子の時		layout object names
+088F7FB8	cp932		19	プレイヤー_守形の時		layout object names
+088F7FCC	cp932		15	勝（百の位）		layout object names
+088F7FDC	cp932		15	勝（十の位）		layout object names
+088F7FEC	cp932		15	勝（一の位）		layout object names
+088F7FFC	cp932		15	敗（百の位）		layout object names
+088F800C	cp932		15	敗（十の位）		layout object names
+088F801C	cp932		15	敗（一の位）		layout object names
+088F802C	cp932		15	分（十の位）		layout object names
+088F803C	cp932		15	分（一の位）		layout object names
+088F804C	cp932		15	連勝（十の位）		layout object names
+088F805C	cp932		15	連勝（一の位）		layout object names
+088F88F4	cp932		15	キャラクター左		layout object names
+088F8904	cp932		15	キャラクター右		layout object names
+088F8914	cp932		19	ウィンドウ（左）		layout object names
+088F8928	cp932		19	ウィンドウ（右）		layout object names
+088F893C	cp932		23	ウィンドウ_待機（左）		layout object names
+088F8954	cp932		23	ウィンドウ_待機（右）		layout object names
+088F896C	cp932		23	名前ウィンドウ（左）		layout object names
+088F8984	cp932		23	名前ウィンドウ（右）		layout object names
+088F899C	cp932		23	使用できる図形（左）		layout object names
+088F89B4	cp932		23	使用できる図形ES（左）		layout object names
+088F89CC	cp932		23	使用できる図形（右）		layout object names
+088F89E4	cp932		23	使用できる図形ES（右）		layout object names
+088F89FC	cp932		11	キャラ名左		layout object names
+088F8A08	cp932		11	キャラ名右		layout object names
+088F8A14	cp932		7	盤面		layout object names
+088F8A1C	cp932		7	盤面ES		layout object names
+088F8A34	cp932		15	HELP(メニュー）		layout object names
+088F8A44	cp932		15	HELP（中断）		layout object names
+088F8A54	cp932		23	ポイント左（百の位0）		layout object names
+088F8A6C	cp932		23	ポイント左（百の位1）		layout object names
+088F8A84	cp932		23	ポイント左（百の位2）		layout object names
+088F8A9C	cp932		23	ポイント左（百の位3）		layout object names
+088F8AB4	cp932		23	ポイント左（百の位4）		layout object names
+088F8ACC	cp932		23	ポイント左（百の位5）		layout object names
+088F8AE4	cp932		23	ポイント左（百の位6）		layout object names
+088F8AFC	cp932		23	ポイント左（百の位7）		layout object names
+088F8B14	cp932		23	ポイント左（百の位8）		layout object names
+088F8B2C	cp932		23	ポイント左（百の位9）		layout object names
+088F8B44	cp932		23	ポイント左（十の位0）		layout object names
+088F8B5C	cp932		23	ポイント左（十の位1）		layout object names
+088F8B74	cp932		23	ポイント左（十の位2）		layout object names
+088F8B8C	cp932		23	ポイント左（十の位3）		layout object names
+088F8BA4	cp932		23	ポイント左（十の位4）		layout object names
+088F8BBC	cp932		23	ポイント左（十の位5）		layout object names
+088F8BD4	cp932		23	ポイント左（十の位6）		layout object names
+088F8BEC	cp932		23	ポイント左（十の位7）		layout object names
+088F8C04	cp932		23	ポイント左（十の位8）		layout object names
+088F8C1C	cp932		23	ポイント左（十の位9）		layout object names
+088F8C34	cp932		23	ポイント左（一の位0）		layout object names
+088F8C4C	cp932		23	ポイント左（一の位1）		layout object names
+088F8C64	cp932		23	ポイント左（一の位2）		layout object names
+088F8C7C	cp932		23	ポイント左（一の位3）		layout object names
+088F8C94	cp932		23	ポイント左（一の位4）		layout object names
+088F8CAC	cp932		23	ポイント左（一の位5）		layout object names
+088F8CC4	cp932		23	ポイント左（一の位6）		layout object names
+088F8CDC	cp932		23	ポイント左（一の位7）		layout object names
+088F8CF4	cp932		23	ポイント左（一の位8）		layout object names
+088F8D0C	cp932		23	ポイント左（一の位9）		layout object names
+088F8D24	cp932		19	ポイント左（ｐｔ）		layout object names
+088F8D38	cp932		23	ポイント右（百の位0）		layout object names
+088F8D50	cp932		23	ポイント右（百の位1）		layout object names
+088F8D68	cp932		23	ポイント右（百の位2）		layout object names
+088F8D80	cp932		23	ポイント右（百の位3）		layout object names
+088F8D98	cp932		23	ポイント右（百の位4）		layout object names
+088F8DB0	cp932		23	ポイント右（百の位5）		layout object names
+088F8DC8	cp932		23	ポイント右（百の位6）		layout object names
+088F8DE0	cp932		23	ポイント右（百の位7）		layout object names
+088F8DF8	cp932		23	ポイント右（百の位8）		layout object names
+088F8E10	cp932		23	ポイント右（百の位9）		layout object names
+088F8E28	cp932		23	ポイント右（十の位0）		layout object names
+088F8E40	cp932		23	ポイント右（十の位1）		layout object names
+088F8E58	cp932		23	ポイント右（十の位2）		layout object names
+088F8E70	cp932		23	ポイント右（十の位3）		layout object names
+088F8E88	cp932		23	ポイント右（十の位4）		layout object names
+088F8EA0	cp932		23	ポイント右（十の位5）		layout object names
+088F8EB8	cp932		23	ポイント右（十の位6）		layout object names
+088F8ED0	cp932		23	ポイント右（十の位7）		layout object names
+088F8EE8	cp932		23	ポイント右（十の位8）		layout object names
+088F8F00	cp932		23	ポイント右（十の位9）		layout object names
+088F8F18	cp932		23	ポイント右（一の位0）		layout object names
+088F8F30	cp932		23	ポイント右（一の位1）		layout object names
+088F8F48	cp932		23	ポイント右（一の位2）		layout object names
+088F8F60	cp932		23	ポイント右（一の位3）		layout object names
+088F8F78	cp932		23	ポイント右（一の位4）		layout object names
+088F8F90	cp932		23	ポイント右（一の位5）		layout object names
+088F8FA8	cp932		23	ポイント右（一の位6）		layout object names
+088F8FC0	cp932		23	ポイント右（一の位7）		layout object names
+088F8FD8	cp932		23	ポイント右（一の位8）		layout object names
+088F8FF0	cp932		23	ポイント右（一の位9）		layout object names
+088F9008	cp932		19	ポイント右（ｐｔ）		layout object names
+088F901C	cp932		15	正方形左（0）		layout object names
+088F902C	cp932		15	正方形左（1）		layout object names
+088F903C	cp932		15	正方形左（2）		layout object names
+088F904C	cp932		15	正方形左（3）		layout object names
+088F905C	cp932		15	正方形左（4）		layout object names
+088F906C	cp932		15	正方形左（5）		layout object names
+088F907C	cp932		15	正方形左（6）		layout object names
+088F908C	cp932		15	正方形左（7）		layout object names
+088F909C	cp932		15	正方形左（8）		layout object names
+088F90AC	cp932		15	正方形左（9）		layout object names
+088F90BC	cp932		15	三角形S左（0）		layout object names
+088F90CC	cp932		15	三角形S左（1）		layout object names
+088F90DC	cp932		15	三角形S左（2）		layout object names
+088F90EC	cp932		15	三角形S左（3）		layout object names
+088F90FC	cp932		15	三角形S左（4）		layout object names
+088F910C	cp932		15	三角形S左（5）		layout object names
+088F911C	cp932		15	三角形S左（6）		layout object names
+088F912C	cp932		15	三角形S左（7）		layout object names
+088F913C	cp932		15	三角形S左（8）		layout object names
+088F914C	cp932		15	三角形S左（9）		layout object names
+088F915C	cp932		15	三角形L左（0）		layout object names
+088F916C	cp932		15	三角形L左（1）		layout object names
+088F917C	cp932		15	三角形L左（2）		layout object names
+088F918C	cp932		15	三角形L左（3）		layout object names
+088F919C	cp932		15	三角形L左（4）		layout object names
+088F91AC	cp932		15	三角形L左（5）		layout object names
+088F91BC	cp932		15	三角形L左（6）		layout object names
+088F91CC	cp932		15	三角形L左（7）		layout object names
+088F91DC	cp932		15	三角形L左（8）		layout object names
+088F91EC	cp932		15	三角形L左（9）		layout object names
+088F91FC	cp932		15	ひし形S左（0）		layout object names
+088F920C	cp932		15	ひし形S左（1）		layout object names
+088F921C	cp932		15	ひし形S左（2）		layout object names
+088F922C	cp932		15	ひし形S左（3）		layout object names
+088F923C	cp932		15	ひし形S左（4）		layout object names
+088F924C	cp932		15	ひし形S左（5）		layout object names
+088F925C	cp932		15	ひし形S左（6）		layout object names
+088F926C	cp932		15	ひし形S左（7）		layout object names
+088F927C	cp932		15	ひし形S左（8）		layout object names
+088F928C	cp932		15	ひし形S左（9）		layout object names
+088F929C	cp932		15	ひし形L左（0）		layout object names
+088F92AC	cp932		15	ひし形L左（1）		layout object names
+088F92BC	cp932		15	ひし形L左（2）		layout object names
+088F92CC	cp932		15	ひし形L左（3）		layout object names
+088F92DC	cp932		15	ひし形L左（4）		layout object names
+088F92EC	cp932		15	ひし形L左（5）		layout object names
+088F92FC	cp932		15	ひし形L左（6）		layout object names
+088F930C	cp932		15	ひし形L左（7）		layout object names
+088F931C	cp932		15	ひし形L左（8）		layout object names
+088F932C	cp932		15	ひし形L左（9）		layout object names
+088F933C	cp932		15	台形S左（0）		layout object names
+088F934C	cp932		15	台形S左（1）		layout object names
+088F935C	cp932		15	台形S左（2）		layout object names
+088F936C	cp932		15	台形S左（3）		layout object names
+088F937C	cp932		15	台形S左（4）		layout object names
+088F938C	cp932		15	台形S左（5）		layout object names
+088F939C	cp932		15	台形S左（6）		layout object names
+088F93AC	cp932		15	台形S左（7）		layout object names
+088F93BC	cp932		15	台形S左（8）		layout object names
+088F93CC	cp932		15	台形S左（9）		layout object names
+088F93DC	cp932		15	台形L左（0）		layout object names
+088F93EC	cp932		15	台形L左（1）		layout object names
+088F93FC	cp932		15	台形L左（2）		layout object names
+088F940C	cp932		15	台形L左（3）		layout object names
+088F941C	cp932		15	台形L左（4）		layout object names
+088F942C	cp932		15	台形L左（5）		layout object names
+088F943C	cp932		15	台形L左（6）		layout object names
+088F944C	cp932		15	台形L左（7）		layout object names
+088F945C	cp932		15	台形L左（8）		layout object names
+088F946C	cp932		15	台形L左（9）		layout object names
+088F947C	cp932		15	正方形右（0）		layout object names
+088F948C	cp932		15	正方形右（1）		layout object names
+088F949C	cp932		15	正方形右（2）		layout object names
+088F94AC	cp932		15	正方形右（3）		layout object names
+088F94BC	cp932		15	正方形右（4）		layout object names
+088F94CC	cp932		15	正方形右（5）		layout object names
+088F94DC	cp932		15	正方形右（6）		layout object names
+088F94EC	cp932		15	正方形右（7）		layout object names
+088F94FC	cp932		15	正方形右（8）		layout object names
+088F950C	cp932		15	正方形右（9）		layout object names
+088F951C	cp932		15	三角形S右（0）		layout object names
+088F952C	cp932		15	三角形S右（1）		layout object names
+088F953C	cp932		15	三角形S右（2）		layout object names
+088F954C	cp932		15	三角形S右（3）		layout object names
+088F955C	cp932		15	三角形S右（4）		layout object names
+088F956C	cp932		15	三角形S右（5）		layout object names
+088F957C	cp932		15	三角形S右（6）		layout object names
+088F958C	cp932		15	三角形S右（7）		layout object names
+088F959C	cp932		15	三角形S右（8）		layout object names
+088F95AC	cp932		15	三角形S右（9）		layout object names
+088F95BC	cp932		15	三角形L右（0）		layout object names
+088F95CC	cp932		15	三角形L右（1）		layout object names
+088F95DC	cp932		15	三角形L右（2）		layout object names
+088F95EC	cp932		15	三角形L右（3）		layout object names
+088F95FC	cp932		15	三角形L右（4）		layout object names
+088F960C	cp932		15	三角形L右（5）		layout object names
+088F961C	cp932		15	三角形L右（6）		layout object names
+088F962C	cp932		15	三角形L右（7）		layout object names
+088F963C	cp932		15	三角形L右（8）		layout object names
+088F964C	cp932		15	三角形L右（9）		layout object names
+088F965C	cp932		15	ひし形S右（0）		layout object names
+088F966C	cp932		15	ひし形S右（1）		layout object names
+088F967C	cp932		15	ひし形S右（2）		layout object names
+088F968C	cp932		15	ひし形S右（3）		layout object names
+088F969C	cp932		15	ひし形S右（4）		layout object names
+088F96AC	cp932		15	ひし形S右（5）		layout object names
+088F96BC	cp932		15	ひし形S右（6）		layout object names
+088F96CC	cp932		15	ひし形S右（7）		layout object names
+088F96DC	cp932		15	ひし形S右（8）		layout object names
+088F96EC	cp932		15	ひし形S右（9）		layout object names
+088F96FC	cp932		15	ひし形L右（0）		layout object names
+088F970C	cp932		15	ひし形L右（1）		layout object names
+088F971C	cp932		15	ひし形L右（2）		layout object names
+088F972C	cp932		15	ひし形L右（3）		layout object names
+088F973C	cp932		15	ひし形L右（4）		layout object names
+088F974C	cp932		15	ひし形L右（5）		layout object names
+088F975C	cp932		15	ひし形L右（6）		layout object names
+088F976C	cp932		15	ひし形L右（7）		layout object names
+088F977C	cp932		15	ひし形L右（8）		layout object names
+088F978C	cp932		15	ひし形L右（9）		layout object names
+088F979C	cp932		15	台形S右（0）		layout object names
+088F97AC	cp932		15	台形S右（1）		layout object names
+088F97BC	cp932		15	台形S右（2）		layout object names
+088F97CC	cp932		15	台形S右（3）		layout object names
+088F97DC	cp932		15	台形S右（4）		layout object names
+088F97EC	cp932		15	台形S右（5）		layout object names
+088F97FC	cp932		15	台形S右（6）		layout object names
+088F980C	cp932		15	台形S右（7）		layout object names
+088F981C	cp932		15	台形S右（8）		layout object names
+088F982C	cp932		15	台形S右（9）		layout object names
+088F983C	cp932		15	台形L右（0）		layout object names
+088F984C	cp932		15	台形L右（1）		layout object names
+088F985C	cp932		15	台形L右（2）		layout object names
+088F986C	cp932		15	台形L右（3）		layout object names
+088F987C	cp932		15	台形L右（4）		layout object names
+088F988C	cp932		15	台形L右（5）		layout object names
+088F989C	cp932		15	台形L右（6）		layout object names
+088F98AC	cp932		15	台形L右（7）		layout object names
+088F98BC	cp932		15	台形L右（8）		layout object names
+088F98CC	cp932		15	台形L右（9）		layout object names
+088F98DC	cp932		23	六角エフェクト（中上）		layout object names
+088F98F4	cp932		23	六角エフェクト（右上）		layout object names
+088F990C	cp932		23	六角エフェクト（右下）		layout object names
+088F9924	cp932		23	六角エフェクト（中下）		layout object names
+088F993C	cp932		23	六角エフェクト（左下）		layout object names
+088F9954	cp932		23	六角エフェクト（左上）		layout object names
+088F996C	cp932		23	三角エフェクト（中上）		layout object names
+088F9984	cp932		23	三角エフェクト（右上）		layout object names
+088F999C	cp932		23	三角エフェクト（右下）		layout object names
+088F99B4	cp932		23	三角エフェクト（中下）		layout object names
+088F99CC	cp932		23	三角エフェクト（左下）		layout object names
+088F99E4	cp932		23	三角エフェクト（左上）		layout object names
+088F99FC	cp932		11	“Pass”		layout object names
+088F9A08	cp932		11	“開始”		layout object names
+088F9A14	cp932		11	“終了!”		layout object names
+088F9A20	cp932		19	カーソル(六角形)		layout object names
+088F9A34	cp932		15	カーソル(三角S)		layout object names
+088F9A44	cp932		15	カーソル(三角L)		layout object names
+088F9A54	cp932		19	カーソル(ひし形S)		layout object names
+088F9A68	cp932		19	カーソル(ひし形L)		layout object names
+088F9A7C	cp932		15	カーソル(台形S)		layout object names
+088F9A8C	cp932		15	カーソル(台形L)		layout object names
+088F9A9C	cp932		19	減点六角形左(-30）		layout object names
+088F9AB0	cp932		19	減点三角S左(-15)		layout object names
+088F9AC4	cp932		19	減点三角L左(-15)		layout object names
+088F9AD8	cp932		19	減点ひし形S左(-20)		layout object names
+088F9AEC	cp932		19	減点ひし形L左(-20)		layout object names
+088F9B00	cp932		19	減点台形S左(-20)		layout object names
+088F9B14	cp932		19	減点台形L左(-20)		layout object names
+088F9B28	cp932		19	減点六角形右(-30）		layout object names
+088F9B3C	cp932		19	減点三角S右(-15)		layout object names
+088F9B50	cp932		19	減点三角L右(-15)		layout object names
+088F9B64	cp932		19	減点ひし形S右(-20)		layout object names
+088F9B78	cp932		19	減点ひし形L右(-20)		layout object names
+088F9B8C	cp932		19	減点台形S右(-20)		layout object names
+088F9BA0	cp932		19	減点台形L右(-20)		layout object names
+088F9BB4	cp932		19	ポイント左（－）		layout object names
+088F9BC8	cp932		19	ポイント右（－）		layout object names
+088F9BDC	cp932		11	ウィンドウ		layout object names
+088F9BE8	cp932		15	非選択（説明）		layout object names
+088F9BF8	cp932		19	非選択（やめる）		layout object names
+088F9C0C	cp932		15	非選択（再開）		layout object names
+088F9C1C	cp932		15	選択（説明）		layout object names
+088F9C2C	cp932		15	選択（やめる）		layout object names
+088F9C3C	cp932		15	選択（再開）		layout object names
+088F9C4C	cp932		11	敗者　左		layout object names
+088F9C58	cp932		15	敗者　左　－		layout object names
+088F9C68	cp932		15	敗者　左　1の位		layout object names
+088F9C78	cp932		19	敗者　左　10の位		layout object names
+088F9C8C	cp932		19	敗者　左　100の位		layout object names
+088F9CA0	cp932		11	勝者　左		layout object names
+088F9CAC	cp932		15	勝者　左　－		layout object names
+088F9CBC	cp932		15	勝者　左　1の位		layout object names
+088F9CCC	cp932		19	勝者　左　10の位		layout object names
+088F9CE0	cp932		19	勝者　左　100の位		layout object names
+088F9CF4	cp932		15	引き分け　左		layout object names
+088F9D04	cp932		19	引き分け　左　－		layout object names
+088F9D18	cp932		19	引き分け　左　1の位		layout object names
+088F9D2C	cp932		23	引き分け　左　10の位		layout object names
+088F9D44	cp932		23	引き分け　左　100の位		layout object names
+088F9D5C	cp932		11	勝者　右		layout object names
+088F9D68	cp932		15	勝者　右　－		layout object names
+088F9D78	cp932		15	勝者　右　1の位		layout object names
+088F9D88	cp932		19	勝者　右　10の位		layout object names
+088F9D9C	cp932		19	勝者　右　100の位		layout object names
+088F9DB0	cp932		11	敗者　右		layout object names
+088F9DBC	cp932		15	敗者　右　－		layout object names
+088F9DCC	cp932		15	敗者　右　1の位		layout object names
+088F9DDC	cp932		19	敗者　右　10の位		layout object names
+088F9DF0	cp932		19	敗者　右　100の位		layout object names
+088F9E04	cp932		15	引き分け　右		layout object names
+088F9E14	cp932		19	引き分け　右　－		layout object names
+088F9E28	cp932		19	引き分け　右　1の位		layout object names
+088F9E3C	cp932		23	引き分け　右　10の位		layout object names
+088F9E54	cp932		23	引き分け　右　100の位		layout object names
+088F9E6C	cp932		35	テーブル（必殺技を使いますか？）		layout object names
+088F9E90	cp932		19	ボタン_はい_非選択		layout object names
+088F9EA4	cp932		19	ボタン_はい_選択		layout object names
+088F9EB8	cp932		23	ボタン_いいえ_非選択		layout object names
+088F9ED0	cp932		19	ボタン_いいえ_選択		layout object names
+088F9EE4	cp932		15	内容（智樹）		layout object names
+088F9EF4	cp932		19	内容（イカロス）		layout object names
+088F9F08	cp932		15	内容（ニンフ）		layout object names
+088F9F18	cp932		15	内容（そはら）		layout object names
+088F9F28	cp932		15	内容（美香子）		layout object names
+088F9F38	cp932		15	内容（守形）		layout object names
+088F9F4C	cp932		11	テーブル		layout object names
+088F9F58	cp932		15	残コマ数（0）		layout object names
+088F9F68	cp932		15	残コマ数（1）		layout object names
+088F9F78	cp932		15	残コマ数（2）		layout object names
+088F9F88	cp932		15	残コマ数（3）		layout object names
+088F9F98	cp932		15	残コマ数（4）		layout object names
+088F9FA8	cp932		7	コマ		layout object names
+088F9FB0	cp932		19	カーソル（六角形）		layout object names
+088F9FC4	cp932		19	カーソル（三角形S）		layout object names
+088F9FD8	cp932		19	カーソル（ひし型S）		layout object names
+088F9FEC	cp932		19	カーソル（台形S）		layout object names
+088FA000	cp932		19	カーソル（三角形L）		layout object names
+088FA014	cp932		19	カーソル（ひし型L）		layout object names
+088FA028	cp932		19	カーソル（台形L）		layout object names
+088FB708	cp932		7	智樹Ａ		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB710	cp932		7	智樹Ｂ		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB718	cp932		7	智樹？		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB720	cp932		15	智樹＆ニンフ		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB730	cp932		15	智樹＆そはら		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB740	cp932		7	智樹		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB748	cp932		11	イカロス		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB754	cp932		7	ニンフ		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB75C	cp932		11	そはらＡ		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB768	cp932		11	そはらＢ		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB774	cp932		7	そはら		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB77C	cp932		7	美香子		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB784	cp932		7	守形		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB78C	cp932		7	？？？		speaker-name keys matched against SOS speaker strings -> nameplate GIM
+088FB808	cp932		7	非選択1		layout object names
+088FB810	cp932		23	文字1(センターぞろえ）		layout object names

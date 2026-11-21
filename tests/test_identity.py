@@ -24,16 +24,7 @@ def test_ptd_identity(res):
             assert ptd.repack(raw, {}) == raw, f["path"]
 
 
-def files(buf, prefix=""):
-    out = {}
-    for f in ptd.toc(buf)[1]:
-        raw = buf[f["off"]:f["off"] + f["size"]]
-        data = yklz.unpack(raw) if f["comp"] else raw
-        if f["name"].endswith(".PTD"):
-            out.update(files(data, prefix + f["path"][:-4] + "_PTD/"))
-        else:
-            out[prefix + f["path"]] = data
-    return out
+files = ptd.files
 
 
 def test_ptd_edit(res):

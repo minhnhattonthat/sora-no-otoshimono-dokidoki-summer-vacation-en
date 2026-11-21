@@ -3,7 +3,8 @@
 Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.json; other agents: `<SKILL_DIR>/SKILL.md`; `$SKILL` = the directory holding its SKILL.md, printed by `python tools/skill.py`). Read it before ROM, text or QA work.
 
 ## Commands (run from repo root)
-- Build:    `python -X utf8 build.py`        -> build/sora_en.iso (checks the dump against `rom.sha1` first; not written yet, phase 3)
+- Build:    `python -X utf8 build.py`        -> build/sora_en.iso (checks the dump against `rom.sha1` first)
+- Extract:  `python -X utf8 tools/script.py dump [--force]` -> script/ (never clobbers en); needs `work/eboot.elf` from `python -X utf8 tools/dump_eboot.py` (pinned by `eboot.sha1`)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; `git config core.hooksPath tools/hooks` once per clone)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/sora_en.iso --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 tools/debug/warp.py [ISO] --scene <name|sc:sc1/sc10000.sos> [--state-out F]`; `--list`; `--all` regenerates every state in work/states (scene list `tools/debug/scenes.tsv`, notes `docs/re/debug.md`; never ask the user to play to a scene). `tools/debug/drive.py` = mash/peek/poke driver; `tools/debug/mips.py` = EBOOT disasm/xref/scene-case lookup.
@@ -14,7 +15,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 ## Paths
 - Original ISO: `rom/Sora no Otoshimono - DokiDoki Summer Vacation (Japan).iso` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`).
 - Emulators: QA = PPSSPPHeadless QA fork qa-1 in `%LOCALAPPDATA%\translate-retro-game\ppsspp-headless\` (`fetch_emu.py ppsspp-headless`); people/EBOOT dump = `tools/ppsspp/` (v1.20.4, github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-v1.20.4-Windows-x64.zip; gitignored). Savestates: `work/states/`.
-- Text: `script/` (TSV). Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
+- Text: `script/` (TSV: sos/<dir>/<NAME>.tsv, eboot.tsv, sfo.tsv; format in docs/re/script.md §Extract). Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings
 - Edit source files (.py .lua .asm .tbl .json) only with the file-edit tool; scripts here read and analyse, never `.replace()` and write back.

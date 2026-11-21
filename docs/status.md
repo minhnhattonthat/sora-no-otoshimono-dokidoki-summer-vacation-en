@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 4. Extract next (phase 3 identity build done). Last build: 2026-11-22 build/sora_en.iso, no edits,
-  sha1 a82a8661... = dump, smoke ok.
+- **Phase:** 5. Engine spike and marker build next (phase 4 extract done). Last build: 2026-11-22 build/sora_en.iso,
+  no edits, sha1 a82a8661... = dump, smoke ok.
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), PPSSPP v1.20.4 in `tools/ppsspp/`, PPSSPPHeadless qa-1 shared install, smoke boots
     the original ISO, pre-commit runs `tools/check.py`, guard hook blocks `sed -i`, rulings D1-D7 in docs/decisions.md.
@@ -22,9 +22,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
     work/res path) and `build.py` (check_rom -> repack res.ptd -> iso9660.patch). tests/test_identity.py: every PTD
     and the whole ISO rebuild byte-identical; an edit test grows a YKLZ file and a nested file and checks the rest.
     `build.build(out, repl)` takes `{work/res path: bytes}`, the hook for phase 7 inserts.
+  - Phase 4 (docs/re/script.md §Bytecode, §EBOOT, §Extract): `tools/script.py dump` -> script/sos (395 TSV, 6614
+    msg + 88 choice + 5 msg_nonl rows, speaker column from bytecode), script/eboot.tsv (137 shown strings: help lines,
+    Hexcite reactions with `/K`, save dialogs UTF-8), eboot_nontext.tsv (687 classified), sfo.tsv (XMB title).
+    Decrypted EBOOT: `tools/dump_eboot.py` -> work/eboot.elf, pinned in `eboot.sha1`. tests/test_script.py:
+    TSV re-encodes byte-identically (all SOS rebuild, EBOOT bytes match), every pool slot / scan hit covered.
 - **Next:**
-  1. Phase 4 extract (SOS scripts -> script/ TSV, PTD tables, EBOOT strings), roundtrip test (re-encode = original
-     bytes, ranges covered).
+  1. Phase 5 marker build: build.py inserts script/ (SOS via sos.build per copy incl. SUBSCRIPT.PTD; EBOOT strings
+     in place -> needs a re-signed ~PSP EBOOT: find a signer, e.g. sign_np; PARAM.SFO), every row -> `[id]` marker.
+     Font: HG_G18.TFP 18x18 (fixed-pitch? VWF?); measure dialogue box / choice / help-line / Hexcite-reaction widths.
+     Confirm: speaker strings are nameplate keys (leave JP), FSB/FAB names not shown, `/K` meaning.
 - **Known gaps (non-blocking):** Free Mode Hexcite ES is greyed (unlock flag not found; its text is shared with
   Hexcite). Poke-jumped chapter/ending scripts keep the previous screen's overlay drawn; the scripts themselves are
   shot clean by the ev_* / ending_* script-warp rows.

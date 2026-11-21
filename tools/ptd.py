@@ -69,6 +69,20 @@ def toc(buf):
     return dirs, files
 
 
+def files(buf, prefix=""):
+    """{path: uncompressed bytes} for every file, nested PTDs expanded as <name>_PTD/<path>."""
+    import yklz
+    out = {}
+    for f in toc(buf)[1]:
+        raw = buf[f["off"]:f["off"] + f["size"]]
+        data = yklz.unpack(raw) if f["comp"] else raw
+        if f["name"].endswith(".PTD"):
+            out.update(files(data, prefix + f["path"][:-4] + "_PTD/"))
+        else:
+            out[prefix + f["path"]] = data
+    return out
+
+
 def repack(buf, repl, prefix="", used=None):
     """Rebuild a PETA archive. repl: {path: uncompressed bytes}, keys as unpack.py writes them under work/res
     (a nested PTD's files are '<dir>/<name>_PTD/<inner path>'). Unchanged files keep their stored bytes, so

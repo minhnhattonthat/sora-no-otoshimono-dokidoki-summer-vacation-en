@@ -31,6 +31,13 @@ GAME = 0x09EC0000          # game/save state object (scene manager at +0x238); C
 CHEATS = {                 # name -> [(offset from GAME, bytes)]; from the 2010 CWCheat "CG CARD GALLERY ALL" code
     "unlock": [(0x3B0, b"\xff\xff\xff\xff"), (0x3B4, b"\x0f"), (0x3D3, b"\x1f"), (0x3D8, b"\x1f"), (0x3DD, b"\xff"),
                (0x3DE, b"\xff\xff"), (0x2E4, b"\xff" * 30 + b"\x00")],
+    # Hexcite match (Free Mode; the Communication-mode first match is a guided tutorial that freezes on these):
+    # my score u32 +0x774 (COM +0x79C), piece counts u32[7] me +0x82C / COM +0x848 in the order triangle,
+    # parallelogram, trapezoid, hexagon, big triangle, big parallelogram, big trapezoid. One hexagon each (the
+    # piece selected at the start must stay non-zero or the tray hangs) and 999 points: the match ends after two
+    # moves with a win.
+    "hexend": [(0x774, (999).to_bytes(4, "little")),
+               (0x82C, bytes(12) + b"\x01\0\0\0" + bytes(12)), (0x848, bytes(12) + b"\x01\0\0\0" + bytes(12))],
 }
 
 
@@ -78,8 +85,13 @@ def to_hub(D):
 
 
 def run_route(D, route):
-    for n, keys in psp.parse_route(route):
-        D.r.press(keys); D.run(n)
+    """emu.py route steps; a `cheat:NAME` step pokes CHEATS[NAME] at that point (for state that only exists
+    mid-route, such as a Hexcite match)."""
+    for step in route.split(";"):
+        if step.strip().startswith("cheat:"):
+            cheat(D, step.strip()[6:]); continue
+        for n, keys in psp.parse_route(step):
+            D.r.press(keys); D.run(n)
     D.r.press(set())
 
 

@@ -15,7 +15,9 @@ def test_scene_rows():
             assert len(f"res/script/sc/{base[7:]}") <= 31, name
         for c in filter(None, cheats.split(",")):
             assert c in warp.CHEATS, (name, c)
-        warp.psp.parse_route(route)
+        for step in route.split(";"):
+            if step.strip().startswith("cheat:"): assert step.strip()[6:] in warp.CHEATS, (name, step)
+            else: warp.psp.parse_route(step)
         assert settle.isdigit(), name
         if expect:
             m, s = expect.split(":"); assert m.isdigit() and s.isdigit(), name

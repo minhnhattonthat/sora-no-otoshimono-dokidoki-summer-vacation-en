@@ -8,6 +8,7 @@ free_player	title		6 down;40 -;6 circle;300 -;6 circle	200	3:5	player select (sp
 free_costume	title		6 down;40 -;6 circle;300 -;6 circle;200 -;6 circle	200	3:5	player select: battle-costume list
 free_opponent	title		6 down;40 -;6 circle;300 -;6 circle;200 -;6 circle;200 -;6 circle	200	3:6	opponent select (win/loss record)
 free_match	title		6 down;40 -;6 circle;300 -;6 circle;200 -;6 circle;200 -;6 circle;200 -;6 right;60 -;6 circle	900	3:10	Hexcite match vs Sohara, after the start banner
+free_win	title		6 down;40 -;6 circle;300 -;6 circle;200 -;6 circle;200 -;6 circle;200 -;6 right;60 -;6 circle;900 -;cheat:hexend;6 circle;14 -;6 right;14 -;6 circle;14 -;6 up;14 -;6 circle;14 -;6 left;14 -;6 circle;14 -;6 down;14 -;6 circle;14 -;6 right;14 -;6 circle;14 -;6 up;14 -;6 circle;14 -;6 left;14 -;6 circle;14 -;6 down;14 -;6 circle;14 -;6 right;14 -;6 circle;14 -;6 up;14 -;6 circle;14 -;6 left;14 -;6 circle;14 -;6 down;14 -;6 circle;14 -;6 right;14 -;6 circle;14 -;6 up;14 -;6 circle;14 -;6 left;14 -;6 circle;14 -;6 down;14 -	300	3:10	Hexcite vs Sohara forced win (hexend: 999 pt, one hexagon each, mash places them): winner's post-match line
 prologue	script:sc0/sc00000.sos			400	5:11	new game: prologue first line
 comm_tutorial	script:sc_end.sos			1500	5:13	6-page Communication Mode tutorial after a new game
 hub	hub			10	5:18	Communication Mode main menu, level 1

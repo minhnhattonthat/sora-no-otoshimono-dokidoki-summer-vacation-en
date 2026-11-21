@@ -7,6 +7,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; `git config core.hooksPath tools/hooks` once per clone)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/sora_en.iso --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 tools/debug/warp.py [ISO] --scene <name|sc:sc1/sc10000.sos> [--state-out F]`; `--list`; `--all` regenerates every state in work/states (scene list `tools/debug/scenes.tsv`, notes `docs/re/debug.md`; never ask the user to play to a scene). `tools/debug/drive.py` = mash/peek/poke driver.
+- Saves:    `python -X utf8 tools/debug/save.py make NAME [--cheat unlock] [--poke OFF:HEX]` -> work/saves/NAME/ULJM05639SoraOto; `save.py check NAME [--route R]` boots it to the hub.
 - Release:  `python -X utf8 tools/release.py` (xdelta3 -B patch + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 

@@ -3,7 +3,7 @@
 Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.json; other agents: `<SKILL_DIR>/SKILL.md`; `$SKILL` = the directory holding its SKILL.md, printed by `python tools/skill.py`). Read it before ROM, text or QA work.
 
 ## Commands (run from repo root)
-- Build:    `python -X utf8 build.py [--marker] [--qa ID=TEXT]` -> build/sora_en.iso (checks `rom.sha1` first; needs `work/eboot.elf`, `work/res` and the EBOOT signer: build `tools/sign_np/sign_np` once under WSL, command in `tools/sign.py`). Box budgets: `tools/boxes.tsv`.
+- Build:    `python -X utf8 build.py [--marker] [--qa ID=TEXT]` -> build/sora_en.iso (checks `rom.sha1` first; needs `work/eboot.elf`, `work/res`, `work/gimpng` (tools/gimsurvey.py) and the EBOOT signer: build `tools/sign_np/sign_np` once under WSL, command in `tools/sign.py`). Box budgets: `tools/boxes.tsv`. Graphics text: `tools/gfx.py gen|preview` (gfx/<group>.tsv -> gfx/out/; brief docs/graphics-brief.md).
 - Extract:  `python -X utf8 tools/script.py dump [--force]` -> script/ (never clobbers en); needs `work/eboot.elf` from `python -X utf8 tools/dump_eboot.py` (pinned by `eboot.sha1`)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; `git config core.hooksPath tools/hooks` once per clone)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/sora_en.iso --out work/qa/smoke --route tools/routes/boot.txt --smoke`

@@ -6,3 +6,4 @@ per file; a font with no known licence doesn't go into a release.
 | File | Source (URL, version) | Licence | Redistributable in a patch | Used for | Changes made |
 |---|---|---|---|---|---|
 | `fonts/OpenSans-Semibold.ttf` | Open Sans 1.10 (Google, digitized data © 2011 Google; copied from Windows' bundled copy, same as fonts.google.com) | Apache 2.0 (name table: "Licensed under the Apache License, Version 2.0") | yes (rendered glyphs only ship) | dialogue/UI ASCII glyphs in HG_G18.TFP (tools/font.py, 14 px) | none; rendered at 14 px, ink 0-12 |
+| `fonts/OpenSans-Variable.ttf` (+ `fonts/OFL-OpenSans.txt`) | github.com/google/fonts ofl/opensans `OpenSans[wdth,wght].ttf`, fetched 2026-11-22 | SIL OFL 1.1 | yes | graphics-text redraws (tools/gfx.py `os:WEIGHT:WIDTH` names: weight 300-800, width 75-100) | renamed only |

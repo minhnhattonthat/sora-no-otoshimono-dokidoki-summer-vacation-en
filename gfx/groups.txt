@@ -1,0 +1,25 @@
+group	survey n	what (docs/re/graphics.md rows; read the text off work/gimpng/<n>.png)
+plate	24-37	speaker name plates (PILOT, done: tools/gfx.py plate style)
+prompt	3-23	COMMON_0: はい/いいえ buttons (3-6, purple + orange states), 17 confirm prompts (7-23, orange outlined text)
+title	193-202	COMMON_10_TITLE menu: Communication Mode / Free Mode / Options (plain + wing-selected), New Game / Continue (plain + selected). Logo 192 is NOT in this group
+param	179-184	COMMON_10_PARAMETER_0/1: ダウン/アップ with arrows, emotions 嬉しい 悲しい 怒り 恥しい (use the Latin 161 wording: Happy / Sad / Anger / Shy)
+cardget	40-53	COMMON_10_CARDGET: "... Card Get!!" banners (40,41,44,46,53), 42 counter suffix, 45 "Added to the Gallery.", 48-52 "... Bonus!" banners; 43 digits and 47 are not text (check)
+usecard	66,70-72,83,88	COMMON_10_COM_USECARD: Combo Card tab, discard prompt, Discard buttons, hand-view header/footer, Wearing badge
+option	114,115,117,123,124	COMMON_10_OPTION: title, panel labels, menu labels, Read Only / All (selected)
+windows	209,210	COMMON_10_WINDOWS: Auto / Skip buttons
+hexmenu	212,217-232	COMMON_20_HEX_MENU: piece prompt, Rematch/Change Character/Quit Hexcite, Hexcite Menu title, How to Play/Quit/Resume, special prompt, Yes/No, 6 special-move cards (227-232: name + ruby + effect)
+hexoption	234,235,240-255	COMMON_20_HEX_OPTION: Back, Game Settings, Weak/Normal/Strong/On/Off (3 colour states each), Opponent / Specials labels
+hexstart	299,321-332,335-347,349-358,364	COMMON_20_HEX_START: titles, outfit names (grey/pink/blue states), record line, special-move names + effects, Hexcite / Hexcite ES logos, Settings/Tutorial footer
+cardname	505-606	COMMU_00_CARDNAME_GALLERY: communication card names, event card titles, special moves, outfits, full character names (blue outlined)
+cardnameget	607-674	COMMU_00_CARDNAME_GET: the same titles in 『』 (small blue) + profile cards 『<name> File.1-4』
+gallery	678-684,711	COMMU_10_CARDGALLERY: gallery panels with tab + "<kind> Cards Collected" footer, OK/Back footer
+profile	752-775	COMMU_10_CARDGALLERY: character profile text blocks, 4 per character (biggest text redraw)
+commenu	784,788-812	COMMU_10_COM_MENU: What to do? / Cards / Menu headers, 2-state buttons; 784 Ikaros gym-shirt tag (redraw only if legible)
+help	947,949	COMMU_10_HELP: Controls title, controls table
+levelup	951-958	COMMU_10_LEVELUPDIALOG: Hexcite ES became Hexcite!!, opponent / Free Mode unlock banners, Level Up!!
+hexcard	961-974	COMMU_20_HEX_CARD: Don't Take buttons, Choose Special Card title, note, OK/Back footer, special-move effect texts
+commtutorial	814-819,1313-1316	COMMU_10_COM_TUTORIAL 6 pages + IMG_BG full-screen copies of 4 of them (same text: share the wording)
+credits	837-868,910-926,941,942	COMMU_10_ENDING_A/B/C: credits role headings and names, staff cards (D3: credits in English, names romanized). 927 Kadokawa logo stays
+hexcite	1000,1001,1011,1012,1055-1066,1131-1154,1674-1678	HEXCITE buttons Menu/Pause, Start!/Finish!, RESULTANIME result words (every zoom frame), IMG_GO おわり？ (5 frames)
+hexspecial	1155-1229	HEXCITE_20_HEX_SPECIAL special-move cut-ins (per-glyph / wipe frames; ruby lines)
+hextutorial	1264-1289	HEXCITE_20_HEX_TUTORIAL: line hint + tutorial panels (dense)

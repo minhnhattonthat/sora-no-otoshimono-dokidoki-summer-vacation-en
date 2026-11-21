@@ -75,7 +75,11 @@ def test_res_leaves(english):
     assert new.keys() == old.keys()
     changed = {k for k in old if old[k] != new[k]}
     assert changed == {k for k in repl if repl[k] != old[k]} and all(new[k] == repl[k] for k in changed)
-    assert all(k.endswith((".SOS", "/HG_G18.TFP")) for k in changed)
+    import gfx
+    idx = gfx.index()
+    drawn = {p for g in gfx.groups() for r in gfx.rows(g) if os.path.isfile(gfx.out_path(r))
+             for p, _ in idx[int(r["n"])][1]}
+    assert all(k.endswith((".SOS", "/HG_G18.TFP")) or k in drawn for k in changed)
     assert set(files) == {build.EBOOT, build.SFO} and files[build.EBOOT][:4] == b"~PSP"
 
 

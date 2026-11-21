@@ -108,6 +108,10 @@ def texts(mode=None, qa=None):
         if p.endswith("/HG_G18.TFP"):
             tfp, widths = font.patch(res[p])
             repl[p] = tfp
+    import gfx
+    g = gfx.repl(res)
+    assert not set(g) & set(repl), f"graphics and text both rewrite {sorted(set(g) & set(repl))}"
+    repl.update(g)
     files = {EBOOT: sign.sign(vwf.apply(bytes(eboot_strings(mode, qa, seen)[0]), widths))}
     r = script.read_tsv(os.path.join(script.SCRIPT, "sfo.tsv"))[0]
     t = text_for(r, mode, qa, "sfo")

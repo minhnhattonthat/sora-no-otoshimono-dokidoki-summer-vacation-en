@@ -16,6 +16,7 @@ images (module ULJM05639_Sora-Oto_PSP loaded at 0x08804000).
 | ptd.md | ISO layout, PETA archives, YKLZ compression, free space | verified (unpack + roundtrip) |
 | script.md | SOS script format, text encoding, font, EBOOT strings | verified (identity rebuild of all 414 SOS) |
 | graphics.md | graphics-text survey (GIM textures, XMB images) | complete (all 58 sheets read by eye) |
+| debug.md | scene ids, script warp, game-state object, cheat offsets, save encryption | verified (warp.py --all) |
 
 Prior work: none for this game (no fan patch found, 2026-11). Mirai Nikki 13th Diary Holder (same engine) has a
 `.ptd` unpacker (github.com/rzhumen88/ptd-unpacker) that gave the TOC deobfuscation.

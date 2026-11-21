@@ -1,0 +1,33 @@
+name	base	cheat	route	settle	expect	note
+title	title			10	1:3	title menu (Communication Mode / Free Mode / Options)
+options	title		6 down;40 -;6 down;40 -;6 circle	300	4:2	title -> Options
+free_select	title		6 down;40 -;6 circle	300	3:2	Free Mode game select (Hexcite / Hexcite ES, square settings, triangle tutorial)
+free_settings	title		6 down;40 -;6 circle;300 -;6 square	300	3:4	Free Mode game settings
+free_tutorial	title		6 down;40 -;6 circle;300 -;6 triangle	900	9:4	Free Mode Hexcite tutorial
+free_player	title		6 down;40 -;6 circle;300 -;6 circle	200	3:5	player select (special move text)
+free_costume	title		6 down;40 -;6 circle;300 -;6 circle;200 -;6 circle	200	3:5	player select: battle-costume list
+free_opponent	title		6 down;40 -;6 circle;300 -;6 circle;200 -;6 circle;200 -;6 circle	200	3:6	opponent select (win/loss record)
+free_match	title		6 down;40 -;6 circle;300 -;6 circle;200 -;6 circle;200 -;6 circle;200 -;6 right;60 -;6 circle	900	3:10	Hexcite match vs Sohara, after the start banner
+prologue	script:sc0/sc00000.sos			400	5:11	new game: prologue first line
+comm_tutorial	script:sc_end.sos			1500	5:13	6-page Communication Mode tutorial after a new game
+hub	hub			10	5:18	Communication Mode main menu, level 1
+hub_card	hub		6 circle	200	5:20	Card submenu (Communication / Dress-up / Gallery)
+hub_menu	hub		6 down;40 -;6 down;40 -;6 circle	300	5:38	Menu submenu
+hub_hexcite	hub		6 down;40 -;6 circle	700	9:4	Hexcite from Communication Mode: rules overlay
+dressup	hub	unlock	6 circle;200 -;6 circle	300	5:25	Dress-up, every costume unlocked
+gallery_comm	hub	unlock	6 circle;200 -;6 down;40 -;6 circle	300	6:15	Gallery: Communication cards tab, all unlocked
+gallery_event	hub	unlock	6 circle;200 -;6 down;40 -;6 circle;300 -;6 rtrigger	150	6:15	Gallery: Event tab
+gallery_special	hub	unlock	6 circle;200 -;6 down;40 -;6 circle;300 -;6 rtrigger;150 -;6 rtrigger	150	6:15	Gallery: Special move tab
+gallery_dressup	hub	unlock	6 circle;200 -;6 down;40 -;6 circle;300 -;6 rtrigger;150 -;6 rtrigger;150 -;6 rtrigger	150	6:15	Gallery: Dress-up tab
+gallery_profile	hub	unlock	6 circle;200 -;6 down;40 -;6 circle;300 -;6 rtrigger;150 -;6 rtrigger;150 -;6 rtrigger;150 -;6 rtrigger	150	6:15	Gallery: Profile tab
+gallery_profile_1	hub	unlock	6 circle;200 -;6 down;40 -;6 circle;300 -;6 rtrigger;150 -;6 rtrigger;150 -;6 rtrigger;150 -;6 rtrigger;150 -;6 circle	200	6:15	Gallery: profile File 1 (Tomoki) detail
+ev_sc1	script:sc1/sc10000.sos			400	5:11	first SC1 event
+ev_sc2	script:sc2/sc20000.sos			400	5:11	first SC2 event
+ev_sc3	script:sc3/sc30000.sos			400	5:11	first SC3 event
+ev_sc4_card	script:sc4/sc40000.sos			400	5:11	SC4 character-card event (card table 0x088D9374)
+ev_sc4_tutorial	script:sc4/sc40500.sos			400	5:11	SC4 tutorial pages script
+ending_1	script:sc9/sc90010.sos			400	5:11	ending sc90010
+ending_2	script:sc9/sc90020.sos			400	5:11	ending sc90020
+ending_3	script:sc9/sc90030.sos			400	5:11	ending sc90030
+ending_4	script:sc9/sc90040.sos			400	5:11	ending sc90040
+ending_5	script:sc9/sc90050.sos			400	5:11	ending sc90050

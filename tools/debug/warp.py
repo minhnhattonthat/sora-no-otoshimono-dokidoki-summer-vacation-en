@@ -15,7 +15,7 @@ scenes.tsv columns: name, base, cheat, route, settle, expect, note.
   expect MODE:SCENE (u32s at MODE_ID / SCENE_ID) asserted before the shot; the state is saved only when it matches
 Every base asserts the scene id too, so a warp never shoots a wrong screen silently.
 """
-import argparse, csv, os, sys, time
+import argparse, csv, os, shutil, sys, time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from drive import Drive, ISO  # noqa: E402
@@ -38,6 +38,14 @@ CHEATS = {                 # name -> [(offset from GAME, bytes)]; from the 2010 
     # moves with a win.
     "hexend": [(0x774, (999).to_bytes(4, "little")),
                (0x82C, bytes(12) + b"\x01\0\0\0" + bytes(12)), (0x848, bytes(12) + b"\x01\0\0\0" + bytes(12))],
+    # Communication mode (scene manager SM = GAME+0x23C; docs/re/debug.md): SM+0xAA bit 0 = Hexcite tutorial seen,
+    # so the hub's Hexcite starts a real match (opponent select 5:68) instead of the guided tutorial
+    "hexdone": [(0x2E6, b"\x01")],
+    "params": [(o, (20).to_bytes(4, "little")) for o in (0x27C, 0x294, 0x2AC, 0x2C4)],  # 4 params = chapter targets
+    "lastchapter": [(0x27A, b"\x03\x00")],   # SM+0x3E chapter index 3: the chapter end runs ending sc90010
+    "noturns": [(0x278, b"\x14\x00")],       # SM+0x3C turns used = 20 of 20: params short -> bad ending sc90020
+    # scene request SM+8 = 0x2D (chapter-end check); at the hub the main loop switches to it. Poke it last.
+    "chapterend": [(0x244, b"\x2d\0\0\0")],
 }
 
 
@@ -86,10 +94,18 @@ def to_hub(D):
 
 def run_route(D, route):
     """emu.py route steps; a `cheat:NAME` step pokes CHEATS[NAME] at that point (for state that only exists
-    mid-route, such as a Hexcite match)."""
+    mid-route, such as a Hexcite match); `until:M:S:LIMIT[:KEYS]` runs (tapping the comma-separated KEYS in turn,
+    one every 20 frames) until mode:scene is M:S, and fails the warp if LIMIT frames pass first."""
     for step in route.split(";"):
-        if step.strip().startswith("cheat:"):
-            cheat(D, step.strip()[6:]); continue
+        step = step.strip()
+        if step.startswith("cheat:"):
+            cheat(D, step[6:]); continue
+        if step.startswith("until:"):
+            m, s, limit, *keys = step[6:].split(":")
+            ok = D.until(lambda d: where(d) == (int(m), int(s)), int(limit), step=20,
+                         key=keys[0] if keys else None, every=20)
+            assert ok, f"{step}: at {where(D)}"
+            continue
         for n, keys in psp.parse_route(step):
             D.r.press(keys); D.run(n)
     D.r.press(set())
@@ -104,6 +120,8 @@ def load_scenes():
 def warp(iso, name, out, state_out=None, frames=None, scenes=None):
     row = [name, "script:" + name[3:], "", "", "400", "5:11", ""] if name.startswith("sc:") else (scenes or load_scenes())[name]
     _, base, cheats, route, settle, expect = row[:6]
+    # a save left by an earlier run (credits, game over) turns Communication Mode's New game into Continue
+    shutil.rmtree(os.path.join(out, "memstick"), ignore_errors=True)
     D = Drive(iso, out)
     try:
         boot_to_title(D)

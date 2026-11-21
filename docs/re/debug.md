@@ -54,14 +54,36 @@ for PSP), `tools/debug/warp.py` + `tools/debug/scenes.tsv` (scene list). Address
 - Mashing circle + directions (route in row free_win) is a usable random auto-player in Free Mode.
 
 ## Communication-mode first Hexcite = the guided tutorial (9:4, same as Free Mode's triangle tutorial)
+- Skipped with cheat `hexdone` (SM+0xAA bit 0, below); the notes here only matter for shooting the tutorial itself.
 - Pokes freeze it (the guide waits for its own move). Solved by eye from state hub_hexcite (circle x3, then mash
   circle/directions to close the "コマの獲得" page): step 1 hexagon is preselected: up, up, left, up, circle (10 pt);
   rules page: circle; step 2 (after COM): right, right (small parallelogram), circle, rtrigger, rtrigger, left, circle;
   rules page: circle; step 3: target is a small trapezoid at the left edge under the left hexagon; right (trapezoid),
   circle, then rtrigger x2 + left, left, up fits the yellow outline but circle is refused (ltrigger x2 too). Unsolved.
 
+## Communication-mode flow - verified (rows comm_*, level_up, game_over, credits)
+- Scene manager SM = GAME+0x23C (the setScene a0): SM+4 mode, SM+8 scene. setScene(SM, mode, scene, arg) with arg -1
+  writes only those two; otherwise also SM+0x10 = arg, SM+0xC = 1 and starts a fade. Poking SM+8 alone at the hub
+  (5:18) switches scene cleanly (row cheats `chapterend`); the hub menu stays drawn over the next script.
+- Mode-5 scene switch: jump table 0x088C928C (101 entries, index = scene) in the dispatcher at 0x08835xxx-0x088375xx.
+- Hub Hexcite (case 67, 0x08836F1C): setScene(5, 0x44), then if SM+0xAA bit 0 is clear, sets it and runs the guided
+  tutorial (0x0885FE78 -> mode 9). Cheat `hexdone` sets the bit: opponent select 5:68 -> special-move card select
+  5:70 (circle = "none" asks "can't use, OK?", cursor on No: left, circle) -> match 5:73. `hexend` + the mash route
+  wins it -> 5:35 current hand with the new card marked GET -> (cross) 5:96 -> hub 5:17.
+- Hand: u16 card ids at GAME+0x3F6.. (0xFFFF = empty; one won card gave ids 0, 13, 4). Use: Card -> Communication
+  (5:22) -> circle -> "use this card?" (cursor on No: left, circle) -> 5:50/5:51 event script -> 5:40 param-up banner.
+- Params u32 at SM+0x40/+0x58/+0x70/+0x88 (GAME+0x27C/+0x294/+0x2AC/+0x2C4); chapter targets at GAME+0x3D84 (+0x18
+  each), 20 at chapter 1; param-event thresholds at GAME+0x3DE4 (30s). SM+0x3C u16 turns used (GAME+0x278), SM+0x3E
+  u16 chapter index (GAME+0x27A); turns per chapter table 0x088C2F78 = 20, 20, 20, 20.
+- Scene 45 (0x2D) chapter-end check (0x08832784 -> 0x08828844): all params >= targets -> chapter index < 3: chapter
+  script sc000x0 (table 0x088C7AB4) at 5:46 -> Level up!! banner 5:47/5:48 -> Now Loading 5:49 -> hub (Level 2);
+  index 3: ending sc90010 at 5:79 -> scene 0x5A (ending init 0x0882C6A8, res/commu/10_ending) -> staff roll 5:92
+  (staff01..21 GIMs, table 0x088FDE14). Params short -> scene 74 (0x4A): turns left (20 - SM+0x3C) > 0 -> back to the
+  hub; none -> bad ending sc90020 at 5:75 (the game over) -> system save prompt 5:98 -> "start this level over?" 5:77.
+  A poke-jump leaves the previous screen (hub menu, tutorial page) drawn over the scripts; the scripts themselves
+  are shot clean by the script-warp rows (ev_*, ending_*).
+- Scene 41 (0x29) after a turn: param events (0x088288B0) or, if GAME+0x3D34 != 1, the chapter end.
+
 ## Not reached yet
-- Communication cards are greyed in the Card submenu at a new game: cards come from Communication-mode Hexcite wins,
-  which first need the tutorial above. Card get, use-card, level-up dialog (res/commu/10_levelup), the hub after a
-  level-up, game over and the credits after an ending still need that (or the inventory field: 17 u16 0xFFFF slots at
-  +0x3E6..+0x407 are a guess; poking ids 0-2 there did not enable the menu).
+- Free Mode Hexcite ES (greyed in Free Mode game select; unlock flag not found).
+- (Done: after the staff roll 5:92 -> 5:100 -> "save clear data?" 5:82 -> title 1:x; row clear_save.)

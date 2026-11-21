@@ -32,3 +32,18 @@ ending_2	script:sc9/sc90020.sos			400	5:11	ending sc90020
 ending_3	script:sc9/sc90030.sos			400	5:11	ending sc90030
 ending_4	script:sc9/sc90040.sos			400	5:11	ending sc90040
 ending_5	script:sc9/sc90050.sos			400	5:11	ending sc90050
+comm_opponent	hub	hexdone	6 down;40 -;6 circle	700	5:68	Communication Hexcite (tutorial flag set): opponent select
+comm_special	hub	hexdone	6 down;40 -;6 circle;700 -;6 circle	900	5:70	special-move card select before a match
+comm_special_ask	hub	hexdone	6 down;40 -;6 circle;700 -;6 circle;900 -;6 circle	60	5:70	special-move card select: 'no card, OK?' dialog
+comm_match	hub	hexdone	6 down;40 -;6 circle;700 -;6 circle;900 -;6 circle;60 -;6 left;30 -;6 circle;until:5:73:1500	900	5:73	Communication-mode Hexcite match vs Ikaros
+comm_win	hub	hexdone	6 down;40 -;6 circle;700 -;6 circle;900 -;6 circle;60 -;6 left;30 -;6 circle;until:5:73:1500;900 -;cheat:hexend;until:5:35:4000:circle,right,circle,up,circle,left,circle,down	60	5:35	forced win -> current hand, new card marked GET
+comm_cards	hub	hexdone	6 down;40 -;6 circle;700 -;6 circle;900 -;6 circle;60 -;6 left;30 -;6 circle;until:5:73:1500;900 -;cheat:hexend;until:5:35:4000:circle,right,circle,up,circle,left,circle,down;60 -;until:5:20:1500:cross,circle;150 -;6 circle	200	5:22	Card -> Communication: hand with the won card
+comm_use_ask	hub	hexdone	6 down;40 -;6 circle;700 -;6 circle;900 -;6 circle;60 -;6 left;30 -;6 circle;until:5:73:1500;900 -;cheat:hexend;until:5:35:4000:circle,right,circle,up,circle,left,circle,down;60 -;until:5:20:1500:cross,circle;150 -;6 circle;150 -;6 circle	100	5:22	'use this card?' dialog
+comm_event	hub	hexdone	6 down;40 -;6 circle;700 -;6 circle;900 -;6 circle;60 -;6 left;30 -;6 circle;until:5:73:1500;900 -;cheat:hexend;until:5:35:4000:circle,right,circle,up,circle,left,circle,down;60 -;until:5:20:1500:cross,circle;150 -;6 circle;150 -;6 circle;100 -;6 left;30 -;6 circle	300	5:51	card event script
+comm_param_up	hub	hexdone	6 down;40 -;6 circle;700 -;6 circle;900 -;6 circle;60 -;6 left;30 -;6 circle;until:5:73:1500;900 -;cheat:hexend;until:5:35:4000:circle,right,circle,up,circle,left,circle,down;60 -;until:5:20:1500:cross,circle;150 -;6 circle;150 -;6 circle;100 -;6 left;30 -;6 circle;until:5:40:4000:circle	60	5:40	parameter-up banner after a card event
+level_up	hub	params,chapterend	until:5:47:12000:circle,down,circle	60	5:48	chapter end, params met: chapter script sc00010, then the Level up!! banner (the hub menu stays drawn over the script: poke-jump artefact)
+game_over	hub	noturns,chapterend	until:5:75:600	300	5:75	turns used up, params short: bad ending script sc90020
+credits	hub	params,lastchapter,chapterend	until:5:92:15000:circle	300	5:92	last chapter end: ending sc90010, then the staff roll (the state is its start: shoot every N frames from it)
+hub_controls	hub		6 down;40 -;6 down;40 -;6 circle;300 -;6 down;40 -;6 down;40 -;6 circle	300	5:88	hub Menu -> Controls (one page)
+game_over_retry	hub	noturns,chapterend	until:5:77:12000:circle	120	5:77	after the bad ending (and the system save prompt 5:98): 'start this level over?'
+clear_save	hub	params,lastchapter,chapterend	until:5:82:50000:circle	200	5:82	after the staff roll: 'save clear data?' prompt

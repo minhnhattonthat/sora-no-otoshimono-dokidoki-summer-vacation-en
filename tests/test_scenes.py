@@ -16,7 +16,12 @@ def test_scene_rows():
         for c in filter(None, cheats.split(",")):
             assert c in warp.CHEATS, (name, c)
         for step in route.split(";"):
-            if step.strip().startswith("cheat:"): assert step.strip()[6:] in warp.CHEATS, (name, step)
+            step = step.strip()
+            if step.startswith("cheat:"): assert step[6:] in warp.CHEATS, (name, step)
+            elif step.startswith("until:"):
+                m, s, limit, *keys = step[6:].split(":")
+                assert m.isdigit() and s.isdigit() and limit.isdigit() and len(keys) <= 1, (name, step)
+                for k in keys[0].split(",") if keys else []: warp.psp.parse_route(f"1 {k}")
             else: warp.psp.parse_route(step)
         assert settle.isdigit(), name
         if expect:

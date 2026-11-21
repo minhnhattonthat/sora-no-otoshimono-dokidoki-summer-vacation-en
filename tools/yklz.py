@@ -3,11 +3,14 @@
 Header (16 bytes): 'YKLZ', u8 0, u8 0, u8 method (0 stored, 1 LZ), u8 dbits (10), u32 LE out_size, u32 (unused by
 the decoder). LZ stream from +0x10: flag byte, MSB first, bit 1 = reference. Reference b1 b2:
 len = (b1 >> (dbits-8)) + 3, disp = ((b1 & ((1 << (dbits-8)) - 1)) << 8 | b2) + 1.
+The game copies each reference with memcpy: a reference with len > disp (overlapping its own output) decodes wrong in
+game (a repacked font lost every pixel equal to the one 2 or 18 bytes before). pack() never writes one;
+unpack(strict=True) decodes the game's way to prove it.
 """
 import struct
 
 
-def unpack(data):
+def unpack(data, strict=False):
     if data[:4] != b"YKLZ":
         return data
     method, dbits = data[6], data[7]
@@ -29,6 +32,7 @@ def unpack(data):
                 pos += 2
                 n = (b1 >> shift) + 3
                 disp = ((b1 & mask) << 8 | b2) + 1
+                assert not strict or n <= disp, f"overlapping reference at {pos - 2:#x}: len {n} > disp {disp}"
                 for _ in range(n):
                     out.append(out[-disp])
             else:
@@ -60,8 +64,12 @@ def pack(raw, dbits=10, tail=b""):
                     d = i - j
                     if d > maxdisp:
                         break
+                    if d < 3:
+                        continue
                     l = 3
-                    while l < maxlen and i + l < n and raw[j + l] == raw[i + l]:
+                    # the game copies a reference with memcpy (0x088ACA48), so a match may not overlap its own
+                    # output (length <= displacement); byte-by-byte decoders like unpack() hide this
+                    while l < min(maxlen, d) and i + l < n and raw[j + l] == raw[i + l]:
                         l += 1
                     if l > best:
                         best, bestd = l, d

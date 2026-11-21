@@ -7,8 +7,9 @@ import sos, yklz  # noqa: E402
 
 
 def test_yklz_roundtrip():
-    raw = bytes(range(256)) * 3 + b"abcabcabcabc" * 50 + os.urandom(500)
-    assert yklz.unpack(yklz.pack(raw)) == raw
+    raw = bytes(range(256)) * 3 + b"abcabcabcabc" * 50 + os.urandom(500) + b"\xcc" * 300 + b"ab" * 200
+    # strict = the game's memcpy decoder: no reference may overlap its own output
+    assert yklz.unpack(yklz.pack(raw), strict=True) == raw
 
 
 SOS = sorted(glob.glob(os.path.join(os.path.dirname(__file__), "..", "work", "res", "**", "*.SOS"), recursive=True))

@@ -24,13 +24,39 @@ Rebuild = rewrite pool + both u16 offset tables + size fields (0x0C, 0x2C). Pool
 ## Text
 - Encoding Shift-JIS (cp932); line break `\n` (0x0A); every message ends with `\n`. No control codes found in 7813
   text slots (5932 unique, ~139k chars). Speaker names are separate strings (守形, 智樹, そはら, ニンフ, イカロス, 美香子 ...).
-- Max line ~22-23 full-width chars, 1-3 lines (3 = rare). Box width to measure in the marker build (phase 5).
+- Max line ~22-23 full-width chars, 1-3 lines (3 = rare). English budget: 391 px x 3 lines (§Dialogue box width).
 - Non-text slots: resource paths (`..\..\..\img\bg\bg030a.tm2`, `.ogg`, `.anm`, `.adv`), label `TUTORIAL_REPLAY`.
   `sos.is_text()` separates them.
 
-## Font
-- RES/1ST/HG_G18.TFP: `T2FP`, 8076 glyphs 18x18 4bpp (162 bytes each), u16 code table at 0x20 (ASCII 0x00.. then
-  Shift-JIS), glyph data from 0x3f78. DEBUGFNT.TFP: 12x12 debug font. Whether the renderer is fixed-pitch: phase 5.
+## Font - verified (phase 5 shots in work/qa/width/)
+- RES/1ST/HG_G18.TFP (+ a byte-identical copy in __PACK__/1ST.PTD): `T2FP`, 8076 glyphs 18x18 4bpp (162 bytes each,
+  row-major, low nibble = left pixel), u16 code table at 0x20 (ASCII 0x00.. at index = code, then Shift-JIS), glyph
+  data from 0x3f78. Ink levels 0-12 draw; 13 drew nothing for a fully inked stem. DEBUGFNT.TFP: 12x12 debug font.
+- Stock renderer: one-byte (ASCII) characters advance size/2 = 9 px, full-width 18; the stock ASCII glyphs are ~10-16 px
+  wide so they overlap. ASCII text renders (no code page issue).
+- English: tools/font.py re-renders ASCII 0x20-0x7E from fonts/OpenSans-Semibold.ttf (14 px, baseline row 14,
+  Apache 2.0) into both TFP copies; ~7 px per character on average.
+
+## VWF - verified (tools/vwf.py, tests/test_vwf.py)
+- Tokenizer 0x088176FC (string -> kind, code, byte count): kind 1 = one-byte char, 2 = Shift-JIS, others = control
+  codes. Two consumers add the one-byte advance size*scale>>1: layout (line widths for auto-wrap) 0x08817E64 and the
+  draw loop 0x08818B50 (x in 1/16 px, scale 16 = 1.0). Both now `jal` a 4-instruction helper at 0x088EA3A0 that reads
+  a 256-byte px table at 0x088EA3B0 (CRI ADX error strings overwritten), and add px*scale. A third copy at 0x08818224
+  only sizes the unused name-substitution token.
+- The EBOOT is a relocatable PRX (type 0xFFA0): vwf.apply appends 4 relocation entries (2 x R_MIPS_26, HI16/LO16) to
+  the last relocation block. Re-signed with sign_np -elf, tag 0xD91612F0 = the original's (tools/sign.py, WSL gcc).
+
+## Dialogue box width - verified (work/qa/width/w1, w2)
+- Auto-wrap (layout 0x08817DD0): before each character, if the line's width so far is >= W the engine breaks the line
+  there (mid-word). W = 391 px for the dialogue box: 48 digits (384) + `''` (390) + `C` stayed on the line, 391 broke.
+  So a line fits when its total width <= 391 (font.width). Lines start at x = 22.
+- 3 lines per box; a 4th line (explicit or wrapped) is not shown (text lost, no paging).
+
+## Control codes - verified (tokenizer jump table 0x088BEB10)
+- `/` + one of `A C D K L N V W Z a c v w z` is a control code; `//` = a literal `/`; `/` before any other byte is
+  a literal `/`. English text must write `//` for a slash before those letters (safest: always `//`).
+- `%` starts a token only when followed by `name` / `family` (compared at 0x088F1864/0x088F186C); else literal.
+- No SOS message uses a control code; the Hexcite reactions end with `/K` (keep it).
 
 ## Bytecode references to text - verified (every non-empty message slot in all 403 SOS is reached; tests/test_script.py)
 - `40 7f u16 40` = show message u16 (dialogue box); `40 53 u16 40` just before it = speaker (strtab index).

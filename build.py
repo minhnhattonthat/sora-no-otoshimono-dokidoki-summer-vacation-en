@@ -43,14 +43,14 @@ def eboot_marker(name, jp, n, tail=""):
     return "\n".join(fill(f"[{name}]" if i == 0 else f"{i + 1}:", 391)[:room] for i in range(k)) + tail
 
 
-def text_for(r, mode, qa):
-    """The new text of a row, or None to keep the original bytes."""
-    import script
+def text_for(r, mode, qa, source):
+    """The new text of a row, or None to keep the original bytes. English is word-wrapped to its box (tools/fit.py)."""
+    import fit, script
     if r["id"] in qa:
         return qa[r["id"]]
     if mode == "marker":
         return None  # each caller builds its own marker (it knows the room)
-    return script.unesc(r["en"]) if r["en"] else None
+    return fit.fitted(script.unesc(r["en"]), fit.box_of(source, r)) if r["en"] else None
 
 
 def fill(head, px):
@@ -87,7 +87,7 @@ def texts(mode=None, qa=None):
         slot = {r["id"]: r["slot"] for r in script.sos_rows(d, k)}
         new = {}
         for r in script.read_tsv(tsv):
-            t = text_for(r, mode, qa)
+            t = text_for(r, mode, qa, "sos")
             if t is None and mode == "marker":
                 t = sos_marker(r, script.unesc(r["jp"]))
             if t is not None:
@@ -107,7 +107,7 @@ def texts(mode=None, qa=None):
     files = {}
     elf = bytearray(open(script.ELF, "rb").read()[:sign.ELF_SIZE])
     for i, r in enumerate(script.read_tsv(os.path.join(script.SCRIPT, "eboot.tsv"))):
-        t = text_for(r, mode, qa)
+        t = text_for(r, mode, qa, "eboot")
         jp = script.unesc(r["jp"])
         tail = "/K" if jp.endswith("/K") else ""
         if t is None and mode == "marker":
@@ -126,7 +126,7 @@ def texts(mode=None, qa=None):
         elf[o:o + max(len(b), old) + 1] = b.ljust(max(len(b), old) + 1, b"\0")
     files[EBOOT] = sign.sign(vwf.apply(bytes(elf), widths))
     r = script.read_tsv(os.path.join(script.SCRIPT, "sfo.tsv"))[0]
-    t = text_for(r, mode, qa)
+    t = text_for(r, mode, qa, "sfo")
     if t is None and mode == "marker":
         t = "[TITLE] Sora no Otoshimono"
     if t is not None:

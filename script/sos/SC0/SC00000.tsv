@@ -1,73 +1,73 @@
 id	kind	speaker	max	jp	en	notes
-SC00000.m1	msg	智樹		（俺の名前は桜井智樹。\n　平和と普通を愛するしがない中学生だ）		
-SC00000.m2	msg	智樹		（なのに俺の周りと来たら……）		
-SC00000.m3	msg	智樹		（殺人チョップを繰り出す隣近所の幼馴染、\n　見月（みつき）そはらに……）		
-SC00000.m4	msg	智樹		（新大陸を探し求めて空を飛ぶ変態の先輩、\n　守形英四郎（すがたえいしろう）……）		
-SC00000.m5	msg	智樹		（やたらと物騒なイベントを企画する生徒会長、\n　五月田根美香子（さつきたねみかこ）……）		
-SC00000.m6	msg	智樹		（これだけでも十分騒がしいのに、最近じゃ\n　２人の女の子が我が家に住み着いてしまった）		
-SC00000.m7	msg	智樹		（空からやってきた、エンジェロイドと名乗る\n　未確認生物（ＵＭＡ）……）		
-SC00000.m8	msg	智樹		（俺をマスターと呼ぶ天然ボケの\n　エンジェロイド、イカロス）		
-SC00000.m9	msg	智樹		（イカロスを追ってやってきたツンデレの\n　エンジェロイド、ニンフ）		
-SC00000.m10	msg	智樹		（これは、彼女たちに壊されていく\n　俺の平和を描いた物語の中の……）		
-SC00000.m11	msg	智樹		（とある一幕である）		
-SC00000.m12	msg	智樹		う～ん……こうか？		
-SC00000.m13	msg	イカロス		マスター……そこに置かれると\n２ターン後に敗北が決定しますが……		
-SC00000.m14	msg	智樹		なにっ！？　じゃあ……こうだ！		
-SC00000.m15	msg	ニンフ		それだと次のターンでトモキの負けね。		
-SC00000.m16	msg_nonl	智樹		ぬわーっ！		
+SC00000.m1	msg	智樹		（俺の名前は桜井智樹。\n　平和と普通を愛するしがない中学生だ）	(My name is Tomoki Sakurai. Just an average middle-schooler who loves peace and the ordinary.)	
+SC00000.m2	msg	智樹		（なのに俺の周りと来たら……）	(And yet the people around me...)	
+SC00000.m3	msg	智樹		（殺人チョップを繰り出す隣近所の幼馴染、\n　見月（みつき）そはらに……）	(There's my childhood friend next door, who dishes out killer chops: Sohara Mitsuki...)	
+SC00000.m4	msg	智樹		（新大陸を探し求めて空を飛ぶ変態の先輩、\n　守形英四郎（すがたえいしろう）……）	(The pervert senpai who flies around the sky searching for the New World: Eishiro Sugata...)	
+SC00000.m5	msg	智樹		（やたらと物騒なイベントを企画する生徒会長、\n　五月田根美香子（さつきたねみかこ）……）	(The student council president, who keeps planning seriously dangerous events: Mikako Satsukitane...)	
+SC00000.m6	msg	智樹		（これだけでも十分騒がしいのに、最近じゃ\n　２人の女の子が我が家に住み着いてしまった）	(As if that wasn't noisy enough, lately two girls have moved into my house.)	
+SC00000.m7	msg	智樹		（空からやってきた、エンジェロイドと名乗る\n　未確認生物（ＵＭＡ）……）	(Unidentified creatures who came from the sky, calling themselves "Angeloids"...)	
+SC00000.m8	msg	智樹		（俺をマスターと呼ぶ天然ボケの\n　エンジェロイド、イカロス）	(Ikaros, the spaced-out Angeloid who calls me "Master".)	
+SC00000.m9	msg	智樹		（イカロスを追ってやってきたツンデレの\n　エンジェロイド、ニンフ）	(And Nymph, the tsundere Angeloid who came here after Ikaros.)	
+SC00000.m10	msg	智樹		（これは、彼女たちに壊されていく\n　俺の平和を描いた物語の中の……）	(This is one scene from the story of how they keep wrecking my peaceful life...)	
+SC00000.m11	msg	智樹		（とある一幕である）	(Just one little chapter.)	
+SC00000.m12	msg	智樹		う～ん……こうか？	Hmm... like this?	
+SC00000.m13	msg	イカロス		マスター……そこに置かれると\n２ターン後に敗北が決定しますが……	Master... if you place it there, your defeat will be decided in two turns...	
+SC00000.m14	msg	智樹		なにっ！？　じゃあ……こうだ！	What?! Then... like this!	
+SC00000.m15	msg	ニンフ		それだと次のターンでトモキの負けね。	Then you lose next turn, Tomoki.	
+SC00000.m16	msg_nonl	智樹		ぬわーっ！	Nwaaagh!	
 SC00000.m17	msg			　		
-SC00000.m18	msg	そはら		もう。イカロスさんもニンフさんも\nトモちゃんにアドバイスしちゃダメだよ。		
-SC00000.m19	msg	そはら		やっと私がトモちゃんに勝てそうなゲームを\n見つけたんだから！		
-SC00000.m20	msg	智樹		わかったわかった、降参する！\n奥が深いんだな、このゲーム……		
-SC00000.m21	msg	そはら		ねえねえトモちゃん、もう１回やろーよ！		
-SC00000.m22	msg	智樹		イヤだ。だいたいお前、\nこのゲームけっこうやりこんでるだろ。		
-SC00000.m23	msg	智樹		こっちがもう少しこのゲームに慣れてから\n再戦を申し込む。首を洗って待ってろよ！		
-SC00000.m24	msg	そはら		どうぞどうぞ。楽しみに待ってるね。		
-SC00000.m25	msg	智樹		余裕かましやがって。\nすぐに追いついてやるからな……		
-SC00000.m26	msg	智樹		そのためにも、まずはこのゲームを\nもっとやり込んでみないとな。		
-SC00000.m27	msg	智樹		そうだな……イカロス、\nお前やってみるか？		
-SC00000.m28	msg	イカロス		はい、マスター。		
-SC00000.m29	msg	智樹		（イカロスは今日初めて\n　このゲームを知ったんだから、条件は互角だ）		
-SC00000.m30	msg	智樹		（だったら今まで色んなゲームを経験してきた\n　俺のほうが有利なはず！）		
-SC00000.m31	msg	イカロス		では……行きます。		
-SC00000.m32	msg	イカロス		…………		
-SC00000.m33	msg	そはら		あーっ、そこに置いたら……！		
-SC00000.m34	msg	智樹		もう遅い。次は、こうだ！		
-SC00000.m35	msg	イカロス		……参りました。		
-SC00000.m36	msg	智樹		ふっふっふ、これでおれの２連勝だな。		
-SC00000.m37	msg	イカロス		…………		
-SC00000.m38	msg	そはら		イカロスさん、こういうゲームは\n苦手なんだね。		
-SC00000.m39	msg	ニンフ		…………		
-SC00000.m40	msg	智樹		よーし、もう１回やろーぜ！		
-SC00000.m41	msg	イカロス		……はい。		
-SC00000.m42	msg	智樹		ただし、次は手加減なしでな。		
-SC00000.m43	msg	イカロス		あ……		
-SC00000.m44	msg	そはら		えっ？　イカロスさん、\n本気じゃなかったの！？		
-SC00000.m45	msg	ニンフ		うん。アルファーがこんなに弱いわけないわよ。		
-SC00000.m46	msg	ニンフ		さっきは横からトモキに\n的確にアドバイスできてたじゃない。		
-SC00000.m47	msg	イカロス		私……マスターに勝っていただいて\n喜んでもらおうと思って……		
-SC00000.m48	msg	智樹		ゲームで手を抜くのは\n相手に失礼なことなんだぞ。		
-SC00000.m49	msg	智樹		おたがいの勝ちたいって思いをぶつけあうのが\nゲームの面白いとこなんだからな！		
-SC00000.m50	msg	イカロス		……は……い。\n申し訳ありませんでした、マスター。		
-SC00000.m51	msg	智樹		でも、ありがとな。うれしいよ。		
-SC00000.m52	msg	イカロス		え……？		
-SC00000.m53	msg	智樹		俺を喜ばせようと思って、\n自分なりに考えてやってくれたことなんだろ？		
-SC00000.m54	msg	智樹		昔は杓子定規に\n命令を聞くだけだったもんな。		
-SC00000.m55	msg	智樹		お前が自分で考えたりするように\nなってるのが、うれしいんだよ。		
-SC00000.m56	msg	そはら		そうだね。イカロスさん、最初の頃と\nだいぶ印象が変わったよね。		
-SC00000.m57	msg	イカロス		マスター……		
-SC00000.m58	msg	智樹		さあ、ゲームスタートだ！		
-SC00000.m59	msg	イカロス		……行きます。		
-SC00000.m60	msg	智樹		ぐっ……！		
-SC00000.m61	msg	イカロス		マスター。次のターンで私の勝ちです。		
-SC00000.m62	msg	そはら		すごい……圧倒的じゃない。		
-SC00000.m63	msg	ニンフ		ふふっ。戦略エンジェロイドを\n甘く見ちゃダメよ？		
-SC00000.m64	msg	ニンフ		陣取りの戦術を競うこのゲーム、\n戦闘能力に特化したアルファーの得意分野よ。		
-SC00000.m65	msg	ニンフ		初心者のトモキに負けるわけないじゃん。		
-SC00000.m66	msg	智樹		ク……ククク……\nまさかこれほどのものとはな……		
-SC00000.m67	msg	イカロス		……マスター？		
-SC00000.m68	msg	智樹		こうなったら奥の手だ……\nハアアアアアッ！		
-SC00000.m69	msg	ニンフ		！？		
-SC00000.m70	msg	そはら		！？		
-SC00000.m71	choice			土下座		
-SC00000.m72	choice			ちゃぶ台返し		
+SC00000.m18	msg	そはら		もう。イカロスさんもニンフさんも\nトモちゃんにアドバイスしちゃダメだよ。	Come on! Ikaros-san, Nymph-san, no giving Tomo-chan advice!	
+SC00000.m19	msg	そはら		やっと私がトモちゃんに勝てそうなゲームを\n見つけたんだから！	I finally found a game I might actually beat Tomo-chan at!	
+SC00000.m20	msg	智樹		わかったわかった、降参する！\n奥が深いんだな、このゲーム……	Okay, okay, I give up! This game's deeper than it looks...	
+SC00000.m21	msg	そはら		ねえねえトモちゃん、もう１回やろーよ！	Hey, hey, Tomo-chan, let's play one more!	
+SC00000.m22	msg	智樹		イヤだ。だいたいお前、\nこのゲームけっこうやりこんでるだろ。	No way. Besides, you've been practicing this game a ton, haven't you?	
+SC00000.m23	msg	智樹		こっちがもう少しこのゲームに慣れてから\n再戦を申し込む。首を洗って待ってろよ！	Once I've gotten used to it, I'll challenge you to a rematch. Wash your neck and wait for me!	
+SC00000.m24	msg	そはら		どうぞどうぞ。楽しみに待ってるね。	Sure, sure. I'll be looking forward to it.	
+SC00000.m25	msg	智樹		余裕かましやがって。\nすぐに追いついてやるからな……	Acting all cocky... I'll catch up to you in no time...	
+SC00000.m26	msg	智樹		そのためにも、まずはこのゲームを\nもっとやり込んでみないとな。	And for that, I need to play this game a whole lot more first.	
+SC00000.m27	msg	智樹		そうだな……イカロス、\nお前やってみるか？	Let's see... Ikaros, want to give it a try?	
+SC00000.m28	msg	イカロス		はい、マスター。	Yes, Master.	
+SC00000.m29	msg	智樹		（イカロスは今日初めて\n　このゲームを知ったんだから、条件は互角だ）	(Ikaros only learned about this game today, so we're on even ground.)	
+SC00000.m30	msg	智樹		（だったら今まで色んなゲームを経験してきた\n　俺のほうが有利なはず！）	(And I've played all kinds of games, so I should have the edge!)	
+SC00000.m31	msg	イカロス		では……行きます。	Then... here I go.	
+SC00000.m32	msg	イカロス		…………	......	
+SC00000.m33	msg	そはら		あーっ、そこに置いたら……！	Ah, if you put it there...!	
+SC00000.m34	msg	智樹		もう遅い。次は、こうだ！	Too late. Next, this!	
+SC00000.m35	msg	イカロス		……参りました。	...I concede.	
+SC00000.m36	msg	智樹		ふっふっふ、これでおれの２連勝だな。	Heh heh heh, that makes two wins in a row for me.	
+SC00000.m37	msg	イカロス		…………	......	
+SC00000.m38	msg	そはら		イカロスさん、こういうゲームは\n苦手なんだね。	Ikaros-san, I guess you're not good at this kind of game.	
+SC00000.m39	msg	ニンフ		…………	......	
+SC00000.m40	msg	智樹		よーし、もう１回やろーぜ！	Alright, let's go one more round!	
+SC00000.m41	msg	イカロス		……はい。	...Yes.	
+SC00000.m42	msg	智樹		ただし、次は手加減なしでな。	But this time, no holding back.	
+SC00000.m43	msg	イカロス		あ……	Ah...	
+SC00000.m44	msg	そはら		えっ？　イカロスさん、\n本気じゃなかったの！？	Huh? Ikaros-san, you weren't trying for real?!	
+SC00000.m45	msg	ニンフ		うん。アルファーがこんなに弱いわけないわよ。	Nope. No way Alpha's this weak.	
+SC00000.m46	msg	ニンフ		さっきは横からトモキに\n的確にアドバイスできてたじゃない。	Just a minute ago she was giving you spot-on advice from the sidelines, Tomoki.	
+SC00000.m47	msg	イカロス		私……マスターに勝っていただいて\n喜んでもらおうと思って……	I... thought you would be happy, Master, if you won...	
+SC00000.m48	msg	智樹		ゲームで手を抜くのは\n相手に失礼なことなんだぞ。	Going easy in a game is rude to your opponent, you know.	
+SC00000.m49	msg	智樹		おたがいの勝ちたいって思いをぶつけあうのが\nゲームの面白いとこなんだからな！	The fun of a game is both sides throwing everything they've got at winning!	
+SC00000.m50	msg	イカロス		……は……い。\n申し訳ありませんでした、マスター。	...Y...es. I am very sorry, Master.	
+SC00000.m51	msg	智樹		でも、ありがとな。うれしいよ。	But thanks. I'm glad.	
+SC00000.m52	msg	イカロス		え……？	Huh...?	
+SC00000.m53	msg	智樹		俺を喜ばせようと思って、\n自分なりに考えてやってくれたことなんだろ？	You were trying to make me happy, right? You thought it through and did it your own way.	
+SC00000.m54	msg	智樹		昔は杓子定規に\n命令を聞くだけだったもんな。	Back then, you'd only follow orders to the letter.	
+SC00000.m55	msg	智樹		お前が自分で考えたりするように\nなってるのが、うれしいんだよ。	I'm glad you've started thinking for yourself, that's all.	
+SC00000.m56	msg	そはら		そうだね。イカロスさん、最初の頃と\nだいぶ印象が変わったよね。	Yeah. Ikaros-san, you give off a really different vibe from when you first came.	
+SC00000.m57	msg	イカロス		マスター……	Master...	
+SC00000.m58	msg	智樹		さあ、ゲームスタートだ！	Now then, game start!	
+SC00000.m59	msg	イカロス		……行きます。	...Here I go.	
+SC00000.m60	msg	智樹		ぐっ……！	Ngh...!	
+SC00000.m61	msg	イカロス		マスター。次のターンで私の勝ちです。	Master. I will win next turn.	
+SC00000.m62	msg	そはら		すごい……圧倒的じゃない。	Wow... She's crushing him.	
+SC00000.m63	msg	ニンフ		ふふっ。戦略エンジェロイドを\n甘く見ちゃダメよ？	Heh. Don't underestimate a strategic Angeloid, okay?	
+SC00000.m64	msg	ニンフ		陣取りの戦術を競うこのゲーム、\n戦闘能力に特化したアルファーの得意分野よ。	A game where you compete on tactics for taking territory? That's Alpha's specialty. She's built for combat.	
+SC00000.m65	msg	ニンフ		初心者のトモキに負けるわけないじゃん。	No way she'd lose to a total beginner like you, Tomoki.	
+SC00000.m66	msg	智樹		ク……ククク……\nまさかこれほどのものとはな……	Heh... Heh heh heh... I never imagined she'd be this good...	
+SC00000.m67	msg	イカロス		……マスター？	...Master?	
+SC00000.m68	msg	智樹		こうなったら奥の手だ……\nハアアアアアッ！	Then it's time for my secret weapon... Haaaaaaah!	
+SC00000.m69	msg	ニンフ		！？	?!	
+SC00000.m70	msg	そはら		！？	?!	
+SC00000.m71	choice			土下座	Grovel	
+SC00000.m72	choice			ちゃぶ台返し	Flip the table	

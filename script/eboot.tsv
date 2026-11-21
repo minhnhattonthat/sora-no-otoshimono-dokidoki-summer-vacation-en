@@ -19,7 +19,7 @@ id	kind	speaker	max	jp	en	notes
 088C19B4	cp932		255	声の大きさを変えられるわ。	You can change the voice volume.	
 088C1CB4	cp932		255	いつものやつだよ。	It's the usual game.	
 088C1DB4	cp932		255	ルールをシンプルにした、簡単なモードだよ。	A simpler, easier mode with streamlined rules.	
-088C1EB4	cp932		255	対戦相手の強さを決めてね。	Choose how strong your opponent is.	
+088C1EB4	cp932		255	対戦相手の強さを決めてね。	Pick your opponent's level.	
 088C1FB4	cp932		255	必殺技はありにする？　なしにする？	Special moves: on or off?	
 088DCAD0	cp932		127	作戦成功。通常モードに移行します……/K	Mission accomplished. Switching to normal mode.../K	
 088DCB94	cp932		127	敵性勢力の無力化を確認。被害は微少です……/K	Hostile forces neutralized. Damage is minimal.../K	
@@ -123,7 +123,7 @@ id	kind	speaker	max	jp	en	notes
 088F18FC	utf-8		75	そらのおとしもの　－ドキドキサマーバケーション－	Sora no Otoshimono: DokiDoki Summer Vacation	
 088F1948	utf-8		19	セーブデータ	Save Data	
 088F195C	utf-8		131	「そらのおとしもの　－ドキドキサマーバケーション－」の全ての保存情報が含まれています。	Contains all saved data for "Sora no Otoshimono: DokiDoki Summer Vacation".	
-088F3E3C	cp932		27	対戦相手の強さを決めてね。	Choose how strong your opponent is.	
+088F3E3C	cp932		27	対戦相手の強さを決めてね。	Pick your opponent's level.	
 088F3E58	cp932		35	必殺技はありにする？　なしにする？	Special moves: on or off?	
 088F3E7C	cp932		43	標準的な盤面です。７種類のコマを使います。	Standard board. Uses 7 kinds of pieces.	
 088F3EA8	cp932		43	小型の盤面です。５種類のコマを使います。	Small board. Uses 5 kinds of pieces.	

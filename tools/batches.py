@@ -72,16 +72,15 @@ def entry_key(entry):
 def limit_label(entry):
     px, lines = fit.BOXES.get(entry["_box"], (0, 0))
     out = f"{px}px" + (f"x{lines}" if lines > 1 else "") if px else ""
-    if entry["_source"] != "sos" and entry["_box"] != "helpbar":
-        out += f"{' ' if out else ''}{entry['max']}B"
+    if entry["_source"] != "sos":
+        out +=f"{' ' if out else ''}{entry['max']}B"
     return out
 
 
 def width_problems(entry, en):
     text = scriptio.unesc(en)
     out = fit.problems(text, entry["_box"])
-    # helpbar slots (27-43 bytes) are repointed in phase 7, so only their pixel width counts here
-    if entry["_source"] != "sos" and entry["_box"] != "helpbar":
+    if entry["_source"] != "sos":
         n = len(text.encode("utf-8" if entry["kind"] == "utf-8" else "cp932"))
         if n > int(entry["max"]):
             out.append(f"{n} bytes > slot max {entry['max']}")

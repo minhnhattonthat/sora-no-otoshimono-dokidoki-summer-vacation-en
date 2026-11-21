@@ -74,8 +74,8 @@ Rebuild = rewrite pool + both u16 offset tables + size fields (0x0C, 0x2C). Pool
 - Text (script/eboot.tsv, 137): Alpha's menu help lines 0x088c07b4.. (0x100 slots, cp932, `\n` breaks); Hexcite
   post-match reactions 0x088dcad0.. (0xC4 stride, 0x80 usable, end with `/K` = a control code, keep it); Hexcite
   menu help 0x088f3e3c..; save-data title/detail and sceUtility save-dialog messages (UTF-8) 0x088f161c.., 0x088fb978..,
-  .data 0x088fcc88... `max` = bytes to the next non-zero byte (guess for free-standing strings: a zero field may follow;
-  phase 7 checks the xrefs before using the slack).
+  .data 0x088fcc88... `max` = bytes to the next non-zero byte. Verified in phase 7 (tests/test_build.py): no .data pointer
+  or lui pair in the original ELF reaches past the first byte of any written string, so the zero slack is free.
 - Not text (script/eboot_nontext.tsv, 687, each with its reason): kinsoku tables (0x088f1734.., pointed at from
   0x088fd198), name-substitution tokens 主人公の名前/苗字/名字 the renderer strncmp()s at 0x08817740 (no script uses
   them), speaker keys, ~650 layout object names.

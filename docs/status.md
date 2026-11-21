@@ -2,9 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check next (phase 6 translation done). Last good build: 2026-11-22 pilot
-  build/sora_en.iso (SC00000 pilot English only), sha1 a98ee044..., prologue shots work/qa/pilot. A full-English
-  build currently stops at the helpbar byte assert (088F3E3C 35 > 27 bytes): phase 7 repoints those slots.
+- **Phase:** 8. QA in the emulator next (phase 7 insert/fit/check done). Last good build: 2026-11-22 full English
+  build/sora_en.iso sha1 0db4462c..., smoke ok (English save dialog), SC10020 warp shows English dialogue
+  (work/qa/warp/sc_sc1_sc10020.sos).
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), PPSSPP v1.20.4 in `tools/ppsspp/`, PPSSPPHeadless qa-1 shared install, smoke boots
     the original ISO, pre-commit runs `tools/check.py`, guard hook blocks `sed -i`, rulings D1-D7 in docs/decisions.md.
@@ -42,12 +42,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
     every dialogue-box string with it, translators write one paragraph per box), tools/pairs.py (review files).
     Docs: glossary.md, docs/synopsis.md, docs/style-reference.md, docs/translator-brief.md, docs/reviewer-brief.md.
     51 batches (work/tl, gitignored) by 11 translator agents; every batch reviewed, all Critical/Important fixed
-    (fix001-fix007); Minors in docs/polish.md (polish pass before release).
+    (fix001-fix007); Minors in docs/polish.md (polish pass before release). Phase 6 review (harness): `~` only in
+    Mikako's voice (D8, linted), 43 lines rewritten (fix008); reviewer reports now saved to work/tl/review/.
+  - Phase 7: only one EBOOT slot overflowed (088F3E3C helpbar, 35 > 27 B); rephrased "Pick your opponent's level."
+    (also 088C1EB4, same JP; fix009), so no repoint needed; batches.py byte check now covers helpbar rows too.
+    build.eboot_strings() asserts each slot holds the extracted string and returns the writes. tests/test_build.py
+    (romdiff for this build): EBOOT writes stay in slots, never overlap, no .data pointer / lui pair reaches past a
+    written string's first byte (so the `max` slack is verified free); res.ptd keeps its leaf set and only SOS +
+    HG_G18.TFP leaves change; EBOOT signed (~PSP). Lint 0 problems, control codes matched, check.py green.
 - **Next:**
-  1. Phase 7: Hexcite help-bar strings (088F3E3C..088F3EA8) have 27-43-byte slots and the English is longer:
-     repoint into free space (more CRI error strings near 0x088EA4B0+, add relocations like vwf.py). EBOOT `max` for
-     free-standing strings is a guess until xrefs are checked (lint uses it). Then build green, romdiff ranges, smoke.
-  2. Phase 8 QA: warp tour on the English build; check wrapped 3-line boxes, choices (300 px), Hexcite /K reactions.
+  1. Phase 8 QA: `warp.py --all` tour on the English build -> contact sheets, qa_gate manifest, visual-QA verdicts
+     (do them yourself in a fresh read-only pass; codex out of quota until 2026-11-26); check wrapped 3-line boxes,
+     choices (300 px, inkbox.py), Hexcite /K reactions, textcover.py. Graphics text (docs/re/graphics.md survey) is
+     all still Japanese: speaker nameplates (COMMON_00_NAME), menus, titles, chapter cards, credits -> redraw.
 - **Known gaps (non-blocking):** Free Mode Hexcite ES is greyed (unlock flag not found; its text is shared with
   Hexcite). Poke-jumped chapter/ending scripts keep the previous screen's overlay drawn; the scripts themselves are
   shot clean by the ev_* / ending_* script-warp rows.

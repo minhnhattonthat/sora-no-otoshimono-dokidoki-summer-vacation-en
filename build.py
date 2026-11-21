@@ -75,7 +75,7 @@ def sos_marker(r, jp):
 
 def texts(mode=None, qa=None):
     """(repl, files) for build(): every script/ row with new text, re-encoded the way script.py extracted it."""
-    import eboot, script, sfo, sos, sign
+    import script, sfo, sos, sign
     qa = qa or {}
     seen = set()
     res = script.res_files()
@@ -104,9 +104,26 @@ def texts(mode=None, qa=None):
         if p.endswith("/HG_G18.TFP"):
             tfp, widths = font.patch(res[p])
             repl[p] = tfp
-    files = {}
+    files = {EBOOT: sign.sign(vwf.apply(bytes(eboot_strings(mode, qa, seen)[0]), widths))}
+    r = script.read_tsv(os.path.join(script.SCRIPT, "sfo.tsv"))[0]
+    t = text_for(r, mode, qa, "sfo")
+    if t is None and mode == "marker":
+        t = "[TITLE] Sora no Otoshimono"
+    if t is not None:
+        seen.add(r["id"])
+        files[SFO] = sfo.set_str(read_iso_file(ROM, SFO), "TITLE", t)
+    assert set(qa) <= seen, f"--qa ids not found: {sorted(set(qa) - seen)}"
+    return repl, files
+
+
+def eboot_strings(mode=None, qa=None, seen=None):
+    """(ELF with script/eboot.tsv written in place, [(ram, old bytes, new bytes)]), before vwf.apply and signing.
+    tests/test_build.py checks every changed byte lies in a written slot and nothing references the new tails."""
+    import eboot, script, sign
+    qa, seen = qa or {}, seen if seen is not None else set()
+    writes = []
     elf = bytearray(open(script.ELF, "rb").read()[:sign.ELF_SIZE])
-    for i, r in enumerate(script.read_tsv(os.path.join(script.SCRIPT, "eboot.tsv"))):
+    for r in script.read_tsv(os.path.join(script.SCRIPT, "eboot.tsv")):
         t = text_for(r, mode, qa, "eboot")
         jp = script.unesc(r["jp"])
         tail = "/K" if jp.endswith("/K") else ""
@@ -123,17 +140,11 @@ def texts(mode=None, qa=None):
         assert not tail or t.endswith(tail), f"{r['id']}: lost the {tail} control code"
         o = eboot.ram2off(elf, int(r["id"], 16))
         old = len(script.eboot_encode(r["kind"], jp))
-        elf[o:o + max(len(b), old) + 1] = b.ljust(max(len(b), old) + 1, b"\0")
-    files[EBOOT] = sign.sign(vwf.apply(bytes(elf), widths))
-    r = script.read_tsv(os.path.join(script.SCRIPT, "sfo.tsv"))[0]
-    t = text_for(r, mode, qa, "sfo")
-    if t is None and mode == "marker":
-        t = "[TITLE] Sora no Otoshimono"
-    if t is not None:
-        seen.add(r["id"])
-        files[SFO] = sfo.set_str(read_iso_file(ROM, SFO), "TITLE", t)
-    assert set(qa) <= seen, f"--qa ids not found: {sorted(set(qa) - seen)}"
-    return repl, files
+        assert elf[o:o + old + 1] == script.eboot_encode(r["kind"], jp) + b"\0", f"{r['id']}: not the extracted string"
+        new = b.ljust(max(len(b), old) + 1, b"\0")
+        writes.append((int(r["id"], 16), bytes(elf[o:o + len(new)]), new))
+        elf[o:o + len(new)] = new
+    return elf, writes
 
 
 def main():

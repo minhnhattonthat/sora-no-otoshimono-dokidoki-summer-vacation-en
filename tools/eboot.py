@@ -69,7 +69,7 @@ def isjp(c):
     """Characters the game's text uses; anything else in a hit means binary noise."""
     o = ord(c)
     return (0x3000 <= o <= 0x30FF or 0x4E00 <= o <= 0x9FFF or 0xFF01 <= o <= 0xFF5E
-            or c in "…‥―－～“”‘’♪☆★○●◎△▲▽▼□■◇◆→←↑↓×÷±・゛゜〜々〇♥")
+            or c in "…‥―－～“”‘’♪☆★○●◎△▲▽▼□■◇◆→←↑↓×÷±・゛゜〜々〇♥™®")
 
 
 def scan(d):

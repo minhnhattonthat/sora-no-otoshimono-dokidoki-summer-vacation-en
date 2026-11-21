@@ -9,7 +9,7 @@ into a copy of the ISO (iso9660.patch). build(out, {}) alone is byte-identical t
   --marker      every text row becomes "[id] ..." filler (phase 5 marker build; docs/re/script.md §Marker)
   --qa ID=TEXT  override one row (\\n = new line), for width probes; repeatable
 """
-import argparse, hashlib, os, sys
+import argparse, glob, hashlib, os, sys
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
@@ -80,7 +80,11 @@ def texts(mode=None, qa=None):
     seen = set()
     res = script.res_files()
     repl = {}
-    for k, d in sorted(script.sos_sources(res).items()):
+    sources = script.sos_sources(res)
+    tsvs = {os.path.relpath(p, os.path.join(script.SCRIPT, "sos"))[:-4].replace(os.sep, "/")
+            for p in glob.glob(os.path.join(script.SCRIPT, "sos", "*", "*.tsv"))}
+    assert tsvs <= set(sources), f"script TSVs with no SOS source: {sorted(tsvs - set(sources))}"
+    for k, d in sorted(sources.items()):
         tsv = os.path.join(script.SCRIPT, "sos", k + ".tsv")
         if not os.path.exists(tsv):
             continue
@@ -113,6 +117,11 @@ def texts(mode=None, qa=None):
         seen.add(r["id"])
         files[SFO] = sfo.set_str(read_iso_file(ROM, SFO), "TITLE", t)
     assert set(qa) <= seen, f"--qa ids not found: {sorted(set(qa) - seen)}"
+    if mode is None:  # every row with English was written
+        rows = [r for p in glob.glob(os.path.join(script.SCRIPT, "sos", "*", "*.tsv")) for r in script.read_tsv(p)]
+        rows += [r for f in ("eboot.tsv", "sfo.tsv") for r in script.read_tsv(os.path.join(script.SCRIPT, f))]
+        want = {r["id"] for r in rows if r["en"]}
+        assert want <= seen, f"rows with English not written: {sorted(want - seen)[:10]}"
     return repl, files
 
 

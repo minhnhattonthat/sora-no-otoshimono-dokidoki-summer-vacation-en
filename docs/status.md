@@ -50,6 +50,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (romdiff for this build): EBOOT writes stay in slots, never overlap, no .data pointer / lui pair reaches past a
     written string's first byte (so the `max` slack is verified free); res.ptd keeps its leaf set and only SOS +
     HG_G18.TFP leaves change; EBOOT signed (~PSP). Lint 0 problems, control codes matched, check.py green.
+    Phase 7 review fixes: eboot.isjp takes ™/® -> 5 "Memory Stick™" save dialogs extracted + translated (all 5 have
+    code readers, mips.py xref; written "Memory Stick" without ™, ASCII lint); lint fails untranslated rows and
+    leading/trailing blank mismatches; fit.wrap is balanced (same line counts, 15 three-line boxes) + stub-last-line
+    rule (< 6 chars); build asserts every TSV has a source and every row with English is written; tests/test_build.py
+    ISO-level romdiff (old/new extents, dir records, PVD size, tail).
 - **Next:**
   1. Phase 8 QA: `warp.py --all` tour on the English build -> contact sheets, qa_gate manifest, visual-QA verdicts
      (do them yourself in a fresh read-only pass; codex out of quota until 2026-11-26); check wrapped 3-line boxes,

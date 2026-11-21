@@ -194,7 +194,7 @@ def merge(path, rows, force):
                 o = old[r["id"]]
                 if o["en"] and o["jp"] != esc(r["jp"]):
                     print(f"WARN {r['id']}: jp changed under an existing translation; re-queue it")
-                r["en"], r["notes"] = o["en"], o["notes"] or r["notes"]
+                r["en"], r["notes"] = o["en"], o["notes"] or r.get("notes", "")
     write_tsv(path, [{**r, "jp": esc(r["jp"])} for r in rows])
     return True
 

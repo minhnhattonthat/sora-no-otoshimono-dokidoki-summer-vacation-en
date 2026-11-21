@@ -127,11 +127,16 @@ id	kind	speaker	max	jp	en	notes
 088F3E58	cp932		35	必殺技はありにする？　なしにする？	Special moves: on or off?	
 088F3E7C	cp932		43	標準的な盤面です。７種類のコマを使います。	Standard board. Uses 7 kinds of pieces.	
 088F3EA8	cp932		43	小型の盤面です。５種類のコマを使います。	Small board. Uses 5 kinds of pieces.	
+088FB8D8	utf-8		159	Memory Stick™が差し込まれていません。セーブデータを読み込めませんでした。セーブデータを読み込み直しますか。	No Memory Stick is inserted, so the save data could not be loaded. Try loading the save data again?	
 088FB978	utf-8		139	セーブデータが見つかりません。正常に読み込めませんでした。セーブデータを読み込み直しますか。	Save data not found and could not be loaded. Try loading the save data again?	
 088FBA04	utf-8		139	セーブデータが破損しています。正常に読み込めませんでした。セーブデータを読み込み直しますか。	The save data is corrupted and could not be loaded. Try loading the save data again?	
+088FBA90	utf-8		79	Memory Stick™が差し込まれていません。保存を行いますか。	No Memory Stick is inserted. Do you want to save?	
+088FBAE0	utf-8		191	Memory Stick™の空き容量が不足しています。セーブデータを保存するには288KB以上の空き容量が必要です。他のセーブデータを削除しますか。	There is not enough free space on the Memory Stick. Saving requires at least 288 KB of free space. Delete other save data?	
 088FBBA0	utf-8		131	セーブデータが破損しているか、正常に読み込めません。新規セーブデータで上書きしますか。	The save data is corrupted or cannot be loaded. Overwrite it with new save data?	
 088FBC24	utf-8		87	セーブデータがありません。新規セーブデータを作成しますか。	No save data found. Create new save data?	
 088FBC7C	utf-8		87	セーブデータの保存に失敗しました。保存をやり直しますか。	Could not save. Try again?	
+088FBCD4	utf-8		207	本ゲームはオートセーブ機能に対応しています。Memory Stick™アクセスランプ点滅中は、Memory Stick™を抜いたり、本体の電源を切ったりしないでください。	This game uses autosave. While the Memory Stick access lamp is flashing, do not remove the Memory Stick or turn off the system.	
+088FBDA4	utf-8		147	Memory Stick™が差し込まれていません。このままではセーブデータを保存できません。ゲームを開始しますか。	No Memory Stick is inserted, so your progress cannot be saved. Start the game anyway?	
 088FBE38	utf-8		87	セーブデータがありません。このままゲームを開始しますか。	No save data found. Start the game anyway?	
 088FCC88	utf-8		1023	詳細情報	Details	
 088FD088	utf-8		127	セーブデータ	Save Data	

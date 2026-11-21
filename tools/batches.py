@@ -55,6 +55,9 @@ def save(path, rows):
     scriptio.write_tsv(path, rows)
 
 
+BLANK = " 　"
+
+
 def needs_english(entry):
     """A box holding only a full-width space (a pause) keeps its original bytes."""
     return bool(entry.get("jp", "").replace("\\n", "").strip("　 ")) and not entry.get("en")
@@ -154,6 +157,9 @@ def problems(entry, en, terms):
     for jp_re, en_re in HONORIFICS.items():
         if re.search(jp_re, jp_plain) and not re.search(en_re, en):
             out.append(f"honorific {jp_re} needs {en_re}")
+    for side, strip in (("leading", str.lstrip), ("trailing", str.rstrip)):
+        if (strip(jp_plain, BLANK) != jp_plain) != (strip(plain, BLANK) != plain):
+            out.append(f"{side} blank differs from the JP")
     return out + width_problems(entry, en)
 
 
@@ -261,6 +267,7 @@ def main(argv):
     entries, terms = index(), glossary()
     if cmd == "check" and not names:
         bad = [f"{i}: {p}: {e['en']!r}" for i, e in entries.items() if e.get("en") for p in problems(e, e["en"], terms)]
+        bad += [f"{i}: untranslated: {e['jp']!r}" for i, e in entries.items() if needs_english(e)]
         print(f"{len(entries)} entries, {sum(bool(e.get('en')) for e in entries.values())} translated, {len(bad)} problems")
         print("\n".join(bad[:200]))
         return 1 if bad else 0
@@ -290,6 +297,11 @@ def _selftest():
     assert any("bytes" in p for p in problems(k, "x" * 130 + "/K", []))
     assert problems(e, "Ikaros", [(["イカロス"], ["Ikaros"], [])]) == []
     assert problems(dict(e, jp="イカロス"), "She", [(["イカロス"], ["Ikaros"], [])]) == ["glossary: イカロス -> Ikaros"]
+    assert needs_english(e) and not needs_english(dict(e, jp="　")) and not needs_english(dict(e, en="Test"))
+    assert problems(e, " Lead.", []) == ["leading blank differs from the JP"]
+    assert problems(dict(e, jp="　テスト"), " Lead.", []) == []
+    assert fit.wrap("I finally found a game I might actually beat Tomo-chan at!", 391).split("\n")[-1] != "at!"
+    assert "stub" in fit.problems("Hello there.\nOk.", "dialogue")[0]
     assert fit.fitted("Hi there\\nok".replace("\\n", "\n"), "dialogue") == "Hi there\nok"
     print("selftest ok")
 

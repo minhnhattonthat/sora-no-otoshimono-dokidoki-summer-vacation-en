@@ -57,6 +57,8 @@ def test_eboot_roundtrip_and_coverage():
     assert all(r["notes"] for r in other), "every non-text row says why"
     hits = {f"{eboot.off2ram(d, o):08X}" for o, *_ in eboot.scan(d)}
     assert hits == {r["id"] for r in text} | {r["id"] for r in other}
+    # "Memory Stick™" save dialogs: the scan once rejected ™ and dropped them (phase 7 review)
+    assert {"088FB8D8", "088FBA90", "088FBAE0", "088FBCD4", "088FBDA4"} <= {r["id"] for r in text}
 
 
 @needs_rom

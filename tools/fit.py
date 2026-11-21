@@ -39,19 +39,48 @@ def box_of(source, row):
     return "system" if source == "eboot" else "xmb"
 
 
+def greedy_lines(words, px):
+    lines, line = 0, ""
+    for word in words:
+        if line and font.width(line + " " + word) > px:
+            lines, line = lines + 1, word
+        else:
+            line = f"{line} {word}" if line else word
+    return lines + 1
+
+
+def balanced(words, px):
+    """The greedy line count, with the breaks that minimise the summed squared slack: no one-word widow on the last line
+    when the words allow it. A single word wider than px gets a line of its own."""
+    n, sp = greedy_lines(words, px), font.width(" ")
+    pre = [0]
+    for w in words:
+        pre.append(pre[-1] + font.width(w))
+    inf = float("inf")
+    cost = [[inf] * (len(words) + 1) for _ in range(n + 1)]
+    back = [[0] * (len(words) + 1) for _ in range(n + 1)]
+    cost[0][0] = 0
+    for k in range(1, n + 1):
+        for j in range(1, len(words) + 1):
+            for i in range(j - 1, -1, -1):
+                w = pre[j] - pre[i] + sp * (j - i - 1)
+                if w > px and i < j - 1:
+                    break
+                c = cost[k - 1][i] + (px - w) ** 2
+                if c < cost[k][j]:
+                    cost[k][j], back[k][j] = c, i
+    assert cost[n][len(words)] < inf  # the greedy breaks are one feasible answer
+    out, j = [], len(words)
+    for k in range(n, 0, -1):
+        i = back[k][j]
+        out.append(" ".join(words[i:j]))
+        j = i
+    return out[::-1]
+
+
 def wrap(text, px):
-    """Greedy word wrap to px; keeps explicit breaks. A single word wider than px stays whole (problems() flags it)."""
-    out = []
-    for para in text.split("\n"):
-        line = ""
-        for word in para.split(" "):
-            if line and font.width(line + " " + word) > px:
-                out.append(line)
-                line = word
-            else:
-                line = f"{line} {word}" if line else word
-        out.append(line)
-    return "\n".join(out)
+    """Balanced word wrap to px; keeps explicit breaks."""
+    return "\n".join(line for para in text.split("\n") for line in balanced(para.split(" "), px))
 
 
 def fitted(text, box):
@@ -76,7 +105,12 @@ def problems(text, box):
     wide = [font.width(r) for r in rows if font.width(r) > px]
     if wide:
         out.append(f"line {max(wide)} px > {px} px ({box})")
+    if len(rows) > 1 and len(rows[-1].strip()) < STUB:
+        out.append(f"last line {rows[-1].strip()!r} is a stub (< {STUB} chars); rephrase")
     return out
+
+
+STUB = 6
 
 
 def main(argv):

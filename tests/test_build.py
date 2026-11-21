@@ -57,12 +57,20 @@ def test_writes_stay_in_slots(built):
     assert not stray, f"bytes changed outside the string slots: {stray[:8]}"
 
 
-@pytest.mark.skipif(not os.path.isfile(build.ROM), reason="needs the ISO in rom/")
-def test_res_leaves():
+needs_iso = pytest.mark.skipif(not os.path.isfile(build.ROM), reason="needs the ISO in rom/")
+
+
+@pytest.fixture(scope="module")
+def english():
+    return build.texts()
+
+
+@needs_iso
+def test_res_leaves(english):
     """The English res.ptd keeps the leaf set; only the leaves the build replaced (SOS scripts, HG_G18.TFP) differ."""
     import ptd
     res = build.read_iso_file(build.ROM, build.RES)
-    repl, files = build.texts()
+    repl, files = english
     old, new = ptd.files(res), ptd.files(ptd.repack(res, repl))
     assert new.keys() == old.keys()
     changed = {k for k in old if old[k] != new[k]}
@@ -79,3 +87,35 @@ def test_nothing_points_inside_a_written_string(built):
     bad =[(f"{a:08X}", f"+{k}", [hex(eboot.BASE + s) for s in r[a - eboot.BASE + k]])
            for a, _, new in writes for k in range(1, len(new)) if a - eboot.BASE + k in r]
     assert not bad, f"references into a rewritten string (would show a changed tail): {bad[:8]}"
+
+
+@needs_iso
+def test_iso_romdiff(english, tmp_path):
+    """romdiff for the whole ISO: only the replaced files' old and new extents, their directory records, the PVD
+    volume size and the appended tail change."""
+    import iso9660
+    repl, files = english
+    out = str(tmp_path / "en.iso")
+    build.build(out, repl, files)
+    with open(build.ROM, "rb") as f:
+        old = {p: (lba, ln, pos) for p, lba, ln, pos in iso9660.listing(f)}
+    with open(out, "rb") as f:
+        new = {p: (lba, ln, pos) for p, lba, ln, pos in iso9660.listing(f)}
+        assert new.keys() == old.keys()
+        for p, data in files.items():
+            f.seek(new[p][0] * 2048)
+            assert f.read(new[p][1]) == data, p
+    ext = lambda lba, ln: (lba * 2048, lba * 2048 - (-ln // 2048) * 2048)  # noqa: E731
+    allowed = [(16 * 2048 + 80, 16 * 2048 + 88)]
+    for p in [build.RES, *files]:
+        assert new[p][2] == old[p][2]
+        allowed += [ext(*old[p][:2]), ext(*new[p][:2]), (old[p][2] + 2, old[p][2] + 18)]
+    size, stray = os.path.getsize(build.ROM), []
+    with open(build.ROM, "rb") as a, open(out, "rb") as b:
+        for s in range(0, size, 2048):
+            x, y = a.read(2048), b.read(2048)
+            if x == y or any(lo <= s and s + 2048 <= hi for lo, hi in allowed):
+                continue
+            stray += [s + i for i in range(2048) if x[i] != y[i] and not any(lo <= s + i < hi for lo, hi in allowed)]
+    assert not stray, f"ISO bytes changed outside the allowed ranges: {[hex(o) for o in stray[:8]]}"
+    assert os.path.getsize(out) % 2048 == 0

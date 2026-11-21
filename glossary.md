@@ -1,13 +1,13 @@
-# Glossary - <Game title>
+# Glossary - Sora no Otoshimono: DokiDoki Summer Vacation
 
 Binding for every translator and reviewer. Agents propose additions in reports; only the controller edits this file.
 
 ## Rulings (asked of the user once; options and reasons in docs/decisions.md)
-- Honorifics: <kept, hyphenated (Johannes-san) | dropped>. Name order: <JP | Western>.
-- Romanisation source: <official art / anime / Hepburn>.
-- Credits: <stay kanji | English>.
-- Register / flavour: <e.g. keep light JP flavour>. Sound effects: <*Slam!*>.
-- Abbreviations: <default: full names and terms everywhere, prefer engine changes over shortening>.
+- Honorifics: kept, hyphenated (Tomoki-kun). Name order: Western (Tomoki Sakurai).
+- Romanisation source: official English (Funimation anime "Heaven's Lost Property"), else earlier fan patch, else Hepburn without macrons.
+- Credits: English.
+- Register / flavour: <set in phase 6>. Sound effects: <set in phase 6>.
+- Abbreviations: full names and terms everywhere, prefer engine changes over shortening.
 
 ## Style rules
 - Punctuation map: 「」 -> "...", 『』 -> '...', ・・・ -> ..., ！？ -> !?, <more>.

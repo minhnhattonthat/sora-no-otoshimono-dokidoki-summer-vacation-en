@@ -1,0 +1,6 @@
+# Cold boot to the title screen and press Start. FRAMES BUTTONS.
+1800 -
+4 start
+600 -
+4 circle
+600 -

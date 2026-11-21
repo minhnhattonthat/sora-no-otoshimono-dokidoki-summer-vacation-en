@@ -66,3 +66,74 @@ Minor reviewer findings, deferred to one polish pass (references/translation.md 
 - [ ] SC10081.m4 - -> "You'd better call the King 'Big Brother', you hear!"
 - [ ] SC10082.m7 - stammer -> "Gh... jusht your shocksh?!"
 - [ ] SC10084.m7 - dog image -> "Ish that the howlin' of a losht dog?!"
+
+## b014-b018 (SC2)
+- [ ] SC20140.m4 m6 m7 - shoujo/shonen spelling -> "shojo" / "shonen"
+- [ ] SC20130.m3 - "Boob Warring States" -> "Oppai Warring States: The G-Cup Rebellion" (matches Oppai of the World)
+- [ ] SC20114.m2 - optional "Could this be... tenderness...?"
+- [ ] SC20120.m9 - -> "Ikaros-kun. Come here a moment."
+- [ ] SC20100.m28 m33 - 甘える "lean on" -> "clingy with Tomoki"
+- [ ] SC20051.m24 - フルチン "going commando" wrong -> "being buck naked is pretty relaxing!"
+- [ ] SC20051.m28 - -> "...Did he... really forgive me...?"
+- [ ] SC20052.m9 - -> "What... do you mean?"
+- [ ] SC20140.m16 - tense -> "Alpha. You've been trying to compete with me this whole time, haven't you?"
+- [ ] SC20083.m7 - -> "I'll give you a reason to laugh anytime."
+- [ ] SC20113.m4 - stiff -> "I am troubled... about you, Master..."
+- [ ] SC20020.m41 - -> "we'll get more watermelons"
+- [ ] SC20043.m10 - -> "well-behaved, good kid"
+- [ ] SC20090.m2 - optional "38.4 degrees Celsius"
+- [ ] SC20010.m10 - -> "did your eyes just change color?"
+
+## b024-b028 (SC30730-SC31710)
+- [ ] SC31310.m1 - Gundam pun -> "Gouf... Domfufufu... Nothing but scandalous bodies in here..."
+- [ ] SC31000.m5 - forced "Senpai" -> "...to Sohara, Sugata-senpai, and the rest of the gang with it!"
+- [ ] SC31510.m14 - optional "That is NOT what 'a treat for the eyes' means!" (keep m4)
+- [ ] SC31330.m7 - -> "The New World, the land of romance yet unseen..."
+- [ ] SC31320.m15 - clunky -> "Blasting away a man who's had his fill of man's romance, with everything you've got."
+- [ ] SC31210.m14 - -> "So what if I was small?!"
+- [ ] SC31110.m9 - 出たー -> "there it is!"
+- [ ] SC31100.m5 - Ikaros はあ "Okay..." -> "I see..."
+- [ ] SC31230.m9 - -> "I'm pretty sure that watermelon's rotten by now."
+- [ ] SC31610.m8 - -> "Yes. Without a trace."
+- [ ] SC31600.m9 SC31710.m17 m18 - ALL CAPS -> plain/stretched ("you pervert!!", "you idiot!!")
+- [ ] SC30730.m9 m12 - optional 甘える "be pampered" -> "be doted on"
+
+## b029-b033 (SC31720-SC32810)
+- [ ] SC32110.m12 - optional "Tiger is 'tora,' horse is 'uma'... tora-uma, get it?!"
+- [ ] SC32600.m2 - clumsy -> "It's a famous quote about how people have to be kind!"
+- [ ] SC31810.m11 m16 m17 m13 - yakuza intro stiffness; drop added "ma'am"; タイマン "one-on-one brawl"
+- [ ] SC31800.m5 - -> "If there were an idol nearby"
+- [ ] SC32000.m2 SC32620.m24 - asterisk sounds -> plain ("Yaaawn", "Urk...")
+- [ ] SC32010.m1 - -> "I knew it, wouldn't it be faster..."
+- [ ] SC32020.m2 - -> "Yes. What about it...?"
+- [ ] SC32030.m15 - lecher tease -> "Here? Heh heh, you like it right here, huh? Then I'll really work this spot..."
+- [ ] SC32030.m26 - -> "Hey... what about me...?"
+- [ ] SC32200.m17 - -> "Boob Squeeze, Double Hand!!"
+- [ ] SC32210.m5 - -> "You clueless thing!"
+- [ ] SC32720.m8 - addition -> "It is a primitive method, though."
+- [ ] SC32730.m1 - めっ -> "...No-no."
+- [ ] SC31930.m6 - -> "still has not come back..."
+
+## b034-b038 (SC32820-SC33900)
+- [ ] SC33320.m5 SC33330.m3 m4 SC33620.m4 SC33830.m18 - Ikaros casual to Nymph: light contractions ("What's wrong?", "You said you didn't eat it... so it's true.")
+- [ ] SC32900.m9 - -> "Pray, hear me out... Pray, hear me out..."
+- [ ] SC32820.m14 - -> "You shouldn't tell too many of them, you know."
+- [ ] SC33200.m1 - -> "There's no such thing as 'absolute' in this world."
+- [ ] SC33200.m16 - -> "You're doubting the wrong thing!"
+- [ ] SC33220.m17 - -> "Once Alpha starts worrying, she stews on it forever."
+- [ ] SC33500.m2 - -> "Annoying...? What is annoying, Master?"
+- [ ] SC33420.m13 - -> "Genocide, dear..."
+- [ ] SC33410.m11 - Sohara -> "Eek, Tomo-chan, you naughty boy! Ufu! Ufufu!"
+- [ ] SC33600.m14 - -> "H-Hmm... That's terrible, isn't it, Tomoki?"
+- [ ] SC33620.m13 - -> "What a selfish little pest..."
+- [ ] SC33430.m9 - addition -> "Right. Next is... sexual desire."
+
+## b039-b043 (SC33910-SC34830)
+- [ ] SC34800.m3 - -> "...wash each other's backs, and the other side of our backs, and everything!"
+- [ ] SC34110.m9 m15 - Ikaros mimicking Mikako -> "Oh my, Sakurai-kuun... Let's go home together."
+- [ ] SC34120.m4 - -> "You should have figured that out before asking your first question!"
+- [ ] SC34500.m11 - optional "lowbrow-purpose type"
+- [ ] SC34330.m11 - optional "your, uh, 'hobby' books"
+- [ ] SC34830.m17 m19 - いっちゃ……ヤ -> "Don't go... I don't want you to."
+- [ ] SC34100.m3 - -> "You're packing way too much offense!"
+- [ ] SC34820.m11 - optional "Gotta catch 'em!"

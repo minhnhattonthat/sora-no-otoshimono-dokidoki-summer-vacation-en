@@ -1,26 +1,26 @@
 id	kind	speaker	max	jp	en	notes
-SC30200.m1	msg	智樹		イカロス、ちょっとここで待っててくれ。		
-SC30200.m2	msg	イカロス		はい、マスター。		
-SC30200.m3	msg	美香子		イカロスちゃん、ここで何をしているの？\nその紙はな～に？		
-SC30200.m4	msg	イカロス		おつかいで……買うものの\nリストです……		
-SC30200.m5	msg	美香子		ひとりでおつかい？\nエライわね～。		
-SC30200.m6	msg	イカロス		いえ……先日間違ったものを\n買って来てしまいまして……		
-SC30200.m7	msg	イカロス		今日の買い物は……マスターに\n付き添ってもらうことになったので……		
-SC30200.m8	msg	イカロス		ここで……補習を受けているマスターの\nお帰りを待っています……		
-SC30200.m9	msg	美香子		それ、おつかいって\n言うのかしら……？		
-SC30200.m10	msg	美香子		まあ、それはそれとして……\n２人でお買い物なんて、デートみたいね～。		
-SC30200.m11	msg	イカロス		はあ……\nデート、ですか……？		
-SC30200.m12	msg	美香子		そうよ～。ここはがんばって\nおしゃれしてみたらどうかしら～。		
-SC30200.m13	msg	イカロス		おしゃれ……？		
-SC30200.m14	msg	美香子		ええ。イカロスちゃんの勝負服で\n桜井君をメロメロにするのよ～。		
-SC30200.m15	msg	イカロス		勝負服……		
-SC30200.m16	msg	智樹		お待たせ、イカロスー。\nおつかいに行くぞ～。		
-SC30200.m17	msg	イカロス		はい……		
-SC30200.m18	msg	智樹		……イカロス？\nその格好で買い物に行くのか？		
-SC30200.m19	msg	イカロス		はい……これが私の勝負服です。		
-SC30200.m20	msg	イカロス		マスター……\nメロメロになりましたでしょうか？		
-SC30200.m21	msg	智樹		アホかー！　メロメロじゃなくて\nクラクラしたわ！		
-SC30200.m22	msg	智樹		そんな格好で町を歩いたら、\nどんだけ目立つと思ってんだ！		
-SC30200.m23	msg	イカロス		真剣味が足りなかったでしょうか……？		
-SC30200.m24	msg	イカロス		空の女王（ウラヌス・クイーン）に\nなれば……		
-SC30200.m25	msg	智樹		ちがーう！\nちょっとそこに座れー！		
+SC30200.m1	msg	智樹		イカロス、ちょっとここで待っててくれ。	Ikaros, wait here for me a sec.	
+SC30200.m2	msg	イカロス		はい、マスター。	Yes, Master.	
+SC30200.m3	msg	美香子		イカロスちゃん、ここで何をしているの？\nその紙はな～に？	Ikaros-chan, what are you doing here? What's that piece of paper~?	
+SC30200.m4	msg	イカロス		おつかいで……買うものの\nリストです……	I am running an errand... It is a list of things to buy...	
+SC30200.m5	msg	美香子		ひとりでおつかい？\nエライわね～。	An errand all by yourself? How grown-up~	
+SC30200.m6	msg	イカロス		いえ……先日間違ったものを\n買って来てしまいまして……	No... The other day I bought the wrong things...	
+SC30200.m7	msg	イカロス		今日の買い物は……マスターに\n付き添ってもらうことになったので……	So today... Master is coming shopping with me...	
+SC30200.m8	msg	イカロス		ここで……補習を受けているマスターの\nお帰りを待っています……	I am waiting here... for Master to finish his remedial class...	
+SC30200.m9	msg	美香子		それ、おつかいって\n言うのかしら……？	Can you really call that running an errand...?	
+SC30200.m10	msg	美香子		まあ、それはそれとして……\n２人でお買い物なんて、デートみたいね～。	Well, that aside... Going shopping, just the two of you? It's like a date~	
+SC30200.m11	msg	イカロス		はあ……\nデート、ですか……？	Well... A date...?	
+SC30200.m12	msg	美香子		そうよ～。ここはがんばって\nおしゃれしてみたらどうかしら～。	That's right~ Why not make an effort and dress up a little~?	
+SC30200.m13	msg	イカロス		おしゃれ……？	Dress up...?	
+SC30200.m14	msg	美香子		ええ。イカロスちゃんの勝負服で\n桜井君をメロメロにするのよ～。	Yes. Put on your battle outfit, Ikaros-chan, and make Sakurai-kun melt~	
+SC30200.m15	msg	イカロス		勝負服……	Battle outfit...	
+SC30200.m16	msg	智樹		お待たせ、イカロスー。\nおつかいに行くぞ～。	Sorry to keep you waiting, Ikaros! Let's go run that errand~	
+SC30200.m17	msg	イカロス		はい……	Yes...	
+SC30200.m18	msg	智樹		……イカロス？\nその格好で買い物に行くのか？	...Ikaros? You're going shopping dressed like that?	
+SC30200.m19	msg	イカロス		はい……これが私の勝負服です。	Yes... This is my battle outfit.	
+SC30200.m20	msg	イカロス		マスター……\nメロメロになりましたでしょうか？	Master... Have you melted?	
+SC30200.m21	msg	智樹		アホかー！　メロメロじゃなくて\nクラクラしたわ！	Are you nuts?! I'm not melting, I'm getting a headache!	
+SC30200.m22	msg	智樹		そんな格好で町を歩いたら、\nどんだけ目立つと思ってんだ！	Do you know how much you'd stand out walking around town like that?!	
+SC30200.m23	msg	イカロス		真剣味が足りなかったでしょうか……？	Was I not serious enough...?	
+SC30200.m24	msg	イカロス		空の女王（ウラヌス・クイーン）に\nなれば……	If I became Uranus Queen...	
+SC30200.m25	msg	智樹		ちがーう！\nちょっとそこに座れー！	Nooo! Sit down right there, young lady!	

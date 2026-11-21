@@ -1,18 +1,18 @@
 id	kind	speaker	max	jp	en	notes
-SC30000.m1	msg	智樹		イカロス、つけもの取ってくれ。		
-SC30000.m2	msg	イカロス		はい……		
-SC30000.m3	msg	智樹		ん。ありがと。		
-SC30000.m4	msg	イカロス		……あの、マスター。\nありがとうとはなんでしょう？		
-SC30000.m5	msg	智樹		んー。感謝の気持ちを\n伝えるときに使う言葉だな。		
-SC30000.m6	msg	イカロス		感謝……とは？		
-SC30000.m7	msg	智樹		そこからわかんねーのかよ……		
-SC30000.m8	msg	智樹		ほかの人が「ありがとう」って\n言ってるところを参考にしてみろよ。		
-SC30000.m9	msg	智樹		そしたら、感謝っていうのがなんなのか\nわかると思うぞ。		
-SC30000.m10	msg	イカロス		わかりました……		
-SC30000.m11	msg	智樹		……ただいまー。		
-SC30000.m12	msg	イカロス		ご来店ありがとうございます……		
-SC30000.m13	msg	智樹		はっ？		
-SC30000.m14	msg	智樹		そ、そうか……\nコンビニとかで覚えてきたんだな。		
-SC30000.m15	msg	智樹		あのな、イカロス。\nありがとうという言葉にも色々あって……		
-SC30000.m16	msg	イカロス		今夜はご指名ありがとうございます。\nどんなサービスをお望みかしら、ボウヤ……		
-SC30000.m17	msg	智樹		ちょっと待て。\nどこで覚えてきたんだ、その言葉！		
+SC30000.m1	msg	智樹		イカロス、つけもの取ってくれ。	Ikaros, pass me the pickles.	
+SC30000.m2	msg	イカロス		はい……	Yes...	
+SC30000.m3	msg	智樹		ん。ありがと。	Mm. Thanks.	
+SC30000.m4	msg	イカロス		……あの、マスター。\nありがとうとはなんでしょう？	...Um, Master. What is "thanks"?	
+SC30000.m5	msg	智樹		んー。感謝の気持ちを\n伝えるときに使う言葉だな。	Hmm. It's a word you use when you want to show you're grateful.	
+SC30000.m6	msg	イカロス		感謝……とは？	Grateful... meaning?	
+SC30000.m7	msg	智樹		そこからわかんねーのかよ……	You don't even get that part...?	
+SC30000.m8	msg	智樹		ほかの人が「ありがとう」って\n言ってるところを参考にしてみろよ。	Try watching how other people say "thank you" and learn from them.	
+SC30000.m9	msg	智樹		そしたら、感謝っていうのがなんなのか\nわかると思うぞ。	Then I think you'll figure out what being grateful means.	
+SC30000.m10	msg	イカロス		わかりました……	Understood...	
+SC30000.m11	msg	智樹		……ただいまー。	...I'm hooome.	
+SC30000.m12	msg	イカロス		ご来店ありがとうございます……	Thank you for shopping with us...	
+SC30000.m13	msg	智樹		はっ？	Huh?	
+SC30000.m14	msg	智樹		そ、そうか……\nコンビニとかで覚えてきたんだな。	O-oh, I see... You picked that up at the convenience store or something.	
+SC30000.m15	msg	智樹		あのな、イカロス。\nありがとうという言葉にも色々あって……	Listen, Ikaros. There are all kinds of ways to say thank you...	
+SC30000.m16	msg	イカロス		今夜はご指名ありがとうございます。\nどんなサービスをお望みかしら、ボウヤ……	Thank you for requesting me tonight. What kind of service would you like, little boy...?	
+SC30000.m17	msg	智樹		ちょっと待て。\nどこで覚えてきたんだ、その言葉！	Hold it right there. Where did you learn to talk like that?!	

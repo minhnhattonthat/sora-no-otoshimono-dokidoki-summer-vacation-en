@@ -1,18 +1,18 @@
 id	kind	speaker	max	jp	en	notes
-SC30010.m1	msg	智樹		おーい、イカロス。\n出かけるぞー。		
-SC30010.m2	msg	イカロス		あの、マスター……\nサイフをお忘れです……		
-SC30010.m3	msg	智樹		おおっと、あっぶねー。\nありがとな、イカロス！		
-SC30010.m4	msg	イカロス		ありがとうと言うとき、\nマスターはいつも笑っている……		
-SC30010.m5	msg	イカロス		もっとマスターに\n笑ってもらえないかな……		
-SC30010.m6	msg	智樹		そろそろメシでも食うか！		
-SC30010.m7	msg	イカロス		はい、マスター。		
-SC30010.m8	msg	智樹		……あれ？　あれっ！？\nサイフがない！！		
-SC30010.m9	msg	イカロス		どうぞ……マスター。		
-SC30010.m10	msg	智樹		おっ、サンキュー。\n……あれ？		
-SC30010.m11	msg	智樹		なんでお前がサイフ持ってんだ？		
-SC30010.m12	msg	イカロス		…………		
-SC30010.m13	msg	智樹		お前、まさか俺のふところから\nサイフを抜き取ったんじゃないだろうな？		
-SC30010.m14	msg	イカロス		はい……抜き取りました。		
-SC30010.m15	msg	智樹		コ……コラーッ！！		
-SC30010.m16	msg	イカロス		マスターが怒ってる……\n笑ってくれない……？		
-SC30010.m17	msg	イカロス		朝と同じことをしたのに……\nありがとうは……難しい……		
+SC30010.m1	msg	智樹		おーい、イカロス。\n出かけるぞー。	Hey, Ikaros. We're heading out!	
+SC30010.m2	msg	イカロス		あの、マスター……\nサイフをお忘れです……	Um, Master... You forgot your wallet...	
+SC30010.m3	msg	智樹		おおっと、あっぶねー。\nありがとな、イカロス！	Whoa, that was close. Thanks, Ikaros!	
+SC30010.m4	msg	イカロス		ありがとうと言うとき、\nマスターはいつも笑っている……	When he says thank you, Master is always smiling...	
+SC30010.m5	msg	イカロス		もっとマスターに\n笑ってもらえないかな……	I wonder if I can make Master smile more...	
+SC30010.m6	msg	智樹		そろそろメシでも食うか！	Guess it's about time we grabbed something to eat!	
+SC30010.m7	msg	イカロス		はい、マスター。	Yes, Master.	
+SC30010.m8	msg	智樹		……あれ？　あれっ！？\nサイフがない！！	...Huh? Wha?! My wallet's gone!!	
+SC30010.m9	msg	イカロス		どうぞ……マスター。	Here you are... Master.	
+SC30010.m10	msg	智樹		おっ、サンキュー。\n……あれ？	Oh, thanks. ...Huh?	
+SC30010.m11	msg	智樹		なんでお前がサイフ持ってんだ？	Why do you have my wallet?	
+SC30010.m12	msg	イカロス		…………	......	
+SC30010.m13	msg	智樹		お前、まさか俺のふところから\nサイフを抜き取ったんじゃないだろうな？	Don't tell me you pulled my wallet right out of my pocket?	
+SC30010.m14	msg	イカロス		はい……抜き取りました。	Yes... I pulled it out.	
+SC30010.m15	msg	智樹		コ……コラーッ！！	H... hey, you!!	
+SC30010.m16	msg	イカロス		マスターが怒ってる……\n笑ってくれない……？	Master is angry... He is not smiling...?	
+SC30010.m17	msg	イカロス		朝と同じことをしたのに……\nありがとうは……難しい……	I did the same thing as this morning... "Thank you" is... difficult...	

@@ -1,25 +1,25 @@
 id	kind	speaker	max	jp	en	notes
-SC30220.m1	msg	美香子		イカロスちゃ～ん？\nこの服、どうかしら？		
-SC30220.m2	msg	イカロス		……赤いですね……		
-SC30220.m3	msg	そはら		イカロスさん！\nこっちの服はどう思う？		
-SC30220.m4	msg	イカロス		黄色いです……		
-SC30220.m5	msg	そはら		もう！　色じゃなくて！\n気に入ったかどうかを聞いてるの！		
-SC30220.m6	msg	智樹		あのさ、２人とも……そーゆーこと、\nイカロスに聞くだけムダだと思うけど。		
-SC30220.m7	msg	智樹		こいつ、自分の着るものに\n全然こだわりがないからさー。		
-SC30220.m8	msg	美香子		そんなことないわ～。\nイカロスちゃんにも好みがあるはずよ～。		
-SC30220.m9	msg	そはら		会長の言う通りだよ。女の子は誰でも\nおしゃれしたいって思ってるものなんだよ？		
-SC30220.m10	msg	智樹		そうなのかねえ～……		
-SC30220.m11	msg	美香子		桜井君？　あなただってイカロスちゃんに\nこ～んな服、着てほしいでしょ～？		
-SC30220.m12	msg	智樹		チャイナドレス！？　会長、\nなんでそんな服持ってるんですか！		
-SC30220.m13	msg	智樹		しかもそのスリット、\nかなりきわどい……！		
-SC30220.m14	msg	イカロス		あの……会長さん……\n私、その服がいいです……		
-SC30220.m15	msg	美香子		あら、そうなの～？		
-SC30220.m16	msg	そはら		イカロスさん、意外と大胆！		
-SC30220.m17	msg	そはら		ほらね！　やっぱりイカロスさんにも\nおしゃれになりたい気持ちがあるんだよ！		
-SC30220.m18	msg	智樹		そ、そうみたいだな……？		
-SC30220.m19	msg	イカロス		おしゃれのことはよくわからないですけど……\nマスターが喜んでくださると思ったので……		
-SC30220.m20	msg	智樹		む、むう……		
-SC30220.m21	msg	美香子		イカロスちゃん。こういう服は\nいざというときのために取っておくものなの。		
-SC30220.m22	msg	美香子		桜井君を落とすときに着るのよ～。\nわかった？		
-SC30220.m23	msg	イカロス		はあ……落とす、ですか……？		
-SC30220.m24	msg	智樹		会長！　変なこと教えないでくださいよ！		
+SC30220.m1	msg	美香子		イカロスちゃ～ん？\nこの服、どうかしら？	Ikaros-cha~an? What do you think of these clothes?	
+SC30220.m2	msg	イカロス		……赤いですね……	...They are red...	
+SC30220.m3	msg	そはら		イカロスさん！\nこっちの服はどう思う？	Ikaros-san! What do you think of these?	
+SC30220.m4	msg	イカロス		黄色いです……	They are yellow...	
+SC30220.m5	msg	そはら		もう！　色じゃなくて！\n気に入ったかどうかを聞いてるの！	Geez! Not the color! I'm asking if you like them!	
+SC30220.m6	msg	智樹		あのさ、２人とも……そーゆーこと、\nイカロスに聞くだけムダだと思うけど。	Look, you two... I think asking Ikaros stuff like that is a waste of time.	
+SC30220.m7	msg	智樹		こいつ、自分の着るものに\n全然こだわりがないからさー。	She doesn't care one bit about what she wears.	
+SC30220.m8	msg	美香子		そんなことないわ～。\nイカロスちゃんにも好みがあるはずよ～。	That's not true~ I'm sure Ikaros-chan has her own tastes too~	
+SC30220.m9	msg	そはら		会長の言う通りだよ。女の子は誰でも\nおしゃれしたいって思ってるものなんだよ？	The President's right. Every girl wants to look stylish, you know?	
+SC30220.m10	msg	智樹		そうなのかねえ～……	Is that so~...?	
+SC30220.m11	msg	美香子		桜井君？　あなただってイカロスちゃんに\nこ～んな服、着てほしいでしょ～？	Sakurai-kun? Even you'd love to see Ikaros-chan in something like thi~is, wouldn't you~?	
+SC30220.m12	msg	智樹		チャイナドレス！？　会長、\nなんでそんな服持ってるんですか！	A china dress?! President, why do you even own that?!	
+SC30220.m13	msg	智樹		しかもそのスリット、\nかなりきわどい……！	And that slit is seriously daring...!	
+SC30220.m14	msg	イカロス		あの……会長さん……\n私、その服がいいです……	Um... President... I would like those clothes...	
+SC30220.m15	msg	美香子		あら、そうなの～？	Oh my, really~?	
+SC30220.m16	msg	そはら		イカロスさん、意外と大胆！	Ikaros-san, you're bolder than you look!	
+SC30220.m17	msg	そはら		ほらね！　やっぱりイカロスさんにも\nおしゃれになりたい気持ちがあるんだよ！	See?! Ikaros-san wants to look stylish too, after all!	
+SC30220.m18	msg	智樹		そ、そうみたいだな……？	S-seems that way...?	
+SC30220.m19	msg	イカロス		おしゃれのことはよくわからないですけど……\nマスターが喜んでくださると思ったので……	I do not really understand style... but I thought it would make you happy, Master...	
+SC30220.m20	msg	智樹		む、むう……	Mm, mmh...	
+SC30220.m21	msg	美香子		イカロスちゃん。こういう服は\nいざというときのために取っておくものなの。	Ikaros-chan. Clothes like these are something you save for the moment that really counts.	
+SC30220.m22	msg	美香子		桜井君を落とすときに着るのよ～。\nわかった？	You wear them when you're ready to make Sakurai-kun fall for you~ Understand?	
+SC30220.m23	msg	イカロス		はあ……落とす、ですか……？	Well... Make him... fall...?	
+SC30220.m24	msg	智樹		会長！　変なこと教えないでくださいよ！	President! Quit teaching her weird stuff!	

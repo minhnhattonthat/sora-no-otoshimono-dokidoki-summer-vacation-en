@@ -1,24 +1,24 @@
 id	kind	speaker	max	jp	en	notes
-SC30230.m1	msg	智樹		会長、どうっすか？		
-SC30230.m2	msg	智樹		ギニャーッ！！		
-SC30230.m3	msg	美香子		ダメじゃない、桜井君……\n部屋に入るときはノックしなきゃ……ね？		
-SC30230.m4	msg	そはら		トモちゃんは廊下で待ってて！		
-SC30230.m5	msg	智樹		は……はいぃ……		
-SC30230.m6	msg	智樹		（イカロスにおしゃれを教えてほしいと\n　２人にお願いしたのはいいけど……）		
-SC30230.m7	msg	智樹		（俺はここで待つだけなんて、\n　なんだかさびしい……）		
-SC30230.m8	msg	そはら		終わったよ！		
-SC30230.m9	msg	美香子		お待たせしちゃったわね～、桜井君。		
-SC30230.m10	msg	智樹		いえいえ。で、首尾はどうでした？		
-SC30230.m11	msg	イカロス		マスター、私わかりました……\nおしゃれとは何かを……		
-SC30230.m12	msg	美香子		良かったわね、イカロスちゃん？		
-SC30230.m13	msg	美香子		振袖、ハイレグ、メイド服にナース姿……\nウェディングドレスも用意したもの。		
-SC30230.m14	msg	美香子		全部似合ってたわ～。\n写真集ができちゃいそう。		
-SC30230.m15	msg	智樹		え？　あの……		
-SC30230.m16	msg	そはら		楽しかったよ、イカロスさんの着せ替え！\nね？　おしゃれっていいものでしょ？		
-SC30230.m17	msg	イカロス		はい。おしゃれとは……周りの人たちも\n喜ばせるものなのですね……		
-SC30230.m18	msg	美香子		それだけじゃないわ、イカロスちゃん。\nおしゃれは自分を喜ばせることにもなるのよ～。		
-SC30230.m19	msg	イカロス		自分を喜ばせる……？\nなるほど……そうですね……		
-SC30230.m20	msg	智樹		あの。もしかして終わりなんですか？\n俺を喜ばせてくれたりは……		
-SC30230.m21	msg	美香子		イカロスちゃんがおしゃれについて\n学べたんだから、もう十分でしょう？		
-SC30230.m22	msg	そはら		女の子は、男の子に見てもらうためだけに\nおしゃれしてるんじゃないんだよ！		
-SC30230.m23	msg	智樹		お……お……俺にも\nおしゃれについて教えてくださーい！		
+SC30230.m1	msg	智樹		会長、どうっすか？	President, how's it going?	
+SC30230.m2	msg	智樹		ギニャーッ！！	Gyaaaah!!	
+SC30230.m3	msg	美香子		ダメじゃない、桜井君……\n部屋に入るときはノックしなきゃ……ね？	Naughty, Sakurai-kun... You have to knock before you enter a room... okay?	
+SC30230.m4	msg	そはら		トモちゃんは廊下で待ってて！	Tomo-chan, wait out in the hall!	
+SC30230.m5	msg	智樹		は……はいぃ……	Y... yessir...	
+SC30230.m6	msg	智樹		（イカロスにおしゃれを教えてほしいと\n　２人にお願いしたのはいいけど……）	(Asking those two to teach Ikaros about style was a good idea and all, but...)	
+SC30230.m7	msg	智樹		（俺はここで待つだけなんて、\n　なんだかさびしい……）	(Just sitting out here waiting is kinda lonely...)	
+SC30230.m8	msg	そはら		終わったよ！	All done!	
+SC30230.m9	msg	美香子		お待たせしちゃったわね～、桜井君。	Sorry to keep you waiting~, Sakurai-kun.	
+SC30230.m10	msg	智樹		いえいえ。で、首尾はどうでした？	No, no. So, how'd it turn out?	
+SC30230.m11	msg	イカロス		マスター、私わかりました……\nおしゃれとは何かを……	Master, I understand now... what style is...	
+SC30230.m12	msg	美香子		良かったわね、イカロスちゃん？	Isn't that nice, Ikaros-chan?	
+SC30230.m13	msg	美香子		振袖、ハイレグ、メイド服にナース姿……\nウェディングドレスも用意したもの。	A long-sleeved kimono, a high-cut leotard, a maid outfit, a nurse outfit... I even had a wedding dress ready.	
+SC30230.m14	msg	美香子		全部似合ってたわ～。\n写真集ができちゃいそう。	She looked good in all of them~ We could practically make a photo book.	
+SC30230.m15	msg	智樹		え？　あの……	Huh? Um...	
+SC30230.m16	msg	そはら		楽しかったよ、イカロスさんの着せ替え！\nね？　おしゃれっていいものでしょ？	Dressing up Ikaros-san was so much fun! See? Being stylish is great, right?	
+SC30230.m17	msg	イカロス		はい。おしゃれとは……周りの人たちも\n喜ばせるものなのですね……	Yes. Style is something... that makes the people around you happy too...	
+SC30230.m18	msg	美香子		それだけじゃないわ、イカロスちゃん。\nおしゃれは自分を喜ばせることにもなるのよ～。	That's not all, Ikaros-chan. Style makes you happy yourself, too~	
+SC30230.m19	msg	イカロス		自分を喜ばせる……？\nなるほど……そうですね……	Makes myself happy...? I see... That is true...	
+SC30230.m20	msg	智樹		あの。もしかして終わりなんですか？\n俺を喜ばせてくれたりは……	Um. Is it over already? Aren't you gonna make me happy too...?	
+SC30230.m21	msg	美香子		イカロスちゃんがおしゃれについて\n学べたんだから、もう十分でしょう？	Ikaros-chan learned about style, so that's quite enough, isn't it?	
+SC30230.m22	msg	そはら		女の子は、男の子に見てもらうためだけに\nおしゃれしてるんじゃないんだよ！	Girls don't dress up just so boys can look at them, you know!	
+SC30230.m23	msg	智樹		お……お……俺にも\nおしゃれについて教えてくださーい！	T... t... teach me about style tooooo!	

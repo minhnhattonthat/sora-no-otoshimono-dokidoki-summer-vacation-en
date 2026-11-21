@@ -104,4 +104,10 @@ Name + honorific forms are linted by regex (tools/batches.py HONORIFICS; stretch
 | 未確認生物 | unidentified | | UMA: "unidentified life-form" | |
 
 ## Decisions from earlier batches
-- (none yet)
+- b023 甘える -> "act spoiled" (active); 甘えさせる -> "pamper" (reviewer: "pampered" inverted Mikako's definition)
+- b022 なんでやねん -> "What the heck?!" (the tsukkomi retort); ボケ / ツッコミ -> funny man / straight man
+- b031 Mikako's self-reference 会長 -> "your President", never "the President"
+- b003/b018 Ikaros's rare casual lines (to Nymph, jealous) show as light contractions; her normal register stays formal
+- b043 流し打ち stays baseball ("opposite-field hitting")
+- b001 タイプアルファー -> "Type Alpha"; ムシ (Nymph's old name for Tomoki) -> "bug"
+- b051 Hexcite reaction sets (EBOOT 088DCAD0..): Ikaros, Nymph, Sohara, Mikako, Sugata, Tomoki in that order

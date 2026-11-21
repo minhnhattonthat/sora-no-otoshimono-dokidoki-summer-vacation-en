@@ -7,16 +7,16 @@ SC30730.m5	msg	智樹		……いや、遠慮する。	...Nah, I'll pass.
 SC30730.m6	msg	智樹		（こいつに耳をほじらせたら、\n　耳アカ以外のものも取られそうだ……）	(If I let her dig around in my ears, she'll probably pull out more than just earwax...)	
 SC30730.m7	msg	イカロス		そうですか……\nやっぱり……ダメですか……	I see... So... it is no good after all...	
 SC30730.m8	msg	智樹		やっぱり、って？	"After all"?	
-SC30730.m9	msg	イカロス		「甘える」ということの意味を知るために\n誰かに甘えてもらおうと思ったのですが……	To learn what it means to "be pampered," I thought I would let someone be pampered by me...	
+SC30730.m9	msg	イカロス		「甘える」ということの意味を知るために\n誰かに甘えてもらおうと思ったのですが……	To learn what it means to "act spoiled," I thought I would have someone act spoiled with me...	
 SC30730.m10	msg	イカロス		皆さんに、耳掃除だけは勘弁してくれ、と\n断られてしまいました……	But everyone turned me down, saying, "Anything but ear cleaning..."	
 SC30730.m11	msg	智樹		そりゃ、お前のデタラメな\n活躍を知ってる人なら警戒するよな……	Well, yeah, anyone who's seen your crazy stunts would be wary...	
-SC30730.m12	msg	イカロス		「甘える」を知るのは……\nあきらめたほうがいいのでしょうか……	Should I... give up on learning what "being pampered" is...?	
+SC30730.m12	msg	イカロス		「甘える」を知るのは……\nあきらめたほうがいいのでしょうか……	Should I... give up on learning what "acting spoiled" is...?	
 SC30730.m13	msg	智樹		…………	......	
 SC30730.m14	msg	智樹		……あー！　わかったよ！\n俺の耳掃除をやってくれ！	...Argh! Fine! Clean my ears, then!	
 SC30730.m15	msg	イカロス		……マスター？	...Master?	
 SC30730.m16	msg	智樹		そのかわり、そーっとな！\nそーっとだぞ！	But go gently! Really gently, got it?!	
 SC30730.m17	msg	イカロス		はい。そーっと……ですね。	Yes. Gently... understood.	
-SC30730.m18	msg	智樹		お前なー。誰かれかまわず\n甘えてくださいなんて言うもんじゃないぞ。	Jeez, you. You can't just go around asking anybody and everybody to let you pamper them.	
+SC30730.m18	msg	智樹		お前なー。誰かれかまわず\n甘えてくださいなんて言うもんじゃないぞ。	Jeez, you. You can't just go around asking anybody and everybody to act spoiled with you.	
 SC30730.m19	msg	智樹		お前を信用してるやつじゃないと\n警戒するに決まってるだろ？	Anyone who doesn't trust you is obviously gonna be on guard, right?	
 SC30730.m20	msg	イカロス		そうですね……信用されていないと、\n耳掃除はさせてもらえないですね……	That is true... If they do not trust me, they will not let me clean their ears...	
 SC30730.m21	msg	智樹		う……い、いいからさっさと始めろよ。	Ugh... J-just hurry up and start already.	

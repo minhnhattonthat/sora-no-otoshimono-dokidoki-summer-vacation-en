@@ -69,6 +69,38 @@ def toc(buf):
     return dirs, files
 
 
+def repack(buf, repl, prefix="", used=None):
+    """Rebuild a PETA archive. repl: {path: uncompressed bytes}, keys as unpack.py writes them under work/res
+    (a nested PTD's files are '<dir>/<name>_PTD/<inner path>'). Unchanged files keep their stored bytes, so
+    repack(buf, {}) == buf. Files keep the original offset order (res.ptd: not index order), each aligned like
+    the original: 2048 in res.ptd, 16 in the nested PTDs; the archive size is padded to the same alignment."""
+    import yklz
+    top, used = used is None, set() if used is None else used
+    toc_end, _, sbox_end = header(buf)
+    align = 2048 if obfuscated(buf) else 16  # observed; repack({}) == original for every PTD proves it
+    _, files = toc(buf)
+    plain = bytearray(deobf(buf))
+    out = bytearray(buf[:toc_end])
+    for f in sorted(files, key=lambda f: f["off"]):
+        stored = buf[f["off"]:f["off"] + f["size"]]
+        path = prefix + f["path"]
+        if f["name"].endswith(".PTD") and any(k.startswith(path[:-4] + "_PTD/") for k in repl):
+            inner = yklz.unpack(stored) if f["comp"] else stored
+            new = repack(inner, repl, path[:-4] + "_PTD/", used)
+            stored = yklz.pack(new) if f["comp"] else new
+        elif path in repl:
+            used.add(path)
+            stored = yklz.pack(repl[path]) if f["comp"] else repl[path]
+        out += bytes(-len(out) % align)
+        struct.pack_into("<II", plain, f["rec"] - sbox_end, len(out), len(stored))
+        out += stored
+    out += bytes(-len(out) % align)
+    struct.pack_into("<I", out, 8, len(out))
+    out[sbox_end:toc_end] = obf(plain, buf[0x20:0x120], sbox_end) if obfuscated(buf) else plain
+    assert not top or used == set(repl), f"not in archive: {sorted(set(repl) - used)[:5]}"
+    return bytes(out)
+
+
 if __name__ == "__main__":
     buf = open(sys.argv[1], "rb").read(0x400000)
     toc_end, size, sbox_end = header(buf)

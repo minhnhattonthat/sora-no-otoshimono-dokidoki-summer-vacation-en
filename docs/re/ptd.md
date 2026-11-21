@@ -26,6 +26,13 @@ Dump: ULJM05639, `rom.sha1`. Game made by Bottle Cube / Kadokawa Shoten; same PE
 - `yklz.pack` is a greedy compressor in the same format (byte-identical recompression not needed: rebuilt entries replace
   whole files).
 
+## Repack - verified (tools/ptd.py `repack`, build.py, tests/test_identity.py)
+- Layout: files sit in the TOC's offset order (res.ptd: not index order), back to back, each aligned to 2048
+  (res.ptd) or 16 (nested PTDs), zero padding; header u32 at +8 = archive size padded to the same alignment.
+  `repack(buf, {})` reproduces res.ptd and all 11 nested PTDs; `build.py` with no edits gives the dump's SHA-1.
+- Edits: `{work/res-relative path: bytes}`; YKLZ files are recompressed with `yklz.pack`, later files shift, the
+  TOC offsets/sizes are rewritten and re-obfuscated. A grown res.ptd moves to the ISO's end (iso9660.patch).
+
 ## Free space / rebuild plan
 - res.ptd TOC slack: toc_end 0x1d800 vs records ending 0x1d1a0. Files can grow if the archive is re-laid out (offsets are
   plain u32 in the TOC) and the ISO file grows (iso9660.patch moves a bigger file to the image end).

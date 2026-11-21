@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 3. Identity build next (phase 2 debug tool done: 48 warp rows incl. cards, level-up, game over,
-  credits, clear-data prompt). Last build: none yet.
+- **Phase:** 4. Extract next (phase 3 identity build done). Last build: 2026-11-22 build/sora_en.iso, no edits,
+  sha1 a82a8661... = dump, smoke ok.
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), PPSSPP v1.20.4 in `tools/ppsspp/`, PPSSPPHeadless qa-1 shared install, smoke boots
     the original ISO, pre-commit runs `tools/check.py`, guard hook blocks `sed -i`, rulings D1-D7 in docs/decisions.md.
@@ -18,9 +18,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
     sc90010 + staff roll (row `credits`, state at the roll's start). Scene jump table mapped (0x088C928C).
     `tools/debug/mips.py` = EBOOT disasm/xref/case lookup.
   - Save editor `tools/debug/save.py make|check` verified with `unlock_all` (loads via Continue, gallery 100%).
+  - Phase 3: `ptd.repack` (offset-order layout, 2048/16 alignment, TOC rewrite + re-obfuscation, nested PTDs by
+    work/res path) and `build.py` (check_rom -> repack res.ptd -> iso9660.patch). tests/test_identity.py: every PTD
+    and the whole ISO rebuild byte-identical; an edit test grows a YKLZ file and a nested file and checks the rest.
+    `build.build(out, repl)` takes `{work/res path: bytes}`, the hook for phase 7 inserts.
 - **Next:**
-  1. Phase 3 identity build: unpack -> repack the ISO with no edits, byte-identical, as a test (`build.py`).
-  2. Phase 4 extract (SOS scripts, PTD tables), roundtrip test.
+  1. Phase 4 extract (SOS scripts -> script/ TSV, PTD tables, EBOOT strings), roundtrip test (re-encode = original
+     bytes, ranges covered).
 - **Known gaps (non-blocking):** Free Mode Hexcite ES is greyed (unlock flag not found; its text is shared with
   Hexcite). Poke-jumped chapter/ending scripts keep the previous screen's overlay drawn; the scripts themselves are
   shot clean by the ev_* / ending_* script-warp rows.

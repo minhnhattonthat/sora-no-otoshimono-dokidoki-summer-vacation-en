@@ -14,7 +14,7 @@ images (module ULJM05639_Sora-Oto_PSP loaded at 0x08804000).
 | File | Covers | State |
 |---|---|---|
 | ptd.md | ISO layout, PETA archives, YKLZ compression, free space | verified (unpack + roundtrip) |
-| script.md | SOS script format, text encoding, font, EBOOT strings | verified (identity rebuild of all 414 SOS) |
+| script.md | SOS script format, text encoding, font, VWF patch, box widths, control codes, EBOOT strings, marker build | verified (identity rebuild of all 414 SOS; phase 5 shots in work/qa/width) |
 | graphics.md | graphics-text survey (GIM textures, XMB images) | complete (all 58 sheets read by eye) |
 | debug.md | scene ids, script warp, game-state object, cheat offsets, save encryption | verified (warp.py --all) |
 

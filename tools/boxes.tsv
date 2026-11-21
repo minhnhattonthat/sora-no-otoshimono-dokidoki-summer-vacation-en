@@ -1,0 +1,6 @@
+box	applies_to	px	lines	status	evidence
+dialogue	SOS kind msg/msg_nonl; eboot.tsv 088C07B4-088C1FB4 (Alpha help lines); 088DCAD0-088E1514 (Hexcite reactions, keep /K)	391	3	measured	work/qa/width/w1, w2, boxes/hub_menu, boxes/free_win: 390 px stays, 391 wraps mid-word; a 4th line is not shown
+choice	SOS kind choice	300	1	measured	work/qa/width/choice/mash/f004140.png: pill ~327 px, wraps between 312 and 325 px, text centred; 300 keeps a margin
+helpbar	eboot.tsv 088F3E3C-088F3F7F (Hexcite menu help, orange bar)	464	1	measured	work/qa/width/boxes/free_select: starts x=8, no wrap, clipped at the screen edge (480); slots are 27-43 bytes, phase 7 repoints them
+system	eboot.tsv utf-8 rows (save title/detail, sceUtility save-dialog messages)	0	0	n/a	drawn by the PSP firmware (system font, wraps itself); byte max only
+xmb	sfo.tsv TITLE	0	0	n/a	XMB title, 127 bytes UTF-8

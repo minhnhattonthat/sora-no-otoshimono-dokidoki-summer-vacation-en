@@ -25,6 +25,10 @@ Dump: ULJM05639, `rom.sha1`. Game made by Bottle Cube / Kadokawa Shoten; same PE
 - Stream: flag byte, MSB first, bit 1 = reference (b1 b2): len = (b1 >> (dbits-8)) + 3, disp = ((b1 & mask) << 8 | b2) + 1.
 - `yklz.pack` is a greedy compressor in the same format (byte-identical recompression not needed: rebuilt entries replace
   whole files).
+- The game copies each reference with memcpy (jal 0x088ACA48): a reference longer than its displacement (overlapping
+  its own output) decodes wrong in game. None of the 2375 original streams has one; `pack` never emits one and
+  `unpack(strict=True)` rejects one (tests/test_yklz.py). Found when a repacked font lost every pixel equal to the one
+  2 or 18 bytes before (work/qa/width/levels*).
 
 ## Repack - verified (tools/ptd.py `repack`, build.py, tests/test_identity.py)
 - Layout: files sit in the TOC's offset order (res.ptd: not index order), back to back, each aligned to 2048

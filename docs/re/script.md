@@ -64,8 +64,8 @@ Rebuild = rewrite pool + both u16 offset tables + size fields (0x0C, 0x2C). Pool
 - 6614 messages + 88 choice options = 6702 unique slots. Every message ends with `\n` except 5 shouts (kind
   `msg_nonl`). Speakers: 6 messages have none.
 - Speaker strings are keys, not text: the EBOOT table at 0x088fb708 (智樹Ａ, 智樹Ｂ, ... ？？？) maps them to the
-  nameplate GIMs (COMMON_00_NAME, graphics.md). Leave them Japanese; the player sees the redrawn plate. guess until
-  the marker build: confirm a changed speaker string breaks/blanks the plate rather than drawing text.
+  nameplate GIMs (COMMON_00_NAME, graphics.md). Leave them Japanese; the player sees the redrawn plate (marker
+  build: plates unchanged with every message replaced).
 
 ## EBOOT - verified (decrypted dump, roundtrip test)
 - Decrypted ELF: `python -X utf8 tools/dump_eboot.py` -> work/eboot.elf, pinned by `eboot.sha1` (PPSSPP GUI with
@@ -88,5 +88,17 @@ Columns id, kind, speaker, max, jp, en, notes; `\n` written as `\\n`. Without --
 --force keeps en/notes by id and warns when jp changed under a translation. Tests: re-encoding every TSV jp rebuilds
 each SOS byte-identically and matches the EBOOT bytes; every pool slot and every EBOOT scan hit is a row or classified.
 
+## Other box widths - verified (tools/boxes.tsv is the window data the fit lint reads)
+- Alpha's help lines and the Hexcite reactions use the dialogue box (391 px x 3 lines; work/qa/width/boxes).
+- Choices: two pills ~327 px wide, text centred, wrap between 312 and 325 px; budget 300 px, 1 line.
+- Hexcite menu help bar: one line from x = 8, no wrap, clipped at x = 480; budget 464 px. Slots 27-43 bytes: repoint.
+
+## Marker build - verified (phase 5)
+`python -X utf8 build.py --marker --out build/sora_marker.iso`: every SOS row `[SC10000.m12] filler` (one full line
+per Japanese line), EBOOT rows `[C07B4] ...` (last 5 hex digits of the id), SFO `[TITLE] ...`. `warp.py --all` on it
+(work/qa/marker/tour, 48/48 ok): every dialogue box, help line, Hexcite reaction, help bar and choice shows its id;
+every other Japanese on screen is a GIM in docs/re/graphics.md. Nameplates still read Japanese with the speaker keys
+untouched, so the plate is the COMMON_00_NAME GIM, not text.
+
 ## Other text sources
-- FSB (FSCN layout) / FAB files: only internal Japanese object names; not displayed (guess: verify in marker build).
+- FSB (FSCN layout) / FAB files: only internal Japanese object names; none appeared on any of the 48 tour screens.

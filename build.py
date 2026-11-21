@@ -116,7 +116,10 @@ def texts(mode=None, qa=None):
             continue
         seen.add(r["id"])
         b, n = script.eboot_encode(r["kind"], t), int(r["max"])
-        assert len(b) <= n, f"{r['id']}: {len(b)} bytes > max {n}"
+        if len(b) > n and r["id"] in qa:  # width probe only: clobbers the strings after the slot
+            print(f"WARN --qa {r['id']}: {len(b)} bytes > max {n}, overwriting what follows (probe build only)")
+        else:
+            assert len(b) <= n, f"{r['id']}: {len(b)} bytes > max {n}"
         assert not tail or t.endswith(tail), f"{r['id']}: lost the {tail} control code"
         o = eboot.ram2off(elf, int(r["id"], 16))
         old = len(script.eboot_encode(r["kind"], jp))

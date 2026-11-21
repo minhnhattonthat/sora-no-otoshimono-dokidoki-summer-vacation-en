@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build next (phase 4 extract done). Last build: 2026-11-22 build/sora_en.iso,
-  no edits, sha1 a82a8661... = dump, smoke ok.
+- **Phase:** 6. Translate next (phase 5 marker build + width gate done). Last build: 2026-11-22 06:04
+  build/sora_en.iso (English font + VWF + re-signed EBOOT, no en text yet), sha1 3b357324..., smoke ok.
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), PPSSPP v1.20.4 in `tools/ppsspp/`, PPSSPPHeadless qa-1 shared install, smoke boots
     the original ISO, pre-commit runs `tools/check.py`, guard hook blocks `sed -i`, rulings D1-D7 in docs/decisions.md.
@@ -27,13 +27,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Hexcite reactions with `/K`, save dialogs UTF-8), eboot_nontext.tsv (687 classified), sfo.tsv (XMB title).
     Decrypted EBOOT: `tools/dump_eboot.py` -> work/eboot.elf, pinned in `eboot.sha1`. tests/test_script.py:
     TSV re-encodes byte-identically (all SOS rebuild, EBOOT bytes match), every pool slot / scan hit covered.
+  - Phase 5 (docs/re/script.md §Font, §VWF, §Dialogue box width, §Control codes, §Marker build): build.py inserts
+    script/ (en column; SOS per copy, EBOOT in place, SFO), `--marker`, `--qa ID=TEXT` probes. tools/font.py: Open Sans
+    Semibold 14 px ASCII glyphs (fonts/, Apache 2.0) into both HG_G18.TFP copies. tools/vwf.py: one-byte advance
+    from a width table (layout 0x08817E64 + draw 0x08818B50 -> helper 0x088EA3A0), 4 relocations appended.
+    tools/sign.py: sign_np -elf (WSL gcc build, tag 0xD91612F0 = original). yklz.pack fixed: no overlapping refs
+    (game memcpys them; it ate font pixels). Marker tour `warp.py --all` 48/48 ok (work/qa/marker/tour).
+    Width gate in tools/boxes.tsv: dialogue/help/Hexcite reaction 391 px x 3 lines, choice 300 px x 1,
+    Hexcite help bar 464 px x 1; torture line renders (work/qa/width/vwf3).
 - **Next:**
-  1. Phase 5 marker build: build.py inserts script/ (SOS via sos.build per copy incl. SUBSCRIPT.PTD; EBOOT strings
-     in place -> needs a re-signed ~PSP EBOOT: find a signer, e.g. sign_np; PARAM.SFO), every row -> `[id]` marker.
-     Font: HG_G18.TFP 18x18 (fixed-pitch? VWF?); measure dialogue box / choice / help-line / Hexcite-reaction widths.
-     Confirm: speaker strings are nameplate keys (leave JP), FSB/FAB names not shown, `/K` meaning.
+  1. Phase 6: glossary + translator/reviewer briefs (style: Western name order, honorifics kept, D1-D4); batches from
+     script/sos (6702 rows) + eboot.tsv + sfo.tsv; translators wrap to tools/boxes.tsv with font.width (write a
+     fit-check script first: tools/fit.py, lint per box). Rules for translators: write `//` for a slash, keep `/K`
+     at the end of Hexcite reactions, no `%name`/`%family`, ASCII only (no curly quotes/ellipsis char: … is not in
+     the English glyph range; use "...").
+  2. Phase 7 notes: Hexcite help-bar strings (088F3E3C..088F3EA8) have 27-43-byte slots: repoint into free space
+     (more CRI error strings near 0x088EA4B0+, add relocations like vwf.py). EBOOT `max` for free-standing strings is
+     a guess until xrefs are checked.
 - **Known gaps (non-blocking):** Free Mode Hexcite ES is greyed (unlock flag not found; its text is shared with
   Hexcite). Poke-jumped chapter/ending scripts keep the previous screen's overlay drawn; the scripts themselves are
   shot clean by the ev_* / ending_* script-warp rows.
 - **Open bugs:** none.
-- **Waiting on the user:** nothing blocking. Note: codex exec (used for read-only reviews) is out of quota until 2026-11-26.
+- **Waiting on the user:** nothing blocking. Non-blocking: the signed EBOOT and the VWF code (in .rodata, relocated)
+  are only tested in PPSSPP; a boot on a real PSP/Vita before release would confirm them. Note: codex exec (used for read-only reviews) is out of quota until 2026-11-26.

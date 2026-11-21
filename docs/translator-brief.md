@@ -52,7 +52,10 @@ Never edit `glossary.md` or any file other than your own `.out.tsv`. For a recur
 glossary, pick a form, use it consistently, and report it.
 
 ## Notes from earlier batches
-- (none yet)
+- The check wants a glossary name in the English when the JP has it (ニンフ -> Nymph). Work it in naturally (a
+  vocative "Nymph, ...", or the name in place of a pronoun); never bolt it on.
+- Nymph's old insult for Tomoki ムシ = "bug".
+- 海の家 = beach shack; 出撃 = "launching"; タイプアルファー = "Type Alpha"; 揉む in the massage gags = "knead" / "squeeze".
 
 ## Report (reply with only this)
 Files written and entry count per batch; then any lines: `NEW TERM: jp -> en`, `UNSURE: id - note`, `LONG: id - note`.

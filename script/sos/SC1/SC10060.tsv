@@ -1,15 +1,15 @@
 id	kind	speaker	max	jp	en	notes
-SC10060.m1	msg	智樹		あー……グルメ番組見てると\nたまには変わったメシが食べたくなるな。		
-SC10060.m2	msg	イカロス		変わった料理ですか……？		
-SC10060.m3	msg	智樹		まあ、この空美町にはそんな\n凝ったものを出すような店もないし。		
-SC10060.m4	msg	智樹		あきらめるしかないけどな。		
-SC10060.m5	msg	イカロス		…………		
-SC10060.m6	msg	智樹		どうした、イカロス？		
-SC10060.m7	msg	イカロス		私……作ります。変わった料理を……		
-SC10060.m8	msg	智樹		おっ。本当か！？		
-SC10060.m9	msg	イカロス		はい。作り方さえわかれば……		
-SC10060.m10	msg	イカロス		誰に聞けば……料理のことがわかりますか？		
-SC10060.m11	msg	智樹		そうだなあ……		
-SC10060.m12	choice			ニンフ		
-SC10060.m13	choice			そはら		
-SC10060.m14	choice			守形先輩		
+SC10060.m1	msg	智樹		あー……グルメ番組見てると\nたまには変わったメシが食べたくなるな。	Ahh... Watching gourmet shows makes me want to eat something unusual once in a while.	
+SC10060.m2	msg	イカロス		変わった料理ですか……？	Unusual dishes...?	
+SC10060.m3	msg	智樹		まあ、この空美町にはそんな\n凝ったものを出すような店もないし。	Well, there aren't any restaurants here in Sorami that serve anything that fancy.	
+SC10060.m4	msg	智樹		あきらめるしかないけどな。	So I guess I'll just have to give up.	
+SC10060.m5	msg	イカロス		…………	......	
+SC10060.m6	msg	智樹		どうした、イカロス？	What's up, Ikaros?	
+SC10060.m7	msg	イカロス		私……作ります。変わった料理を……	I... will make one. An unusual dish...	
+SC10060.m8	msg	智樹		おっ。本当か！？	Oh! Really?!	
+SC10060.m9	msg	イカロス		はい。作り方さえわかれば……	Yes. As long as I know how to make it...	
+SC10060.m10	msg	イカロス		誰に聞けば……料理のことがわかりますか？	Whom should I ask... to learn about cooking?	
+SC10060.m11	msg	智樹		そうだなあ……	Let's see...	
+SC10060.m12	choice			ニンフ	Nymph	
+SC10060.m13	choice			そはら	Sohara	
+SC10060.m14	choice			守形先輩	Sugata-senpai	

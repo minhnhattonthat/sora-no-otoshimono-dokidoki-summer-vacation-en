@@ -1,5 +1,5 @@
 id	kind	speaker	max	jp	en	notes
-SC40310.m1	msg	ニンフ		私の勝ちよ、アルファー！		
-SC40310.m2	msg	イカロス		おめでとう、ニンフ。		
-SC40310.m3	msg	ニンフ		アンタもなかなか強かったわよ。\nまたやりましょ？		
-SC40310.m4	msg	イカロス		ええ……次は負けないわ……		
+SC40310.m1	msg	ニンフ		私の勝ちよ、アルファー！	I win, Alpha!	
+SC40310.m2	msg	イカロス		おめでとう、ニンフ。	Congratulations, Nymph.	
+SC40310.m3	msg	ニンフ		アンタもなかなか強かったわよ。\nまたやりましょ？	You were pretty strong yourself. Let's play again, okay?	
+SC40310.m4	msg	イカロス		ええ……次は負けないわ……	Yes... next time, I will not lose...	

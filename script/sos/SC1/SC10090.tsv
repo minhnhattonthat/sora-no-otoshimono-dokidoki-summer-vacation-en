@@ -1,30 +1,30 @@
 id	kind	speaker	max	jp	en	notes
-SC10090.m1	msg	智樹		よーし。今日は買えたぞ。\n空美町名物、豚足入りタイ焼き。		
-SC10090.m2	msg	智樹		さっそく一口。……ん～。\nこのわけのわかんない味が、なんとも……		
-SC10090.m3	msg	智樹		ん……水滴か？　そういや雲の色も変だし……\nこいつはひと雨くるか？		
-SC10090.m4	msg	智樹		まいったな。傘持ってきてねーや……		
-SC10090.m5	msg	イカロス		マスター。		
-SC10090.m6	msg	智樹		うわっ！　びっくりした！		
-SC10090.m7	msg	イカロス		どうしました？		
-SC10090.m8	msg	智樹		びっくりしたって言ったんだよ！\nどうしたんだよ、いきなり！		
-SC10090.m9	msg	イカロス		雨が降ってきたようですので……\n急ぎ、傘をお持ちしました。		
-SC10090.m10	msg	イカロス		怒らせてしまい、申し訳ございません。		
-SC10090.m11	msg	智樹		いや、別に謝らなくたって……		
-SC10090.m12	msg	イカロス		この傘は爆破いたします。		
-SC10090.m13	msg	智樹		怒ったのは傘にじゃない！\nそもそも怒ってない！		
-SC10090.m14	msg	イカロス		では、いかがいたしましょう？		
-SC10090.m15	msg	智樹		使うよ、使う。\nせっかく持ってきてくれたんだから……あれ？		
-SC10090.m16	msg	イカロス		どうしました？		
-SC10090.m17	msg	智樹		傘、１本しかないぞ？		
-SC10090.m18	msg	イカロス		はい。マスターの傘で間違いないと\n思いますが……		
-SC10090.m19	msg	智樹		たしかに俺の傘だけどさ。\nじゃなくて、イカロスの分は？		
-SC10090.m20	msg	イカロス		私は防水加工されておりますので……		
-SC10090.m21	msg	智樹		……入れよ。一緒に傘に入って、帰ろう。		
-SC10090.m22	msg	イカロス		ですから、私には防水加工が……		
-SC10090.m23	msg	智樹		関係ねーの。\nこういうのは気持ちの問題なんだよ。		
-SC10090.m24	msg	イカロス		はあ……気持ちの問題……		
-SC10090.m25	msg	智樹		そ。さあ、傘に入れ。\nびしょ濡れになるぞ。		
-SC10090.m26	msg	イカロス		……はい。		
-SC10090.m27	choice			急いで帰ろう		
-SC10090.m28	choice			寄り道していくか		
-SC10090.m29	choice			ゆっくり歩こう		
+SC10090.m1	msg	智樹		よーし。今日は買えたぞ。\n空美町名物、豚足入りタイ焼き。	All right. I actually got some today. Sorami's specialty: pig-trotter taiyaki.	
+SC10090.m2	msg	智樹		さっそく一口。……ん～。\nこのわけのわかんない味が、なんとも……	Time for a bite... Mmm~. This baffling flavor is just so...	
+SC10090.m3	msg	智樹		ん……水滴か？　そういや雲の色も変だし……\nこいつはひと雨くるか？	Hm... A raindrop? Come to think of it, the clouds are a weird color... Is it gonna rain?	
+SC10090.m4	msg	智樹		まいったな。傘持ってきてねーや……	Great. I didn't bring an umbrella...	
+SC10090.m5	msg	イカロス		マスター。	Master.	
+SC10090.m6	msg	智樹		うわっ！　びっくりした！	Whoa! You scared me!	
+SC10090.m7	msg	イカロス		どうしました？	What is the matter?	
+SC10090.m8	msg	智樹		びっくりしたって言ったんだよ！\nどうしたんだよ、いきなり！	I said you scared me! What's with you, popping up out of nowhere?!	
+SC10090.m9	msg	イカロス		雨が降ってきたようですので……\n急ぎ、傘をお持ちしました。	It seems to have started raining... so I hurried to bring you an umbrella.	
+SC10090.m10	msg	イカロス		怒らせてしまい、申し訳ございません。	I am very sorry for making you angry.	
+SC10090.m11	msg	智樹		いや、別に謝らなくたって……	Nah, you don't have to apologize...	
+SC10090.m12	msg	イカロス		この傘は爆破いたします。	I will blow up this umbrella.	
+SC10090.m13	msg	智樹		怒ったのは傘にじゃない！\nそもそも怒ってない！	I'm not mad at the umbrella! I'm not even mad in the first place!	
+SC10090.m14	msg	イカロス		では、いかがいたしましょう？	Then, what shall I do?	
+SC10090.m15	msg	智樹		使うよ、使う。\nせっかく持ってきてくれたんだから……あれ？	I'll use it, I'll use it. You went to all the trouble of bringing it... Huh?	
+SC10090.m16	msg	イカロス		どうしました？	What is the matter?	
+SC10090.m17	msg	智樹		傘、１本しかないぞ？	There's only one umbrella?	
+SC10090.m18	msg	イカロス		はい。マスターの傘で間違いないと\n思いますが……	Yes. I believe this is definitely your umbrella, Master...	
+SC10090.m19	msg	智樹		たしかに俺の傘だけどさ。\nじゃなくて、イカロスの分は？	Yeah, it's my umbrella, all right. That's not what I mean. Where's yours, Ikaros?	
+SC10090.m20	msg	イカロス		私は防水加工されておりますので……	I have been waterproofed, so...	
+SC10090.m21	msg	智樹		……入れよ。一緒に傘に入って、帰ろう。	...Get under. Let's share the umbrella and go home together.	
+SC10090.m22	msg	イカロス		ですから、私には防水加工が……	But, as I said, I am waterproofed...	
+SC10090.m23	msg	智樹		関係ねーの。\nこういうのは気持ちの問題なんだよ。	Doesn't matter. Stuff like this is about how you feel.	
+SC10090.m24	msg	イカロス		はあ……気持ちの問題……	I see... About how you feel...	
+SC10090.m25	msg	智樹		そ。さあ、傘に入れ。\nびしょ濡れになるぞ。	Yep. Come on, get under. You'll get soaked.	
+SC10090.m26	msg	イカロス		……はい。	...Yes.	
+SC10090.m27	choice			急いで帰ろう	Hurry home	
+SC10090.m28	choice			寄り道していくか	Take a detour	
+SC10090.m29	choice			ゆっくり歩こう	Walk home slowly	

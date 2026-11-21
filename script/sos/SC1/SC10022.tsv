@@ -1,11 +1,11 @@
 id	kind	speaker	max	jp	en	notes
-SC10022.m1	msg	智樹		（ここは……息をひそめて……）		
-SC10022.m2	msg	ニンフ		……あれー？　どこー？		
-SC10022.m3	msg	智樹		（よしよし……）		
-SC10022.m4	msg	イカロス		そはらさん、肌が変色していませんか？		
-SC10022.m5	msg	そはら		きゃっ！　イカロスさん、\n水着をずらさないで！		
-SC10022.m6	msg	智樹		ブフォッ！！		
-SC10022.m7	msg	ニンフ		そこだー！		
-SC10022.m8	msg	智樹		ぎゃーっ！		
-SC10022.m9	msg	そはら		見たわね、トモちゃん！		
-SC10022.m10	msg	智樹		ぎゃーっ！\nそれは不可抗力だろ……！		
+SC10022.m1	msg	智樹		（ここは……息をひそめて……）	(Okay... I'll just hold my breath...)	
+SC10022.m2	msg	ニンフ		……あれー？　どこー？	...Huh? Where are youuu?	
+SC10022.m3	msg	智樹		（よしよし……）	(Good, good...)	
+SC10022.m4	msg	イカロス		そはらさん、肌が変色していませんか？	Sohara-san, isn't your skin changing color?	
+SC10022.m5	msg	そはら		きゃっ！　イカロスさん、\n水着をずらさないで！	Kyaa! Ikaros-san, don't pull my swimsuit aside!	
+SC10022.m6	msg	智樹		ブフォッ！！	Pfwah!!	
+SC10022.m7	msg	ニンフ		そこだー！	Gotcha!	
+SC10022.m8	msg	智樹		ぎゃーっ！	Gyaaah!	
+SC10022.m9	msg	そはら		見たわね、トモちゃん！	You saw, didn't you, Tomo-chan!	
+SC10022.m10	msg	智樹		ぎゃーっ！\nそれは不可抗力だろ……！	Gyaaah! That was totally beyond my control...!	

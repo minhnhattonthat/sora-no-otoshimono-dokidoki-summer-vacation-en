@@ -1,7 +1,7 @@
 id	kind	speaker	max	jp	en	notes
-SC10011.m1	msg	智樹		優勝するのは俺だー！		
-SC10011.m2	msg	ニンフ		うん。がんばってね、トモキ。		
-SC10011.m3	msg	智樹		何言ってんだ。ニンフも出ろよ！		
-SC10011.m4	msg	ニンフ		優勝できないのに出ても意味ないじゃない。\n私が我慢強そうに見える？		
-SC10011.m5	msg	智樹		見えないな……わかった、\n俺の勇姿をよーく目に焼き付けておけ！		
-SC10011.m6	msg	ニンフ		はーい。		
+SC10011.m1	msg	智樹		優勝するのは俺だー！	I'm gonna win this!	
+SC10011.m2	msg	ニンフ		うん。がんばってね、トモキ。	Okay. Good luck, Tomoki.	
+SC10011.m3	msg	智樹		何言ってんだ。ニンフも出ろよ！	What're you talking about? You're entering too, Nymph!	
+SC10011.m4	msg	ニンフ		優勝できないのに出ても意味ないじゃない。\n私が我慢強そうに見える？	What's the point of entering if I can't win? Do I look like I'm good at enduring stuff?	
+SC10011.m5	msg	智樹		見えないな……わかった、\n俺の勇姿をよーく目に焼き付けておけ！	Nope... Fine. Just burn the sight of my heroic figure into your eyes!	
+SC10011.m6	msg	ニンフ		はーい。	Okaaay.	

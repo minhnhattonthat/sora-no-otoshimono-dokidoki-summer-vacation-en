@@ -1,7 +1,7 @@
 id	kind	speaker	max	jp	en	notes
-SC00032.m1	msg	智樹		守形先輩、お願いします！\nハンググライダーで追跡してください！		
-SC00032.m2	msg	守形		……いや、それはできない。		
-SC00032.m3	msg	智樹		えっ！？　どうしてですか！		
-SC00032.m4	msg	守形		イカロスが飛んで行った方向は\n逆風だ。ハンググライダーでは追えない。		
-SC00032.m5	msg	守形		それにもうじき日が暮れる。\nフライトの条件が悪すぎる。		
-SC00032.m6	msg	智樹		打つ手なしかよ……！		
+SC00032.m1	msg	智樹		守形先輩、お願いします！\nハンググライダーで追跡してください！	Sugata-senpai, please! Chase her on your hang glider!	
+SC00032.m2	msg	守形		……いや、それはできない。	...No, I can't do that.	
+SC00032.m3	msg	智樹		えっ！？　どうしてですか！	Huh?! Why not?!	
+SC00032.m4	msg	守形		イカロスが飛んで行った方向は\n逆風だ。ハンググライダーでは追えない。	Ikaros flew off into a headwind. A hang glider can't follow her.	
+SC00032.m5	msg	守形		それにもうじき日が暮れる。\nフライトの条件が悪すぎる。	And the sun will set soon. Flight conditions are far too poor.	
+SC00032.m6	msg	智樹		打つ手なしかよ……！	So we've got nothing?!	

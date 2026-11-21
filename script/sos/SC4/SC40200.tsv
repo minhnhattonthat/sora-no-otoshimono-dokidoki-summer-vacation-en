@@ -1,5 +1,5 @@
 id	kind	speaker	max	jp	en	notes
-SC40200.m1	msg	イカロス		タイプアルファー・イカロス、出撃します。		
-SC40200.m2	msg	ニンフ		タイプベータ・ニンフ、出撃よ！		
-SC40200.m3	msg	イカロス		ニンフ……私と戦うというの？		
-SC40200.m4	msg	ニンフ		電子戦用エンジェロイドの真価、\n見せてあげるわ！		
+SC40200.m1	msg	イカロス		タイプアルファー・イカロス、出撃します。	Type Alpha Ikaros, launching.	
+SC40200.m2	msg	ニンフ		タイプベータ・ニンフ、出撃よ！	Type Beta Nymph, launching!	
+SC40200.m3	msg	イカロス		ニンフ……私と戦うというの？	Nymph... you mean to fight me?	
+SC40200.m4	msg	ニンフ		電子戦用エンジェロイドの真価、\n見せてあげるわ！	I'll show you what an electronic-warfare Angeloid can really do!	

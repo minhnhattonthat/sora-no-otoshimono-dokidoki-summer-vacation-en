@@ -1,18 +1,18 @@
 id	kind	speaker	max	jp	en	notes
-SC34900.m1	msg	智樹		揉む……揉むといえば\nやっぱり、アレしかなかろう！		
-SC34900.m2	msg	イカロス		マスター、その手つきは……\nこれで合っているでしょうか？		
-SC34900.m3	msg	智樹		い、いや。これは真似しちゃいかん。\nていうか何を教えようとしてるんだ、俺は。		
-SC34900.m4	msg	智樹		そうだ、肩揉みを教えてやろう！		
-SC34900.m5	msg	イカロス		肩揉み……？		
-SC34900.m6	msg	智樹		肩凝りの人にやってあげると、喜ばれるぞ～。		
-SC34900.m7	msg	智樹		ほら、こうするんだ。		
-SC34900.m8	msg	イカロス		あ……		
-SC34900.m9	msg	智樹		ま、こんな感じだな。		
-SC34900.m10	msg	イカロス		では、マスター。\n私もマスターの肩を揉んでいいでしょうか……		
-SC34900.m11	msg	智樹		おう！　ひとつ、ほぐしてくれ！		
-SC34900.m12	msg	イカロス		では……		
-SC34900.m13	msg	智樹		ギャアアアー！\n力を入れすぎだー！		
-SC34900.m14	msg	イカロス		マスター……？		
-SC34900.m15	msg	智樹		……ガハッ。		
-SC34900.m16	msg	イカロス		マスターの全身から力が抜けて、\nぐったりとなっている……		
-SC34900.m17	msg	イカロス		肩揉みの効果は……すごいものですね……		
+SC34900.m1	msg	智樹		揉む……揉むといえば\nやっぱり、アレしかなかろう！	Kneading... and when it comes to kneading, there's only one thing it can be!	
+SC34900.m2	msg	イカロス		マスター、その手つきは……\nこれで合っているでしょうか？	Master, that hand motion... Am I doing it correctly?	
+SC34900.m3	msg	智樹		い、いや。これは真似しちゃいかん。\nていうか何を教えようとしてるんだ、俺は。	N-no. You shouldn't copy this. Actually, what am I even trying to teach her?	
+SC34900.m4	msg	智樹		そうだ、肩揉みを教えてやろう！	I know, I'll teach you how to give a shoulder massage!	
+SC34900.m5	msg	イカロス		肩揉み……？	A shoulder massage...?	
+SC34900.m6	msg	智樹		肩凝りの人にやってあげると、喜ばれるぞ～。	Do it for someone with stiff shoulders and they'll be thrilled.	
+SC34900.m7	msg	智樹		ほら、こうするんだ。	Look, you do it like this.	
+SC34900.m8	msg	イカロス		あ……	Ah...	
+SC34900.m9	msg	智樹		ま、こんな感じだな。	So, something like that.	
+SC34900.m10	msg	イカロス		では、マスター。\n私もマスターの肩を揉んでいいでしょうか……	Then, Master... may I massage your shoulders as well...	
+SC34900.m11	msg	智樹		おう！　ひとつ、ほぐしてくれ！	Sure! Go ahead, loosen me up!	
+SC34900.m12	msg	イカロス		では……	Then...	
+SC34900.m13	msg	智樹		ギャアアアー！\n力を入れすぎだー！	GYAAAAAH! You're squeezing too haaard!	
+SC34900.m14	msg	イカロス		マスター……？	Master...?	
+SC34900.m15	msg	智樹		……ガハッ。	...Gahk.	
+SC34900.m16	msg	イカロス		マスターの全身から力が抜けて、\nぐったりとなっている……	All the strength has drained from Master's body... He has gone completely limp...	
+SC34900.m17	msg	イカロス		肩揉みの効果は……すごいものですね……	The effects of a shoulder massage... are quite remarkable...	

@@ -1,15 +1,15 @@
 id	kind	speaker	max	jp	en	notes
-SC10030.m1	msg	智樹		平和だ……ああ、こういう時間が\nずっと続けばいいのに……		
-SC10030.m2	msg	イカロス		マスター。あの……		
-SC10030.m3	msg	智樹		邪魔しないでくれ、イカロス。\n俺はこの平和をずっと味わっていたいんだ……		
-SC10030.m4	msg	イカロス		わかりました……では、課題の件は\n放っておいてもいいでしょうか……？		
-SC10030.m5	msg	智樹		ん？　んんん……？		
-SC10030.m6	msg	智樹		あああー！　学校の課題やるの忘れてたー！		
-SC10030.m7	msg	智樹		（どうする？　ぜんぜん手をつけてないぞ。\n　あんなの、絶対に期間内に終わらない！）		
-SC10030.m8	msg	智樹		（誰かに助けを求めるしかないか……\n　でもここは考えどころだぞ）		
-SC10030.m9	msg	智樹		（下手に動いたらいつものごとく、未確認生物や\n　空飛ぶ変態、ヤクザな生徒会長に……）		
-SC10030.m10	msg	智樹		（この平和はこっぱみじんにされる！）		
-SC10030.m11	msg	イカロス		マスター？		
-SC10030.m12	choice			ニンフに助けを求める		
-SC10030.m13	choice			そはらに助けを求める		
-SC10030.m14	choice			イカロスに助けを求める		
+SC10030.m1	msg	智樹		平和だ……ああ、こういう時間が\nずっと続けばいいのに……	Peace... Ah, if only times like this could last forever...	
+SC10030.m2	msg	イカロス		マスター。あの……	Master. Um...	
+SC10030.m3	msg	智樹		邪魔しないでくれ、イカロス。\n俺はこの平和をずっと味わっていたいんだ……	Don't bother me, Ikaros. I want to savor this peace forever...	
+SC10030.m4	msg	イカロス		わかりました……では、課題の件は\n放っておいてもいいでしょうか……？	Understood... Then, is it all right to leave the homework alone...?	
+SC10030.m5	msg	智樹		ん？　んんん……？	Hm? Hmmm...?	
+SC10030.m6	msg	智樹		あああー！　学校の課題やるの忘れてたー！	AAAGH! I forgot to do my school homework!	
+SC10030.m7	msg	智樹		（どうする？　ぜんぜん手をつけてないぞ。\n　あんなの、絶対に期間内に終わらない！）	(What do I do? I haven't even started. There's no way I'll finish all that before the deadline!)	
+SC10030.m8	msg	智樹		（誰かに助けを求めるしかないか……\n　でもここは考えどころだぞ）	(I'll have to ask someone for help... but I'd better think this through.)	
+SC10030.m9	msg	智樹		（下手に動いたらいつものごとく、未確認生物や\n　空飛ぶ変態、ヤクザな生徒会長に……）	(One wrong move, and like always, unidentified life forms, flying perverts, a yakuza student council president...)	
+SC10030.m10	msg	智樹		（この平和はこっぱみじんにされる！）	(...will blow this peace to smithereens!)	
+SC10030.m11	msg	イカロス		マスター？	Master?	
+SC10030.m12	choice			ニンフに助けを求める	Ask Nymph for help	
+SC10030.m13	choice			そはらに助けを求める	Ask Sohara for help	
+SC10030.m14	choice			イカロスに助けを求める	Ask Ikaros for help	

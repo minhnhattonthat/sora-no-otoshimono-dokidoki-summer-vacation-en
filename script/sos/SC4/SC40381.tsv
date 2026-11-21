@@ -1,5 +1,5 @@
 id	kind	speaker	max	jp	en	notes
-SC40381.m1	msg	そはら		ほっ。引き分けだね。		
-SC40381.m2	msg	智樹		くそー、もうちょっとだったのに……		
-SC40381.m3	msg	そはら		トモちゃんと二人きりでゲームできて、\n私楽しかったよ。		
-SC40381.m4	msg	智樹		お……おう。		
+SC40381.m1	msg	そはら		ほっ。引き分けだね。	Phew. It's a draw.	
+SC40381.m2	msg	智樹		くそー、もうちょっとだったのに……	Dammit, I was so close...	
+SC40381.m3	msg	そはら		トモちゃんと二人きりでゲームできて、\n私楽しかったよ。	I had fun getting to play a game with just you, Tomo-chan.	
+SC40381.m4	msg	智樹		お……おう。	Y... yeah.	

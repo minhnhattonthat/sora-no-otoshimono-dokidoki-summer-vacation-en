@@ -1,13 +1,13 @@
 id	kind	speaker	max	jp	en	notes
-SC10061.m1	msg	智樹		ニンフに調べてもらったらいいんじゃないか？\nおーい、ニンフー！		
-SC10061.m2	msg	ニンフ		なに？		
-SC10061.m3	msg	智樹		何か珍しくておいしい料理のことを\nイカロスに教えてやってほしいんだ。		
-SC10061.m4	msg	ニンフ		珍しい料理ね！　わかった！		
-SC10061.m5	msg	智樹		今夜の晩メシは期待できそうだな……		
-SC10061.m6	msg	ニンフ		ヨーグルトのスコーンでしょ？\nあと、サーターアンダギー。		
-SC10061.m7	msg	ニンフ		デビルスポンジのケーキと……\n柿の餡で練った月餅も！		
-SC10061.m8	msg	智樹		いや、どれもおいしそうだけどさ……\nお菓子だけか？		
-SC10061.m9	msg	ニンフ		これを全部食べたら\n十分おなかいっぱいになるわよ！		
-SC10061.m10	msg	智樹		イカロス……悪いけど、\n他の人にも話を聞いてみてくれ……		
-SC10061.m11	msg	イカロス		はい、マスター。		
-SC10061.m12	msg	ニンフ		もう！　せっかく調べたのに！		
+SC10061.m1	msg	智樹		ニンフに調べてもらったらいいんじゃないか？\nおーい、ニンフー！	Why not have Nymph look it up? Heeey, Nymph!	
+SC10061.m2	msg	ニンフ		なに？	What?	
+SC10061.m3	msg	智樹		何か珍しくておいしい料理のことを\nイカロスに教えてやってほしいんだ。	I want you to teach Ikaros about some rare, tasty dish.	
+SC10061.m4	msg	ニンフ		珍しい料理ね！　わかった！	A rare dish, huh! Got it!	
+SC10061.m5	msg	智樹		今夜の晩メシは期待できそうだな……	Looks like I can expect a great dinner tonight...	
+SC10061.m6	msg	ニンフ		ヨーグルトのスコーンでしょ？\nあと、サーターアンダギー。	Yogurt scones, right? And Okinawan sata andagi doughnuts.	
+SC10061.m7	msg	ニンフ		デビルスポンジのケーキと……\n柿の餡で練った月餅も！	Devil's food cake... and mooncakes filled with persimmon paste, too!	
+SC10061.m8	msg	智樹		いや、どれもおいしそうだけどさ……\nお菓子だけか？	I mean, they all sound tasty... but it's just sweets?	
+SC10061.m9	msg	ニンフ		これを全部食べたら\n十分おなかいっぱいになるわよ！	If you eat all of these, you'll be plenty full!	
+SC10061.m10	msg	智樹		イカロス……悪いけど、\n他の人にも話を聞いてみてくれ……	Ikaros... Sorry, but go ask some other people too...	
+SC10061.m11	msg	イカロス		はい、マスター。	Yes, Master.	
+SC10061.m12	msg	ニンフ		もう！　せっかく調べたのに！	Hmph! After I went to all the trouble of looking them up!	

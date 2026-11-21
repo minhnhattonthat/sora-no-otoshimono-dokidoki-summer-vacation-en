@@ -1,37 +1,37 @@
 id	kind	speaker	max	jp	en	notes
-SC10020.m1	msg	守形		夏だ！　海だ！　水着だ！\nおっぱいだー！		
-SC10020.m2	msg	守形		……と、いったところか？　智樹。		
-SC10020.m3	msg	智樹		やめてくださいよ……\n俺はそんなこと言いませんって……		
-SC10020.m4	msg	美香子		じゃあ、桜井君ならどう言うのかしら～？		
-SC10020.m5	msg	智樹		オヒョヒョヒョヒョヒョヒョ！\nおっぱいだ！　おっぱいだ！　おっぱいだー！		
-SC10020.m6	msg	そはら		やっぱりトモちゃんは\nここで荷物番！		
-SC10020.m7	msg	智樹		グフッ……それだけは……\nそれだけはご勘弁をー！		
-SC10020.m8	msg	智樹		夏のビーチまで来たのに、見てるだけなんて\nむごすぎるー！		
-SC10020.m9	msg	ニンフ		だってトモキ、海に出たら\n絶対にエッチなことするでしょ？		
-SC10020.m10	msg	美香子		今まで何回も被害にあったから……\nこれはその代償よ～。		
-SC10020.m11	msg	守形		見ているだけなら迷惑もかからん。\n海を眺め、自分を見つめ直したらどうだ？		
-SC10020.m12	msg	智樹		先輩まで！　みんな泳ぎに行くのに、\n俺だけひとりぼっちなんですか！？		
-SC10020.m13	msg	智樹		俺を犠牲にして遊んで、みんな心から\n楽しく過ごせるんですか！？		
-SC10020.m14	msg	智樹		なあ、イカロス！\nお前からも何か言ってやれ！		
-SC10020.m15	msg	イカロス		マスター……		
-SC10020.m16	msg	智樹		お前、一番ノリノリじゃねーか！		
-SC10020.m17	msg	美香子		いいから行きましょう？\n桜井君、荷物の番……よろしくね？		
-SC10020.m18	msg	智樹		……みんな……行ってしまった……		
-SC10020.m19	msg	智樹		ク……ククク……\nククククク……そうかいそうかい……		
-SC10020.m20	msg	智樹		もうお前らなんか、知り合いでも\nなんでもねー！　よって荷物のことも知らん！		
-SC10020.m21	msg	智樹		おっぱいギャルズに突撃じゃー！\nオヒョヒョ～！		
-SC10020.m22	msg	智樹		ゴフゥッ……なんで……		
-SC10020.m23	msg	美香子		思ったとおりだったわね～？		
-SC10020.m24	msg	ニンフ		ぜんぜん反省してない！		
-SC10020.m25	msg	そはら		５分だけおとなしくしてたら、トモちゃんとも\nいっしょに遊ぶって話だったのに……		
-SC10020.m26	msg	智樹		そんな……そんなー！		
-SC10020.m27	msg	守形		罰ゲームだな。頼む、イカロス。		
-SC10020.m28	msg	イカロス		はい。失礼します、マスター。		
-SC10020.m29	msg	智樹		はーなーせー！		
-SC10020.m30	msg	美香子		そう……もう少し右よ……		
-SC10020.m31	msg	守形		そのまま３メートル前だ。		
-SC10020.m32	msg	ニンフ		うん、うん……こっちね？		
-SC10020.m33	msg	智樹		やめろー！		
-SC10020.m34	choice			許しを請う		
-SC10020.m35	choice			息をひそめる		
-SC10020.m36	choice			なんとかかわす		
+SC10020.m1	msg	守形		夏だ！　海だ！　水着だ！\nおっぱいだー！	It's summer! It's the sea! It's swimsuits! It's boobs!	
+SC10020.m2	msg	守形		……と、いったところか？　智樹。	...Or so you'd put it, I take it, Tomoki?	
+SC10020.m3	msg	智樹		やめてくださいよ……\n俺はそんなこと言いませんって……	Knock it off, Senpai... I'd never say something like that...	
+SC10020.m4	msg	美香子		じゃあ、桜井君ならどう言うのかしら～？	Then how would you put it, Sakurai-kun~?	
+SC10020.m5	msg	智樹		オヒョヒョヒョヒョヒョヒョ！\nおっぱいだ！　おっぱいだ！　おっぱいだー！	Ohyohyohyohyohyohyo! Boobs! Boobs! BOOOOBS!	
+SC10020.m6	msg	そはら		やっぱりトモちゃんは\nここで荷物番！	I knew it. Tomo-chan, you're staying here to watch the bags!	
+SC10020.m7	msg	智樹		グフッ……それだけは……\nそれだけはご勘弁をー！	Gwuh... Anything but that... Anything but thaaat, have mercy!	
+SC10020.m8	msg	智樹		夏のビーチまで来たのに、見てるだけなんて\nむごすぎるー！	I came all the way to a summer beach and I only get to look?! That's way too cruel!	
+SC10020.m9	msg	ニンフ		だってトモキ、海に出たら\n絶対にエッチなことするでしょ？	Well, Tomoki, if you go in the water, you'll definitely do something pervy, right?	
+SC10020.m10	msg	美香子		今まで何回も被害にあったから……\nこれはその代償よ～。	We've been your victims so many times... This is the price you pay~.	
+SC10020.m11	msg	守形		見ているだけなら迷惑もかからん。\n海を眺め、自分を見つめ直したらどうだ？	Just watching won't bother anyone. Why not gaze at the sea and take a hard look at yourself?	
+SC10020.m12	msg	智樹		先輩まで！　みんな泳ぎに行くのに、\n俺だけひとりぼっちなんですか！？	You too, Senpai?! Everyone's going swimming, and I'm stuck here all alone?!	
+SC10020.m13	msg	智樹		俺を犠牲にして遊んで、みんな心から\n楽しく過ごせるんですか！？	Can you guys really have fun from the bottom of your hearts, playing while I'm sacrificed?!	
+SC10020.m14	msg	智樹		なあ、イカロス！\nお前からも何か言ってやれ！	Right, Ikaros?! Say something to them!	
+SC10020.m15	msg	イカロス		マスター……	Master...	
+SC10020.m16	msg	智樹		お前、一番ノリノリじゃねーか！	You're the most psyched of all of them!	
+SC10020.m17	msg	美香子		いいから行きましょう？\n桜井君、荷物の番……よろしくね？	Never mind that, let's go, shall we? Sakurai-kun, take good care of the bags... okay?	
+SC10020.m18	msg	智樹		……みんな……行ってしまった……	...They're all... gone...	
+SC10020.m19	msg	智樹		ク……ククク……\nククククク……そうかいそうかい……	Heh... heh heh heh... Heh heh heh heh heh... Fine. Be that way...	
+SC10020.m20	msg	智樹		もうお前らなんか、知り合いでも\nなんでもねー！　よって荷物のことも知らん！	As of now, you guys aren't even my acquaintances! So the bags aren't my problem!	
+SC10020.m21	msg	智樹		おっぱいギャルズに突撃じゃー！\nオヒョヒョ～！	Booby beach babes, here I come! Ohyohyo~!	
+SC10020.m22	msg	智樹		ゴフゥッ……なんで……	Gofuh... Why...	
+SC10020.m23	msg	美香子		思ったとおりだったわね～？	Just as I thought, hm~?	
+SC10020.m24	msg	ニンフ		ぜんぜん反省してない！	He hasn't learned his lesson at all!	
+SC10020.m25	msg	そはら		５分だけおとなしくしてたら、トモちゃんとも\nいっしょに遊ぶって話だったのに……	If you'd just behaved for five minutes, we were going to let you play with us too, Tomo-chan...	
+SC10020.m26	msg	智樹		そんな……そんなー！	No... Noooo!	
+SC10020.m27	msg	守形		罰ゲームだな。頼む、イカロス。	A penalty game, then. Ikaros, if you would.	
+SC10020.m28	msg	イカロス		はい。失礼します、マスター。	Yes. Excuse me, Master.	
+SC10020.m29	msg	智樹		はーなーせー！	Let. Me. Go!	
+SC10020.m30	msg	美香子		そう……もう少し右よ……	That's it... a little more to the right...	
+SC10020.m31	msg	守形		そのまま３メートル前だ。	Now three meters straight ahead.	
+SC10020.m32	msg	ニンフ		うん、うん……こっちね？	Uh-huh, uh-huh... Over here?	
+SC10020.m33	msg	智樹		やめろー！	Stoooop!	
+SC10020.m34	choice			許しを請う	Beg for mercy	
+SC10020.m35	choice			息をひそめる	Hold your breath	
+SC10020.m36	choice			なんとかかわす	Dodge it somehow	

@@ -36,23 +36,17 @@ must appear in the English; Avoid spellings fail.
 | 美香子 | Mikako | | | |
 | 五月田根 | Satsukitane | | 五月田根組 = the Satsukitane family (yakuza) | |
 
-## Honorifics and forms of address (lint: tools/batches.py HONORIFICS)
+## Honorifics and forms of address
+Name + honorific forms are linted by regex (tools/batches.py HONORIFICS; stretched forms like "Sakurai-kuuun" pass):
+イカロスさん Ikaros-san, イカロスちゃん Ikaros-chan (Mikako), そはらさん Sohara-san, ニンフさん Nymph-san,
+ニンフちゃん Nymph-chan, 桜井君/桜井くん Sakurai-kun (Mikako -> Tomoki), 見月さん Mitsuki-san, 守形先輩 Sugata-senpai,
+守形さん Sugata-san, トモちゃん Tomo-chan (Sohara -> Tomoki), 英くん/英君 Ei-kun (Mikako -> Sugata).
+
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
 | マスター | Master | | Ikaros/Nymph -> Tomoki | |
-| アルファー / タイプアルファー | Alpha | | Nymph's name for Ikaros (Type Alpha) | Alfa |
-| イカロスさん | Ikaros-san | | | |
-| イカロスちゃん | Ikaros-chan | | Mikako | |
-| そはらさん | Sohara-san | | | |
-| ニンフさん | Nymph-san | | | |
-| ニンフちゃん | Nymph-chan | | | |
-| 桜井君 / 桜井くん | Sakurai-kun | | Mikako -> Tomoki | |
-| 見月さん | Mitsuki-san | | | |
-| 守形先輩 | Sugata-senpai | | | |
-| 守形さん | Sugata-san | | | |
-| 会長 | President / Prez | | Mikako (student council president); 会長さん -> "Prez" or "the President" | |
-| トモちゃん | Tomo-chan | | Sohara -> Tomoki | |
-| 英くん / 英君 | Ei-kun | | Mikako -> Sugata | |
+| アルファー / タイプアルファー | Alpha | | Nymph's name for Ikaros; タイプアルファー = "Type Alpha" | Alfa |
+| 会長 | President / Prez | | Mikako (student council president); 会長さん -> "Prez" or "the President"; Mikako's self-reference 会長 -> "your President" | |
 | 先輩 | Senpai / -senpai | | Tomoki/Sohara -> Sugata | |
 | マイマスター | my Master | | amnesiac Ikaros | |
 
@@ -88,6 +82,16 @@ must appear in the English; Avoid spellings fail.
 | おっぱい・オブ・ザ・ワールド | Oppai of the World | | Tomoki's DVD series | |
 | 必殺技 | special move | | Hexcite | |
 | トモキ・タイム | Tomoki Time | | Hexcite special | |
+| 海の家 | beach shack | | | |
+| テキ屋 | vendor | | festival vendors (stall-running toughs) | |
+| 秋祭り | autumn festival | | | |
+| サバイバルゲーム | survival game | | | |
+| 我慢大会 | endurance contest | | | |
+| 五月田根家 | Satsukitane family | | | |
+| 出撃 | launching | | "Type Alpha Ikaros, launching." | |
+| 軽装モード | Light-armor mode | | outfit card | |
+| 私服モード | casual-wear mode | | outfit card | |
+| 未確認生物 | unidentified | | UMA: "unidentified life-form" | |
 
 ## Decisions from earlier batches
 - (none yet)

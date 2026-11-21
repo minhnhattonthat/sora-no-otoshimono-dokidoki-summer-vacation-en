@@ -1,6 +1,6 @@
 id	kind	speaker	max	jp	en	notes
-SC10012.m1	msg	智樹		そはら、がんばれ！		
-SC10012.m2	msg	そはら		どうして私なのよ！　トモちゃんの家の\nクーラーのことでしょ！？		
-SC10012.m3	msg	智樹		お前が優勝したら、お前の部屋に\nクーラーを付けてもらえよ。		
-SC10012.m4	msg	そはら		そっか……自分の部屋が涼しければ\nわざわざ出かける必要もないもんね！		
-SC10012.m5	msg	智樹		（そのときは、俺たちがそはらの部屋に\n　押しかけさせてもらうけどな……）		
+SC10012.m1	msg	智樹		そはら、がんばれ！	Go for it, Sohara!	
+SC10012.m2	msg	そはら		どうして私なのよ！　トモちゃんの家の\nクーラーのことでしょ！？	Why me?! It's the AC at your house that's broken, Tomo-chan!	
+SC10012.m3	msg	智樹		お前が優勝したら、お前の部屋に\nクーラーを付けてもらえよ。	If you win, have them put an AC in your room.	
+SC10012.m4	msg	そはら		そっか……自分の部屋が涼しければ\nわざわざ出かける必要もないもんね！	Oh, right... If my own room is cool, I won't have to go out at all!	
+SC10012.m5	msg	智樹		（そのときは、俺たちがそはらの部屋に\n　押しかけさせてもらうけどな……）	(And when that happens, we'll all just barge into Sohara's room...)	

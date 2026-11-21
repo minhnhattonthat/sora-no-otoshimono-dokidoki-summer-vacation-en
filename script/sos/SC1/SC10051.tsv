@@ -1,16 +1,16 @@
 id	kind	speaker	max	jp	en	notes
-SC10051.m1	msg	智樹		（あとで話を聞いてみるか……）		
-SC10051.m2	msg	イカロス		ただいま……戻りました……		
-SC10051.m3	msg	ニンフ		ただいまー。		
-SC10051.m4	msg	智樹		おう。ニンフ、ちょっといいか？		
-SC10051.m5	msg	ニンフ		なに？		
-SC10051.m6	msg	智樹		あのさ。さっきお前ら、プールで\n泳ぐ練習してたよな？		
-SC10051.m7	msg	ニンフ		み……見たの？		
-SC10051.m8	msg	智樹		泳ぎなら俺が教えてやるのに、\nなんで誘ってくれないんだよ？		
-SC10051.m9	msg	ニンフ		……今度、みんなで\n海に行く約束してるでしょ？		
-SC10051.m10	msg	ニンフ		そはらが、それまでに泳げるようになって\nアンタを驚かせたいって相談してきたのよ。		
-SC10051.m11	msg	智樹		あ……そうなのか……		
-SC10051.m12	msg	ニンフ		アンタに見られたら意味ないじゃない！		
-SC10051.m13	msg	智樹		グハッ！！		
-SC10051.m14	msg	ニンフ		もう、知らない！		
-SC10051.m15	msg	智樹		しまった……黙っとけば良かった……		
+SC10051.m1	msg	智樹		（あとで話を聞いてみるか……）	(Guess I'll ask them about it later...)	
+SC10051.m2	msg	イカロス		ただいま……戻りました……	I have... returned...	
+SC10051.m3	msg	ニンフ		ただいまー。	I'm hooome.	
+SC10051.m4	msg	智樹		おう。ニンフ、ちょっといいか？	Hey. Nymph, got a sec?	
+SC10051.m5	msg	ニンフ		なに？	What?	
+SC10051.m6	msg	智樹		あのさ。さっきお前ら、プールで\n泳ぐ練習してたよな？	So, uh. You guys were practicing swimming at the pool earlier, right?	
+SC10051.m7	msg	ニンフ		み……見たの？	Y... you saw?	
+SC10051.m8	msg	智樹		泳ぎなら俺が教えてやるのに、\nなんで誘ってくれないんだよ？	I'd teach you to swim myself, so why didn't you invite me?	
+SC10051.m9	msg	ニンフ		……今度、みんなで\n海に行く約束してるでしょ？	...We all promised to go to the sea together soon, remember?	
+SC10051.m10	msg	ニンフ		そはらが、それまでに泳げるようになって\nアンタを驚かせたいって相談してきたのよ。	Sohara came to me for advice. She wanted to learn to swim before then and surprise you.	
+SC10051.m11	msg	智樹		あ……そうなのか……	Oh... so that's what it was...	
+SC10051.m12	msg	ニンフ		アンタに見られたら意味ないじゃない！	It's pointless now that you've seen it!	
+SC10051.m13	msg	智樹		グハッ！！	Guhah!!	
+SC10051.m14	msg	ニンフ		もう、知らない！	Hmph, I don't care anymore!	
+SC10051.m15	msg	智樹		しまった……黙っとけば良かった……	Crap... I should've kept my mouth shut...	

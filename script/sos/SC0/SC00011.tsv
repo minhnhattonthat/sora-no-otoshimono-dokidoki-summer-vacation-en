@@ -1,10 +1,10 @@
 id	kind	speaker	max	jp	en	notes
-SC00011.m1	msg	智樹		……そうだな。だけど、空を飛ぶのと\nガトリングガンはナシな。		
-SC00011.m2	msg	イカロス		なぜ……でしょうか……？		
-SC00011.m3	msg	智樹		あんな兵器使ったら不公平だろ。\nケガさせちゃうかもしれないしさ。		
-SC00011.m4	msg	イカロス		ケガ？　敵の体を……\n気遣っているのですか……？		
-SC00011.m5	msg	智樹		そりゃそうさ。ゲームなんだから、\nケガさせるのは良くないだろ。		
-SC00011.m6	msg	イカロス		敵は、ライフルと\n日本刀を所持しているようですが……		
-SC00011.m7	msg	智樹		……あの人たちは特別。\nお前はあんなもんマネしなくていいんだ。		
-SC00011.m8	msg	智樹		とにかく兵器の使用は禁止な！\nじゃないと楽しくないだろ？		
-SC00011.m9	msg	イカロス		…………		
+SC00011.m1	msg	智樹		……そうだな。だけど、空を飛ぶのと\nガトリングガンはナシな。	...Yeah. But no flying and no Gatling gun.	
+SC00011.m2	msg	イカロス		なぜ……でしょうか……？	Why... is that...?	
+SC00011.m3	msg	智樹		あんな兵器使ったら不公平だろ。\nケガさせちゃうかもしれないしさ。	Using weapons like that wouldn't be fair. Plus you might hurt somebody.	
+SC00011.m4	msg	イカロス		ケガ？　敵の体を……\n気遣っているのですか……？	Hurt? You are... concerned for the enemy's body...?	
+SC00011.m5	msg	智樹		そりゃそうさ。ゲームなんだから、\nケガさせるのは良くないだろ。	Well, yeah. It's a game, so hurting people isn't cool.	
+SC00011.m6	msg	イカロス		敵は、ライフルと\n日本刀を所持しているようですが……	The enemy appears to be carrying a rifle and a Japanese sword, however...	
+SC00011.m7	msg	智樹		……あの人たちは特別。\nお前はあんなもんマネしなくていいんだ。	...Those two are special. You don't need to copy that stuff.	
+SC00011.m8	msg	智樹		とにかく兵器の使用は禁止な！\nじゃないと楽しくないだろ？	Anyway, no weapons! Otherwise it's no fun, right?	
+SC00011.m9	msg	イカロス		…………	......	

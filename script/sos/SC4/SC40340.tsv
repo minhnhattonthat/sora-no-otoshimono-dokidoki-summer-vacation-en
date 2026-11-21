@@ -1,5 +1,5 @@
 id	kind	speaker	max	jp	en	notes
-SC40340.m1	msg	ニンフ		得意のゲームで負けた気分はどう？		
-SC40340.m2	msg	智樹		くそー……油断したぜ……		
-SC40340.m3	msg	ニンフ		ふふっ、それって負け惜しみ？		
-SC40340.m4	msg	智樹		ぐぐ……悔しいー！		
+SC40340.m1	msg	ニンフ		得意のゲームで負けた気分はどう？	So, how does it feel to lose at your best game?	
+SC40340.m2	msg	智樹		くそー……油断したぜ……	Dammit... I got careless...	
+SC40340.m3	msg	ニンフ		ふふっ、それって負け惜しみ？	Heh, is that sour grapes I hear?	
+SC40340.m4	msg	智樹		ぐぐ……悔しいー！	Ngh... that's so frustrating!	

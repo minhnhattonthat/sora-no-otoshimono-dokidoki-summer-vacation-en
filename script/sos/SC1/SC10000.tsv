@@ -1,21 +1,21 @@
 id	kind	speaker	max	jp	en	notes
-SC10000.m1	msg	守形		ごきげんよう、諸君。		
-SC10000.m2	msg	守形		古代ギリシャでは、人類を導く天使の背には\n翼が生えていると信じられていた。		
-SC10000.m3	msg	守形		一方中国では、悟りを開いた仙人は\n雲に乗って飛ぶことができると伝えられていた。		
-SC10000.m4	msg	守形		はるか神話の時代から、人は\n空を飛ぶことにあこがれてきたのだ。		
-SC10000.m5	msg	守形		人類の夢は飛行機の発明によって\n一応の実現を果たした。		
-SC10000.m6	msg	守形		しかし人類は、本当にそれで\n満足したのだろうか？		
-SC10000.m7	msg	守形		今でも人力飛行機のコンテストが開かれ、\n気球やパラグライダーが人気を博している……		
-SC10000.m8	msg	守形		そう。人は今もあこがれ続けているのだ。\n自らの体で風を切り、空を飛ぶ夢に……		
-SC10000.m9	msg	智樹		その話、俺と何か関係があるんスか？		
-SC10000.m10	msg	守形		新型ハンググライダーに乗って\n新大陸目指してフライトを敢行する……		
-SC10000.m11	msg	守形		お前は人類の夢を背負う\n偉大なパイロットだということだ。		
-SC10000.m12	msg	美香子		偉大な犠牲になるかも\nしれないけどね～。		
-SC10000.m13	msg	智樹		イ……イヤだーっ！\nやっぱり乗りたくなーい！		
-SC10000.m14	msg	そはら		がんばって、トモちゃん！\n宿題のノートを借りるためだよ！		
-SC10000.m15	msg	智樹		お前も借りるじゃねーか！\nなんで俺だけなんだよ！		
-SC10000.m16	msg	ニンフ		はやく飛びなさいよ。\nせっかく見に来てあげてるんだから。		
-SC10000.m17	msg	イカロス		マスター……		
-SC10000.m18	choice			飛んだるわーっ！		
-SC10000.m19	choice			そはらが乗れよ！		
-SC10000.m20	choice			助けてイカロス！		
+SC10000.m1	msg	守形		ごきげんよう、諸君。	Good day, everyone.	
+SC10000.m2	msg	守形		古代ギリシャでは、人類を導く天使の背には\n翼が生えていると信じられていた。	In ancient Greece, it was believed that the angels who guide humanity had wings growing from their backs.	
+SC10000.m3	msg	守形		一方中国では、悟りを開いた仙人は\n雲に乗って飛ぶことができると伝えられていた。	Meanwhile, in China, it was said that enlightened hermits could ride on clouds and fly.	
+SC10000.m4	msg	守形		はるか神話の時代から、人は\n空を飛ぶことにあこがれてきたのだ。	Since the distant age of myth, mankind has yearned to fly through the sky.	
+SC10000.m5	msg	守形		人類の夢は飛行機の発明によって\n一応の実現を果たした。	Mankind's dream was realized, after a fashion, with the invention of the airplane.	
+SC10000.m6	msg	守形		しかし人類は、本当にそれで\n満足したのだろうか？	But was mankind truly satisfied with that?	
+SC10000.m7	msg	守形		今でも人力飛行機のコンテストが開かれ、\n気球やパラグライダーが人気を博している……	To this day, human-powered aircraft contests are held, and balloons and paragliders enjoy great popularity...	
+SC10000.m8	msg	守形		そう。人は今もあこがれ続けているのだ。\n自らの体で風を切り、空を飛ぶ夢に……	Yes. People still yearn for it. The dream of cutting through the wind with their own bodies and flying...	
+SC10000.m9	msg	智樹		その話、俺と何か関係があるんスか？	Does this story have anything to do with me?	
+SC10000.m10	msg	守形		新型ハンググライダーに乗って\n新大陸目指してフライトを敢行する……	You will board the new-model hang glider and boldly fly toward the New World...	
+SC10000.m11	msg	守形		お前は人類の夢を背負う\n偉大なパイロットだということだ。	In other words, you are a great pilot carrying the dreams of mankind.	
+SC10000.m12	msg	美香子		偉大な犠牲になるかも\nしれないけどね～。	Though you might end up a great sacrifice...	
+SC10000.m13	msg	智樹		イ……イヤだーっ！\nやっぱり乗りたくなーい！	N-Nooo! I don't wanna ride it after all!	
+SC10000.m14	msg	そはら		がんばって、トモちゃん！\n宿題のノートを借りるためだよ！	Hang in there, Tomo-chan! It's so we can borrow the homework notes!	
+SC10000.m15	msg	智樹		お前も借りるじゃねーか！\nなんで俺だけなんだよ！	You're borrowing them too! Why's it only me?!	
+SC10000.m16	msg	ニンフ		はやく飛びなさいよ。\nせっかく見に来てあげてるんだから。	Hurry up and fly. I came all the way out here to watch, you know.	
+SC10000.m17	msg	イカロス		マスター……	Master...	
+SC10000.m18	choice			飛んだるわーっ！	Fine, I'll fly!	
+SC10000.m19	choice			そはらが乗れよ！	Sohara, you ride it!	
+SC10000.m20	choice			助けてイカロス！	Help me, Ikaros!	

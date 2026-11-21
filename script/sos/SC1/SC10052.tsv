@@ -1,15 +1,15 @@
 id	kind	speaker	max	jp	en	notes
-SC10052.m1	msg	智樹		（見なかったことにするか……）		
-SC10052.m2	msg	イカロス		ただいま……戻りました……		
-SC10052.m3	msg	ニンフ		ただいまー。		
-SC10052.m4	msg	そはら		お邪魔しまーす。		
-SC10052.m5	msg	智樹		おう。そはらもいっしょだったのか？		
-SC10052.m6	msg	そはら		う、うん。ちょっとそこで\nばったり出会って。		
-SC10052.m7	msg	智樹		（ウソが下手なヤツ……）		
-SC10052.m8	msg	そはら		そういえば……もうすぐだよね？\nみんなで海に行く約束の日。		
-SC10052.m9	msg	智樹		ん？　そうだな。		
-SC10052.m10	msg	そはら		ふふっ。トモちゃん、\nびっくりするだろうなー。		
-SC10052.m11	msg	智樹		なんの話だよ。		
-SC10052.m12	msg	そはら		ひーみーつ！		
-SC10052.m13	msg	智樹		はいはい……		
-SC10052.m14	msg	智樹		（見なかったことにしておいて\n　正解だったな……）		
+SC10052.m1	msg	智樹		（見なかったことにするか……）	(Guess I'll pretend I didn't see it...)	
+SC10052.m2	msg	イカロス		ただいま……戻りました……	I have... returned...	
+SC10052.m3	msg	ニンフ		ただいまー。	I'm hooome.	
+SC10052.m4	msg	そはら		お邪魔しまーす。	Sorry for intruding!	
+SC10052.m5	msg	智樹		おう。そはらもいっしょだったのか？	Hey. You were with them too, Sohara?	
+SC10052.m6	msg	そはら		う、うん。ちょっとそこで\nばったり出会って。	Y-yeah. I just bumped into them over there.	
+SC10052.m7	msg	智樹		（ウソが下手なヤツ……）	(She's such a bad liar...)	
+SC10052.m8	msg	そはら		そういえば……もうすぐだよね？\nみんなで海に行く約束の日。	Oh, that's right... It's coming up soon, isn't it? The day we all promised to go to the sea.	
+SC10052.m9	msg	智樹		ん？　そうだな。	Hm? Yeah, it is.	
+SC10052.m10	msg	そはら		ふふっ。トモちゃん、\nびっくりするだろうなー。	Fufu. Tomo-chan's gonna be so surprised.	
+SC10052.m11	msg	智樹		なんの話だよ。	What are you talking about?	
+SC10052.m12	msg	そはら		ひーみーつ！	It's a se-cret!	
+SC10052.m13	msg	智樹		はいはい……	Yeah, yeah...	
+SC10052.m14	msg	智樹		（見なかったことにしておいて\n　正解だったな……）	(Pretending I didn't see it was the right call...)	

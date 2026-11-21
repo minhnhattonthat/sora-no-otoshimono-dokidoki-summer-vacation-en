@@ -1,6 +1,6 @@
 id	kind	speaker	max	jp	en	notes
-SC00001.m1	msg	智樹		その一手、\n待ってくださあぁぁぁぁい！		
-SC00001.m2	msg	イカロス		……それは御命令ですか？		
-SC00001.m3	msg	智樹		うん。		
-SC00001.m4	msg	イカロス		では、戻します。		
-SC00001.m5	msg	そはら		ダ、ダメダメ！\nそんなのずるいよトモちゃん！		
+SC00001.m1	msg	智樹		その一手、\n待ってくださあぁぁぁぁい！	That move... Please let me take it baaaaack!	
+SC00001.m2	msg	イカロス		……それは御命令ですか？	...Is that an order?	
+SC00001.m3	msg	智樹		うん。	Yeah.	
+SC00001.m4	msg	イカロス		では、戻します。	Then I will put it back.	
+SC00001.m5	msg	そはら		ダ、ダメダメ！\nそんなのずるいよトモちゃん！	N-No, no! That's cheating, Tomo-chan!	

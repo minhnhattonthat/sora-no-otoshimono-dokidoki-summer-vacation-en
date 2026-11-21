@@ -1,77 +1,77 @@
 id	kind	speaker	max	jp	en	notes
-SC90040.m1	msg	智樹		ふぁ～あ……これでひと段落だな。		
-SC90040.m2	msg	ニンフ		そうね。お疲れ様。		
-SC90040.m3	msg	智樹		ニンフも疲れたか？		
-SC90040.m4	msg	ニンフ		私は別に……大したこと\nしてないもの。		
-SC90040.m5	msg	智樹		そんなことないぞ。ニンフがいて\n色々助かったよ。		
-SC90040.m6	msg	ニンフ		何も助けてないわよ……		
-SC90040.m7	msg	ニンフ		アルファーがいなくなったときも\n何もできなかったし……		
-SC90040.m8	msg	ニンフ		バンド演奏のときだって……		
-SC90040.m9	msg	智樹		…………		
-SC90040.m10	msg	智樹		よし。お出かけするか、ニンフ。		
-SC90040.m11	msg	ニンフ		今から？　アルファーが\nまだ買い物から帰ってきてないけど？		
-SC90040.m12	msg	智樹		イカロスは留守番だ。\nメモを置いていこう。		
-SC90040.m13	msg	ニンフ		でも……		
-SC90040.m14	msg	智樹		ここ最近、ずっとあいつに\n振り回されてたんだ。これくらい、いいだろ。		
-SC90040.m15	msg	ニンフ		う、うん……		
-SC90040.m16	msg	智樹		潮風が気持ちいいなあ。\nな、ニンフ！		
-SC90040.m17	msg	ニンフ		……海ならこの前\n来たばっかりじゃない。		
-SC90040.m18	msg	智樹		そうだな。でもあのときは\nニンフと来たわけじゃないからな。		
-SC90040.m19	msg	ニンフ		え……		
-SC90040.m20	msg	智樹		今日は２人で息抜きだ。\nたまにはそーゆーのもいいだろ？		
-SC90040.m21	msg	ニンフ		……ええ。		
-SC90040.m22	msg	ニンフ		トモキ！\n次はあのスルメ買って！		
-SC90040.m23	msg	智樹		（どんだけ駄菓子買うつもりだよ……\n　海の家の売り物は高いんだぞ！）		
-SC90040.m24	msg	智樹		ニ……ニンフさん？\nもうそろそろ……		
-SC90040.m25	msg	ニンフ		えー？　なにー？		
-SC90040.m26	msg	智樹		いや……なんでもないです……		
-SC90040.m27	msg	智樹		（こんなにうれしそうな笑顔\n　見せられちゃ、止められねーな……）		
-SC90040.m28	msg	ニンフ		海の水、ひんやりして気持ちいい。\n水着を持ってきたら良かったわね。		
-SC90040.m29	msg	智樹		あー。そりゃマズったな……\nって、ニンフは泳げるのか？		
-SC90040.m30	msg	ニンフ		私は電子戦用エンジェロイドだから\n局地戦用の兵装は持ってないの。		
-SC90040.m31	msg	智樹		いや、そういうのはいいから……\n泳げないなら水着があっても意味ないだろ。		
-SC90040.m32	msg	ニンフ		泳ぎ方、トモキが教えてよ。\nアルファーには教えてたでしょ？		
-SC90040.m33	msg	智樹		ま、まあな……		
-SC90040.m34	msg	智樹		（でもあいつ、いくら教えても\n　泳げないままなんだけど……）		
-SC90040.m35	msg	ニンフ		あっ……		
-SC90040.m36	msg	智樹		おっと！\n足元に気をつけろよ。		
-SC90040.m37	msg	ニンフ		トモキ、あの……手……		
-SC90040.m38	msg	智樹		ん？		
-SC90040.m39	msg	ニンフ		……なんでもない。		
-SC90040.m40	msg	智樹		しっかり手つないでろよ。\n波間でコケたらズブ濡れだぞ。		
-SC90040.m41	msg	ニンフ		……うん。		
-SC90040.m42	msg	智樹		しかし、ニンフもずいぶん素直になったよな～。\n最初に会ったときはムシ呼ばわりだったもんな。		
-SC90040.m43	msg	ニンフ		なあに？　そう呼んでほしいなら戻すけど？		
-SC90040.m44	msg	智樹		呼んでほしいわけねーだろ。\nそんな特殊な趣味はないぞ……		
-SC90040.m45	msg	ニンフ		じゃあどう呼んでほしい？　アルファーみたいに\nマスターって呼んであげようか？		
-SC90040.m46	msg	智樹		いや、いいよ。ニンフはそのまま\nトモキって呼び捨ててくれたらいい。		
-SC90040.m47	msg	智樹		お前はマスターとかそーゆー関係に\nちょっとこだわりすぎだぞ。		
-SC90040.m48	msg	智樹		いいじゃねえか、呼び捨ても親密な感じで。		
-SC90040.m49	msg	ニンフ		親密……ふふっ、そうね。		
-SC90040.m50	msg	ニンフ		それって、マスターとの関係よりも近い、\nトクベツな関係ってことだよね！		
-SC90040.m51	msg	智樹		特別？　まあ……そうだな。\nいっしょに暮らしてるんだ、特別な関係だよな。		
-SC90040.m52	msg	ニンフ		……エヘヘ……		
-SC90040.m53	msg	ニンフ		ねえ、この海岸のはじっこまで歩いていこうよ。		
-SC90040.m54	msg	智樹		けっこう遠いじゃねーか。\nま、いいけどさ。		
-SC90040.m55	msg	？？？		そこにいるのは……\n桜井君に、ニンフちゃんかしら～？		
-SC90040.m56	msg	智樹		あ、会長。チッス！\nこんなところまでどうしたんですか？		
-SC90040.m57	msg	美香子		犬の散歩よ～。ところで……\nデート中だったのかしら～？		
-SC90040.m58	msg	美香子		イカロスちゃんの次はニンフちゃん？\n桜井君もとっかえひっかえ大変ね～。		
-SC90040.m59	msg	智樹		い、いえいえ！\nこれは別にデートってわけじゃ！		
-SC90040.m60	msg	ニンフ		…………		
-SC90040.m61	msg	美香子		あら、そうなの～？\n私はてっきり……		
-SC90040.m62	msg	智樹		だから違いますって！\nちょっと遊びに来ただけです！		
-SC90040.m63	msg	智樹		な、ニンフ？		
-SC90040.m64	msg	ニンフ		…………		
-SC90040.m65	msg	智樹		どわっ！？\nなんで突き飛ばすんだよ！		
-SC90040.m66	msg	ニンフ		帰る！		
-SC90040.m67	msg	智樹		おい、ニンフー！\nくそ、ズブ濡れだ……		
-SC90040.m68	msg	智樹		すみません会長。\n失礼します！		
-SC90040.m69	msg	智樹		ニンフ、待てって！\nなんなんだよ！		
-SC90040.m70	msg	美香子		クスクス……\n素直じゃないわね～、ニンフちゃん。		
-SC90040.m71	msg	美香子		ほんと、仲が良くてうらやましいわ～。		
-SC90040.m72	msg	智樹		ニンフ、待てって……\nブェックション！		
-SC90040.m73	msg	ニンフ		キャーッ！\n服に鼻水ついたー！		
-SC90040.m74	msg	智樹		お前が突き飛ばしたからだろ！\n逃げんなー！		
-SC90040.m75	msg	ニンフ		トモキのバカッ！　もう知らなーい！		
-SC90040.m76	msg	智樹		たまに素直になったと思ったらすぐこれだ！\nこらー……！		
+SC90040.m1	msg	智樹		ふぁ～あ……これでひと段落だな。	Fwaaah... Guess that wraps things up.	
+SC90040.m2	msg	ニンフ		そうね。お疲れ様。	Yeah. Good work.	
+SC90040.m3	msg	智樹		ニンフも疲れたか？	You tired too, Nymph?	
+SC90040.m4	msg	ニンフ		私は別に……大したこと\nしてないもの。	Me? Not really... It's not like I did much.	
+SC90040.m5	msg	智樹		そんなことないぞ。ニンフがいて\n色々助かったよ。	That's not true. Having you around helped a lot, Nymph.	
+SC90040.m6	msg	ニンフ		何も助けてないわよ……	I didn't help with anything...	
+SC90040.m7	msg	ニンフ		アルファーがいなくなったときも\n何もできなかったし……	When Alpha disappeared, I couldn't do anything either...	
+SC90040.m8	msg	ニンフ		バンド演奏のときだって……	And at the band performance too...	
+SC90040.m9	msg	智樹		…………	......	
+SC90040.m10	msg	智樹		よし。お出かけするか、ニンフ。	Alright. Let's go out, Nymph.	
+SC90040.m11	msg	ニンフ		今から？　アルファーが\nまだ買い物から帰ってきてないけど？	Now? Alpha's not back from shopping yet, you know?	
+SC90040.m12	msg	智樹		イカロスは留守番だ。\nメモを置いていこう。	Ikaros can house-sit. We'll leave her a note.	
+SC90040.m13	msg	ニンフ		でも……	But...	
+SC90040.m14	msg	智樹		ここ最近、ずっとあいつに\n振り回されてたんだ。これくらい、いいだろ。	She's been jerking me around this whole time lately. I've earned this much, right?	
+SC90040.m15	msg	ニンフ		う、うん……	O-Okay...	
+SC90040.m16	msg	智樹		潮風が気持ちいいなあ。\nな、ニンフ！	Man, the sea breeze feels great. Right, Nymph?	
+SC90040.m17	msg	ニンフ		……海ならこの前\n来たばっかりじゃない。	...We were just at the sea the other day, weren't we?	
+SC90040.m18	msg	智樹		そうだな。でもあのときは\nニンフと来たわけじゃないからな。	True. But that time I didn't come here with you, Nymph.	
+SC90040.m19	msg	ニンフ		え……	Huh...	
+SC90040.m20	msg	智樹		今日は２人で息抜きだ。\nたまにはそーゆーのもいいだろ？	Today it's just the two of us taking a breather. That kinda thing's nice once in a while, right?	
+SC90040.m21	msg	ニンフ		……ええ。	...Yeah.	
+SC90040.m22	msg	ニンフ		トモキ！\n次はあのスルメ買って！	Tomoki! Buy me that dried squid next!	
+SC90040.m23	msg	智樹		（どんだけ駄菓子買うつもりだよ……\n　海の家の売り物は高いんだぞ！）	(Just how many snacks is she planning to buy...? Stuff at the beach shack is expensive!)	
+SC90040.m24	msg	智樹		ニ……ニンフさん？\nもうそろそろ……	N... Nymph-san? Maybe it's about time we...	
+SC90040.m25	msg	ニンフ		えー？　なにー？	Ehh? What~?	
+SC90040.m26	msg	智樹		いや……なんでもないです……	Nah... Never mind...	
+SC90040.m27	msg	智樹		（こんなにうれしそうな笑顔\n　見せられちゃ、止められねーな……）	(When she's smiling that happily, how am I supposed to stop her...)	
+SC90040.m28	msg	ニンフ		海の水、ひんやりして気持ちいい。\n水着を持ってきたら良かったわね。	The seawater's nice and cool. I should've brought a swimsuit.	
+SC90040.m29	msg	智樹		あー。そりゃマズったな……\nって、ニンフは泳げるのか？	Ahh. Yeah, that was a slip-up... Wait, can you even swim, Nymph?	
+SC90040.m30	msg	ニンフ		私は電子戦用エンジェロイドだから\n局地戦用の兵装は持ってないの。	I'm an electronic-warfare Angeloid, so I'm not equipped with terrain-specific combat gear.	
+SC90040.m31	msg	智樹		いや、そういうのはいいから……\n泳げないなら水着があっても意味ないだろ。	No, I don't need the specs... If you can't swim, there's no point having a swimsuit, is there?	
+SC90040.m32	msg	ニンフ		泳ぎ方、トモキが教えてよ。\nアルファーには教えてたでしょ？	You teach me how to swim, Tomoki. You taught Alpha, didn't you?	
+SC90040.m33	msg	智樹		ま、まあな……	W-Well, yeah...	
+SC90040.m34	msg	智樹		（でもあいつ、いくら教えても\n　泳げないままなんだけど……）	(But no matter how much I taught her, she still can't swim...)	
+SC90040.m35	msg	ニンフ		あっ……	Ah...	
+SC90040.m36	msg	智樹		おっと！\n足元に気をつけろよ。	Whoa there! Watch your step.	
+SC90040.m37	msg	ニンフ		トモキ、あの……手……	Tomoki, um... your hand...	
+SC90040.m38	msg	智樹		ん？	Hm?	
+SC90040.m39	msg	ニンフ		……なんでもない。	...Never mind.	
+SC90040.m40	msg	智樹		しっかり手つないでろよ。\n波間でコケたらズブ濡れだぞ。	Hold on tight to my hand. Trip in the waves and you'll be soaked.	
+SC90040.m41	msg	ニンフ		……うん。	...Okay.	
+SC90040.m42	msg	智樹		しかし、ニンフもずいぶん素直になったよな～。\n最初に会ったときはムシ呼ばわりだったもんな。	Man, you've really gotten honest, Nymph~. When we first met, you called me a bug.	
+SC90040.m43	msg	ニンフ		なあに？　そう呼んでほしいなら戻すけど？	Whaaat? If you want me to call you that, I can go back to it, you know?	
+SC90040.m44	msg	智樹		呼んでほしいわけねーだろ。\nそんな特殊な趣味はないぞ……	Like I'd want that! I'm not into that kinda kinky stuff...	
+SC90040.m45	msg	ニンフ		じゃあどう呼んでほしい？　アルファーみたいに\nマスターって呼んであげようか？	Then what do you want me to call you? Should I call you Master, like Alpha does?	
+SC90040.m46	msg	智樹		いや、いいよ。ニンフはそのまま\nトモキって呼び捨ててくれたらいい。	Nah, it's fine. Nymph, you can just keep calling me Tomoki, plain and simple.	
+SC90040.m47	msg	智樹		お前はマスターとかそーゆー関係に\nちょっとこだわりすぎだぞ。	You're a little too hung up on that whole Master thing.	
+SC90040.m48	msg	智樹		いいじゃねえか、呼び捨ても親密な感じで。	It's fine, isn't it? Just my name sounds close and friendly.	
+SC90040.m49	msg	ニンフ		親密……ふふっ、そうね。	Close... Heh, you're right.	
+SC90040.m50	msg	ニンフ		それって、マスターとの関係よりも近い、\nトクベツな関係ってことだよね！	That means it's a special relationship, even closer than with a Master, right?!	
+SC90040.m51	msg	智樹		特別？　まあ……そうだな。\nいっしょに暮らしてるんだ、特別な関係だよな。	Special? Well... I guess so. We live together, so yeah, it's a special relationship.	
+SC90040.m52	msg	ニンフ		……エヘヘ……	...Ehehe...	
+SC90040.m53	msg	ニンフ		ねえ、この海岸のはじっこまで歩いていこうよ。	Hey, let's walk all the way to the end of this beach.	
+SC90040.m54	msg	智樹		けっこう遠いじゃねーか。\nま、いいけどさ。	That's pretty far, y'know. Eh, fine by me.	
+SC90040.m55	msg	？？？		そこにいるのは……\n桜井君に、ニンフちゃんかしら～？	Who's that over there...? Could it be Sakurai-kun and Nymph-chan~?	
+SC90040.m56	msg	智樹		あ、会長。チッス！\nこんなところまでどうしたんですか？	Oh, President. Hiya! What brings you all the way out here?	
+SC90040.m57	msg	美香子		犬の散歩よ～。ところで……\nデート中だったのかしら～？	Just walking my dog~. By the way... were you two on a date~?	
+SC90040.m58	msg	美香子		イカロスちゃんの次はニンフちゃん？\n桜井君もとっかえひっかえ大変ね～。	Ikaros-chan, and now Nymph-chan? Switching girls left and right sure keeps you busy, Sakurai-kun~.	
+SC90040.m59	msg	智樹		い、いえいえ！\nこれは別にデートってわけじゃ！	N-No, no! This isn't a date or anything!	
+SC90040.m60	msg	ニンフ		…………	......	
+SC90040.m61	msg	美香子		あら、そうなの～？\n私はてっきり……	Oh my, is that so~? I was sure...	
+SC90040.m62	msg	智樹		だから違いますって！\nちょっと遊びに来ただけです！	I told you, it's not! We just came to hang out a bit!	
+SC90040.m63	msg	智樹		な、ニンフ？	R-Right, Nymph?	
+SC90040.m64	msg	ニンフ		…………	......	
+SC90040.m65	msg	智樹		どわっ！？\nなんで突き飛ばすんだよ！	Dwah?! Why'd you shove me?!	
+SC90040.m66	msg	ニンフ		帰る！	I'm going home!	
+SC90040.m67	msg	智樹		おい、ニンフー！\nくそ、ズブ濡れだ……	Hey, Nymph! Dammit, I'm soaked...	
+SC90040.m68	msg	智樹		すみません会長。\n失礼します！	Sorry, President. I've gotta go!	
+SC90040.m69	msg	智樹		ニンフ、待てって！\nなんなんだよ！	Nymph, wait up! What's your deal?!	
+SC90040.m70	msg	美香子		クスクス……\n素直じゃないわね～、ニンフちゃん。	Tee hee... You're not very honest, are you, Nymph-chan~?	
+SC90040.m71	msg	美香子		ほんと、仲が良くてうらやましいわ～。	Really, you two get along so well, it makes me jealous~.	
+SC90040.m72	msg	智樹		ニンフ、待てって……\nブェックション！	Nymph, wait up... Ah-CHOOO!	
+SC90040.m73	msg	ニンフ		キャーッ！\n服に鼻水ついたー！	Kyaaa! You got snot on my clothes!	
+SC90040.m74	msg	智樹		お前が突き飛ばしたからだろ！\n逃げんなー！	That's 'cause you shoved me! Quit running!	
+SC90040.m75	msg	ニンフ		トモキのバカッ！　もう知らなーい！	Idiot Tomoki! I don't care anymore!	
+SC90040.m76	msg	智樹		たまに素直になったと思ったらすぐこれだ！\nこらー……！	The second I think she's being honest for once, this happens! Get back here...!	

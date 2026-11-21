@@ -1,8 +1,8 @@
 id	kind	speaker	max	jp	en	notes
-SC00002.m1	msg	智樹		ちゃぶ台返しじゃー！		
-SC00002.m2	msg	そはら		何してるのよ、トモちゃん！		
-SC00002.m3	msg	智樹		ふふ……これで全部うやむやに……		
-SC00002.m4	msg	ニンフ		……私、盤面の駒の並び、覚えてるわよ。\n全部元に戻してあげるわね。		
-SC00002.m5	msg	智樹		ぐはっ！		
-SC00002.m6	msg	イカロス		あの……それがマスターのお望みであれば、\n私は構いませんが……		
-SC00002.m7	msg	そはら		えーっ！？		
+SC00002.m1	msg	智樹		ちゃぶ台返しじゃー！	Take this! Table flip!	
+SC00002.m2	msg	そはら		何してるのよ、トモちゃん！	What are you doing, Tomo-chan?!	
+SC00002.m3	msg	智樹		ふふ……これで全部うやむやに……	Heh heh... Now it all gets swept under the rug...	
+SC00002.m4	msg	ニンフ		……私、盤面の駒の並び、覚えてるわよ。\n全部元に戻してあげるわね。	...I remember where every piece on the board was, you know. I'll put them all back for you.	
+SC00002.m5	msg	智樹		ぐはっ！	Gwah!	
+SC00002.m6	msg	イカロス		あの……それがマスターのお望みであれば、\n私は構いませんが……	Um... if that is what Master wishes, I do not mind...	
+SC00002.m7	msg	そはら		えーっ！？	Whaaat?!	

@@ -1,9 +1,9 @@
 id	kind	speaker	max	jp	en	notes
-SC10031.m1	msg	智樹		ニンフ……学校の課題をなんとかする、\nいい知恵を俺に授けてくれないか？		
-SC10031.m2	msg	ニンフ		うーん……課題ができなかったら\nどうなるの？		
-SC10031.m3	msg	智樹		先生に怒られるな。そりゃもう\nものすごい剣幕で。		
-SC10031.m4	msg	ニンフ		それを防げればいいんでしょ？\nじゃあモテ男ジャミングをかけてあげる！		
-SC10031.m5	msg	ニンフ		対象を男性に設定しておけば、その先生も\nトモキを怒らなくなるわよ！		
-SC10031.m6	msg	智樹		待て。そんなことしたら\n町中の男が俺に寄ってくるんじゃないのか？		
-SC10031.m7	msg	ニンフ		うん。別にいいじゃない。		
-SC10031.m8	msg	智樹		よくねー！　想像するだけで気持ち悪いわ！		
+SC10031.m1	msg	智樹		ニンフ……学校の課題をなんとかする、\nいい知恵を俺に授けてくれないか？	Nymph... could you grant me some wisdom on how to deal with my homework?	
+SC10031.m2	msg	ニンフ		うーん……課題ができなかったら\nどうなるの？	Hmm... What happens if you don't get it done?	
+SC10031.m3	msg	智樹		先生に怒られるな。そりゃもう\nものすごい剣幕で。	The teacher chews me out. And I mean really, seriously furious.	
+SC10031.m4	msg	ニンフ		それを防げればいいんでしょ？\nじゃあモテ男ジャミングをかけてあげる！	So you just need to stop that from happening, right? Then I'll hit you with Heartthrob Jamming!	
+SC10031.m5	msg	ニンフ		対象を男性に設定しておけば、その先生も\nトモキを怒らなくなるわよ！	If I set the target to men, that teacher won't get mad at you either, Tomoki!	
+SC10031.m6	msg	智樹		待て。そんなことしたら\n町中の男が俺に寄ってくるんじゃないのか？	Wait. If you do that, won't every guy in town come flocking to me?	
+SC10031.m7	msg	ニンフ		うん。別にいいじゃない。	Yep. So what's the problem?	
+SC10031.m8	msg	智樹		よくねー！　想像するだけで気持ち悪いわ！	Everything! Just imagining it is gross!	

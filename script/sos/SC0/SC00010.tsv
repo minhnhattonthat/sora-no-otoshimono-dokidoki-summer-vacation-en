@@ -1,49 +1,49 @@
 id	kind	speaker	max	jp	en	notes
-SC00010.m1	msg	智樹		よーし、イカロス！\nちょっと笑ってみろよ。		
-SC00010.m2	msg	イカロス		はい……		
-SC00010.m3	msg	イカロス		ニヤリ		
-SC00010.m4	msg	智樹		……ダメか。\nうーん。そう簡単に記憶は戻らないってことか。		
-SC00010.m5	msg	ニンフ		…………		
-SC00010.m6	msg	ニンフ		ね、ねえ、トモキ？　もしもこのまま\nアルファーの記憶が戻らなかったら、私を……		
-SC00010.m7	msg	智樹		大丈夫！　まだまだ手は残されてるさ。\n絶対になんとかする！		
-SC00010.m8	msg	ニンフ		……そう。		
-SC00010.m9	msg	そはら		イカロスさんが楽しそうだったことって、\nどんなのがあったっけ？		
-SC00010.m10	msg	智樹		守形先輩、心当たりとかないっスか？		
-SC00010.m11	msg	守形		あるにはあるが……\nあれを再現するのは少々問題があるな。		
-SC00010.m12	msg	智樹		なんです、問題って？		
-SC00010.m13	msg	？？？		心配しないで。準備はすでに整っているわ～。		
-SC00010.m14	msg	智樹		えっ？		
-SC00010.m15	msg	美香子		イカロスちゃんが大活躍したあの夜が\n空美町に帰ってくるわよ～。		
-SC00010.m16	msg	美香子		町のみんなも協力してくれるって～。\nプロのテキ屋も呼んでおいたわ～。		
-SC00010.m17	msg	そはら		テキ屋って、まさか……！		
-SC00010.m18	msg	美香子		あら～、覚えてないのかしら？\n秋祭りのときの、サバイバルゲーム……		
-SC00010.m19	msg	ニンフ		私、知らない。何それ？		
-SC00010.m20	msg	智樹		ニンフはあのときいなかったもんな。\n町中を巻き込む一大イベントでさ。		
-SC00010.m21	msg	智樹		コルク銃で撃ち合い、最後まで生き残った人が\n勝ちっていうゲームをやったんだ。		
-SC00010.m22	msg	そはら		たしかあのときは、イカロスさんが\nガトリングガンで大活躍してたよね！		
-SC00010.m23	msg	ニンフ		いいんじゃない？\n模擬戦はいい刺激になると思うし。		
-SC00010.m24	msg	守形		しかし智樹、あの夜の状況を\n再現するとなると……		
-SC00010.m25	msg	美香子		もちろん今回も賞金１千万を\n用意してあるわ～。みんながんばってね～。		
-SC00010.m26	msg	そはら		いいい、いっせんまっ……！		
-SC00010.m27	msg	智樹		お、おおおおお！\nそれだけの大金があれば……		
-SC00010.m28	msg	智樹		（あの伝説のエロエロＤＶＤシリーズ、\n　おっぱい・オブ・ザ・ワールドが全巻買える！）		
-SC00010.m29	msg	智樹		（それだけじゃない。\n　あんなものやこんなものまで買うことが……）		
-SC00010.m30	msg	智樹		やるぞイカロス！\n目指すは優勝だー！		
-SC00010.m31	msg	イカロス		仰せのままに……マイマスター。		
-SC00010.m32	msg	美香子		会長、あの時は不覚を取っちゃったけど……\n今回はそうはいかないわよ？		
-SC00010.m33	msg	守形		……やれやれ。		
-SC00010.m34	msg	そはら		きゃーっ！		
-SC00010.m35	msg	守形		悪いな見月。\n今回は手加減なしだ。		
-SC00010.m36	msg	美香子		楽しい……\nとっても楽しいわ～。		
-SC00010.m37	msg	そはら		助けてーっ！		
-SC00010.m38	msg	智樹		チクショー。守形先輩と\n会長のタッグなんて反則じゃないか？		
-SC00010.m39	msg	智樹		町内の皆さんがあの２人相手に\n早くも全滅だもんな……		
-SC00010.m40	msg	イカロス		マスター。この屋台の陰へ。		
-SC00010.m41	msg	智樹		サンキュー、イカロス！\nニンフもこっちへ！		
-SC00010.m42	msg	ニンフ		うん。		
-SC00010.m43	msg	美香子		桜井君～。イカロスちゃ～ん。\nどこに隠れてるのかしら～。		
-SC00010.m44	msg	美香子		会長、はりきって\n探しちゃうわよ～。		
-SC00010.m45	msg	智樹		……やばいな。このぶんだと\nここもすぐに見つかる。		
-SC00010.m46	msg	イカロス		迎撃しましょうか？		
-SC00010.m47	choice			頼む		
-SC00010.m48	choice			いらない		
+SC00010.m1	msg	智樹		よーし、イカロス！\nちょっと笑ってみろよ。	Alright, Ikaros! Try smiling for me.	
+SC00010.m2	msg	イカロス		はい……	Yes...	
+SC00010.m3	msg	イカロス		ニヤリ	Grin.	
+SC00010.m4	msg	智樹		……ダメか。\nうーん。そう簡単に記憶は戻らないってことか。	...No good, huh. Hmm. So her memories won't come back that easily.	
+SC00010.m5	msg	ニンフ		…………	......	
+SC00010.m6	msg	ニンフ		ね、ねえ、トモキ？　もしもこのまま\nアルファーの記憶が戻らなかったら、私を……	H-Hey, Tomoki? What if Alpha's memories never come back? Then would you... make me...	
+SC00010.m7	msg	智樹		大丈夫！　まだまだ手は残されてるさ。\n絶対になんとかする！	It'll be fine! We've still got plenty of tricks left. I'll fix this no matter what!	
+SC00010.m8	msg	ニンフ		……そう。	...Okay.	
+SC00010.m9	msg	そはら		イカロスさんが楽しそうだったことって、\nどんなのがあったっけ？	What kinds of things did Ikaros-san seem to enjoy?	
+SC00010.m10	msg	智樹		守形先輩、心当たりとかないっスか？	Sugata-senpai, got any ideas?	
+SC00010.m11	msg	守形		あるにはあるが……\nあれを再現するのは少々問題があるな。	I do, but... recreating it would pose a bit of a problem.	
+SC00010.m12	msg	智樹		なんです、問題って？	What problem?	
+SC00010.m13	msg	？？？		心配しないで。準備はすでに整っているわ～。	Don't worry. Everything is already prepared...	
+SC00010.m14	msg	智樹		えっ？	Huh?	
+SC00010.m15	msg	美香子		イカロスちゃんが大活躍したあの夜が\n空美町に帰ってくるわよ～。	The night Ikaros-chan shone so brightly is coming back to Sorami...	
+SC00010.m16	msg	美香子		町のみんなも協力してくれるって～。\nプロのテキ屋も呼んでおいたわ～。	Everyone in town says they'll help out. I've even called in professional festival vendors...	
+SC00010.m17	msg	そはら		テキ屋って、まさか……！	Festival vendors... You don't mean...!	
+SC00010.m18	msg	美香子		あら～、覚えてないのかしら？\n秋祭りのときの、サバイバルゲーム……	Oh my, don't you remember? The survival game at the autumn festival...	
+SC00010.m19	msg	ニンフ		私、知らない。何それ？	I don't know about it. What's that?	
+SC00010.m20	msg	智樹		ニンフはあのときいなかったもんな。\n町中を巻き込む一大イベントでさ。	You weren't around back then, Nymph. It was this huge event that dragged in the whole town.	
+SC00010.m21	msg	智樹		コルク銃で撃ち合い、最後まで生き残った人が\n勝ちっていうゲームをやったんだ。	We shot each other with cork guns, and the last one standing won.	
+SC00010.m22	msg	そはら		たしかあのときは、イカロスさんが\nガトリングガンで大活躍してたよね！	If I remember right, Ikaros-san was a total star with her Gatling gun back then!	
+SC00010.m23	msg	ニンフ		いいんじゃない？\n模擬戦はいい刺激になると思うし。	Sounds good, doesn't it? I think a mock battle would be a nice jolt for her.	
+SC00010.m24	msg	守形		しかし智樹、あの夜の状況を\n再現するとなると……	But Tomoki, if we're recreating the circumstances of that night...	
+SC00010.m25	msg	美香子		もちろん今回も賞金１千万を\n用意してあるわ～。みんながんばってね～。	Of course, I've prepared a 10 million yen prize again this time. Do your best, everyone...	
+SC00010.m26	msg	そはら		いいい、いっせんまっ……！	T-T-Ten milli...!	
+SC00010.m27	msg	智樹		お、おおおおお！\nそれだけの大金があれば……	O-Ooooh! With that kind of money...	
+SC00010.m28	msg	智樹		（あの伝説のエロエロＤＶＤシリーズ、\n　おっぱい・オブ・ザ・ワールドが全巻買える！）	(I could buy the complete set of that legendary naughty DVD series, Oppai of the World!)	
+SC00010.m29	msg	智樹		（それだけじゃない。\n　あんなものやこんなものまで買うことが……）	(And not just that. I could buy all sorts of this and that...)	
+SC00010.m30	msg	智樹		やるぞイカロス！\n目指すは優勝だー！	Let's do this, Ikaros! We're going for the win!	
+SC00010.m31	msg	イカロス		仰せのままに……マイマスター。	As you wish... my Master.	
+SC00010.m32	msg	美香子		会長、あの時は不覚を取っちゃったけど……\n今回はそうはいかないわよ？	Your President slipped up that time... but it won't go that way this time, okay?	
+SC00010.m33	msg	守形		……やれやれ。	...Good grief.	
+SC00010.m34	msg	そはら		きゃーっ！	Kyaaah!	
+SC00010.m35	msg	守形		悪いな見月。\n今回は手加減なしだ。	Sorry, Mitsuki. No holding back this time.	
+SC00010.m36	msg	美香子		楽しい……\nとっても楽しいわ～。	This is fun... So much fun...	
+SC00010.m37	msg	そはら		助けてーっ！	Heeelp!	
+SC00010.m38	msg	智樹		チクショー。守形先輩と\n会長のタッグなんて反則じゃないか？	Dammit. Sugata-senpai and the President teaming up has gotta be against the rules!	
+SC00010.m39	msg	智樹		町内の皆さんがあの２人相手に\n早くも全滅だもんな……	Everyone in the neighborhood already got wiped out by those two...	
+SC00010.m40	msg	イカロス		マスター。この屋台の陰へ。	Master. Behind this stall.	
+SC00010.m41	msg	智樹		サンキュー、イカロス！\nニンフもこっちへ！	Thanks, Ikaros! Nymph, over here too!	
+SC00010.m42	msg	ニンフ		うん。	Okay.	
+SC00010.m43	msg	美香子		桜井君～。イカロスちゃ～ん。\nどこに隠れてるのかしら～。	Oh, Sakurai-kun. Ikaros-chan. Where could you be hiiiding...	
+SC00010.m44	msg	美香子		会長、はりきって\n探しちゃうわよ～。	Your President is going to search really hard...	
+SC00010.m45	msg	智樹		……やばいな。このぶんだと\nここもすぐに見つかる。	...This is bad. At this rate, they'll find us here soon.	
+SC00010.m46	msg	イカロス		迎撃しましょうか？	Shall I intercept them?	
+SC00010.m47	choice			頼む	Please do	
+SC00010.m48	choice			いらない	No need	

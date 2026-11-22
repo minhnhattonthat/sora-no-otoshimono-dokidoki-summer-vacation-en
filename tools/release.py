@@ -49,16 +49,20 @@ def stale():
 
 
 def jp_left(repl, elf):
-    """Scan what the build writes: every built SOS script and the plain EBOOT (shown-text slots only)."""
-    import eboot, script
+    """Scan what the build writes: the message/choice slots of every built SOS (the pool is obfuscated on disc, so
+    scan it decoded; speaker names are name-plate keys, never drawn as text) and the plain EBOOT's shown-text slots."""
+    import eboot, script, sos
     shutil.rmtree(JPSCAN, ignore_errors=True)
     os.makedirs(JPSCAN)
-    n = 0
-    for p, b in repl.items():
+    n, pool = 0, bytearray()
+    for p, b in sorted(repl.items()):
         if p.endswith(".SOS"):
             n += 1
-            with open(os.path.join(JPSCAN, f"{n:04}_{os.path.basename(p)}"), "wb") as f:
-                f.write(b)
+            info = sos.parse(b)
+            for o in sorted(set(info["moffs"])):  # message/choice slots; speaker slots (soffs) are name-plate keys
+                pool += info["slots"][o] + b"\0"
+    with open(os.path.join(JPSCAN, "sos_text.bin"), "wb") as f:
+        f.write(pool)
     with open(os.path.join(JPSCAN, "slots.txt"), "w") as f:  # shown-text slots: "SLOT TARGET" = file offset twice
         for r in script.read_tsv(os.path.join(script.SCRIPT, "eboot.tsv")):
             o = eboot.ram2off(elf, int(r["id"], 16))
@@ -67,8 +71,7 @@ def jp_left(repl, elf):
         f.write(elf)
     known = ["--known", KNOWN] if os.path.exists(KNOWN) else []
     jl = [*PY, os.path.join(SKILL, "scripts", "jp_left.py")]
-    for p in sorted(glob.glob(os.path.join(JPSCAN, "*.SOS"))):
-        run(f"jp_left {os.path.basename(p)}", [*jl, p, "--sjis", *known], stdout=subprocess.DEVNULL)
+    run("jp_left SOS", [*jl, os.path.join(JPSCAN, "sos_text.bin"), "--sjis", *known])
     run("jp_left EBOOT", [*jl, os.path.join(JPSCAN, "EBOOT.elf"), "--sjis", "--slots",
                           os.path.join(JPSCAN, "slots.txt"), *known])
     print(f"jp_left: {n} SOS + EBOOT clean")
@@ -162,11 +165,12 @@ def main():
     o, b = hashes(orig), hashes(ISO)
     if os.path.exists(patch):
         os.remove(patch)
-    run("patch", ["xdelta3", "-e", "-9", "-S", "djw", "-B", str(o["size"]), "-s", orig, ISO, patch])
+    # -S none: no secondary compressor, so web/GUI patchers (RomPatcher.js) can apply it too
+    run("patch", ["xdelta3", "-e", "-9", "-S", "none", "-B", str(o["size"]), "-s", orig, ISO, patch])
     check = os.path.join(ROOT, "work", "release", "reapplied.iso")
     if os.path.exists(check):
         os.remove(check)
-    run("re-apply", ["xdelta3", "-d", "-B", str(o["size"]), "-s", orig, patch, check])
+    run("re-apply", ["xdelta3", "-d", "-s", orig, patch, check])  # exactly the README's command
     got = hashes(check)
     os.remove(check)
     assert got["sha1"] == b["sha1"], f"re-applied patch gives {got['sha1']}, build is {b['sha1']}"

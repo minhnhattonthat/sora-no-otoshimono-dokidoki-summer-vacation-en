@@ -2,10 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release: phase 8 done 2026-11-23 on build 2026-11-22 21:35 build/sora_en.iso sha1 0b314673...
-  (smoke ok, tour 63/63, `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exit 0, textcover exit 0, every
-  reachable graphics row shot English). Next: phase 9 (story-pass verdicts per chapter, docs/polish.md, release
-  script, jp_left, debug off, patch + README). warp.py defaults to the ORIGINAL ISO: pass build/sora_en.iso.
+- **Phase:** 9. Release done 2026-11-23: release/Sora_no_Otoshimono_DokiDoki_Summer_Vacation_EN_v1.0.zip (sha1 7bb460bd...,
+  7.4 MB xdelta `-S none` + README.txt; patched CRC32 27608C71) from build/sora_en.iso sha1 e1db9df30c52dd95ebbe502ec64c6a33f7806506, `tools/release.py` green end to
+  end (tests, smoke, jp_left 0, both qa_gates, textcover, polish, README, debug off, patch re-applied = build).
+  Publishing (`gh release create`) is the user's call. warp.py defaults to the ORIGINAL ISO: pass build/sora_en.iso.
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), PPSSPP v1.20.4 in `tools/ppsspp/`, PPSSPPHeadless qa-1 shared install, smoke boots
     the original ISO, pre-commit runs `tools/check.py`, guard hook blocks `sed -i`, rulings D1-D7 in docs/decisions.md.
@@ -122,12 +122,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     offline, English and clean. Old state work/qa/gfxshots/hextut_line.ppst (older build) replays differently: don't
     use it. Hand stress: hand list not found; card names are fixed-canvas GIMs, all event titles and profiles shot in
     the gallery, treated as covered.
+  - Phase 9 (2026-11-23): story pass: `tools/pairs.py --chapters` -> 21 chapter files (work/qa/story/chapters: SC0
+    chapter ends, SC1/SC2/SC3 pools in ~480-row parts, SC4 system, EBOOT, endings), one read-only
+    translate-retro-game:reviewer per chapter (docs/story-reviewer-brief.md; reports work/qa/story/reports). Important
+    fixes: Mikako's ～ tail had been flattened to "..." on 38 lines (fix008 over-reach) -> `~` restored (fix010; EBOOT
+    ids added to batches.MIKAKO_VOICE), Nymph's confession SC00023.m31, Ikaros casual to Nymph SC31520, the 流す
+    wash/opposite-field setup SC34800. docs/polish.md: 143 Minors + story Minors fixed (fix011-fix013, 307 rows) or
+    waived; all 296 changed rows re-read by one more reviewer (work/qa/story/fixcheck.txt), 10 nits fixed (fix013).
+    Story gate exit 0 (work/qa/story/verdicts). Rebuild e1db9df3: textcover re-run for the 167 changed scripts
+    (6817/6844 shown, 27 waived, 0 failing); tour 62/62, 4 changed shots self-reviewed, visual gate exit 0.
+    tools/release.py (build/--skip-build, tests, smoke, jp_left on decoded SOS message slots + EBOOT shown-text slots,
+    qa_gate on every work/qa/**/manifest.tsv, textcover, polish, README placeholders, no marker/probe text, xdelta3
+    -B patch, re-apply + sha1 compare, ZIP_STORED zip with README.txt). README filled. tools/sign.py caches the signed
+    EBOOT by input sha1 (WSL failed with HCS ERROR_NO_SYSTEM_RESOURCES mid-release).
 - **Next:**
-  0. Phase 9 (SKILL.md table): story-pass verdicts per chapter (`qa_gate.py check work/qa/story/manifest.tsv ...`,
-     references/translation.md §Review; reviewers = self/read-only pass, codex out of quota until 2026-11-26),
-     docs/polish.md all ticked, tools/release.py runs qa_gate on every manifest + textcover, jp_left.py on the
-     release build, debug tool off in the release build, patch built/re-applied/verified, README hashes, zip =
-     patch + README. Never `gh release create`.
+  0. Nothing required. Optional: a real PSP/Vita boot of the patched ISO; the owner's call on publishing (attach the
+     zip from release/ to a GitHub release; never by an agent without the user).
   1. DONE 2026-11-22: QA tour on build dc618f55 (`warp.py build/sora_en.iso --all --out work/qa/tour`, 48/48 ok),
      work/qa/manifest.tsv (delete work/qa/tour/*/memstick before `qa_gate.py init ... --glob "*.png"`), 3 visual-QA
      agents (docs/visual-qa-brief.md): 48 ok, 0 issues; `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts`

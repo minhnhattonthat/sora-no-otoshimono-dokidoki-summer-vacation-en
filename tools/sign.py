@@ -6,7 +6,7 @@ Uses sign_np -elf (github.com/swarzesherz/sign_np @ ac77d56, GPLv3, source in to
 run through WSL. Build it once:  wsl -e sh -c "cd tools/sign_np/src && gcc -O2 -w -I./libkirk -o ../sign_np *.c libkirk/*.c -lz"
 Tag 4 = 0xD91612F0, the tag of the original EBOOT (docs/re/script.md §EBOOT).
 """
-import os, struct, subprocess, sys
+import hashlib, os, struct, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BIN = "tools/sign_np/sign_np"
@@ -15,8 +15,25 @@ ELF_SIZE = 1430652  # the dump (work/eboot.elf) carries decrypt-buffer junk afte
 
 
 def sign(elf):
+    """Signed EBOOT for elf; cached by the ELF's sha1 in work/sign/cache (an unchanged EBOOT needs no WSL run)."""
     assert elf[:4] == b"\x7fELF", "not an ELF"
     tmp = os.path.join(ROOT, "work", "sign")
+    cache = os.path.join(tmp, "cache", hashlib.sha1(elf).hexdigest() + ".bin")
+    if os.path.exists(cache):
+        return check(open(cache, "rb").read())
+    d = check(run_sign_np(elf, tmp))
+    os.makedirs(os.path.dirname(cache), exist_ok=True)
+    with open(cache, "wb") as f:
+        f.write(d)
+    return d
+
+
+def check(d):
+    assert d[:4] == b"~PSP" and struct.unpack_from("<I", d, 0xD0)[0] == 0xD91612F0, "sign_np output not ~PSP"
+    return d
+
+
+def run_sign_np(elf, tmp):
     os.makedirs(tmp, exist_ok=True)
     with open(os.path.join(tmp, "in.elf"), "wb") as f:
         f.write(elf)
@@ -27,9 +44,7 @@ def sign(elf):
     r = subprocess.run(["wsl", "-e", BIN, "-elf", "work/sign/in.elf", "work/sign/out.bin", str(TAG)],
                        cwd=ROOT, capture_output=True)
     assert r.returncode == 0 and os.path.exists(out), r.stdout.decode(errors="replace")[-500:]
-    d = open(out, "rb").read()
-    assert d[:4] == b"~PSP" and struct.unpack_from("<I", d, 0xD0)[0] == 0xD91612F0, "sign_np output not ~PSP"
-    return d
+    return open(out, "rb").read()
 
 
 if __name__ == "__main__":

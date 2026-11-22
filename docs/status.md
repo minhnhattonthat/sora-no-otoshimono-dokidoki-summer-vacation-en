@@ -2,10 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator in progress: graphics-text redraws (phase 7 + its review fixes done). Last good
-  build: 2026-11-22 build/sora_en.iso sha1 ee07571b... (English text + name plates); `warp.py build/sora_en.iso
-  --scene ev_sc1` shows the "Sugata" plate (work/qa/gfx/plate/ev_sc1). warp.py defaults to the ORIGINAL ISO: pass
-  build/sora_en.iso.
+- **Phase:** 8. QA in the emulator in progress: all graphics groups drawn (waves 1+2); QA tour + visual-QA gate
+  next. Last good build: 2026-11-22 build/sora_en.iso sha1 dc618f55... (all text + all graphics + XMB icon), smoke
+  ok. warp.py defaults to the ORIGINAL ISO: pass build/sora_en.iso.
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), PPSSPP v1.20.4 in `tools/ppsspp/`, PPSSPPHeadless qa-1 shared install, smoke boots
     the original ISO, pre-commit runs `tools/check.py`, guard hook blocks `sed -i`, rulings D1-D7 in docs/decisions.md.
@@ -60,22 +59,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
     gfx/out/<group>/, build re-encodes every GIM copy). 18 of 24 groups in gfx/groups.txt drawn, 369 images, offline
     checked by graphics agents (gen diff check, rectcover; waivers = neighbouring art). In game so far: name plate
     (ev_sc1) and title menu (work/qa/gfx/w1/title) English. Build a16a46df..., smoke ok.
+  - Phase 8 graphics, wave 2 (2026-11-22): profile, commtutorial, credits, hexcite, hexspecial, hextutorial, logo
+    (subtitle 192 + title copyright 189) by 3 graphics agents; all 25 groups drawn. tools/gfx_icon0.py redraws the XMB
+    icon (build.py ships gfx/out/xmb/ICON0.PNG to /PSP_GAME and both RES/1ST copies; test_build checks it). Wording
+    unified (D9: Outfit, Gym Wear, pieces; おわり？ = The End?), glossary points at gfx/*.tsv for drawn terms. Tour
+    shots of title, profiles, comm tutorial, Hexcite tutorial/match, credits all English (work/qa/w2sheet.png).
+    Warp row level_up now waits for 5:48 (5:47 passed between polls on the English build and the mash opened Cards).
+    Credit name readings the agent was unsure of: 針生一 Hajime Hario, 藤井慧 Kei Fujii, 久坂真生 Mao Kusaka, 長信考
+    Nobutaka Cho, 鏡谷陽一 Yoichi Kagamiya, 松宮庸典 Tsunenori Matsumiya, 藤岡迅彦 Hayahiko Fujioka, 山下雅水 Masami
+    Yamashita, 田邉香 Kaori Tanabe, 本田稔裕 Toshihiro Honda (gfx/credits.tsv; best-guess Hepburn).
 - **Next:**
-  1. Graphics wave 2: groups profile, commtutorial, credits, hexcite, hexspecial, hextutorial (gfx/groups.txt) ->
-     dispatch `translate-retro-game:graphics` agents with docs/graphics-brief.md (3 groups each); helpers to reuse:
-     tools/gfx_title.py label/clean, gfx_prompt.py outlined/button, gfx_usecard.py, gfx_hexstart.py text/flat/clear.
-     Also logo 192 (subtitle ドキドキサマーバケーション still Japanese on the title screen) and XMB ICON0.PNG (not a GIM).
-  2. Wave-1 consistency (agents differed): きせかえ = "Dress-Up" (commenu, gallery) vs glossary "outfit card" and
-     cardget "Outfit ..." -> pick one; 体操着 "Gym Wear" (hexstart, 72 px) vs "Gym Clothes" (cardname); special-move
-     effects say "hands" (hexmenu 227-232) vs "pieces" (hexstart/hexcard); hexstart 332 uses W/L/D abbreviations
-     (digit slots are game-drawn); cardget 42 "card(s) obtained!". Card names (gfx/cardname.tsv, cardnameget.tsv) are
-     new terms: add a pointer in glossary.md (not table rows: the lint would demand them in dialogue).
-  3. Warp to every redrawn screen on the English build (scenes.tsv rows: options, free_*, hub_*, gallery_*, comm_*,
-     level_up, dressup, hub_controls) and look zoomed; agents flagged 555, 556, 558, 560, 562, 569, 570, 573, 578,
-     581, 583, 604 (tight card names) and 255 (13 px tags).
-  4. Then the QA tour: `warp.py build/sora_en.iso --all --out work/qa/tour` (original-ISO shots = work/qa/warp) ->
-     qa_gate manifest, visual-QA verdicts (fresh read-only pass yourself or visual-qa agents), inkbox on choices and
-     centred menu boxes, Hexcite /K reactions, textcover (PPSSPP has no Lua: log source or waiver).
+  1. QA tour on build dc618f55: `warp.py build/sora_en.iso --all --out work/qa/tour` (was started 2026-11-22; check
+     work/qa/tour.log has 48 ok, else re-run) -> `qa_gate.py init work/qa/manifest.tsv work/qa/tour --build
+     build/sora_en.iso --glob "*.png"` (original shots = work/qa/warp) -> `qa_gate.py todo ... --out-dir
+     work/qa/chunks` -> `translate-retro-game:visual-qa` agents with docs/visual-qa-brief.md (written) -> fix issues.
+  2. Graphics frames a scene still doesn't reach (every Hexcite result word, special-move cut-ins, game-over The
+     End?, each profile page, all 6 tutorial pages, every credits card): add scenes or shoot via drive.py, zoom.
+     Agents flagged tight card names 555, 556, 558, 560, 562, 569, 570, 573, 578, 581, 583, 604 and 255 (13 px tags).
+  3. inkbox on choices and centred menu boxes, Hexcite /K reactions, stress cases (longest card names in hand/
+     gallery), textcover (PPSSPP has no Lua: a log source via drive.py peeks of the SOS/message index, or a waiver).
+- **Non-blocking:** XMB PIC1.PNG keeps its Japanese © line (legal notice, like the company logos).
 - **Known gaps (non-blocking):** Free Mode Hexcite ES is greyed (unlock flag not found; its text is shared with
   Hexcite). Poke-jumped chapter/ending scripts keep the previous screen's overlay drawn; the scripts themselves are
   shot clean by the ev_* / ending_* script-warp rows.

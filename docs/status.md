@@ -69,19 +69,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Nobutaka Cho, 鏡谷陽一 Yoichi Kagamiya, 松宮庸典 Tsunenori Matsumiya, 藤岡迅彦 Hayahiko Fujioka, 山下雅水 Masami
     Yamashita, 田邉香 Kaori Tanabe, 本田稔裕 Toshihiro Honda (gfx/credits.tsv; best-guess Hepburn).
 - **Next:**
-  1. QA tour on build dc618f55: `warp.py build/sora_en.iso --all --out work/qa/tour` (was started 2026-11-22; check
-     work/qa/tour.log has 48 ok, else re-run) -> `qa_gate.py init work/qa/manifest.tsv work/qa/tour --build
-     build/sora_en.iso --glob "*.png"` (original shots = work/qa/warp) -> `qa_gate.py todo ... --out-dir
-     work/qa/chunks` -> `translate-retro-game:visual-qa` agents with docs/visual-qa-brief.md (written) -> fix issues.
+  1. DONE 2026-11-22: QA tour on build dc618f55 (`warp.py build/sora_en.iso --all --out work/qa/tour`, 48/48 ok),
+     work/qa/manifest.tsv (delete work/qa/tour/*/memstick before `qa_gate.py init ... --glob "*.png"`), 3 visual-QA
+     agents (docs/visual-qa-brief.md): 48 ok, 0 issues; `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts`
+     exits 0. Any rebuild needs a new tour + init (verdicts of unchanged shots carry over). Cosmetic notes: param-up
+     banner "Happy  Up" gap wider than JP (Up sprite is fixed); free_opponent record "D" closer to its digits.
   2. Graphics frames a scene still doesn't reach (every Hexcite result word, special-move cut-ins, game-over The
      End?, each profile page, all 6 tutorial pages, every credits card): add scenes or shoot via drive.py, zoom.
      Agents flagged tight card names 555, 556, 558, 560, 562, 569, 570, 573, 578, 581, 583, 604 and 255 (13 px tags).
   3. inkbox on choices and centred menu boxes, Hexcite /K reactions, stress cases (longest card names in hand/
      gallery), textcover (PPSSPP has no Lua: a log source via drive.py peeks of the SOS/message index, or a waiver).
-- **Non-blocking:** XMB PIC1.PNG keeps its Japanese © line (legal notice, like the company logos).
+- **Non-blocking:** XMB PIC1.PNG keeps its Japanese © line (legal notice, like the company logos). Title kana logo
+  kept (D10, open to the user).
 - **Known gaps (non-blocking):** Free Mode Hexcite ES is greyed (unlock flag not found; its text is shared with
   Hexcite). Poke-jumped chapter/ending scripts keep the previous screen's overlay drawn; the scripts themselves are
   shot clean by the ev_* / ending_* script-warp rows.
 - **Open bugs:** none.
 - **Waiting on the user:** nothing blocking. Non-blocking: the signed EBOOT and the VWF code (in .rodata, relocated)
   are only tested in PPSSPP; a boot on a real PSP/Vita before release would confirm them. Note: codex exec (used for read-only reviews) is out of quota until 2026-11-26.
+  Title logo: keep the kana そらのおとしもの (D10 default) or redraw an English "Heaven's Lost Property" logo?
+  Credit name readings marked best-guess above (gfx/credits.tsv) could be checked against an official source.

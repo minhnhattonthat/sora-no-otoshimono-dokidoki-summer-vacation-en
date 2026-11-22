@@ -1,0 +1,18 @@
+n	md5	jp	en	rects
+212	701caadd4c8e7784b7f3b2ed98a38c40	好きなコマを選んで下さい|あと|コマ	Choose a piece you like.|Pieces|Left	13,16,217,20;14,50,56,21;74,50,36,21
+217	1b388999548a88f51432e6a0e5de4d21	再戦|キャラクターをかえる|ヘキサイトをやめる	Rematch|Change Character|Quit Hexcite	24,0,160,72
+218	2266b1705ade32ab86d86640b9f7551e	再戦|キャラクターをかえる|ヘキサイトをやめる	Rematch|Change Character|Quit Hexcite	28,0,156,72
+219	72c93cfb103327f2074dd299865e1e4b	ヘキサイトメニュー	Hexcite Menu	122,18,164,24
+220	bbfc8dea5f87b92a2074ff19a0939126	ゲームの説明|ゲームをやめる|ゲームの再開	How to Play|Quit Game|Resume Game	24,0,120,72
+221	ecc8d4d99009345bd496151aa478ed66	ゲームの説明|ゲームをやめる|ゲームの再開	How to Play|Quit Game|Resume Game	28,0,116,72
+222	d93042698eb54825e562ec396bc5eeb7	必殺技を使いますか？|技名：|効果：	Use a special move?|Move:|Effect:	20,18,186,22;120,60,53,22;120,84,52,22
+223	96a9f3862ae90a3e740593c69d293a6c	はい	Yes	22,6,44,22
+224	e94483a36be57081fbe1ad8232b96b2c	はい	Yes	22,6,44,22
+225	44c1ba40199ddbf669a2df553a5509f7	いいえ	No	16,5,56,22
+226	d0a5d4e2cff3f7df273caa253a322464	いいえ	No	16,5,56,22
+227	b162e33475811e9510a64e8034890030	トモキ・タイム|自分と相手の持ちコマにある小三角形を全て六角形に変える。	Turns all small triangles in both players' hands into hexagons.	170,0,90,14;132,36,180,66
+228	ddd613fcf7db9a4d66c2e4178badf5c4	最終兵器|アポロン|盤上に置かれているコマを1つランダムで破壊する。	Ultimate Weapon|Apollon|Destroys one random piece on the board.	100,0,212,100
+229	86432909fc4f15731ccfe95b81f6f439	超々超音波振動子|パラダイス＝ソング|選択した自分の持ちコマを別の形のコマにランダムで変形させる。	Paradise Song||Turns one selected piece in your hand into a random different shape.	100,0,212,100
+230	ad7c967988be489a0b5fa938c43b1513	そはらチョップ|相手の持ちコマをランダムで破壊する。	Sohara Chop||Destroys one random piece in your opponent's hand.	100,0,212,100
+231	25c7457f0db754826683685c6ac3307b	圧殺|相手を一回休みにする。	Crush||Makes your opponent skip one turn.	100,0,212,100
+232	ac7f453ae92ee13c536246fb09ea3af4	新大陸|自分と相手の持ちコマをシャッフルして配りなおす。	New World||Shuffles and redeals both players' hands.	100,0,212,100

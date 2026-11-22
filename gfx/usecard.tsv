@@ -1,0 +1,7 @@
+n	md5	jp	en	rects
+66	f5c0e0a73468606add8230c00375ab14	コンボカード	Combo Card	6,10,81,16
+70	de1c8b9131bc10a6eb5765da8515471c	捨てるカードを入れ替えてください。	Please swap out the card\nyou want to discard.	14,12,264,48
+71	1dd8ed1747a8e10fd0efd3b0df1f8cae	捨てる	Discard	13,9,62,21
+72	cf98c8729a12838629919ec264fc2c5d	捨てる	Discard	13,9,62,21
+83	917d03176535d141e174b3cbab5dcd50	現在の手札|『GET』がついているものは新たに獲得したカードです。|閲覧終了	Current Hand|Cards marked "GET" are\nnewly acquired cards.|Close	14,8,122,30;28,44,212,48;200,102,52,18
+88	4e733440ca4be5288eb04cd99f55db3a	着用中	Worn

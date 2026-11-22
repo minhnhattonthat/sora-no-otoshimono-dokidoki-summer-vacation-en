@@ -1,0 +1,13 @@
+n	md5	jp	en	rects
+961	0c682c5903ed6357256367fe066c20d8	持っていかない	Don't Take	0,86,128,26
+963	b0bab4f60c5a15f396bc3af88dbb9dd1	持っていかない	Don't Take	44,5,96,22
+964	7533dd034b82d5267707844718401ed3	持っていかない	Don't Take	44,5,96,22
+966	6f0491715d83ebc4fde08bb45e22f978	必殺技カード選択	Choose Special Card	3,3,232,37
+967	f3ca7caab7d596933c636dcabd82ec3d	※必殺技カードを持っていくと使用しなくても消費されます。	* Special cards you take are used up even if you don't use them.	
+968	ccd9c167c0570d7a18be62c61a5858c8	決定 戻る	OK / Back	393,10,26,18;449,10,31,18
+969	cf5591d19dc298989ea6e47e9759a6ef	自分と相手の持ちコマにある小三角形を全て六角形に変える。	Turns all small triangles in both players' pieces into hexagons.	
+970	bf51a81835246944f250ace68e30872a	盤上に置かれているコマを1つランダムで破壊する。	Destroys 1 random piece on the board.	
+971	56762bb7d4b3e004fb795bb1c245f623	選択した自分の持ちコマを別の形のコマにランダムで変形させる。	Randomly transforms one of your selected pieces into another shape.	
+972	0340ad5cdf61907ad70987fdaeed98e3	相手の持ちコマをランダムで破壊する。	Destroys one of your opponent's pieces at random.	
+973	29cd6b10e4d5f5e2402182ad1537bb9e	相手を一回休みにする。	Makes the opponent skip a turn.	
+974	7267833d6686e1e427c107103249f6dc	自分と相手の持ちコマをシャッフルして配りなおす。	Reshuffles both players' pieces and deals them out again.	

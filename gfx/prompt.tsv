@@ -1,0 +1,22 @@
+n	md5	jp	en	rects
+3	0c2e0e28298000a581e1e36fd9554acf	はい	Yes	14,5,52,22
+4	2a76708728f719e2e8a1389000541ff5	いいえ	No	14,5,52,22
+5	c784ec65278d1b8040e38309ba49f182	はい	Yes	14,5,52,22
+6	0295d10eb68e598a3d163bbf8b0e7949	いいえ	No	14,5,52,22
+7	aacf5d03b85fcff034cc4fde7bf2ccec	ここまでのデータを\n保存しますか？	Save your progress\nso far?
+8	4839d442314a4e466188ae9b433ad3cb	中断データは削除されますが\nよろしいですか？	The suspended data will\nbe deleted. Is that OK?
+9	e1d39ba46e3c6948e259eeb7ab1dbb5f	プロローグを\n飛ばしますか？	Skip the\nprologue?
+10	7b35d67e1f278a4b78f853e5bf418091	このカードを\n持っていきますか？	Take this card\nwith you?
+11	05b01d8ace9e56f55f004d73fa1b8d9d	必殺技カードが使えません。\nよろしいですか？	Special move cards\ncan't be used. Is that OK?
+12	d61c8307ddfb7be3c90ee5abaaa27eb3	ゲームを途中で\nやめますか？	Quit the game\npartway through?
+13	169b7d287c8b58f87f6cda058a15a509	設定を初期状態へ\n戻しますか？	Reset the settings\nto their defaults?
+14	d6039d9975ec930263791d1939a0e649	セーブをしないとデータが\n保存されません。よろしいですか？	Your data won't be saved\nunless you save. Is that OK?
+15	0ac63bb89a37090e0bef902796a0aeed	このカードを使いますか？	Use this card?
+16	8f9a2d2b3863d34224dcb0da2e37ff8e	設定を保存しますか？	Save the settings?
+17	549281e7777b6f8120cc3362230fc5d8	このレベルの\n最初からはじめますか？	Start this level\nfrom the beginning?
+18	ca36b6f53f3a165b219e988b4bf9207d	最初からやり直しますか？	Start over from the beginning?
+19	14a219fb8043d35481efc5343de3f52c	カードを捨てますか？	Discard this card?
+20	d0eccaded12753f43ec65c1b64f6b1b5	プレイ中のデータは\n削除されますがよろしいですか？	Your game in progress will\nbe deleted. Is that OK?
+21	3f0eec71410c40672d12d5510ee4a0d3	もう一度、読みますか？	Read it again?
+22	3d486743ca3ab2a407ffdfb722c66182	チュートリアルを\n中断しますか？	Quit the tutorial?
+23	aeb112a14fe3d9cec975f7f19fbc0585	クリアデータを\n保存しますか？	Save your\nclear data?

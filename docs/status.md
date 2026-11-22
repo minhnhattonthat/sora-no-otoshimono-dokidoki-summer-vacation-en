@@ -2,9 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator next (phase 7 insert/fit/check done). Last good build: 2026-11-22 full English
-  build/sora_en.iso sha1 0db4462c..., smoke ok (English save dialog), SC10020 warp shows English dialogue
-  (work/qa/warp/sc_sc1_sc10020.sos).
+- **Phase:** 8. QA in the emulator in progress: graphics-text redraws (phase 7 + its review fixes done). Last good
+  build: 2026-11-22 build/sora_en.iso sha1 ee07571b... (English text + name plates); `warp.py build/sora_en.iso
+  --scene ev_sc1` shows the "Sugata" plate (work/qa/gfx/plate/ev_sc1). warp.py defaults to the ORIGINAL ISO: pass
+  build/sora_en.iso.
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), PPSSPP v1.20.4 in `tools/ppsspp/`, PPSSPPHeadless qa-1 shared install, smoke boots
     the original ISO, pre-commit runs `tools/check.py`, guard hook blocks `sed -i`, rulings D1-D7 in docs/decisions.md.
@@ -55,11 +56,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
     leading/trailing blank mismatches; fit.wrap is balanced (same line counts, 15 three-line boxes) + stub-last-line
     rule (< 6 chars); build asserts every TSV has a source and every row with English is written; tests/test_build.py
     ISO-level romdiff (old/new extents, dir records, PVD size, tail).
+  - Phase 8 graphics, wave 1 (2026-11-22): tools/gfx.py pipeline (gfx/<group>.tsv + tools/gfx_<group>.py ->
+    gfx/out/<group>/, build re-encodes every GIM copy). 18 of 24 groups in gfx/groups.txt drawn, 369 images, offline
+    checked by graphics agents (gen diff check, rectcover; waivers = neighbouring art). In game so far: name plate
+    (ev_sc1) and title menu (work/qa/gfx/w1/title) English. Build a16a46df..., smoke ok.
 - **Next:**
-  1. Phase 8 QA: `warp.py --all` tour on the English build -> contact sheets, qa_gate manifest, visual-QA verdicts
-     (do them yourself in a fresh read-only pass; codex out of quota until 2026-11-26); check wrapped 3-line boxes,
-     choices (300 px, inkbox.py), Hexcite /K reactions, textcover.py. Graphics text (docs/re/graphics.md survey) is
-     all still Japanese: speaker nameplates (COMMON_00_NAME), menus, titles, chapter cards, credits -> redraw.
+  1. Graphics wave 2: groups profile, commtutorial, credits, hexcite, hexspecial, hextutorial (gfx/groups.txt) ->
+     dispatch `translate-retro-game:graphics` agents with docs/graphics-brief.md (3 groups each); helpers to reuse:
+     tools/gfx_title.py label/clean, gfx_prompt.py outlined/button, gfx_usecard.py, gfx_hexstart.py text/flat/clear.
+     Also logo 192 (subtitle ドキドキサマーバケーション still Japanese on the title screen) and XMB ICON0.PNG (not a GIM).
+  2. Wave-1 consistency (agents differed): きせかえ = "Dress-Up" (commenu, gallery) vs glossary "outfit card" and
+     cardget "Outfit ..." -> pick one; 体操着 "Gym Wear" (hexstart, 72 px) vs "Gym Clothes" (cardname); special-move
+     effects say "hands" (hexmenu 227-232) vs "pieces" (hexstart/hexcard); hexstart 332 uses W/L/D abbreviations
+     (digit slots are game-drawn); cardget 42 "card(s) obtained!". Card names (gfx/cardname.tsv, cardnameget.tsv) are
+     new terms: add a pointer in glossary.md (not table rows: the lint would demand them in dialogue).
+  3. Warp to every redrawn screen on the English build (scenes.tsv rows: options, free_*, hub_*, gallery_*, comm_*,
+     level_up, dressup, hub_controls) and look zoomed; agents flagged 555, 556, 558, 560, 562, 569, 570, 573, 578,
+     581, 583, 604 (tight card names) and 255 (13 px tags).
+  4. Then the QA tour: `warp.py build/sora_en.iso --all --out work/qa/tour` (original-ISO shots = work/qa/warp) ->
+     qa_gate manifest, visual-QA verdicts (fresh read-only pass yourself or visual-qa agents), inkbox on choices and
+     centred menu boxes, Hexcite /K reactions, textcover (PPSSPP has no Lua: log source or waiver).
 - **Known gaps (non-blocking):** Free Mode Hexcite ES is greyed (unlock flag not found; its text is shared with
   Hexcite). Poke-jumped chapter/ending scripts keep the previous screen's overlay drawn; the scripts themselves are
   shot clean by the ev_* / ending_* script-warp rows.

@@ -2,12 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator in progress: text coverage green (textcover exit 0); QA gate green on build
-  2026-11-22 21:35 build/sora_en.iso sha1 0b314673... (prompt re-centre), smoke ok, tour 63/63 rows ok,
-  `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exit 0 (150 shots). Special-move cut-ins all six shot
-  English; result words resolved (only Big Win!! is ever drawn, JP same); record stress passed. Left: later Hexcite
-  tutorial panels (placement puzzle), hand stress (hand list not found). warp.py defaults to the ORIGINAL ISO: pass
-  build/sora_en.iso.
+- **Phase:** 9. Release: phase 8 done 2026-11-23 on build 2026-11-22 21:35 build/sora_en.iso sha1 0b314673...
+  (smoke ok, tour 63/63, `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exit 0, textcover exit 0, every
+  reachable graphics row shot English). Next: phase 9 (story-pass verdicts per chapter, docs/polish.md, release
+  script, jp_left, debug off, patch + README). warp.py defaults to the ORIGINAL ISO: pass build/sora_en.iso.
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), PPSSPP v1.20.4 in `tools/ppsspp/`, PPSSPPHeadless qa-1 shared install, smoke boots
     the original ISO, pre-commit runs `tools/check.py`, guard hook blocks `sed -i`, rulings D1-D7 in docs/decisions.md.
@@ -114,23 +112,29 @@ Updated at the end of every session. Keep it to what the next session needs; his
     shows Finish! + Winner/Loser panels only (work/qa/gfxshots/hexresult_comm). Free records: cheat `recmax`, row
     stress_record: 999 W / 999 L / 99 D / 99 streak fit. Post-match menu (Rematch / Change Character / Quit Hexcite)
     English.
+  - Phase 8 QA session 6 (2026-11-23): Hexcite tutorial panels shot in game from a fresh free_tutorial warp
+    (work/qa/gfxshots/hextut3/: 1275, 1277, 1279, 1281, 1282, 1283, 1285, 1287, 1288, 1289; all English, clean). The
+    guided step 3 needs a half-column the d-pad can't reach: solved by poking the held piece's screen position
+    (GAME+0x511C/+0x5118; docs/re/debug.md §Hexcite tutorial). `tools/debug/hexauto.py` = auto-player (pokes position x
+    rotation until the placement outline shows; `--tutorial` for guided steps, `--me/--com/--then-me` piece counts).
+    Not reachable in play: 1284 Pass panel (no pass by COM or me, nor the match end, shows it) and the Hexcite ES
+    variants 1274/1276/1278/1280/1286 (ES greyed in Free Mode); their built PNGs (gfx/out/hextutorial/) checked
+    offline, English and clean. Old state work/qa/gfxshots/hextut_line.ppst (older build) replays differently: don't
+    use it. Hand stress: hand list not found; card names are fixed-canvas GIMs, all event titles and profiles shot in
+    the gallery, treated as covered.
 - **Next:**
-  0. Later Hexcite tutorial panels (gfx hextutorial 1275-1289): state work/qa/gfxshots/hextut_line.ppst (Free Mode
-     tutorial, "Placing Your First Piece"); circle closes the page, then the placement must hit the yellow line; the
-     taps "circle; up,up,left,up,circle" don't place (cursor stays on the tray). Solve by eye with shots per tap, or
-     find the tutorial step variable (GAME+0x184 rises 1 per two steps; untested as a poke). Panels are fixed-canvas
-     GIMs already checked offline by the graphics agents. Then phase 8 is done -> phase 9.
-  - Hand stress save: the Communication hand view doesn't redraw from GAME+0x3F6 (docs/re/debug.md); card names are
-    fixed-canvas GIMs, all event titles and profiles shot in the gallery. Treat as covered unless the hand list turns
-    up.
+  0. Phase 9 (SKILL.md table): story-pass verdicts per chapter (`qa_gate.py check work/qa/story/manifest.tsv ...`,
+     references/translation.md §Review; reviewers = self/read-only pass, codex out of quota until 2026-11-26),
+     docs/polish.md all ticked, tools/release.py runs qa_gate on every manifest + textcover, jp_left.py on the
+     release build, debug tool off in the release build, patch built/re-applied/verified, README hashes, zip =
+     patch + README. Never `gh release create`.
   1. DONE 2026-11-22: QA tour on build dc618f55 (`warp.py build/sora_en.iso --all --out work/qa/tour`, 48/48 ok),
      work/qa/manifest.tsv (delete work/qa/tour/*/memstick before `qa_gate.py init ... --glob "*.png"`), 3 visual-QA
      agents (docs/visual-qa-brief.md): 48 ok, 0 issues; `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts`
      exits 0. Any rebuild needs a new tour + init (verdicts of unchanged shots carry over). Cosmetic notes: param-up
      banner "Happy  Up" gap wider than JP (Up sprite is fixed); free_opponent record "D" closer to its digits.
   2. DONE (session 4): credits reshoot, coverage rows, textcover exit 0.
-  3. Graphics frames still not shot: later Hexcite tutorial panels only (see 0). Result words and cut-ins done in
-     session 5; event titles, profiles and The End? in session 4.
+  3. DONE (session 6): every reachable graphics row shot; Hexcite tutorial panels in work/qa/gfxshots/hextut3.
   4. Text coverage logs (work/qa/cover/p0, scenes) stay valid across graphics-only rebuilds (keys = row order +
      EBOOT addresses); regenerate strings.tsv (`cover.py strings`) and re-run after any script/ edit. Choice
      branches 2/3 (`--keys down,circle --tag p1`) aren't needed for coverage (every option text and message was

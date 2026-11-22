@@ -79,6 +79,21 @@ for PSP), `tools/debug/warp.py` + `tools/debug/scenes.tsv` (scene list). Address
   rules page: circle; step 2 (after COM): right, right (small parallelogram), circle, rtrigger, rtrigger, left, circle;
   rules page: circle; step 3: target is a small trapezoid at the left edge under the left hexagon; right (trapezoid),
   circle, then rtrigger x2 + left, left, up fits the yellow outline but circle is refused (ltrigger x2 too). Unsolved.
+- Solved 2026-11-23 (Free Mode tutorial, state from a fresh `warp.py build/sora_en.iso --scene free_tutorial`; a state
+  from an older build replays differently: no panel after step 1). The held piece's screen position is u16 GAME+0x511C
+  x / +0x5118 y (poke moves it; x 10.5 px per triangle column, y 20 per row); rotation = R taps (GAME+0x184 counts
+  them). Stack copies at 0x09FFF300 (x, +2 per Right) / 0x09FFF304 (y) / 0x09FFF30C (rot) show the d-pad moves x by
+  two columns only, so a target on the other parity can't be reached by hand. The red/green outline drawn while
+  holding = the real placement spot (the piece sprite is drawn lifted up-right of it). Steps (Free Mode, circle x6
+  closes the intro pages): 1 big trapezoid (cyan) to the top half of the centre hexagon -> panel 1275 How to Place
+  Pieces; 2 big parallelogram, R once, onto the outline right of the green -> 1277 About Scoring; 3 trapezoid (green),
+  R x4, x 241 y 159 -> 1279 Bonus Zones; 4 big trapezoid, R x5, x 220 y 39 -> 1281 Wing Marks, 1282 Special Moves,
+  1283 Now, try playing the game. Then free play: `tools/debug/hexauto.py` (auto-player; `--tutorial` solves guided
+  steps by circling at every valid spot until the score changes). COM with no pieces (`--com 0,0,0,0,0,0,0`) shows the
+  "Pass!" banner each turn; `--then-me 0,0,0,0,0,0,0` makes me pass instead. Neither shows the Pass panel (1284).
+  Match end (both sides out: `--me 1,0,0,0,0,0,0 --com 0,0,0,0,0,0,0` once the selected piece is the triangle): Finish!
+  -> 1285 Penalty Points -> circle: 1287, 1288, 1289 Tips for Winning -> Choose Game. Zeroing my counts on my own turn
+  hangs it (the game waits for my move); the end/pass check runs after a placement. Shots: work/qa/gfxshots/hextut3/.
 
 ## Communication-mode flow - verified (rows comm_*, level_up, game_over, credits)
 - Scene manager SM = GAME+0x23C (the setScene a0): SM+4 mode, SM+8 scene. setScene(SM, mode, scene, arg) with arg -1

@@ -79,8 +79,12 @@ def test_res_leaves(english):
     idx = gfx.index()
     drawn = {p for g in gfx.groups() for r in gfx.rows(g) if os.path.isfile(gfx.out_path(r))
              for p, _ in idx[int(r["n"])][1]}
-    assert all(k.endswith((".SOS", "/HG_G18.TFP")) or k in drawn for k in changed)
-    assert set(files) == {build.EBOOT, build.SFO} and files[build.EBOOT][:4] == b"~PSP"
+    assert all(k.endswith((".SOS", "/HG_G18.TFP", build.ICON0_RES)) or k in drawn for k in changed)
+    assert set(files) - {build.ICON0} == {build.EBOOT, build.SFO} and files[build.EBOOT][:4] == b"~PSP"
+    if build.ICON0 in files:  # XMB icon and both res copies are the same PNG
+        assert files[build.ICON0][:8] == b"\x89PNG\r\n\x1a\n"
+        assert [k for k in repl if k.endswith(build.ICON0_RES)] and all(
+            repl[k] == files[build.ICON0] for k in repl if k.endswith(build.ICON0_RES))
 
 
 def test_nothing_points_inside_a_written_string(built):

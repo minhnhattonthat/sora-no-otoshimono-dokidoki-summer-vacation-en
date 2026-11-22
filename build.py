@@ -19,6 +19,7 @@ ROM = os.path.join(ROOT, "rom", "Sora no Otoshimono - DokiDoki Summer Vacation (
 RES = "/PSP_GAME/USRDIR/res/res.ptd"
 EBOOT = "/PSP_GAME/SYSDIR/EBOOT.BIN"
 SFO = "/PSP_GAME/PARAM.SFO"
+ICON0, ICON0_RES = "/PSP_GAME/ICON0.PNG", "/1ST/ICON0.PNG"
 FILLER = "The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs."
 
 
@@ -113,6 +114,10 @@ def texts(mode=None, qa=None):
     assert not set(g) & set(repl), f"graphics and text both rewrite {sorted(set(g) & set(repl))}"
     repl.update(g)
     files = {EBOOT: sign.sign(vwf.apply(bytes(eboot_strings(mode, qa, seen)[0]), widths))}
+    icon = os.path.join(gfx.OUT, "xmb", "ICON0.PNG")  # XMB icon, English subtitle (tools/gfx_icon0.py)
+    if os.path.isfile(icon):
+        files[ICON0] = b = open(icon, "rb").read()
+        repl.update({p: b for p in res if p.endswith(ICON0_RES)})  # loose + 1ST_PTD copies
     r = script.read_tsv(os.path.join(script.SCRIPT, "sfo.tsv"))[0]
     t = text_for(r, mode, qa, "sfo")
     if t is None and mode == "marker":

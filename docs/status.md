@@ -2,11 +2,12 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator in progress: text coverage green (textcover exit 0, 6817/6844, 27 waived);
-  credits disc cards verified; prompt bubbles re-centred (gfx_prompt, needs a rebuild). Last build: 2026-11-22 19:16
-  build/sora_en.iso sha1 14b5c6da... (dc618f55 + credits cap), smoke ok. Left: rebuild (prompt change) + smoke, new
-  tour + qa_gate init + verdicts (rows added), special-move cut-ins, Hexcite result words other than Big Win!!, later
-  Hexcite tutorial panels, stress saves. warp.py defaults to the ORIGINAL ISO: pass build/sora_en.iso.
+- **Phase:** 8. QA in the emulator in progress: text coverage green (textcover exit 0); QA gate green on build
+  2026-11-22 21:35 build/sora_en.iso sha1 0b314673... (prompt re-centre), smoke ok, tour 63/63 rows ok,
+  `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exit 0 (150 shots). Special-move cut-ins all six shot
+  English; result words resolved (only Big Win!! is ever drawn, JP same); record stress passed. Left: later Hexcite
+  tutorial panels (placement puzzle), hand stress (hand list not found). warp.py defaults to the ORIGINAL ISO: pass
+  build/sora_en.iso.
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), PPSSPP v1.20.4 in `tools/ppsspp/`, PPSSPPHeadless qa-1 shared install, smoke boots
     the original ISO, pre-commit runs `tools/check.py`, guard hook blocks `sed -i`, rulings D1-D7 in docs/decisions.md.
@@ -102,30 +103,39 @@ Updated at the end of every session. Keep it to what the next session needs; his
     centre where the Japanese did (n 8 was 9.5 px left of the JP, n 10 4.5 px right); all within 2 px of JP.
     Hexcite result words: Big Win!! in game (Free Mode, 300 vs 0/200); Free Mode shows no word for narrow win, draw or
     losses, same on the original ISO (work/qa/jp/hexresult).
+  - Phase 8 QA session 5 (2026-11-22): rebuild 0b314673 + smoke ok; tour `warp.py build/sora_en.iso --all --out
+    work/qa/tour` 60/60 + new rows stress_record, free_match_sohara, free_match_tomoki (63); qa_gate init (memstick
+    dirs deleted first) + self-review of the 105 new/changed shots (work/qa/verdicts/chunk_4dbda181b75c_000.tsv, all
+    ok; event-title compare vs JP in work/qa/warp/gallery_event_walk) -> check exit 0. Special moves (docs/re/debug.md
+    §Hexcite): `tools/debug/special.py --state work/qa/cover/reactions/free_match.ppst --sp N --out DIR` re-arms
+    (GAME+0x934=0), sets the special (GAME+0x928 = char id 0-5), answers Yes: "Use a special move?" dialog and all 6
+    cut-ins English and clean (work/qa/gfxshots/special/cutins.png). Result words: category table decoded; Win!/Narrow
+    Win/Draw/Lose!/Crushed!! are never drawn even with the index forced (`hexresult.py --cat`), JP the same; Comm mode
+    shows Finish! + Winner/Loser panels only (work/qa/gfxshots/hexresult_comm). Free records: cheat `recmax`, row
+    stress_record: 999 W / 999 L / 99 D / 99 streak fit. Post-match menu (Rematch / Change Character / Quit Hexcite)
+    English.
 - **Next:**
-  0. Rebuild (gfx prompt change), smoke, then new tour on the rebuild (`warp.py build/sora_en.iso --all --out
-     work/qa/tour`, now 60+ rows) + qa_gate init + visual-QA verdicts (fresh read-only pass by yourself if no agents).
-     Result words in Communication mode: `hexresult.py --state work/qa/gfxshots/_cm/comm_match.ppst --out
-     work/qa/gfxshots/hexresult_comm` (state from `warp.py build/sora_en.iso --scene comm_match --state-out ...`);
-     check whether Win!/Narrow Win/Draw/Lose!/Crushed!! show there; else compare the JP and record as not reachable.
-     Special-move cut-ins: square does nothing in a Free match (gauge empty, work/qa/gfxshots/special); find the
-     special gauge / card flag (comm_special picks a special card before a Communication match).
+  0. Later Hexcite tutorial panels (gfx hextutorial 1275-1289): state work/qa/gfxshots/hextut_line.ppst (Free Mode
+     tutorial, "Placing Your First Piece"); circle closes the page, then the placement must hit the yellow line; the
+     taps "circle; up,up,left,up,circle" don't place (cursor stays on the tray). Solve by eye with shots per tap, or
+     find the tutorial step variable (GAME+0x184 rises 1 per two steps; untested as a poke). Panels are fixed-canvas
+     GIMs already checked offline by the graphics agents. Then phase 8 is done -> phase 9.
+  - Hand stress save: the Communication hand view doesn't redraw from GAME+0x3F6 (docs/re/debug.md); card names are
+    fixed-canvas GIMs, all event titles and profiles shot in the gallery. Treat as covered unless the hand list turns
+    up.
   1. DONE 2026-11-22: QA tour on build dc618f55 (`warp.py build/sora_en.iso --all --out work/qa/tour`, 48/48 ok),
      work/qa/manifest.tsv (delete work/qa/tour/*/memstick before `qa_gate.py init ... --glob "*.png"`), 3 visual-QA
      agents (docs/visual-qa-brief.md): 48 ok, 0 issues; `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts`
      exits 0. Any rebuild needs a new tour + init (verdicts of unchanged shots carry over). Cosmetic notes: param-up
      banner "Happy  Up" gap wider than JP (Up sprite is fixed); free_opponent record "D" closer to its digits.
   2. DONE (session 4): credits reshoot, coverage rows, textcover exit 0.
-  3. Graphics frames still not shot: Hexcite result words other than Big Win!! (see 0), special-move cut-ins (see 0),
-     later Hexcite tutorial panels (pick a piece up with circle on the tray first, then place), card names 604 (Mikako
-     full name: profile title, shot OK) and 255 (hexoption: free_settings row, shot OK). Event titles, profiles and
-     The End? done in session 4.
+  3. Graphics frames still not shot: later Hexcite tutorial panels only (see 0). Result words and cut-ins done in
+     session 5; event titles, profiles and The End? in session 4.
   4. Text coverage logs (work/qa/cover/p0, scenes) stay valid across graphics-only rebuilds (keys = row order +
      EBOOT addresses); regenerate strings.tsv (`cover.py strings`) and re-run after any script/ edit. Choice
      branches 2/3 (`--keys down,circle --tag p1`) aren't needed for coverage (every option text and message was
      reached) but would show branch-only scenes.
-  5. inkbox on centred menu boxes (hub menu, Hexcite menu), Hexcite /K reactions; stress saves (longest card names
-     in hand: needs the hand array RE'd; max Hexcite record digits; params max).
+  5. Stress: records done (stress_record). Params have no digits on screen (the Level chart is a graphic).
 - **Non-blocking:** XMB PIC1.PNG keeps its Japanese © line (legal notice, like the company logos). Title kana logo
   kept (D10, open to the user).
 - **Known gaps (non-blocking):** Free Mode Hexcite ES is greyed (unlock flag not found; its text is shared with

@@ -47,6 +47,9 @@ CHEATS = {                 # name -> [(offset from GAME, bytes)]; from the 2010 
     "lastturn": [(0x278, b"\x13\x00")],      # 19 of 20: the next real turn ends the chapter by itself (no overlay)
     # scene request SM+8 = 0x2D (chapter-end check); at the hub the main loop switches to it. Poke it last.
     "chapterend": [(0x244, b"\x2d\0\0\0")],
+    # stress: Free Mode records (u16 per opponent: wins from +0x6F4 (Sohara +0x6F6), win streak Sohara +0x744; losses
+    # and draws between) all 999; the opponent select caps them at 999 W / 999 L / 99 D / 99 streak
+    "recmax": [(0x6F4, (999).to_bytes(2, "little") * 54)],
 }
 # Nymph's Card-submenu comment (table 0x088C07B4 + 0x100*N, picked by 0x0882CA78 from hand/params/visits): code poke
 # of its `move a2, s4` (0x0882CBD0) -> `addiu a2, zero, N`, so entering Card shows comment N (text coverage)

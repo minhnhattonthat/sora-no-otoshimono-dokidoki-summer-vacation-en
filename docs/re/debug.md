@@ -52,6 +52,25 @@ for PSP), `tools/debug/warp.py` + `tools/debug/scenes.tsv` (scene list). Address
   big parallelogram, big trapezoid (matches the tray). Zeroing the selected piece hangs the tray; cheat `hexend`
   leaves one hexagon each and sets 999 points: two mashed moves end the match ("終了!") and the winner's line shows.
 - Mashing circle + directions (route in row free_win) is a usable random auto-player in Free Mode.
+- The match object is the scene manager SM = GAME+0x23C (code base $s7 in 0x08844290..): per-round score arrays
+  SM+0x538 me / +0x560 COM (round index SM+0x534), so +0x774 = SM+0x538[0].
+- Result word: SM+0x4A0 (GAME+0x6DC), set at the end (0x088448EC) from my - COM via (cat, lo, hi) triplets at
+  0x088E1980: >=50 Big Win!!, 15..49 Win!, 1..14 Narrow Win, 0 Draw, -49..-1 Lose!, <=-50 Crushed!!; the word state
+  (0x08845A74) plays res/hexcite/20_hex_resultanime/<file> from table 0x088FEC0C. Only Big Win!! is ever drawn
+  (Free Mode, even with the index forced; the original ISO the same); Communication mode shows Finish! -> Winner/Loser
+  panels and no word. `tools/debug/hexresult.py [--cat]`.
+- Special move: square (button index 0xF; `0x0881B820(i)` = pad bit i pressed, GAME+0x104+8i) at 0x088475A4 opens
+  "Use a special move?" only when SM+0x6F8 (GAME+0x934) == 0; it is -1 until the player takes a wing mark. My
+  special = SM+0x6EC (GAME+0x928) = character id (GAME+0x818 me / +0x81C COM): Ikaros 0, Sohara 1, Nymph 2, Mikako 3,
+  Sugata 4, Tomoki 5. Free Mode players: Ikaros, Sohara, Tomoki only. `tools/debug/special.py --state S --sp N`
+  shoots any of the six cut-ins (all six shot English: work/qa/gfxshots/special/cutins.png).
+- Communication special-card select (5:70) lists all five special cards but takes none unless owned (the
+  ownership list was not found; poking the hand GAME+0x3F6 with ids 85-89 doesn't do it).
+- Free Mode records, u16 per opponent: wins from GAME+0x6F4 (Sohara +0x6F6), win streak Sohara +0x744, losses and
+  draws between; the opponent select caps the display at 999 W / 999 L / 99 D / 99 streak (cheat `recmax`, row
+  stress_record). After a match: 3:15..3:18, then Rematch / Change Character / Quit Hexcite at 3:17.
+- The Communication hand view (5:22) doesn't redraw from GAME+0x3F6 when poked (empty slots), so a "longest card
+  names in hand" stress save needs the real hand list; not found.
 
 ## Communication-mode first Hexcite = the guided tutorial (9:4, same as Free Mode's triangle tutorial)
 - Skipped with cheat `hexdone` (SM+0xAA bit 0, below); the notes here only matter for shooting the tutorial itself.

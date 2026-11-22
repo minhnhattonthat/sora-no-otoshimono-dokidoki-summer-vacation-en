@@ -58,3 +58,6 @@ options_walk	title		6 down;40 -;6 down;40 -;6 circle;300 -;6 down;60 -;shot:o1;6
 free_select_walk	title		6 down;40 -;6 circle;300 -;6 down;60 -;shot:s1;6 right;60 -;shot:s2;6 up;60 -;6 left;60 -	60	3:2	Free Mode game select, cursor over both games
 free_settings_walk	title		6 down;40 -;6 circle;300 -;6 square;300 -;6 down;60 -;shot:g1;6 up;60 -	60	3:4	Free Mode game settings, cursor over both rows
 hub_idle	hub		600 -;600 -;600 -;600 -;600 -;600 -;shot:i1;600 -;600 -;600 -;600 -;600 -;600 -	60	5:18	hub left idle two minutes (Nymph's idle comments)
+stress_record	title	recmax	6 down;40 -;6 circle;300 -;6 circle;200 -;6 circle;200 -;6 circle;200 -;shot:r0;6 right;60 -;shot:r1;6 right;60 -	60	3:6	stress: opponent select with every record at its cap (999 W, 999 L, 99 D, 99 streak)
+free_match_sohara	title		6 down;40 -;6 circle;300 -;6 circle;200 -;6 right;40 -;6 circle;200 -;6 circle;200 -;6 circle	900	3:10	Hexcite match, player Sohara (special Sohara Chop)
+free_match_tomoki	title		6 down;40 -;6 circle;300 -;6 circle;200 -;6 right;40 -;6 right;40 -;6 circle;200 -;6 circle;200 -;6 circle	900	3:10	Hexcite match, player Tomoki (special TOMO☆KI・TIME)

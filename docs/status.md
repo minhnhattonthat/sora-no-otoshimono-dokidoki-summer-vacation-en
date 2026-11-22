@@ -5,7 +5,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 9. Release done 2026-11-23: release/Sora_no_Otoshimono_DokiDoki_Summer_Vacation_EN_v1.0.zip (sha1 7bb460bd...,
   7.4 MB xdelta `-S none` + README.txt; patched CRC32 27608C71) from build/sora_en.iso sha1 e1db9df30c52dd95ebbe502ec64c6a33f7806506, `tools/release.py` green end to
   end (tests, smoke, jp_left 0, both qa_gates, textcover, polish, README, debug off, patch re-applied = build).
-  Publishing (`gh release create`) is the user's call. warp.py defaults to the ORIGINAL ISO: pass build/sora_en.iso.
+  Published 2026-11-23 on the user's order (D11): GitHub release v1.0, zip attached. Repo still PRIVATE (going public = user's call). warp.py defaults to the ORIGINAL ISO: pass build/sora_en.iso.
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), PPSSPP v1.20.4 in `tools/ppsspp/`, PPSSPPHeadless qa-1 shared install, smoke boots
     the original ISO, pre-commit runs `tools/check.py`, guard hook blocks `sed -i`, rulings D1-D7 in docs/decisions.md.
@@ -136,8 +136,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
     -B patch, re-apply + sha1 compare, ZIP_STORED zip with README.txt). README filled. tools/sign.py caches the signed
     EBOOT by input sha1 (WSL failed with HCS ERROR_NO_SYSTEM_RESOURCES mid-release).
 - **Next:**
-  0. Nothing required. Optional: a real PSP/Vita boot of the patched ISO; the owner's call on publishing (attach the
-     zip from release/ to a GitHub release; never by an agent without the user).
+  0. Nothing required. Optional: a real PSP/Vita boot of the patched ISO; making the repo public (user's call;
+     release v1.0 is already up).
   1. DONE 2026-11-22: QA tour on build dc618f55 (`warp.py build/sora_en.iso --all --out work/qa/tour`, 48/48 ok),
      work/qa/manifest.tsv (delete work/qa/tour/*/memstick before `qa_gate.py init ... --glob "*.png"`), 3 visual-QA
      agents (docs/visual-qa-brief.md): 48 ok, 0 issues; `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts`

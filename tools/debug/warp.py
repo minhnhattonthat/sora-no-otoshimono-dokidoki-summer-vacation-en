@@ -44,9 +44,16 @@ CHEATS = {                 # name -> [(offset from GAME, bytes)]; from the 2010 
     "params": [(o, (20).to_bytes(4, "little")) for o in (0x27C, 0x294, 0x2AC, 0x2C4)],  # 4 params = chapter targets
     "lastchapter": [(0x27A, b"\x03\x00")],   # SM+0x3E chapter index 3: the chapter end runs ending sc90010
     "noturns": [(0x278, b"\x14\x00")],       # SM+0x3C turns used = 20 of 20: params short -> bad ending sc90020
+    "lastturn": [(0x278, b"\x13\x00")],      # 19 of 20: the next real turn ends the chapter by itself (no overlay)
     # scene request SM+8 = 0x2D (chapter-end check); at the hub the main loop switches to it. Poke it last.
     "chapterend": [(0x244, b"\x2d\0\0\0")],
 }
+# Nymph's Card-submenu comment (table 0x088C07B4 + 0x100*N, picked by 0x0882CA78 from hand/params/visits): code poke
+# of its `move a2, s4` (0x0882CBD0) -> `addiu a2, zero, N`, so entering Card shows comment N (text coverage)
+CHEATS.update({f"comment{n}": [(0x0882CBD0 - GAME, (0x24060000 | n).to_bytes(4, "little"))] for n in range(8)})
+# Hexcite post-match reaction: 98 records of 0xC4 at 0x088DCA8C (u32 result key, voice, text at +0x44; 7 characters
+# x 2 variants x 7 results), record offset picked by `mflo s0` at 0x08845184 -> `addiu s0, zero, N*0xC4`
+CHEATS.update({f"react{n}": [(0x08845184 - GAME, (0x24100000 | n * 0xC4).to_bytes(4, "little"))] for n in range(98)})
 
 
 def cheat(D, names):

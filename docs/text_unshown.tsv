@@ -22,3 +22,7 @@ SC90020.m12	full-width-space pause box: kept Japanese bytes (no visible text), n
 088FCC88	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
 088FD088	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
 088FD108	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088C1CB4	unreachable: Nymph comment table 0x088C07B4 index 21; only indices 0-18 are ever picked (0x0881F024 callers: picker 0x0882CA78 0-7, Menu 8-11, Options 13-18, constants 19/20); the Free Mode help line for the same item (088F3E7C) is shown
+088C1DB4	unreachable: Nymph comment table index 22 (see 088C1CB4); the Free Mode copy 088F3EA8 is shown
+088C1EB4	unreachable: Nymph comment table index 23 (see 088C1CB4); the Free Mode copy 088F3E3C is shown
+088C1FB4	unreachable: Nymph comment table index 24 (see 088C1CB4); the Free Mode copy 088F3E58 is shown

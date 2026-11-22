@@ -24,8 +24,10 @@ import warp  # noqa: E402
 from drive import Drive  # noqa: E402
 
 HOOK = 0x08817C88
+# Free Mode help bars: jal 0x08819270 with t3 = string; settings (table 0x088FDD40), game select (0x088FDD48)
+HELPBAR = (0x08823AF4, 0x088235E0)
 LOGARGS = ("-l", "--loglevel=1")
-ENTRY = re.compile(r"BKP PC=08817c88: TXT ([0-9a-f]{8}) ")
+ENTRY = re.compile(r"BKP PC=[0-9a-f]{8}: TXT ([0-9a-f]{8}) ")
 STAMP = re.compile(r"^\d\d:\d\d:\d\d\d |^--debugger")
 
 
@@ -86,6 +88,8 @@ def convert(log, km):
 
 def hook(D):
     D.r.ws.call("cpu.breakpoint.add", address=HOOK, enabled=False, log=True, logFormat="TXT {a1} {a1:s}")
+    for a in HELPBAR:
+        D.r.ws.call("cpu.breakpoint.add", address=a, enabled=False, log=True, logFormat="TXT {t3} {t3:s}")
 
 
 def prepare(iso, base):
@@ -114,6 +118,34 @@ def play_script(iso, path, out, keys, limit, base):
         D.close(); shutil.rmtree(os.path.join(out, "memstick"), ignore_errors=True)
 
 
+def reactions(a, km):
+    """Every Hexcite post-match reaction (98 records): from a free_match state (made once per ISO), force record N
+    (cheat reactN), win the match the free_win way, log + shot. OUT/reactions/rNN/."""
+    base = os.path.join(a.out, "reactions"); st = os.path.join(base, "free_match.ppst")
+    stamp = os.path.join(base, "iso.txt"); s = os.stat(a.iso); s = f"{s.st_size} {s.st_mtime_ns}"
+    if not (os.path.exists(stamp) and open(stamp).read() == s):
+        os.makedirs(base, exist_ok=True)
+        ok, got, _ = warp.warp(a.iso, "free_match", os.path.join(base, "_match"), state_out=os.path.abspath(st))
+        assert ok, f"free_match: {got}"
+        open(stamp, "w").write(s)
+    tail = warp.load_scenes()["free_win"][3].split("cheat:hexend;", 1)[1]
+
+    def one(n):
+        d = os.path.join(base, f"r{n:02d}"); shutil.rmtree(d, ignore_errors=True)
+        D = Drive(a.iso, d, state=os.path.abspath(st), extra=LOGARGS)
+        try:
+            hook(D); warp.cheat(D, f"hexend,react{n}"); warp.run_route(D, tail)
+            D.run(150); D.shot(f"r{n:02d}.png")
+        except (AssertionError, EOFError, RuntimeError) as e: return f"r{n:02d} {e}"
+        finally: D.close()
+        keys, miss = convert(os.path.join(d, "ppsspp.log"), km)
+        return f"r{n:02d} {len(keys)} strings, {len(miss)} unmatched"
+
+    todo = [int(x) for x in a.only.split(",")] if a.only else range(98)
+    with cf.ThreadPoolExecutor(a.jobs) as ex:
+        for line in ex.map(one, todo): print(line, flush=True)
+
+
 def scripts():
     import script
     return sorted(os.path.relpath(p, os.path.join(script.SCRIPT, "sos"))[:-4].replace(os.sep, "/")
@@ -122,7 +154,7 @@ def scripts():
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=["strings", "run", "scenes", "convert"])
+    ap.add_argument("cmd", choices=["strings", "run", "scenes", "convert", "reactions"])
     ap.add_argument("iso", nargs="?", default="build/sora_en.iso")
     ap.add_argument("--out", default="work/qa/cover"); ap.add_argument("--only")
     ap.add_argument("--keys", default="down,up,circle"); ap.add_argument("--tag", default="p0")
@@ -148,6 +180,8 @@ def main():
             keys, miss = convert(os.path.join(d, "ppsspp.log"), km)
             print(f"{'ok ' if ok else 'BAD'} {n:24} {got} {len(keys)} strings, {len(miss)} unmatched", flush=True)
         return
+    if a.cmd == "reactions":
+        return reactions(a, km)
     todo = a.only.split(",") if a.only else scripts()
     base = os.path.join(a.out, "_base"); prepare(a.iso, base)
 

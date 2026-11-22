@@ -42,4 +42,8 @@ def draw(row, im):
     t = lines(row)
     if int(row["n"]) <= 6:
         return button(im, " ".join(t), (14, 5, 52, 22))
-    return outlined(Image.new("RGBA", im.size, (0, 0, 0, 0)), t)
+    # centre where the Japanese was centred (up to 8 px off the canvas centre, e.g. n 8; the bubble art expects it)
+    jp = im.getchannel("A").point(lambda v: 255 if v > 60 else 0).getbbox()
+    d = round((jp[0] + jp[2]) / 2 - im.width / 2)
+    box = (max(0, 2 * d), 0, im.width - abs(2 * d), im.height)
+    return outlined(Image.new("RGBA", im.size, (0, 0, 0, 0)), t, box=box)

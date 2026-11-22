@@ -2,10 +2,11 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator in progress: tour gate was green on dc618f55; text coverage 6705/6844; credits
-  fix rebuilt. Last good build: 2026-11-22 19:16 build/sora_en.iso sha1 14b5c6da... (dc618f55 + credits cards
-  910-925 capped at 180 px), smoke ok; tour/qa_gate must be re-run on it. warp.py defaults to the ORIGINAL ISO: pass
-  build/sora_en.iso.
+- **Phase:** 8. QA in the emulator in progress: text coverage green (textcover exit 0, 6817/6844, 27 waived);
+  credits disc cards verified; prompt bubbles re-centred (gfx_prompt, needs a rebuild). Last build: 2026-11-22 19:16
+  build/sora_en.iso sha1 14b5c6da... (dc618f55 + credits cap), smoke ok. Left: rebuild (prompt change) + smoke, new
+  tour + qa_gate init + verdicts (rows added), special-move cut-ins, Hexcite result words other than Big Win!!, later
+  Hexcite tutorial panels, stress saves. warp.py defaults to the ORIGINAL ISO: pass build/sora_en.iso.
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), PPSSPP v1.20.4 in `tools/ppsspp/`, PPSSPPHeadless qa-1 shared install, smoke boots
     the original ISO, pre-commit runs `tools/check.py`, guard hook blocks `sed -i`, rulings D1-D7 in docs/decisions.md.
@@ -85,23 +86,40 @@ Updated at the end of every session. Keep it to what the next session needs; his
     hub cursor comments 088C07B4-088C12B4, Options help 088C15B4-088C19B4, Free settings help 088C1CB4-088C1FB4 and
     088F3E3C-088F3EA8, and the Hexcite post-match reactions 088DCAD0-088E1514 (per opponent x result).
     warp.py route step `shot[:NAME]` for multi-page rows.
+  - Phase 8 QA session 4 (2026-11-22): text coverage closed. cover.py hooks the Free Mode help bars too (jal
+    0x08819270 at 0x08823AF4 settings / 0x088235E0 game select, t3 = string) and `cover.py reactions` plays all 98
+    Hexcite post-match reactions (records of 0xC4 at 0x088DCA8C, cheat reactN pokes the pick at 0x08845184) from a
+    free_match state. Nymph's Menu-submenu comment (table 0x088C07B4 + 0x100*i, picker 0x0882CA78: 0 new gallery card,
+    1 empty hand, 2/3 visits, 4 params, 5-7 random) forced by cheat commentN (row hub_comments). New scenes.tsv rows:
+    hub_menu_walk, hub_card_walk, hub_comments, options_walk, free_select_walk, free_settings_walk, hub_idle,
+    gallery_event_walk (all 35 event titles shot: fit), gallery_profile_walk + gallery_profile_last (all 24 profile
+    files shot: English, fit; tightest ink ends x 477 of the panel), game_over_natural (cheat lastturn = 19/20 turns,
+    one real turn: the chapter end runs the bad ending with no hub overlay; "The End?" shot clean,
+    work/qa/gfxshots/go2.png). 088C1CB4-1FB4 waived (comment-table indices 21-24, no reader). tools/debug/roll.py
+    (shoot a row every N frames, --key to advance), tools/debug/hexresult.py (forced final scores, shot every 2
+    frames). Credits reshot (work/qa/gfxshots/roll2): every disc card at rest ends <= x 456; edge contacts are only
+    the slide-in frames. inkbox: hub, Card and Menu submenus centred (<= 2 px). Prompt bubbles (gfx prompt 7-23) now
+    centre where the Japanese did (n 8 was 9.5 px left of the JP, n 10 4.5 px right); all within 2 px of JP.
+    Hexcite result words: Big Win!! in game (Free Mode, 300 vs 0/200); Free Mode shows no word for narrow win, draw or
+    losses, same on the original ISO (work/qa/jp/hexresult).
 - **Next:**
+  0. Rebuild (gfx prompt change), smoke, then new tour on the rebuild (`warp.py build/sora_en.iso --all --out
+     work/qa/tour`, now 60+ rows) + qa_gate init + visual-QA verdicts (fresh read-only pass by yourself if no agents).
+     Result words in Communication mode: `hexresult.py --state work/qa/gfxshots/_cm/comm_match.ppst --out
+     work/qa/gfxshots/hexresult_comm` (state from `warp.py build/sora_en.iso --scene comm_match --state-out ...`);
+     check whether Win!/Narrow Win/Draw/Lose!/Crushed!! show there; else compare the JP and record as not reachable.
+     Special-move cut-ins: square does nothing in a Free match (gauge empty, work/qa/gfxshots/special); find the
+     special gauge / card flag (comm_special picks a special card before a Communication match).
   1. DONE 2026-11-22: QA tour on build dc618f55 (`warp.py build/sora_en.iso --all --out work/qa/tour`, 48/48 ok),
      work/qa/manifest.tsv (delete work/qa/tour/*/memstick before `qa_gate.py init ... --glob "*.png"`), 3 visual-QA
      agents (docs/visual-qa-brief.md): 48 ok, 0 issues; `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts`
      exits 0. Any rebuild needs a new tour + init (verdicts of unchanged shots carry over). Cosmetic notes: param-up
      banner "Happy  Up" gap wider than JP (Up sprite is fixed); free_opponent record "D" closer to its digits.
-  2. The credits fix is in the new build (see Phase line); reshoot the roll (`warp.py build/sora_en.iso --scene
-     credits --state-out work/states/credits.ppst`, then Drive run(300)+shot loop to 20000 frames) and check disc cards
-     910-925 aren't cut at the right edge; then new tour + qa_gate init + verdicts (any rebuild invalidates the gate).
-  2b. Coverage: add scene rows (cover.py scenes --only) that walk the cursor over every hub / Options / Free settings
-     item (shot each) and Free Mode matches vs each opponent with each result (poke scores like hexres: +0x774 me,
-     +0x79C COM after free_match + 900 frames, then the free_win mash), then re-run textcover.
-  3. Graphics frames still not shot: Hexcite result words (Big Win!!/Narrow Win/Draw/Lose!/Crushed!!: they play after
-     Finish! and before the Winner/Loser panel, ~f1380-1400 after poking scores +0x774/+0x79C at free_match + 900
-     frames; shoot every 4 frames there), special-move cut-ins (square in a Free Mode match), game-over The End?
-     (IMG_GO, end of the bad ending), profile pages 2-24, later Hexcite tutorial panels (pick a piece up with circle
-     on the tray first, then place). Tight card names 555, 556, 558, 560, 562, 569, 570, 573, 578, 581, 583, 604, 255.
+  2. DONE (session 4): credits reshoot, coverage rows, textcover exit 0.
+  3. Graphics frames still not shot: Hexcite result words other than Big Win!! (see 0), special-move cut-ins (see 0),
+     later Hexcite tutorial panels (pick a piece up with circle on the tray first, then place), card names 604 (Mikako
+     full name: profile title, shot OK) and 255 (hexoption: free_settings row, shot OK). Event titles, profiles and
+     The End? done in session 4.
   4. Text coverage logs (work/qa/cover/p0, scenes) stay valid across graphics-only rebuilds (keys = row order +
      EBOOT addresses); regenerate strings.tsv (`cover.py strings`) and re-run after any script/ edit. Choice
      branches 2/3 (`--keys down,circle --tag p1`) aren't needed for coverage (every option text and message was

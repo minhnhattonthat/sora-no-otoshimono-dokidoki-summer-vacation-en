@@ -18,6 +18,7 @@ def test_scene_rows():
         for step in route.split(";"):
             step = step.strip()
             if step.startswith("cheat:"): assert step[6:] in warp.CHEATS, (name, step)
+            elif step.startswith("shot"): assert step == "shot" or step.startswith("shot:"), (name, step)
             elif step.startswith("until:"):
                 m, s, limit, *keys = step[6:].split(":")
                 assert m.isdigit() and s.isdigit() and limit.isdigit() and len(keys) <= 1, (name, step)

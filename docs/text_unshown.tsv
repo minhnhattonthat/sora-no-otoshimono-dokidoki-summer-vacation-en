@@ -1,0 +1,24 @@
+id	reason
+SC00000.m17	full-width-space pause box: kept Japanese bytes (no visible text), not translatable
+SC00003.m59	full-width-space pause box: kept Japanese bytes (no visible text), not translatable
+SC31210.m6	full-width-space pause box: kept Japanese bytes (no visible text), not translatable
+SC31230.m11	full-width-space pause box: kept Japanese bytes (no visible text), not translatable
+SC90020.m12	full-width-space pause box: kept Japanese bytes (no visible text), not translatable
+088F161C	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088F18FC	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088F1948	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088F195C	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FB8D8	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FB978	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FBA04	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FBA90	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FBAE0	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FBBA0	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FBC24	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FBC7C	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FBCD4	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FBDA4	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FBE38	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FCC88	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FD088	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)
+088FD108	save-data system dialog: passed to sceUtilitySavedata and drawn by the PSP's PPGe, not the game's text-box setter; English in the boot/save shots (work/qa/tour)

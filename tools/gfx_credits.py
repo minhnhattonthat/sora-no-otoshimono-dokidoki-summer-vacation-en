@@ -127,10 +127,13 @@ def draw(row, im):
             top = im.crop((0, 0, im.width, 30))
             cv.paste(top, (0, 0))
     elif n <= 925:
+        # the 344-px card slides right while shown (screen x 232..300 in the staff roll), so ink past ~180 px is cut
+        # at the screen edge at some point (913, 918, 921, 923 were; the wider Japanese was too)
+        vis = 180
         head, name = lines
         disc(cv, head[0])
-        put(cv, head[1:], HEAD, SIZES["head"] + 1, WHITE, 36, 17.5, im.width - 38)
-        put(cv, name, NAME, SIZES["name"], WHITE, 8, 61.5, im.width - 10)
+        put(cv, head[1:], HEAD, SIZES["head"] + 1, WHITE, 36, 17.5, vis - 38)
+        put(cv, name, NAME, SIZES["name"], WHITE, 8, 61.5, vis - 10)
     elif n == 926:
         size = 19
         put(cv, lines[0], NAME, size, WHITE, 9, 23, im.width - 10)

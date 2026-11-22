@@ -2,9 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator in progress: all graphics groups drawn (waves 1+2); QA tour + visual-QA gate
-  next. Last good build: 2026-11-22 build/sora_en.iso sha1 dc618f55... (all text + all graphics + XMB icon), smoke
-  ok. warp.py defaults to the ORIGINAL ISO: pass build/sora_en.iso.
+- **Phase:** 8. QA in the emulator in progress: tour gate was green on dc618f55; text coverage 6705/6844; credits
+  fix rebuilt. Last good build: 2026-11-22 19:16 build/sora_en.iso sha1 14b5c6da... (dc618f55 + credits cards
+  910-925 capped at 180 px), smoke ok; tour/qa_gate must be re-run on it. warp.py defaults to the ORIGINAL ISO: pass
+  build/sora_en.iso.
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), PPSSPP v1.20.4 in `tools/ppsspp/`, PPSSPPHeadless qa-1 shared install, smoke boots
     the original ISO, pre-commit runs `tools/check.py`, guard hook blocks `sed -i`, rulings D1-D7 in docs/decisions.md.
@@ -68,17 +69,45 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Credit name readings the agent was unsure of: 針生一 Hajime Hario, 藤井慧 Kei Fujii, 久坂真生 Mao Kusaka, 長信考
     Nobutaka Cho, 鏡谷陽一 Yoichi Kagamiya, 松宮庸典 Tsunenori Matsumiya, 藤岡迅彦 Hayahiko Fujioka, 山下雅水 Masami
     Yamashita, 田邉香 Kaori Tanabe, 本田稔裕 Toshihiro Honda (gfx/credits.tsv; best-guess Hepburn).
+  - Phase 8 QA session 3 (2026-11-22): `tools/debug/cover.py` = PSP text coverage (logging breakpoint on the
+    text-box setter 0x08817C88, dialogue + choices + EBOOT help/reactions; every SOS script played from a cold-boot
+    title state, mashing `down,up,circle` = first choice option). Choice boxes pass inkbox (SC10030 3 options,
+    work/qa/gfxshots/choice_10030/t12.png, rects 58,40,304,22 88,82,304,22 118,124,304,22). In-game shots (work/qa/
+    gfxshots/): all 6 Communication tutorial pages + Read it again? prompt, Hexcite tutorial panels up to "Place a
+    piece on this line", whole staff roll (cast cards, role cards, disc cards), Start!/Finish!/Winner-Loser panel.
+    Bug fixed: staff-roll disc cards 910-925 slide right while shown (screen x 232..300), so 913, 918, 921, 923
+    were cut at the screen edge (the wider Japanese would be too); gfx_credits caps their ink at 180 px (font
+    shrinks), tests/test_gfx.py; 913 = Project Manager, 923 = Kadokawa Shoten Co., Ltd., 925 制作総指揮 = General
+    Producer (924 is Executive Producer).
+    Text coverage pass p0 (build dc618f55): 6697/6844 shown; every SOS message and choice reached except the 5
+    U+3000 pause boxes (shown, but logged as raw SJIS); waivers in docs/text_unshown.tsv (those 5 + 18 PPGe save
+    dialogs). `cover.py scenes` (all 48 rows ok) -> 6705/6844, 23 waived, 116 failing (work/qa/cover/report.txt):
+    hub cursor comments 088C07B4-088C12B4, Options help 088C15B4-088C19B4, Free settings help 088C1CB4-088C1FB4 and
+    088F3E3C-088F3EA8, and the Hexcite post-match reactions 088DCAD0-088E1514 (per opponent x result).
+    warp.py route step `shot[:NAME]` for multi-page rows.
 - **Next:**
   1. DONE 2026-11-22: QA tour on build dc618f55 (`warp.py build/sora_en.iso --all --out work/qa/tour`, 48/48 ok),
      work/qa/manifest.tsv (delete work/qa/tour/*/memstick before `qa_gate.py init ... --glob "*.png"`), 3 visual-QA
      agents (docs/visual-qa-brief.md): 48 ok, 0 issues; `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts`
      exits 0. Any rebuild needs a new tour + init (verdicts of unchanged shots carry over). Cosmetic notes: param-up
      banner "Happy  Up" gap wider than JP (Up sprite is fixed); free_opponent record "D" closer to its digits.
-  2. Graphics frames a scene still doesn't reach (every Hexcite result word, special-move cut-ins, game-over The
-     End?, each profile page, all 6 tutorial pages, every credits card): add scenes or shoot via drive.py, zoom.
-     Agents flagged tight card names 555, 556, 558, 560, 562, 569, 570, 573, 578, 581, 583, 604 and 255 (13 px tags).
-  3. inkbox on choices and centred menu boxes, Hexcite /K reactions, stress cases (longest card names in hand/
-     gallery), textcover (PPSSPP has no Lua: a log source via drive.py peeks of the SOS/message index, or a waiver).
+  2. The credits fix is in the new build (see Phase line); reshoot the roll (`warp.py build/sora_en.iso --scene
+     credits --state-out work/states/credits.ppst`, then Drive run(300)+shot loop to 20000 frames) and check disc cards
+     910-925 aren't cut at the right edge; then new tour + qa_gate init + verdicts (any rebuild invalidates the gate).
+  2b. Coverage: add scene rows (cover.py scenes --only) that walk the cursor over every hub / Options / Free settings
+     item (shot each) and Free Mode matches vs each opponent with each result (poke scores like hexres: +0x774 me,
+     +0x79C COM after free_match + 900 frames, then the free_win mash), then re-run textcover.
+  3. Graphics frames still not shot: Hexcite result words (Big Win!!/Narrow Win/Draw/Lose!/Crushed!!: they play after
+     Finish! and before the Winner/Loser panel, ~f1380-1400 after poking scores +0x774/+0x79C at free_match + 900
+     frames; shoot every 4 frames there), special-move cut-ins (square in a Free Mode match), game-over The End?
+     (IMG_GO, end of the bad ending), profile pages 2-24, later Hexcite tutorial panels (pick a piece up with circle
+     on the tray first, then place). Tight card names 555, 556, 558, 560, 562, 569, 570, 573, 578, 581, 583, 604, 255.
+  4. Text coverage logs (work/qa/cover/p0, scenes) stay valid across graphics-only rebuilds (keys = row order +
+     EBOOT addresses); regenerate strings.tsv (`cover.py strings`) and re-run after any script/ edit. Choice
+     branches 2/3 (`--keys down,circle --tag p1`) aren't needed for coverage (every option text and message was
+     reached) but would show branch-only scenes.
+  5. inkbox on centred menu boxes (hub menu, Hexcite menu), Hexcite /K reactions; stress saves (longest card names
+     in hand: needs the hand array RE'd; max Hexcite record digits; params max).
 - **Non-blocking:** XMB PIC1.PNG keeps its Japanese © line (legal notice, like the company logos). Title kana logo
   kept (D10, open to the user).
 - **Known gaps (non-blocking):** Free Mode Hexcite ES is greyed (unlock flag not found; its text is shared with

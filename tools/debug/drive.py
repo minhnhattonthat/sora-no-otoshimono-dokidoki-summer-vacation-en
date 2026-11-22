@@ -19,8 +19,8 @@ RAM, RAM_SIZE = 0x08800000, 0x01800000
 
 
 class Drive:
-    def __init__(self, iso, out, state=None, memstick=None):
-        self.r = psp.Run(psp.find_emu(None), iso, out, state=state, memstick=memstick)
+    def __init__(self, iso, out, state=None, memstick=None, extra=()):
+        self.r = psp.Run(psp.find_emu(None), iso, out, state=state, memstick=memstick, extra=extra)
         self.f = 0; self.out = out; self.nshot = 0
 
     def run(self, n):

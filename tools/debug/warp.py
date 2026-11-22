@@ -95,11 +95,14 @@ def to_hub(D):
 def run_route(D, route):
     """emu.py route steps; a `cheat:NAME` step pokes CHEATS[NAME] at that point (for state that only exists
     mid-route, such as a Hexcite match); `until:M:S:LIMIT[:KEYS]` runs (tapping the comma-separated KEYS in turn,
-    one every 20 frames) until mode:scene is M:S, and fails the warp if LIMIT frames pass first."""
+    one every 20 frames) until mode:scene is M:S, and fails the warp if LIMIT frames pass first; `shot[:NAME]` takes
+    an extra screenshot (multi-page screens: tutorials, credits)."""
     for step in route.split(";"):
         step = step.strip()
         if step.startswith("cheat:"):
             cheat(D, step[6:]); continue
+        if step.startswith("shot"):   # shot or shot:NAME, an extra screenshot mid-route
+            D.shot(f"{step[5:] or 'f%06d' % D.f}.png"); continue
         if step.startswith("until:"):
             m, s, limit, *keys = step[6:].split(":")
             ok = D.until(lambda d: where(d) == (int(m), int(s)), int(limit), step=20,

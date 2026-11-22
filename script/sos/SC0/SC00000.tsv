@@ -19,7 +19,7 @@ SC00000.m17	msg			　
 SC00000.m18	msg	そはら		もう。イカロスさんもニンフさんも\nトモちゃんにアドバイスしちゃダメだよ。	Come on! Ikaros-san, Nymph-san, no giving Tomo-chan advice!	
 SC00000.m19	msg	そはら		やっと私がトモちゃんに勝てそうなゲームを\n見つけたんだから！	I finally found a game I might actually beat Tomo-chan at!	
 SC00000.m20	msg	智樹		わかったわかった、降参する！\n奥が深いんだな、このゲーム……	Okay, okay, I give up! This game's deeper than it looks...	
-SC00000.m21	msg	そはら		ねえねえトモちゃん、もう１回やろーよ！	Hey, hey, Tomo-chan, let's play one more!	
+SC00000.m21	msg	そはら		ねえねえトモちゃん、もう１回やろーよ！	Hey, hey, Tomo-chan, let's play one more round!	
 SC00000.m22	msg	智樹		イヤだ。だいたいお前、\nこのゲームけっこうやりこんでるだろ。	No way. Besides, you've been practicing this game a ton, haven't you?	
 SC00000.m23	msg	智樹		こっちがもう少しこのゲームに慣れてから\n再戦を申し込む。首を洗って待ってろよ！	Once I've gotten used to it, I'll challenge you to a rematch. Wash your neck and wait for me!	
 SC00000.m24	msg	そはら		どうぞどうぞ。楽しみに待ってるね。	Sure, sure. I'll be looking forward to it.	
@@ -45,7 +45,7 @@ SC00000.m43	msg	イカロス		あ……	Ah...
 SC00000.m44	msg	そはら		えっ？　イカロスさん、\n本気じゃなかったの！？	Huh? Ikaros-san, you weren't trying for real?!	
 SC00000.m45	msg	ニンフ		うん。アルファーがこんなに弱いわけないわよ。	Nope. No way Alpha's this weak.	
 SC00000.m46	msg	ニンフ		さっきは横からトモキに\n的確にアドバイスできてたじゃない。	Just a minute ago she was giving you spot-on advice from the sidelines, Tomoki.	
-SC00000.m47	msg	イカロス		私……マスターに勝っていただいて\n喜んでもらおうと思って……	I... thought you would be happy, Master, if you won...	
+SC00000.m47	msg	イカロス		私……マスターに勝っていただいて\n喜んでもらおうと思って……	I... thought you would be happy, Master, if I let you win...	
 SC00000.m48	msg	智樹		ゲームで手を抜くのは\n相手に失礼なことなんだぞ。	Going easy in a game is rude to your opponent, you know.	
 SC00000.m49	msg	智樹		おたがいの勝ちたいって思いをぶつけあうのが\nゲームの面白いとこなんだからな！	The fun of a game is both sides throwing everything they've got at winning!	
 SC00000.m50	msg	イカロス		……は……い。\n申し訳ありませんでした、マスター。	...Y...es. I am very sorry, Master.	

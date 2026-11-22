@@ -1,17 +1,17 @@
 id	kind	speaker	max	jp	en	notes
 SC10154.m1	msg	守形		やはり、そうか……	So, it is as I thought...	
 SC10154.m2	msg	美香子		隕石を調べて何かわかったの～？	Did you figure something out by examining the meteorite~?	
-SC10154.m3	msg	守形		ああ。この赤ん坊を\n持ち主のところに返しに行くぞ。	Yes. We're going to return this baby to its owner.	
+SC10154.m3	msg	守形		ああ。この赤ん坊を\n持ち主のところに返しに行くぞ。	Yes. We're going to return this baby to where it belongs.	
 SC10154.m4	msg	守形		俺はこの隕石を持って行く。\n美香子、赤ん坊を頼む。	I'll carry this meteorite. Mikako, you take the baby.	
 SC10154.m5	msg	美香子		持って行くって……\nその隕石をどうやって持つつもり？	Carry it...? How exactly do you plan to carry that meteorite?	
 SC10154.m6	msg	守形		心配するな。これはハリボテだ。	Not to worry. This is a papier-mache prop.	
 SC10154.m7	msg	守形		赤ん坊も無事返せて、\nこれでひと段落だな。	The baby is safely returned. That settles things for now.	
 SC10154.m8	msg	美香子		ちょっぴり残念ね～。\nかわいい子だったのに～。	It's a little bit of a shame~. He was such a cute baby~.	
 SC10154.m9	msg	守形		たしかにかわいかったが……\n母親のところに返すのが道理だろう。	He was certainly cute... but returning him to his mother is only right.	
-SC10154.m10	msg	美香子		それにしても、よくわかったわね～。\n赤ん坊と隕石の出所。	Still, you figured it out so well~. Where the baby and the meteorite came from.	
+SC10154.m10	msg	美香子		それにしても、よくわかったわね～。\n赤ん坊と隕石の出所。	Still, how did you ever work it out~? Where the baby and the meteorite came from.	
 SC10154.m11	msg	守形		新大陸から落ちてきたのでなければ、\nあれらは地上のものと考えるのが妥当だろう。	If they didn't fall from the New World, it is only reasonable to conclude they came from the surface.	
 SC10154.m12	msg	守形		赤ん坊は、狭い空美町のことだ。\n調べればすぐに身元がわかったし……	As for the baby, Sorami is a small town. A little digging turned up who he was right away...	
-SC10154.m13	msg	守形		隕石は、自然にできるものではないからな。\n人工物ではないかと判断したまでだ。	And that meteorite is nothing that forms in nature. I simply judged it to be man-made.	
+SC10154.m13	msg	守形		隕石は、自然にできるものではないからな。\n人工物ではないかと判断したまでだ。	A meteorite like that does not form in nature. I simply judged it to be man-made.	
 SC10154.m14	msg	守形		イベント会場からハリボテと赤ん坊を\n転送するとは……まったく人騒がせなカードだ。	Teleporting a prop and a baby from an event venue... What a troublesome card.	
 SC10154.m15	msg	美香子		でも、望みは叶えてくれたわよ？\n面白かったわ、なかなか。	But it granted your wish, didn't it? It was rather fun.	
 SC10154.m16	msg	守形		……フム。\nまあ、それならそれでよしとするか……	...Hmm. Well, if that's the case, I suppose I'll call it a success...	

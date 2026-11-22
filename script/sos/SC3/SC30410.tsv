@@ -1,15 +1,15 @@
 id	kind	speaker	max	jp	en	notes
 SC30410.m1	msg	イカロス		なぜ……水をあげるだけで\n野菜が大きくなるのですか……？	Why... do vegetables grow bigger just from being given water...?	
 SC30410.m2	msg	智樹		え？　えーっと……\n先輩、お願いします！	Huh? Uh, well... Senpai, take it away!	
-SC30410.m3	msg	守形		野菜は水だけで育つわけじゃない……\n土や日光から養分を吸収している。	Vegetables don't grow on water alone... They absorb nutrients from the soil and sunlight.	
-SC30410.m4	msg	守形		水分はそれらの一要素だが、土や日光のように\nいつも補給できるものではない。	Water is one of those elements, but unlike soil or sunlight, it can't always be replenished.	
+SC30410.m3	msg	守形		野菜は水だけで育つわけじゃない……\n土や日光から養分を吸収している。	Vegetables do not grow on water alone... They absorb nutrients from the soil and sunlight.	
+SC30410.m4	msg	守形		水分はそれらの一要素だが、土や日光のように\nいつも補給できるものではない。	Water is one of those elements, but unlike soil or sunlight, it cannot always be replenished.	
 SC30410.m5	msg	守形		我々がその補給の手伝いをすることで、\n野菜がより良く育っていくというわけだ。	By helping replenish it, we help the vegetables grow better.	
 SC30410.m6	msg	智樹		……だってさ。わかったか？	...There you have it. Got that?	
 SC30410.m7	msg	守形		智樹……お前はわかっていたのか？	Tomoki... did you understand it yourself?	
 SC30410.m8	msg	智樹		や、やだなあ。俺はわかってますって！	C-come on, Senpai. Of course I did!	
 SC30410.m9	msg	イカロス		水分をあげることで……\n成長を手助けしているのですね……	By giving them water... we help them grow...	
 SC30410.m10	msg	守形		そうだ。今やった水によって\n少しずつ野菜が大きくなっていく。	That's right. The water you just gave them will make them grow, little by little.	
-SC30410.m11	msg	守形		観察日記でも付けてみるといい。\n成長の過程がよくわかるだろうからな。	You might try keeping an observation diary. It'll show you the growth process clearly.	
+SC30410.m11	msg	守形		観察日記でも付けてみるといい。\n成長の過程がよくわかるだろうからな。	You might try keeping an observation diary. It will show you the growth process clearly.	
 SC30410.m12	msg	イカロス		……はい……	...Yes...	
 SC30410.m13	msg	守形		…………	......	
 SC30410.m14	msg	智樹		あ、先輩！\nイカロス見ませんでしたか！？	Oh, Senpai! Have you seen Ikaros?!	

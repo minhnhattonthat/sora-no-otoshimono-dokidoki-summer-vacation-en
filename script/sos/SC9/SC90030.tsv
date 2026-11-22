@@ -17,7 +17,7 @@ SC90030.m15	msg	イカロス		お引き取りください。	Please leave.
 SC90030.m16	msg	守形		……いいだろう。明日、\n本人と話をつける。邪魔したな。	...Very well. I'll settle this with him tomorrow. Sorry to have bothered you.	
 SC90030.m17	msg	イカロス		はい。	Yes.	
 SC90030.m18	msg	ニンフ		ねえアルファー、\nトモキ見なかった？	Hey, Alpha, have you seen Tomoki?	
-SC90030.m19	msg	イカロス		そっとしておいて……	He wishes to be left be...	
+SC90030.m19	msg	イカロス		そっとしておいて……	He asked to be left alone...	
 SC90030.m20	msg	ニンフ		えー。今日は買い物に\n連れて行くって言ってたのに……	Ehh? But he said he'd take me shopping today...	
 SC90030.m21	msg	イカロス		マスターの命令です。\n誰にも邪魔はさせません……	It is Master's order. I will not let anyone disturb him...	
 SC90030.m22	msg	ニンフ		ふーん。そう。アンタと２人きりで\n過ごすってわけ？	Hmph. I see. So you get to spend time alone with him, just the two of you?	
@@ -78,7 +78,7 @@ SC90030.m76	msg	智樹		えっ。あ、そはら……\nおはよう……	Huh. 
 SC90030.m77	msg	そはら		こっちは色々心配してたのに……\nイカロスさんに何させてるの？	Here I was, worried sick about you... What are you making Ikaros-san do?	
 SC90030.m78	msg	守形		智樹。話がある。	Tomoki. We need to talk.	
 SC90030.m79	msg	智樹		うわっ！　ずいぶん\n朝早いですね、先輩！	Whoa! You're up awfully early, Senpai!	
-SC90030.m80	msg	守形		お前と腰をすえてじっくり話がしたい。\n新大陸にかける夢についてだ。	I want to sit down with you and have a long, serious talk. About our dreams of the New World.	
+SC90030.m80	msg	守形		お前と腰をすえてじっくり話がしたい。\n新大陸にかける夢についてだ。	I want to sit down with you and have a long, serious talk. About the dream I'm staking on the New World.	
 SC90030.m81	msg	智樹		ど、どういうことですか、それ……	Wh-What's that supposed to mean...?	
 SC90030.m82	msg	美香子		起きたのかしら、桜井君？\nみんなで無人島に行こうと思うのだけど～。	Are you awake, Sakurai-kun? I was thinking we could all go to a deserted island~.	
 SC90030.m83	msg	智樹		かっか、会長！	P-P-President!	

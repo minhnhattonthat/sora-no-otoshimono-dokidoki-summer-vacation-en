@@ -1,10 +1,10 @@
 id	kind	speaker	max	jp	en	notes
-SC30100.m1	msg	智樹		……と、いうわけなんスよ。	...And that's the situation.	
+SC30100.m1	msg	智樹		……と、いうわけなんスよ。	...So that's the deal, Senpai.	
 SC30100.m2	msg	守形		フム。イカロスに「うれしい」を教えるために\nプレゼントか。悪くないアイデアだな。	Hmm. A present, to teach Ikaros what "happy" is. Not a bad idea.	
 SC30100.m3	msg	智樹		なんかいいプレゼント、ないですかね？	Got any good ideas for a present?	
 SC30100.m4	msg	そはら		そんなの直接聞けばいいじゃない！\nイカロスさん！　何が欲しいか教えて！	Why not just ask her directly? Ikaros-san! Tell us what you want!	
 SC30100.m5	msg	イカロス		はあ……しかし、私は特に何も……	Well... but there is nothing in particular that I...	
-SC30100.m6	msg	美香子		本人がプレゼントの中身を決めちゃったら\n楽しみが減るんじゃないかしら～？	If the girl picks her own present, doesn't that take away half the fun~?	
+SC30100.m6	msg	美香子		本人がプレゼントの中身を決めちゃったら\n楽しみが減るんじゃないかしら～？	If she picks the present herself, doesn't that take away half the fun~?	
 SC30100.m7	msg	そはら		なるほど。それも一理ありますね。	I see. That's a fair point.	
 SC30100.m8	msg	守形		それでは明日、イカロスが喜びそうなものを\nそれぞれが持ってくるということでどうだ？	Then how about each of us brings something Ikaros might like tomorrow?	
 SC30100.m9	msg	そはら		はいっ！	Okay!	

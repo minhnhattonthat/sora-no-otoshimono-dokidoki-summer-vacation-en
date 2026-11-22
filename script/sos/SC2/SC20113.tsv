@@ -2,5 +2,5 @@ id	kind	speaker	max	jp	en	notes
 SC20113.m1	msg	智樹		何か悩みごとか？\n俺が相談に乗ってやるぞ？	Something on your mind? I'll hear you out, you know?	
 SC20113.m2	msg	イカロス		いえ……マスターには\n相談できないことなんです。	No... it is something I cannot talk to you about, Master.	
 SC20113.m3	msg	智樹		ああん？　なんでだよ。	Huh? Why not?	
-SC20113.m4	msg	イカロス		マスターのことについて\n悩んでおりますので……	Because what troubles me... is about you, Master...	
+SC20113.m4	msg	イカロス		マスターのことについて\n悩んでおりますので……	Because I am troubled... about you, Master...	
 SC20113.m5	msg	智樹		え、なんだって？	Huh, what was that?	

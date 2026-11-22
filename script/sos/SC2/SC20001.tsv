@@ -1,7 +1,7 @@
 id	kind	speaker	max	jp	en	notes
 SC20001.m1	msg	智樹		ニンフ。イカロスを笑わせるアイデア、\n何か持ってないか？	Nymph. Got any ideas for making Ikaros laugh?	
 SC20001.m2	msg	ニンフ		笑わないなら笑わないままでも\n別にいいんじゃない？	If she doesn't laugh, isn't it fine to just leave it that way?	
-SC20001.m3	msg	ニンフ		私だってアルファーが笑ったところなんて\n見たことないもの。	I've never even seen Alpha laugh, either.	
+SC20001.m3	msg	ニンフ		私だってアルファーが笑ったところなんて\n見たことないもの。	I've never seen Alpha laugh, either.	
 SC20001.m4	msg	智樹		いや、別にいいことなんてないぞ。\n笑いがない人生なんてつまんねーだろ？	No, there's nothing fine about it. A life without laughter is boring, right?	
 SC20001.m5	msg	ニンフ		……そうね……だったら……	...I guess... In that case...	
 SC20001.m6	msg	ニンフ		おいしいお菓子をたくさんあげるのは？\nそしたら自然と笑みが出るんじゃない？	How about giving her lots of tasty snacks? Then she'd smile naturally, wouldn't she?	
@@ -13,4 +13,4 @@ SC20001.m11	msg	ニンフ		ごちそうさまでした！	Thanks for the meal!
 SC20001.m12	msg	智樹		けっきょく幸せそうなのは\nニンフだけか……	In the end, the only one who looks happy is Nymph...	
 SC20001.m13	msg	智樹		ていうか、ニンフ！\nお前がお菓子を食いたかっただけだろ！	Wait a sec, Nymph! You just wanted to eat snacks yourself!	
 SC20001.m14	msg	ニンフ		えへへ……バレた？	Ehehe... Busted?	
-SC20001.m15	msg	智樹		くそー！　一杯くわされた！	Dammit! She got me good!	
+SC20001.m15	msg	智樹		くそー！　一杯くわされた！	Dammit! I got played!	

@@ -19,11 +19,11 @@ SC10090.m17	msg	智樹		傘、１本しかないぞ？	There's only one umbrella
 SC10090.m18	msg	イカロス		はい。マスターの傘で間違いないと\n思いますが……	Yes. I believe this is definitely your umbrella, Master...	
 SC10090.m19	msg	智樹		たしかに俺の傘だけどさ。\nじゃなくて、イカロスの分は？	Yeah, it's my umbrella, all right. That's not what I mean. Where's yours, Ikaros?	
 SC10090.m20	msg	イカロス		私は防水加工されておりますので……	I have been waterproofed, so...	
-SC10090.m21	msg	智樹		……入れよ。一緒に傘に入って、帰ろう。	...Get under. Let's share the umbrella and go home together.	
+SC10090.m21	msg	智樹		……入れよ。一緒に傘に入って、帰ろう。	...Get in here. Let's share the umbrella and go home together.	
 SC10090.m22	msg	イカロス		ですから、私には防水加工が……	But, as I said, I am waterproofed...	
 SC10090.m23	msg	智樹		関係ねーの。\nこういうのは気持ちの問題なんだよ。	Doesn't matter. Stuff like this is about how you feel.	
 SC10090.m24	msg	イカロス		はあ……気持ちの問題……	I see... About how you feel...	
-SC10090.m25	msg	智樹		そ。さあ、傘に入れ。\nびしょ濡れになるぞ。	Yep. Come on, get under. You'll get soaked.	
+SC10090.m25	msg	智樹		そ。さあ、傘に入れ。\nびしょ濡れになるぞ。	Yep. Come on, get under the umbrella. You'll get soaked.	
 SC10090.m26	msg	イカロス		……はい。	...Yes.	
 SC10090.m27	choice			急いで帰ろう	Hurry home	
 SC10090.m28	choice			寄り道していくか	Take a detour	

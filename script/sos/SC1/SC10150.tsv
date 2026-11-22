@@ -3,7 +3,7 @@ SC10150.m1	msg	守形		……美香子。	...Mikako.
 SC10150.m2	msg	美香子		なあに～？　英くん。	Whaaat~? Ei-kun.	
 SC10150.m3	msg	守形		今日は何をしに来たんだ？\n別に智樹もイカロスも来ていないが。	What did you come here for today? Neither Tomoki nor Ikaros is here.	
 SC10150.m4	msg	美香子		英くんと遊ぼうと思ってきたのよ～。\n迷惑だった？	I came to play with you, Ei-kun~. Am I bothering you?	
-SC10150.m5	msg	守形		俺は別にヒマなわけじゃないんだが……	It's not as if I have free time, you know...	
+SC10150.m5	msg	守形		俺は別にヒマなわけじゃないんだが……	It is not as if I am idle, you know...	
 SC10150.m6	msg	美香子		私はヒマなのよ～。	But I have free time~.	
 SC10150.m7	msg	守形		……そうか。	...I see.	
 SC10150.m8	msg	美香子		英くん、何か面白いことしてくれない？	Ei-kun, won't you do something fun for me?	
@@ -20,7 +20,7 @@ SC10150.m18	msg	美香子		何かが動いている……\n新大陸の住人か
 SC10150.m19	msg	美香子		見て……赤ちゃんよ。\n眠っているのかしら？	Look... it's a baby. I wonder if it's asleep?	
 SC10150.m20	msg	守形		どういうことだ……？\n隕石に乗っていたのか……？	What does this mean...? Was it riding the meteorite...?	
 SC10150.m21	msg	守形		まさか新大陸の住人……？\nしかし……	Could it be a resident of the New World...? But...	
-SC10150.m22	msg	美香子		抱いてやって、英くん……\nあなたの子よ……	Hold it, Ei-kun... It's your child...	
+SC10150.m22	msg	美香子		抱いてやって、英くん……\nあなたの子よ……	Hold the baby, Ei-kun... It's your child...	
 SC10150.m23	msg	守形		……子どもを作った覚えはないが。	...I have no memory of making a child.	
 SC10150.m24	msg	美香子		わかってるわ～。\n言ってみたかっただけよ～。	I know~. I just wanted to say it~.	
 SC10150.m25	msg	守形		フー……とりあえず、\nこの子をどうするかだな。	Phew... First, we must decide what to do with this child.	

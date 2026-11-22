@@ -7,9 +7,9 @@ SC00013.m5	msg	智樹		よし、迎撃だ！\n楽しんでこい、イカロス�
 SC00013.m6	msg	イカロス		了解しました。\nタイプアルファー「イカロス」、出撃します。	Understood. Type Alpha "Ikaros," launching.	
 SC00013.m7	msg	イカロス		目標確認。戦闘準備。	Target confirmed. Preparing for combat.	
 SC00013.m8	msg	守形		イカロスが来たぞ、美香子。\n手はずどおりでいいんだな？	Ikaros is here, Mikako. We proceed as planned, yes?	
-SC00013.m9	msg	美香子		ええ～。空も飛ばないみたいだし\n武器はコルク銃１丁。勝機はありそうよね～。	Yes... She doesn't seem to be flying, and her only weapon is one cork gun. We might just have a chance...	
+SC00013.m9	msg	美香子		ええ～。空も飛ばないみたいだし\n武器はコルク銃１丁。勝機はありそうよね～。	Yes~. She doesn't seem to be flying, and her only weapon is one cork gun. We might just have a chance~.	
 SC00013.m10	msg	守形		散開するぞ。	Spread out.	
-SC00013.m11	msg	美香子		わかったわ～。	Got it...	
+SC00013.m11	msg	美香子		わかったわ～。	Got it~.	
 SC00013.m12	msg	イカロス		……！	...!	
 SC00013.m13	msg	守形		こっちだ。	Over here.	
 SC00013.m14	msg	イカロス		！	!	
@@ -51,7 +51,7 @@ SC00013.m49	msg	イカロス		私の勝ち……ですよね、そはらさん�
 SC00013.m50	msg	そはら		……イカロスさん！\n私のこと、思い出してくれたの！？	...Ikaros-san! You remember me?!	
 SC00013.m51	msg	イカロス		はい。マスターの幼馴染で……\nＢ９２Ｗ５９Ｈ８４……	Yes. Master's childhood friend... B92, W59, H84...	
 SC00013.m52	msg	そはら		ちょっと！？　それは\nわざわざ言わなくていいから！	Hey?! You don't have to go out of your way to say that!	
-SC00013.m53	msg	美香子		記憶が戻ったのかしら～。\nイカロスちゃん、私のことはわかる？	Has her memory come back, I wonder? Ikaros-chan, do you know who I am?	
+SC00013.m53	msg	美香子		記憶が戻ったのかしら～。\nイカロスちゃん、私のことはわかる？	Has her memory come back, I wonder~? Ikaros-chan, do you know who I am?	
 SC00013.m54	msg	イカロス		……申し訳……ありません……	...I am very... sorry...	
 SC00013.m55	msg	守形		前の秋祭りと同じショックを受けて\n見月のことだけ思い出したらしいな。	It seems the same shock as at the last autumn festival made her remember Mitsuki, and only Mitsuki.	
 SC00013.m56	msg	ニンフ		１歩前進ってところね。	One step forward, I guess.	
@@ -64,13 +64,13 @@ SC00013.m62	msg	智樹		いいよ、今はそれで。\n……俺のことも助
 SC00013.m63	msg	イカロス		あ……	Ah...	
 SC00013.m64	msg	イカロス		またです……\nなんだか……ふわふわします……	It is happening again... Somehow... I feel floaty...	
 SC00013.m65	msg	智樹		ははっ。少しずつだけど\nお前が元に戻ってきてくれてうれしいよ。	Haha. It's slow going, but I'm glad you're coming back to us.	
-SC00013.m66	msg	守形		……そういえば。\n話は変わるが、結局優勝は誰なんだ？	...Incidentally. To change the subject, who won in the end?	
+SC00013.m66	msg	守形		……そういえば。\n話は変わるが、結局優勝は誰なんだ？	...By the way. Who actually won in the end?	
 SC00013.m67	msg	ニンフ		お金なんてキョーミないし、\n勝者の権利はトモキに譲るわ。	I'm not into money anyway, so I'll give the winner's rights to Tomoki.	
-SC00013.m68	msg	イカロス		私もです……	As will I...	
+SC00013.m68	msg	イカロス		私もです……	I, too...	
 SC00013.m69	msg	智樹		ってことは、俺の優勝！？	Which means... I win?!	
 SC00013.m70	msg	智樹		（やったぜ！　これで\n　おっぱい・オブ・ザ・ワールド全巻が……！）	(Yes! Now the complete Oppai of the World set is...!)	
-SC00013.m71	msg	美香子		それじゃ……\nオチも前と同じでいいかしら～？	Well then... shall the punchline be the same as last time, too?	
+SC00013.m71	msg	美香子		それじゃ……\nオチも前と同じでいいかしら～？	Well then... shall the punchline be the same as last time, too~?	
 SC00013.m72	msg	智樹		え……？　あ……！	Huh...? Ah...!	
 SC00013.m73	msg	智樹		……グハッ！	...Gwah!	
-SC00013.m74	msg	美香子		はい、テキ屋さん、これ報酬ね。\n楽しかったわ～。来年もよろしくね～。	Here you go, vendors, your payment. That was fun... Let's do it again next year...	
-SC00013.m75	msg	智樹		……そうだった。前のときも……\nテキ屋のおっさんにやられたんだっ……た……	...Right. Last time too... the vendor guys... got me...	
+SC00013.m74	msg	美香子		はい、テキ屋さん、これ報酬ね。\n楽しかったわ～。来年もよろしくね～。	Here you go, vendors, your payment. That was fun~. Let's do it again next year~.	
+SC00013.m75	msg	智樹		……そうだった。前のときも……\nテキ屋のおっさんにやられたんだっ……た……	...Right. Last time too... the vendor guys... beat the crap out of me...	

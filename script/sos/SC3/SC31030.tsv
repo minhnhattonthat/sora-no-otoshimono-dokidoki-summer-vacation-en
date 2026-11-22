@@ -1,11 +1,11 @@
 id	kind	speaker	max	jp	en	notes
 SC31030.m1	msg	智樹		（あいつら、何をコソコソしゃべってるんだ？）	(What are those two whispering about?)	
 SC31030.m2	msg	ニンフ		自分の気持ちを伝える方法……ねえ。	A way to convey your feelings... huh.	
-SC31030.m3	msg	イカロス		ええ。私は……\nそういうことが得意ではないから……	Yes. I am... not good at that sort of thing...	
+SC31030.m3	msg	イカロス		ええ。私は……\nそういうことが得意ではないから……	Yes. I'm... not good at that sort of thing...	
 SC31030.m4	msg	ニンフ		タイプの違いってやつよ。\nそのかわりアンタは戦うのが得意じゃない。	That's just a difference in type. In exchange, you're good at fighting, aren't you?	
 SC31030.m5	msg	イカロス		…………	......	
 SC31030.m6	msg	ニンフ		や、やーね、冗談よ。\nえっと、気持ちを伝える方法ね……	G-geez, I'm kidding. Um, a way to convey your feelings, right...	
-SC31030.m7	msg	ニンフ		そういやアルファー、\n誰にどんな気持ちを伝えたいの？	Come to think of it, Alpha, who do you want to tell what feelings to?	
+SC31030.m7	msg	ニンフ		そういやアルファー、\n誰にどんな気持ちを伝えたいの？	Come to think of it, Alpha, who do you want to tell, and what?	
 SC31030.m8	msg	イカロス		私……マスターに\n感謝の気持ちを……伝えたい。	I... want to tell Master... how grateful I am.	
 SC31030.m9	msg	ニンフ		なんだ、そんなの簡単じゃない。\nいつもやってることの延長でいいのよ。	What, that's easy. Just take what you always do one step further.	
 SC31030.m10	msg	イカロス		……？	...?	

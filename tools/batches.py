@@ -35,8 +35,9 @@ HONORIFICS = {"イカロスさん": "Ikaros-san", "イカロスちゃん": "Ikar
               "ニンフさん": "Nymph-san", "ニンフちゃん": "Nymph-chan", "桜井[君く]": "Sakurai-ku+n",
               "見月さん": "Mitsuki-san", "トモちゃん": "Tomo-cha+n", "英[く君]": "Ei-ku+n", "守形先輩": "Sugata-senpai", "守形さん": "Sugata-san"}
 # '~' is Mikako's sing-song tail only (decision D8, glossary.md §Style rules): her lines, plus these where she speaks
-# off-screen as ??? or someone imitates her.
-MIKAKO_VOICE = {"SC20043.m5", "SC30800.m12", "SC34110.m9", "SC90040.m55"}
+# off-screen as ??? or someone imitates her, and her Hexcite post-match reactions in the EBOOT (no speaker column).
+MIKAKO_VOICE = {"SC20043.m5", "SC30800.m12", "SC34110.m9", "SC90040.m55",
+                "088DF7FC", "088DFD58", "088DFB0C", "088DFBD0", "088DFC94"}
 FORMS = {"dialogue": "dlg", "choice": "choice", "helpbar": "menu", "system": "menu", "xmb": "menu"}
 
 

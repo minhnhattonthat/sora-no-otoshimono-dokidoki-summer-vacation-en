@@ -1,6 +1,6 @@
 id	kind	speaker	max	jp	en	notes
 SC30400.m1	msg	イカロス		地面を濡らしているのは……\n何かのサインでしょうか……	Making the ground wet... Is it some kind of signal...?	
-SC30400.m2	msg	守形		新大陸部の畑で野菜を育てているんだ。\nこればかりは毎日世話をしてやらんとな。	I'm growing vegetables in the New World Discovery Club's field. These need tending every day.	
+SC30400.m2	msg	守形		新大陸部の畑で野菜を育てているんだ。\nこればかりは毎日世話をしてやらんとな。	I am growing vegetables in the New World Discovery Club's field. These need tending every day.	
 SC30400.m3	msg	智樹		いいか、イカロス。野菜を\n大きくするには水分が必要なんだ。	Listen, Ikaros. Vegetables need water to grow big.	
 SC30400.m4	msg	イカロス		水分……ですか……	Water... I see...	
 SC30400.m5	msg	守形		こうして水をやることで、\n野菜の成長の手助けをするわけだ。	By watering them like this, we help the vegetables grow.	

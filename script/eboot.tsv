@@ -8,7 +8,7 @@ id	kind	speaker	max	jp	en	notes
 088C0DB4	cp932		255	お菓子が切れちゃった。あとで買ってきてくれる？	I'm out of snacks. Go buy me some later, will you?	
 088C0EB4	cp932		255	何か命令したいことある？　聞いてあげるわよ。	Got any orders for me? I'll listen, I guess.	
 088C0FB4	cp932		255	設定の確認ね。了解。	Checking the settings? Got it.	
-088C10B4	cp932		255	ここまでのことを記録しに行くわね。	I'll go record everything up to now.	
+088C10B4	cp932		255	ここまでのことを記録しに行くわね。	I'll go save your progress so far.	
 088C11B4	cp932		255	わからないことがあった？　操作説明に行くわね。	Something you don't get? Off to the controls guide, then.	
 088C12B4	cp932		255	最初の画面に戻るわ。はやく戻ってきてよね。	Back to the title screen. Hurry up and come back, okay?	
 088C14B4	cp932		255	ゲームの設定を確認していくわね。	Let's go over the game settings.	
@@ -61,7 +61,7 @@ id	kind	speaker	max	jp	en	notes
 088DE724	cp932		127	実はこのゲーム、練習してたんだ！/K	Truth is, I've been practicing this game!/K	
 088DE7E8	cp932		127	イーブン？　もう少しだったのに……/K	Even? I was so close.../K	
 088DE8AC	cp932		127	あ、あれ？　どうして……？/K	Wh-what? How...?/K	
-088DE970	cp932		127	く……悔しくなんかないもん！/K	I-I'm not frustrated or anything!/K	
+088DE970	cp932		127	く……悔しくなんかないもん！/K	I-I'm not even mad!/K	
 088DEA34	cp932		127	まさか、土壇場でひっくりかえされるなんて……/K	No way... turned around at the very last second.../K	
 088DEAF8	cp932		127	危なかったぁ……でも私の勝ちだね！/K	That was close... but I win!/K	
 088DEBBC	cp932		127	私、このゲームには自信あるんだ！/K	I'm pretty confident at this game!/K	
@@ -76,18 +76,18 @@ id	kind	speaker	max	jp	en	notes
 088DF2A0	cp932		127	引き分けか～。いい勝負だったね！/K	A draw, huh? That was a good game!/K	
 088DF364	cp932		127	ねえ、もう一回やろうよ！/K	Hey, let's play one more time!/K	
 088DF428	cp932		127	参りました。強いなぁ……/K	I give up. You're so strong.../K	
-088DF4EC	cp932		127	いつの間に……？　私、負けてたんだね……/K	When did...? I lost, didn't I.../K	
+088DF4EC	cp932		127	いつの間に……？　私、負けてたんだね……/K	Wait, when...? I lost, huh.../K	
 088DF5B0	cp932		127	ふふっ……あなたの負けよ。/K	Fufu... you lose./K	
 088DF674	cp932		127	また……滅ぼしてしまった……/K	Oh dear... I've wiped out another one.../K	
 088DF738	cp932		127	迂闊ねえ。気づかなかった？/K	How careless. Didn't you notice?/K	
-088DF7FC	cp932		127	あら、同点みたいねぇ～。/K	Oh my, looks like we're tied.../K	
+088DF7FC	cp932		127	あら、同点みたいねぇ～。/K	Oh my, looks like we're tied~./K	
 088DF8C0	cp932		127	あら、私……負けちゃったの……？/K	Oh my... did I... lose...?/K	
 088DF984	cp932		127	どういうこと……なのかしらね……/K	Now how did that happen... I wonder.../K	
 088DFA48	cp932		127	あら……どこで間違ったのかしら……/K	Oh my... where did I go wrong, I wonder.../K	
-088DFB0C	cp932		127	ゾクゾクしちゃったわ～。/K	Ooh, that gave me shivers.../K	
-088DFBD0	cp932		127	ふう……すっきりしたわぁ～。/K	Haah... that was so refreshing.../K	
-088DFC94	cp932		127	楽しかったわよ～。/K	That was such fun.../K	
-088DFD58	cp932		127	あら、同点みたいねぇ～。/K	Oh my, looks like we're tied.../K	
+088DFB0C	cp932		127	ゾクゾクしちゃったわ～。/K	Ooh, that gave me shivers~./K	
+088DFBD0	cp932		127	ふう……すっきりしたわぁ～。/K	Haah... that was so refreshing~./K	
+088DFC94	cp932		127	楽しかったわよ～。/K	That was such fun~./K	
+088DFD58	cp932		127	あら、同点みたいねぇ～。/K	Oh my, looks like we're tied~./K	
 088DFE1C	cp932		127	あん……残念ね……/K	Ahn... what a shame.../K	
 088DFEE0	cp932		127	次はこうはいかないわよ……？/K	It won't go like this next time, you know...?/K	
 088DFFA4	cp932		127	してやられたわね……悔しい……/K	You got me there... how vexing.../K	

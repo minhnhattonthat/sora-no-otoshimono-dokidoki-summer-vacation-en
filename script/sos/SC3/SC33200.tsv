@@ -1,5 +1,5 @@
 id	kind	speaker	max	jp	en	notes
-SC33200.m1	msg	智樹		いいかイカロス。\n世の中には絶対なんてないんだ。	Listen, Ikaros. There's no such thing as "absolutely" in this world.	
+SC33200.m1	msg	智樹		いいかイカロス。\n世の中には絶対なんてないんだ。	Listen, Ikaros. There's no such thing as "absolute" in this world.	
 SC33200.m2	msg	イカロス		はい。	Yes.	
 SC33200.m3	msg	智樹		お前は素直すぎるからな。何事も疑って考える\n慎重さを身につけないといけないぞ。	You're way too trusting. You've gotta learn to be careful and question everything.	
 SC33200.m4	msg	イカロス		はい、マスター……	Yes, Master...	
@@ -14,4 +14,4 @@ SC33200.m12	msg	智樹		完全に遅刻だー！\nなんで起こしてくれな
 SC33200.m13	msg	イカロス		申し訳ありません……しかし……	I am very sorry... However...	
 SC33200.m14	msg	智樹		しかし？	However?	
 SC33200.m15	msg	イカロス		もしかしたら、この時計の針が\nズレているのかも……	Perhaps the hands of this clock are off...	
-SC33200.m16	msg	智樹		壁時計も同じ時刻じゃねーか！\n疑うものがズレてるんだよ！	The wall clock says the same time! What you're doubting is what's off!	
+SC33200.m16	msg	智樹		壁時計も同じ時刻じゃねーか！\n疑うものがズレてるんだよ！	The wall clock says the same time! You're doubting the wrong thing!	

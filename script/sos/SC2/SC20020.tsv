@@ -15,7 +15,7 @@ SC20020.m13	msg	イカロス		とにかく……\nこれは食用にはしませ
 SC20020.m14	msg	ニンフ		答えになってなーい！	That's not an answer!	
 SC20020.m15	msg	智樹		（特別な理由……は\n　別にないみたいだな……）	(A special reason... Guess there isn't one...)	
 SC20020.m16	msg	ニンフ		もー！　いい加減あきらめてよ！	Geez! Just give up already!	
-SC20020.m17	msg	イカロス		ダメ……で……す……	No... I... will... not...	
+SC20020.m17	msg	イカロス		ダメ……で……す……	I... will... not... allow it...	
 SC20020.m18	msg	ニンフ		あ……	Ah...	
 SC20020.m19	msg	智樹		今、グシャッて……\nあーあ、落としたな。	Was that a splat just now...? Aw, man, you dropped it.	
 SC20020.m20	msg	智樹		見事に割れちまったな。\nイカロスに謝れよ、ニンフ。	Smashed it good. Apologize to Ikaros, Nymph.	
@@ -39,7 +39,7 @@ SC20020.m37	msg	智樹		よし。じゃあ２人とも庭に来い。\n仲直り
 SC20020.m38	msg	ニンフ		え……？	Huh...?	
 SC20020.m39	msg	智樹		イカロス、割れたスイカの実、\n持って来てくれ。	Ikaros, bring the broken watermelon, would you?	
 SC20020.m40	msg	イカロス		は、はい……	Y-Yes...	
-SC20020.m41	msg	智樹		ま、種を植えれば\nまた実がなるだろうさ。	Well, if we plant the seeds, it'll grow more fruit, I bet.	
+SC20020.m41	msg	智樹		ま、種を植えれば\nまた実がなるだろうさ。	Well, if we plant the seeds, we'll get more watermelons, I bet.	
 SC20020.m42	msg	イカロス		はい……	Yes...	
 SC20020.m43	msg	ニンフ		不思議よねー。こうすれば\nまたスイカが出てくるなんて。	Weird, huh? Do this, and more watermelons come out.	
 SC20020.m44	msg	ニンフ		ねえアルファー。明日は\n私が水をあげてもいい？	Hey, Alpha. Can I water them tomorrow?	

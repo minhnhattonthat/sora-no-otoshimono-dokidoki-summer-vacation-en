@@ -12,6 +12,9 @@ must appear in the English; Avoid spellings fail.
   Sound effects and interjections: romanised or English onomatopoeia as fits ("Gwah!", "Kyaa!", "Heh heh heh..."),
   never left as kana.
 - Abbreviations: full names and terms everywhere, prefer engine changes over shortening.
+- Graphics text (D9): card names, outfit names, special moves and menu labels drawn as images are listed in
+  `gfx/<group>.tsv` (cardname, cardnameget, hexstart, hexcard...), not as table rows here (the lint would demand them
+  in dialogue). きせかえ = Outfit, 体操着 = Gym Wear, 持ちコマ = pieces.
 
 ## Style rules
 - Punctuation map: 「」 -> "...", 『』 -> '...' (titles) or "...", ・・・ / …… -> ..., ！？ -> ?!, ～ (stretched vowel) ->

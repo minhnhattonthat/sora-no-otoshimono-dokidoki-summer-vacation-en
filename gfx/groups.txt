@@ -23,3 +23,4 @@ credits	837-868,910-926,941,942	COMMU_10_ENDING_A/B/C: credits role headings and
 hexcite	1000,1001,1011,1012,1055-1066,1131-1154,1674-1678	HEXCITE buttons Menu/Pause, Start!/Finish!, RESULTANIME result words (every zoom frame), IMG_GO おわり？ (5 frames)
 hexspecial	1155-1229	HEXCITE_20_HEX_SPECIAL special-move cut-ins (per-glyph / wipe frames; ruby lines)
 hextutorial	1264-1289	HEXCITE_20_HEX_TUTORIAL: line hint + tutorial panels (dense)
+logo	192	COMMON_10_TITLE title logo: redraw ONLY the subtitle ドキドキサマーバケーション as "DokiDoki Summer Vacation" (same colour/outline/position); keep そらのおとしもの and the romaji as they are

@@ -10,9 +10,9 @@ n	md5	jp	en	rects
 224	e94483a36be57081fbe1ad8232b96b2c	はい	Yes	22,6,44,22
 225	44c1ba40199ddbf669a2df553a5509f7	いいえ	No	16,5,56,22
 226	d0a5d4e2cff3f7df273caa253a322464	いいえ	No	16,5,56,22
-227	b162e33475811e9510a64e8034890030	トモキ・タイム|自分と相手の持ちコマにある小三角形を全て六角形に変える。	Turns all small triangles in both players' hands into hexagons.	170,0,90,14;132,36,180,66
-228	ddd613fcf7db9a4d66c2e4178badf5c4	最終兵器|アポロン|盤上に置かれているコマを1つランダムで破壊する。	Ultimate Weapon|Apollon|Destroys one random piece on the board.	100,0,212,100
-229	86432909fc4f15731ccfe95b81f6f439	超々超音波振動子|パラダイス＝ソング|選択した自分の持ちコマを別の形のコマにランダムで変形させる。	Paradise Song||Turns one selected piece in your hand into a random different shape.	100,0,212,100
-230	ad7c967988be489a0b5fa938c43b1513	そはらチョップ|相手の持ちコマをランダムで破壊する。	Sohara Chop||Destroys one random piece in your opponent's hand.	100,0,212,100
-231	25c7457f0db754826683685c6ac3307b	圧殺|相手を一回休みにする。	Crush||Makes your opponent skip one turn.	100,0,212,100
-232	ac7f453ae92ee13c536246fb09ea3af4	新大陸|自分と相手の持ちコマをシャッフルして配りなおす。	New World||Shuffles and redeals both players' hands.	100,0,212,100
+227	b162e33475811e9510a64e8034890030	トモキ・タイム|自分と相手の持ちコマにある小三角形を全て六角形に変える。	Turns all small triangles in both players' pieces into hexagons.	170,0,90,14;132,36,180,66
+228	ddd613fcf7db9a4d66c2e4178badf5c4	最終兵器|アポロン|盤上に置かれているコマを1つランダムで破壊する。	Ultimate Weapon|Apollon|Destroys 1 random piece on the board.	100,0,212,100
+229	86432909fc4f15731ccfe95b81f6f439	超々超音波振動子|パラダイス＝ソング|選択した自分の持ちコマを別の形のコマにランダムで変形させる。	Paradise Song||Randomly transforms one of your selected pieces into another shape.	100,0,212,100
+230	ad7c967988be489a0b5fa938c43b1513	そはらチョップ|相手の持ちコマをランダムで破壊する。	Sohara Chop||Destroys one of your opponent's pieces at random.	100,0,212,100
+231	25c7457f0db754826683685c6ac3307b	圧殺|相手を一回休みにする。	Crush||Makes the opponent skip a turn.	100,0,212,100
+232	ac7f453ae92ee13c536246fb09ea3af4	新大陸|自分と相手の持ちコマをシャッフルして配りなおす。	New World||Reshuffles both players' pieces and deals them out again.	100,0,212,100
